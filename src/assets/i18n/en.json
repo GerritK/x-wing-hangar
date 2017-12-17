@@ -1,4 +1,10 @@
 {
+  "ui": {
+    "general": {
+      "ship": "Ship",
+      "pilot": "Pilot"
+    }
+  },
   "data": {
     "ships": {
       "xwing": "X-Wing",
@@ -7,7 +13,38 @@
     "pilots": {
       "lukeskywalker": {
         "name": "Luke Skywalker",
-        "description": "When defending, you may change 1 of your <focus> results to a <evade> result."
+        "description": "When defending, you may change 1 of your <i-focus> results to a <i-evade> result."
+      },
+      "biggsdarklighter": {
+        "name": "Biggs Darklighter",
+        "description": "Once per game, at the start of the Combat phase, you may choose that until the end of the round, other friendly ships at Range 1 cannot be targeted by attacks if the attacker could target you instead."
+      },
+      "redsquadronpilot": {
+        "name": "Red Squadron Pilot"
+      },
+      "rookiepilot": {
+        "name": "Rookie Pilot"
+      },
+      "maulermithel": {
+        "name": "\"Mauler Mithel\"",
+        "description": "When attacking at Range 1, roll 1 additional attack die."
+      },
+      "darkcurse": {
+        "name": "\"Dark Curse\"",
+        "description": "When defending, ships attacking you cannot spend focus tokens or reroll attack dice."
+      },
+      "nightbeast": {
+        "name": "\"Night Beast\"",
+        "description": "After executing a green maneuver, you may perform a free focus action."
+      },
+      "blacksquadronpilot": {
+        "name": "Black Squadron Pilot"
+      },
+      "obsidiansquadronpilot": {
+        "name": "Obsidian Squadron Pilot"
+      },
+      "academypilot": {
+        "name": "Academy Pilot"
       }
     }
   }

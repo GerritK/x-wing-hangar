@@ -19,6 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "xwh",
       "styles": [
+        "../node_modules/xwing-miniatures-font/dist/xwing-miniatures.css",
         "styles.scss"
       ],
       "scripts": [],
