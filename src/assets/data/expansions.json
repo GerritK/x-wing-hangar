@@ -1,0 +1,33 @@
+[
+  {
+    "id": "core-set",
+    "ships": [
+      "xwing",
+      "tiefighter",
+      "tiefighter"
+    ],
+    "pilots": [
+      "lukeskywalker",
+      "biggsdarklighter",
+      "redsquadronpilot",
+      "rookiepilot",
+
+      "maulermithel",
+      "darkcurse",
+      "nightbeast",
+      "blacksquadronpilot",
+      "blacksquadronpilot",
+      "obsidiansquadronpilot",
+      "obsidiansquadronpilot",
+      "academypilot",
+      "academypilot"
+    ],
+    "upgrades": [
+      "determination",
+      "marksmanship",
+      "r2d2",
+      "r2f2",
+      "protontorpedoes"
+    ]
+  }
+]

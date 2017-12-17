@@ -1,0 +1,9 @@
+<table *ngIf="ship">
+  <tr *ngFor="let maneuvers of ship.maneuvers | reverse; let speed = index">
+    <th>{{ship.maneuvers.length - speed - 1}}</th>
+    <td *ngFor="let maneuver of maneuvers"
+        [ngClass]="{'maneuver-normal': maneuver === 1, 'maneuver-easy': maneuver === 2, 'maneuver-stress': maneuver === 3}">
+      {{maneuver !== 0 ? maneuver : '-'}}
+    </td>
+  </tr>
+</table>

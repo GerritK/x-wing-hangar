@@ -1,0 +1,6 @@
+<div *ngIf="pilot">
+  <h1>{{'data.pilots.' + pilot.id + '.name' | translate}}</h1>
+  <i>{{'data.ships.' + ship.id | translate}}</i>
+
+  <p *ngIf="pilot.isUnique">{{'data.pilots.' + pilot.id + '.description' | translate}}</p>
+</div>

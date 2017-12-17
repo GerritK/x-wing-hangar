@@ -1,0 +1,14 @@
+{
+  "data": {
+    "ships": {
+      "xwing": "X-Wing",
+      "tiefighter": "TIE Fighter"
+    },
+    "pilots": {
+      "lukeskywalker": {
+        "name": "Luke Skywalker",
+        "description": "When defending, you may change 1 of your <focus> results to a <evade> result."
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "xwing",
+    "factions": [
+      "rebel"
+    ],
+    "stats": {
+      "attack": 3,
+      "agility": 2,
+      "hull": 3,
+      "shields": 2
+    },
+    "actions": [
+      "focus",
+      "target-lock"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 2, 2, 2, 0, 0, 0, 0],
+      [1, 1, 2, 1, 1, 0, 0, 0],
+      [1, 1, 1, 1, 1, 0, 0, 0],
+      [0, 0, 1, 0, 0, 0, 3, 0]
+    ]
+  },
+  {
+    "id": "tiefighter",
+    "factions": [
+      "imperial",
+      "rebel"
+    ],
+    "stats": {
+      "attack": 2,
+      "agility": 3,
+      "hull": 3,
+      "shields": 0
+    },
+    "actions": [
+      "focus",
+      "barrel-roll",
+      "evade"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 1, 0, 0, 0],
+      [1, 2, 2, 2, 1, 0, 0, 0],
+      [1, 1, 2, 1, 1, 0, 3, 0],
+      [0, 0, 1, 0, 0, 0, 3, 0],
+      [0, 0, 1, 0, 0, 0, 0, 0]
+    ]
+  }
+]

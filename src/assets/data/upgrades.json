@@ -1,0 +1,61 @@
+[
+  {
+    "id": "determination",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "unique": false,
+    "limited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "marksmanship",
+    "types": [
+      "elite"
+    ],
+    "cost": 3,
+    "unique": false,
+    "limited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "r2d2",
+    "types": [
+      "amd"
+    ],
+    "cost": 4,
+    "unique": true,
+    "limited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "r2f2",
+    "types": [
+      "amd"
+    ],
+    "cost": 3,
+    "unique": true,
+    "limited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "protontorpedoes",
+    "types": [
+      "tropedo"
+    ],
+    "cost": 4,
+    "unique": false,
+    "limited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 4,
+      "range": "2-3"
+    }
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "lukeskywalker",
+    "shipId": "xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "torpedo",
+      "astromech",
+      "modification"
+    ]
+  },
+  {
+    "id": "biggsdarklighter",
+    "shipId": "xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 25,
+    "slots": [
+      "torpedo",
+      "astromech",
+      "modification"
+    ]
+  },
+  {
+    "id": "redsquadronpilot",
+    "shipId": "xwing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 23,
+    "slots": [
+      "torpedo",
+      "astromech",
+      "modification"
+    ]
+  },
+  {
+    "id": "rookiepilot",
+    "shipId": "xwing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 21,
+    "slots": [
+      "torpedo",
+      "astromech",
+      "modification"
+    ]
+  },
+
+
+  {
+    "id": "maulermithel",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 17,
+    "slots": [
+      "elite"
+    ]
+  },
+  {
+    "id": "darkcurse",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 16,
+    "slots": [
+      "modification"
+    ]
+  },
+  {
+    "id": "nightbeast",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 15,
+    "slots": [
+      "modification"
+    ]
+  },
+  {
+    "id": "blacksquadronpilot",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 14,
+    "slots": [
+      "modification"
+    ]
+  },
+  {
+    "id": "obsidiansquadronpilot",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 13,
+    "slots": [
+      "modification"
+    ]
+  },
+  {
+    "id": "academypilot",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 12,
+    "slots": [
+      "modification"
+    ]
+  }
+]
