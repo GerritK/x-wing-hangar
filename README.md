@@ -1,27 +1,30 @@
 # XWingHangar
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
+## Maneuver Data
 
-## Development server
+**first array** index is the **speed** of the maneuver (e.g. `maneuvers[2]` equals to speed 2).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+**second array** index is the **maneuver type** (see list, e.g. `maneuvers[2][1]` equals to bank left with speed 2)
+```
+0 = turn left
+1 = bank left
+2 = straight
+3 = bank right
+4 = turn right
+5 = k-turn
+6 = segnors-loop left
+7 = segnors-loop right
+8 = tallon-roll left
+9 = tallon-roll right
+10 = reverse bank left
+11 = reverse straight
+12 = reverse bank right
+```
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+the value of the **second array** is the **difficulty** of the maneuver (see list, e.g. `maneuvers[2][1] = 2` equals to a green bank left with speed 2)
+```
+0 = ship cannot perform the maneuver
+1 = white maneuver
+2 = green maneuver
+3 = red maneuver
+```

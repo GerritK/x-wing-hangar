@@ -1,9 +1,25 @@
-<table *ngIf="ship">
-  <tr *ngFor="let maneuvers of ship.maneuvers | reverse; let speed = index">
-    <th>{{ship.maneuvers.length - speed - 1}}</th>
-    <td *ngFor="let maneuver of maneuvers"
-        [ngClass]="{'maneuver-normal': maneuver === 1, 'maneuver-easy': maneuver === 2, 'maneuver-stress': maneuver === 3}">
-      {{maneuver !== 0 ? maneuver : '-'}}
+<table *ngIf="ship" class="mat-elevation-z1" [ngClass]="[faction]">
+
+  <tr *ngFor="let maneuvers of shipManeuvers; let speedIndex = index">
+    <th>{{shipManeuvers.length - speedIndex - 1 + speedOffset}}</th>
+    <td *ngFor="let difficulty of maneuvers; let type = index"
+        [ngClass]="{'maneuver': difficulty > 0, 'maneuver-normal': difficulty === 1, 'maneuver-easy': difficulty === 2, 'maneuver-stress': difficulty === 3}">
+      <i class="xwing-miniatures-font" *ngIf="difficulty > 0" [ngClass]="{
+        'xwing-miniatures-font-turnleft': type === 0,
+        'xwing-miniatures-font-bankleft': type === 1,
+        'xwing-miniatures-font-straight': type === 2,
+        'xwing-miniatures-font-bankright': type === 3,
+        'xwing-miniatures-font-turnright': type === 4,
+        'xwing-miniatures-font-kturn': type === 5,
+        'xwing-miniatures-font-sloopleft': type === 6,
+        'xwing-miniatures-font-sloopright': type === 7,
+        'xwing-miniatures-font-trollleft': type === 8,
+        'xwing-miniatures-font-trollright': type === 9,
+        'xwing-miniatures-font-reversebankleft': type === 10,
+        'xwing-miniatures-font-reversestraight': type === 11,
+        'xwing-miniatures-font-reversebankright': type === 12
+      }"></i>
     </td>
   </tr>
+
 </table>

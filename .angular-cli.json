@@ -22,6 +22,11 @@
         "../node_modules/xwing-miniatures-font/dist/xwing-miniatures.css",
         "styles.scss"
       ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "styles"
+        ]
+      },
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {

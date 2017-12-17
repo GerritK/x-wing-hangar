@@ -1,13 +1,72 @@
-.maneuver- {
-  &normal {
-    color: #000000;
+@import '~@angular/material/theming';
+@import 'app-theme';
+
+table {
+  border-collapse: collapse;
+
+  &, tr, th, td.maneuver {
+    border: 1px solid mat-color($mat-grey, 900);
   }
 
-  &easy {
-    color: #00ff00;
+  &.rebel {
+    background-color: mat-color($mat-brown, 900);
+  }
+  &.imperial {
+    background-color: mat-color($mat-blue-grey, 900);
+  }
+  &.scum {
+    background-color: mat-color($mat-green, 900);
   }
 
-  &stress {
-    color: #ff0000;
+  td, th {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  th {
+    font-size: 1.25em;
+    background-color: mat-color($mat-grey, 700);
+    text-shadow:
+      rgb(0, 0, 0) 1px 0 0,
+      rgb(0, 0, 0) 0.540302px 0.841471px 0,
+      rgb(0, 0, 0) -0.416147px 0.909297px 0px,
+      rgb(0, 0, 0) -0.989992px 0.14112px 0px,
+      rgb(0, 0, 0) -0.653644px -0.756802px 0px,
+      rgb(0, 0, 0) 0.283662px -0.958924px 0px,
+      rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+  }
+
+  td.maneuver {
+    vertical-align: bottom;
+    background-color: mat-color($mat-grey, 500);
+
+    i.xwing-miniatures-font {
+      font-size: 20px;
+      text-shadow:
+        mat-color($mat-grey, 900) 1px 0 0,
+        mat-color($mat-grey, 900) 0.540302px 0.841471px 0,
+        mat-color($mat-grey, 900) -0.416147px 0.909297px 0px,
+        mat-color($mat-grey, 900) -0.989992px 0.14112px 0px,
+        mat-color($mat-grey, 900) -0.653644px -0.756802px 0px,
+        mat-color($mat-grey, 900) 0.283662px -0.958924px 0px,
+        mat-color($mat-grey, 900) 0.96017px -0.279415px 0px;
+    }
+
+    &.maneuver- {
+      &normal {
+        color: white;
+      }
+
+      &easy {
+        color: mat-color($mat-green, 600);
+      }
+
+      &stress {
+        color: mat-color($mat-red, 600);
+      }
+    }
   }
 }
