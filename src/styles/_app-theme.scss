@@ -2,6 +2,31 @@
 
 @include mat-core();
 
+$mat-olive-green: (
+  50 : #eeeee9,
+  100 : #d5d4c8,
+  200 : #b9b8a3,
+  300 : #9d9b7e,
+  400 : #888563,
+  500 : #737047,
+  600 : #6b6840,
+  700 : #605d37,
+  800 : #56532f,
+  900 : #434120,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+  )
+);
+
 $app-primary: mat-palette($mat-amber);
 $app-accent: mat-palette($mat-deep-purple, A200, A100, A400);
 
