@@ -19,25 +19,28 @@ export class ManeuverComponent implements OnChanges {
 
   ngOnChanges(changes: SimpleChanges) {
     if (changes.ship) {
-      if (this.ship != null) {
-        this.shipManeuvers = _.cloneDeep(this.ship.maneuvers);
+      this.updateShipManeuvers();
+    }
+  }
 
-        for (let i = 0; i < this.shipManeuvers.length; i++) {
-          const maneuverCount = _.reduce(this.shipManeuvers[i], (sum: number, n) => sum + n);
+  private updateShipManeuvers() {
+    if (this.ship != null) {
+      this.shipManeuvers = _.cloneDeep(this.ship.maneuvers);
 
-          if (maneuverCount === 0) {
-            this.speedOffset++;
-          } else {
-            break;
-          }
+      for (let i = 0; i < this.shipManeuvers.length; i++) {
+        const maneuverCount = _.reduce(this.shipManeuvers[i], (sum: number, n) => sum + n);
+
+        if (maneuverCount === 0) {
+          this.speedOffset++;
+        } else {
+          break;
         }
-
-        this.shipManeuvers.splice(0, this.speedOffset);
-
-        this.shipManeuvers = _.reverse(this.shipManeuvers);
-      } else {
-        this.shipManeuvers = [];
       }
+
+      this.shipManeuvers.splice(0, this.speedOffset);
+      this.shipManeuvers = _.reverse(this.shipManeuvers);
+    } else {
+      this.shipManeuvers = [];
     }
   }
 }
