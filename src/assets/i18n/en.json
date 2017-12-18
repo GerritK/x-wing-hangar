@@ -6,6 +6,20 @@
     }
   },
   "data": {
+    "stats": {
+      "skill": "Pilot Skill",
+      "attack": "Attack",
+      "agility": "Agility",
+      "hull": "Hull",
+      "shield": "Shield"
+    },
+    "actions": {
+      "focus": "Focus",
+      "evade": "Evade",
+      "targetlock": "Target Lock",
+      "barrelroll": "Barrel Roll",
+      "boost": "Boost"
+    },
     "ships": {
       "xwing": "X-Wing",
       "tiefighter": "TIE Fighter"

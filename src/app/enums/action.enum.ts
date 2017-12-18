@@ -1,7 +1,7 @@
 export enum Action {
   FOCUS = 'focus',
   EVADE = 'evade',
-  BARREL_ROLL = 'barrel-roll',
+  BARREL_ROLL = 'barrelroll',
   BOOST = 'boost',
-  TARGET_LOCK = 'target-lock'
+  TARGET_LOCK = 'targetlock'
 }

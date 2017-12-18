@@ -1,0 +1,5 @@
+<div>
+  <i class="xwing-miniatures-font"
+     *ngFor="let action of ship.actions"
+     [ngClass]="['xwing-miniatures-font-' + action]" [title]="'data.actions.' + action | translate"> </i>
+</div>

@@ -12,7 +12,7 @@
     },
     "actions": [
       "focus",
-      "target-lock"
+      "targetlock"
     ],
     "maneuvers": [
       [0, 0, 0, 0, 0, 0],
@@ -36,7 +36,7 @@
     },
     "actions": [
       "focus",
-      "barrel-roll",
+      "barrelroll",
       "evade"
     ],
     "maneuvers": [

@@ -14,6 +14,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatCardModule, MatSelectModule, MatToolbarModule} from '@angular/material';
 import {IconsPipe} from './pipes/icons.pipe';
 import {ShipStatsComponent} from './components/ship-stats/ship-stats.component';
+import {ActionBarComponent} from './components/action-bar/action-bar.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -26,6 +27,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ManeuverComponent,
     PilotDetailsComponent,
     ShipStatsComponent,
+    ActionBarComponent,
 
     // Pipes
     IconsPipe
