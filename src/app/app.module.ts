@@ -11,10 +11,13 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {PilotDetailsComponent} from './components/pilot-details/pilot-details.component';
 import {PilotProvider} from './providers/pilot.provider';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatCardModule, MatSelectModule, MatToolbarModule} from '@angular/material';
+import {MatButtonModule, MatCardModule, MatDialogModule, MatIconModule, MatSelectModule, MatToolbarModule} from '@angular/material';
 import {IconsPipe} from './pipes/icons.pipe';
 import {ShipStatsComponent} from './components/ship-stats/ship-stats.component';
 import {ActionBarComponent} from './components/action-bar/action-bar.component';
+import {AppRoutingModule} from './app-routing.module';
+import {BuilderRouteComponent} from './routes/builder/builder.route';
+import {PilotSelectDialogComponent} from './dialogs/pilot-select/pilot-select.dialog';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -24,6 +27,13 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
 
+    // Routes
+    BuilderRouteComponent,
+
+    // Dialogs
+    PilotSelectDialogComponent,
+
+    // Components
     ManeuverComponent,
     PilotDetailsComponent,
     ShipStatsComponent,
@@ -31,6 +41,10 @@ export function HttpLoaderFactory(http: HttpClient) {
 
     // Pipes
     IconsPipe
+  ],
+  entryComponents: [
+    // Dialogs
+    PilotSelectDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -45,9 +59,14 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     }),
 
+    AppRoutingModule,
+
     MatSelectModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule,
+    MatDialogModule
   ],
   providers: [
     ShipProvider,

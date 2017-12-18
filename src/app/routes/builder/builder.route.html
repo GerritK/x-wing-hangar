@@ -1,0 +1,7 @@
+<mat-card *ngFor="let pilot of selectedPilots">
+  <mat-card-content>
+    <xwh-pilot-details [pilot]="pilot"></xwh-pilot-details>
+  </mat-card-content>
+</mat-card>
+
+<button mat-fab (click)="openAddDialog()"><mat-icon>add</mat-icon></button>
