@@ -1,8 +1,11 @@
+import {FiringArc} from '../enums/firing-arc.enum';
+
 export class ShipStats {
   public attack: number;
   public agility: number;
   public hull: number;
-  public shields: number;
+  public shield: number;
+  public firingArc: FiringArc;
 
   public static fromData(data): ShipStats {
     const result = new ShipStats();
@@ -10,7 +13,8 @@ export class ShipStats {
     result.attack = data.attack;
     result.agility = data.agility;
     result.hull = data.hull;
-    result.shields = data.shields;
+    result.shield = data.shield;
+    result.firingArc = data.firingArc;
 
     return result;
   }

@@ -1,0 +1,32 @@
+@import '~@angular/material/theming';
+@import 'app-theme';
+
+$config: mat-typography-config();
+
+.stat {
+  padding-right: 0.75em;
+
+  &.skill {
+    color: mat-color($mat-orange, 600);
+  }
+
+  &.attack {
+    color: mat-color($mat-red, 600);
+  }
+
+  &.agility {
+    color: mat-color($mat-green, 600);
+  }
+
+  &.hull {
+    color: mat-color($mat-yellow, 600);
+  }
+
+  &.shield {
+    color: mat-color($mat-light-blue, 600);
+  }
+
+  .value {
+    @include mat-typography-level-to-styles($config, subheading-2);
+  }
+}

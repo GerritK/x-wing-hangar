@@ -13,6 +13,7 @@ import {PilotProvider} from './providers/pilot.provider';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatCardModule, MatSelectModule, MatToolbarModule} from '@angular/material';
 import {IconsPipe} from './pipes/icons.pipe';
+import {ShipStatsComponent} from './components/ship-stats/ship-stats.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -24,6 +25,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 
     ManeuverComponent,
     PilotDetailsComponent,
+    ShipStatsComponent,
 
     // Pipes
     IconsPipe

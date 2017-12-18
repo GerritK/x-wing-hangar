@@ -8,7 +8,7 @@
       "attack": 3,
       "agility": 2,
       "hull": 3,
-      "shields": 2
+      "shield": 2
     },
     "actions": [
       "focus",
@@ -32,7 +32,7 @@
       "attack": 2,
       "agility": 3,
       "hull": 3,
-      "shields": 0
+      "shield": 0
     },
     "actions": [
       "focus",

@@ -1,0 +1,25 @@
+<div>
+  <span class="stat skill" *ngIf="pilot">
+    <span class="value">PS {{pilot.skill}}</span>
+  </span>
+
+  <span class="stat attack">
+    <i class="xwing-miniatures-font" [ngClass]="[ship.stats.firingArc ? 'xwing-miniatures-font-attack-' + ship.stats.firingArc : 'xwing-miniatures-font-attack']"></i>
+    <span class="value">{{ship.stats.attack}}</span>
+  </span>
+
+  <span class="stat agility">
+    <i class="xwing-miniatures-font xwing-miniatures-font-agility"></i>
+    <span class="value">{{ship.stats.agility}}</span>
+  </span>
+
+  <span class="stat hull">
+    <i class="xwing-miniatures-font xwing-miniatures-font-hull"></i>
+    <span class="value">{{ship.stats.hull}}</span>
+  </span>
+
+  <span class="stat shield">
+    <i class="xwing-miniatures-font xwing-miniatures-font-shield"></i>
+    <span class="value">{{ship.stats.shield}}</span>
+  </span>
+</div>
