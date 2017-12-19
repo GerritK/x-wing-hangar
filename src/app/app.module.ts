@@ -1,6 +1,8 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
+import 'rxjs/add/operator/takeUntil';
+
 import {AppComponent} from './app.component';
 import {ShipProvider} from './providers/ship.provider';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
@@ -12,7 +14,7 @@ import {PilotDetailsComponent} from './components/pilot-details/pilot-details.co
 import {PilotProvider} from './providers/pilot.provider';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {
-  MatButtonModule, MatCardModule, MatDialogModule, MatIconModule, MatRadioModule, MatSelectModule, MatTabsModule,
+  MatButtonModule, MatCardModule, MatIconModule, MatRadioModule, MatSelectModule, MatTabsModule,
   MatToolbarModule
 } from '@angular/material';
 import {IconsPipe} from './pipes/icons.pipe';
@@ -51,8 +53,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     // Pipes
     IconsPipe
   ],
-  entryComponents: [
-  ],
+  entryComponents: [],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

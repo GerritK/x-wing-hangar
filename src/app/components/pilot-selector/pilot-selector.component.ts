@@ -1,8 +1,9 @@
-import {Component, EventEmitter, Input, OnChanges, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnChanges, OnDestroy, Output} from '@angular/core';
 import {Pilot} from '../../models/pilot.model';
 import {Ship} from '../../models/ship.model';
 import {PilotProvider} from '../../providers/pilot.provider';
 import {Faction} from '../../enums/faction.enum';
+import {Subject} from 'rxjs/Subject';
 
 @Component({
   selector: 'xwh-pilot-selector',
@@ -11,7 +12,7 @@ import {Faction} from '../../enums/faction.enum';
     './pilot-selector.component.scss'
   ]
 })
-export class PilotSelectorComponent implements OnChanges {
+export class PilotSelectorComponent implements OnChanges, OnDestroy {
   @Input() pilot: Pilot;
   @Output() pilotChange: EventEmitter<Pilot> = new EventEmitter<Pilot>();
 
@@ -21,14 +22,23 @@ export class PilotSelectorComponent implements OnChanges {
 
   public allPilots: Pilot[] = [];
 
+  private ngDestroy$: Subject<any> = new Subject();
+
   constructor(private pilotProv: PilotProvider) {
-    pilotProv.allPilots.subscribe(() => {
+    pilotProv.allPilots
+      .takeUntil(this.ngDestroy$)
+      .subscribe(() => {
       this.loadPilots();
     });
   }
 
   ngOnChanges() {
     this.loadPilots();
+  }
+
+  ngOnDestroy() {
+    this.ngDestroy$.next();
+    this.ngDestroy$.complete();
   }
 
   private loadPilots() {
