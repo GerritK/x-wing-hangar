@@ -20,6 +20,11 @@
       "barrelroll": "Barrel Roll",
       "boost": "Boost"
     },
+    "factions": {
+      "rebel": "Rebel Alliance",
+      "imperial": "Galactic Empire",
+      "scum": "Scum & Villainy"
+    },
     "ships": {
       "xwing": "X-Wing",
       "tiefighter": "TIE Fighter"

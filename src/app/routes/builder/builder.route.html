@@ -1,47 +1,72 @@
-<mat-card>
-  <mat-card-title>BUILDER</mat-card-title>
-
-  <mat-card-content>
-
-    <mat-radio-group [(ngModel)]="faction" (ngModelChange)="selectedPilots = []">
-      <mat-radio-button [value]="'rebel'">REBEL</mat-radio-button>
-      <mat-radio-button value="imperial">IMPERIAL</mat-radio-button>
-      <mat-radio-button value="scum">SCUM</mat-radio-button>
-    </mat-radio-group>
-    <br/>
-    <xwh-ship-selector (shipChange)="addShip($event)" [faction]="faction" #shipSelector></xwh-ship-selector>
-
-  </mat-card-content>
-</mat-card>
-
-<br/>
-
-<div fxLayout="row" fxLayoutGap="20px">
-
-  <div fxFlex="grow">
-    <mat-card *ngFor="let selectedPilot of selectedPilots; let index = index" (mouseenter)="previewPilot = selectedPilot.pilot">
-      <mat-card-content>
-        <xwh-ship-selector [(ship)]="selectedPilot.ship" [faction]="faction"></xwh-ship-selector>
-        <br/>
-        <xwh-pilot-selector [ship]="selectedPilot.ship" [(pilot)]="selectedPilot.pilot" [faction]="faction"></xwh-pilot-selector>
-      </mat-card-content>
-
-      <mat-card-actions>
-        <button mat-button (click)="selectedPilots.splice(index, 1)">Remove</button>
-      </mat-card-actions>
-    </mat-card>
-  </div>
-
-  <mat-card fxFlex="25%">
+<div fxLayout="column" fxLayoutGap="20px">
+  <mat-card>
     <mat-card-title>
-      PREVIEW
+      <nav mat-tab-nav-bar>
+        <a mat-tab-link (click)="setFaction(Faction.REBEL)" [active]="faction === Faction.REBEL">
+          <i class="xwing-miniatures-font xwing-miniatures-font-rebel"></i>
+          {{'data.factions.rebel' | translate}}
+        </a>
+        <a mat-tab-link (click)="setFaction(Faction.IMPERIAL)" [active]="faction === Faction.IMPERIAL">
+          <i class="xwing-miniatures-font xwing-miniatures-font-empire"></i>
+          {{'data.factions.imperial' | translate}}
+        </a>
+        <a mat-tab-link (click)="setFaction(Faction.SCUM)" [active]="faction === Faction.SCUM">
+          <i class="xwing-miniatures-font xwing-miniatures-font-scum"></i>
+          {{'data.factions.scum' | translate}}
+        </a>
+      </nav>
     </mat-card-title>
+
     <mat-card-content>
-      <xwh-pilot-details [pilot]="previewPilot"></xwh-pilot-details>
+      <xwh-ship-selector (shipChange)="addShip($event)" [faction]="faction" #shipSelector></xwh-ship-selector>
     </mat-card-content>
   </mat-card>
-</div>
 
-<button mat-fab (click)="openAddDialog()">
-  <mat-icon>add</mat-icon>
-</button>
+  <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="start start">
+
+    <div fxFlex="grow">
+      <mat-card *ngFor="let selectedPilot of selectedPilots; let index = index"
+                (mouseenter)="previewPilot = selectedPilot.pilot">
+        <mat-card-title>
+
+          <!-- show pilot name if selected -->
+          <ng-container *ngIf="selectedPilot.pilot">
+            <i *ngIf="selectedPilot.pilot.isUnique"
+               class="xwing-miniatures-font xwing-miniatures-font-unique inline"> </i>
+            {{'data.pilots.' + selectedPilot.pilot.id + '.name' | translate}}
+          </ng-container>
+          <!-- show ship name if no pilot selected -->
+          <ng-container *ngIf="!selectedPilot.pilot">
+            <i class="xwing-miniatures-ship inline" [ngClass]="['xwing-miniatures-ship-' + selectedPilot.ship.id]"></i>
+            {{'data.ships.' + selectedPilot.ship.id | translate}}
+          </ng-container>
+
+        </mat-card-title>
+
+        <mat-card-content>
+          <xwh-ship-selector [(ship)]="selectedPilot.ship"
+                             [faction]="faction">
+          </xwh-ship-selector>
+          <br/>
+          <xwh-pilot-selector [ship]="selectedPilot.ship"
+                              [(pilot)]="selectedPilot.pilot"
+                              [faction]="faction">
+          </xwh-pilot-selector>
+        </mat-card-content>
+
+        <mat-card-actions>
+          <button mat-button (click)="selectedPilots.splice(index, 1); previewPilot = null">REMOVE</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <mat-card fxFlex="350px">
+      <mat-card-title>
+        PREVIEW
+      </mat-card-title>
+      <mat-card-content>
+        <xwh-pilot-details [pilot]="previewPilot"></xwh-pilot-details>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

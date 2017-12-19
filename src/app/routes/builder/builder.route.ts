@@ -1,6 +1,4 @@
 import {Component, ViewChild} from '@angular/core';
-import {MatDialog} from '@angular/material';
-import {PilotSelectDialogComponent} from '../../dialogs/pilot-select/pilot-select.dialog';
 import {Ship} from '../../models/ship.model';
 import {Faction} from '../../enums/faction.enum';
 import {Pilot} from '../../models/pilot.model';
@@ -14,12 +12,18 @@ import {Pilot} from '../../models/pilot.model';
 export class BuilderRouteComponent {
   @ViewChild('shipSelector') shipSelector;
 
+  public readonly Faction = Faction;
   public faction: Faction = Faction.REBEL;
   public selectedPilots: any[] = [];
 
   public previewPilot: Pilot;
 
-  constructor(private dialog: MatDialog) {
+  constructor() {
+  }
+
+  public setFaction(faction: Faction) {
+    this.faction = faction;
+    this.selectedPilots = [];
   }
 
   public addShip(ship: Ship) {
@@ -29,19 +33,5 @@ export class BuilderRouteComponent {
     });
 
     setTimeout(() => this.shipSelector.ship = null);
-  }
-
-  public openAddDialog() {
-    const dialogRef = this.dialog.open(PilotSelectDialogComponent, {
-      width: '500px'
-    });
-
-    dialogRef.afterClosed().subscribe((result) => {
-      console.log(result);
-
-      if (result != null) {
-        this.selectedPilots.push(result);
-      }
-    });
   }
 }
