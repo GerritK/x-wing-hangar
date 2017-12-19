@@ -9,7 +9,7 @@
     "slots": [
       "elite",
       "torpedo",
-      "astromech",
+      "amd",
       "modification"
     ]
   },
@@ -22,7 +22,7 @@
     "cost": 25,
     "slots": [
       "torpedo",
-      "astromech",
+      "amd",
       "modification"
     ]
   },
@@ -35,7 +35,7 @@
     "cost": 23,
     "slots": [
       "torpedo",
-      "astromech",
+      "amd",
       "modification"
     ]
   },
@@ -48,7 +48,7 @@
     "cost": 21,
     "slots": [
       "torpedo",
-      "astromech",
+      "amd",
       "modification"
     ]
   },

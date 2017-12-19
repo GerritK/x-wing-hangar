@@ -1,0 +1,10 @@
+<mat-form-field>
+  <mat-select [value]="upgrade" (valueChange)="upgradeChange.emit($event)" [placeholder]="upgradeType">
+    <mat-select-trigger *ngIf="upgrade">
+      {{'data.upgrades.' + upgradeType + '.' + upgrade.id + '.name' | translate}}
+    </mat-select-trigger>
+    <mat-option *ngFor="let upgrade of allUpgrades" [value]="upgrade">
+      {{'data.upgrades.' + upgradeType + '.' + upgrade.id + '.name' | translate}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

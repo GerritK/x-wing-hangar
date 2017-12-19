@@ -65,6 +65,18 @@
       "academypilot": {
         "name": "Academy Pilot"
       }
+    },
+    "upgrades": {
+      "amd": {
+        "r2d2": {
+          "name": "R2-D2",
+          "description": ""
+        },
+        "r2f2": {
+          "name": "R2-F2",
+          "description": ""
+        }
+      }
     }
   }
 }

@@ -36,15 +36,25 @@
 
         </mat-card-title>
 
-        <mat-card-content>
-          <xwh-ship-selector [(ship)]="selectedPilot.ship"
-                             [faction]="faction">
-          </xwh-ship-selector>
-          <br/>
-          <xwh-pilot-selector [ship]="selectedPilot.ship"
-                              [(pilot)]="selectedPilot.pilot"
-                              [faction]="faction">
-          </xwh-pilot-selector>
+        <mat-card-content fxLayout="row" fxLayoutGap="10px">
+
+          <div>
+            <xwh-ship-selector [(ship)]="selectedPilot.ship"
+                               [faction]="faction">
+            </xwh-ship-selector>
+            <br/>
+            <xwh-pilot-selector [ship]="selectedPilot.ship"
+                                [(pilot)]="selectedPilot.pilot"
+                                [faction]="faction">
+            </xwh-pilot-selector>
+          </div>
+
+          <div *ngIf="selectedPilot.pilot" fxFlex="grow">
+            <ng-container *ngFor="let slot of selectedPilot.pilot.slots; let index = index">
+              <xwh-upgrade-selector [upgradeType]="slot"></xwh-upgrade-selector>
+            </ng-container>
+          </div>
+
         </mat-card-content>
 
         <mat-card-actions>

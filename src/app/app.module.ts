@@ -28,6 +28,8 @@ import {PilotSelectorComponent} from './components/pilot-selector/pilot-selector
 import {FormsModule} from '@angular/forms';
 import {PilotNameComponent} from './components/pilot-name/pilot-name.component';
 import {ShipNameComponent} from './components/ship-name/ship-name.component';
+import {UpgradeSelectorComponent} from './components/upgrade-selector/upgrade-selector.component';
+import {UpgradeProvider} from './providers/upgrade.provider';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -45,6 +47,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ShipNameComponent,
     ShipSelectorComponent,
     PilotSelectorComponent,
+    UpgradeSelectorComponent,
     ManeuverComponent,
     PilotDetailsComponent,
     ShipStatsComponent,
@@ -81,7 +84,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   providers: [
     ShipProvider,
-    PilotProvider
+    PilotProvider,
+    UpgradeProvider
   ],
   bootstrap: [AppComponent]
 })
