@@ -1,10 +1,23 @@
 <mat-form-field>
-  <mat-select [value]="upgrade" (valueChange)="upgradeChange.emit($event)" [placeholder]="upgradeType">
-    <mat-select-trigger *ngIf="upgrade">
+  <mat-select [(value)]="upgrade"
+              (valueChange)="upgradeChange.emit($event)"
+              [placeholder]="'ui.upgrades.' + upgradeType | translate">
+
+    <mat-select-trigger *ngIf="upgrade" [class.limited]="upgrade.isLimited">
+      <i *ngIf="upgrade.isUnique"
+         class="xwing-miniatures-font xwing-miniatures-font-unique inline"> </i>
       {{'data.upgrades.' + upgradeType + '.' + upgrade.id + '.name' | translate}}
+      <span class="lightweight">({{upgrade.cost}})</span>
     </mat-select-trigger>
-    <mat-option *ngFor="let upgrade of allUpgrades" [value]="upgrade">
+
+    <mat-option>{{'ui.general.none' | translate}}</mat-option>
+
+    <mat-option *ngFor="let upgrade of allUpgrades" [value]="upgrade" [class.limited]="upgrade.isLimited">
+      <i *ngIf="upgrade.isUnique"
+         class="xwing-miniatures-font xwing-miniatures-font-unique inline"> </i>
       {{'data.upgrades.' + upgradeType + '.' + upgrade.id + '.name' | translate}}
+      <span class="lightweight">({{upgrade.cost}})</span>
     </mat-option>
+
   </mat-select>
 </mat-form-field>

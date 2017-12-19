@@ -1,7 +1,8 @@
 <div *ngIf="pilot" class="mat-typography">
   <xwh-ship-stats [ship]="ship" [pilot]="pilot"></xwh-ship-stats>
+  <xwh-action-bar [ship]="ship" [pilot]="pilot"></xwh-action-bar>
 
-  <i>{{'data.ships.' + ship.id | translate}}</i>
+  <i><xwh-ship-name [ship]="ship"></xwh-ship-name></i>
 
   <p [innerHtml]="pilot.isUnique ? ('data.pilots.' + pilot.id + '.description' | translate | icons) : ''"></p>
 

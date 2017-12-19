@@ -2,16 +2,13 @@
   "ui": {
     "general": {
       "ship": "Ship",
-      "pilot": "Pilot"
-    }
-  },
-  "data": {
-    "stats": {
-      "skill": "Pilot Skill",
-      "attack": "Attack",
-      "agility": "Agility",
-      "hull": "Hull",
-      "shield": "Shield"
+      "pilot": "Pilot",
+      "none": "None"
+    },
+    "factions": {
+      "rebel": "Rebel Alliance",
+      "imperial": "Galactic Empire",
+      "scum": "Scum & Villainy"
     },
     "actions": {
       "focus": "Focus",
@@ -20,11 +17,34 @@
       "barrelroll": "Barrel Roll",
       "boost": "Boost"
     },
-    "factions": {
-      "rebel": "Rebel Alliance",
-      "imperial": "Galactic Empire",
-      "scum": "Scum & Villainy"
+    "stats": {
+      "skill": "Pilot Skill",
+      "attack": "Attack",
+      "agility": "Agility",
+      "hull": "Hull",
+      "shield": "Shield"
     },
+    "upgrades": {
+      "elite": "Elite",
+      "amd": "Astromech",
+      "torpedo": "Torpedo",
+      "missile": "Missile",
+      "cannon": "Cannon",
+      "turret": "Turret",
+      "bomb": "Bomb",
+      "crew": "Crew",
+      "salvagedastromech": "Salvaged Astromech",
+      "system": "System",
+      "title": "Title",
+      "modification": "Modification",
+      "illicit": "Illicit",
+      "cargo": "Cargo",
+      "hardpoint": "Hardpoint",
+      "team": "Team",
+      "tech": "Tech"
+    }
+  },
+  "data": {
     "ships": {
       "xwing": "X-Wing",
       "tiefighter": "TIE Fighter"
@@ -67,6 +87,16 @@
       }
     },
     "upgrades": {
+      "elite": {
+        "marksmanship": {
+          "name": "Marksmanship",
+          "description": ""
+        },
+        "determination": {
+          "name": "Determination",
+          "description": ""
+        }
+      },
       "amd": {
         "r2d2": {
           "name": "R2-D2",
@@ -74,6 +104,12 @@
         },
         "r2f2": {
           "name": "R2-F2",
+          "description": ""
+        }
+      },
+      "torpedo": {
+        "protontorpedoes": {
+          "name": "Proton Torpedoes",
           "description": ""
         }
       }

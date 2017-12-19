@@ -5,8 +5,8 @@
       "elite"
     ],
     "cost": 1,
-    "unique": false,
-    "limited": false,
+    "isUnique": false,
+    "isLimited": false,
     "modifiers": [],
     "restrictions": []
   },
@@ -16,8 +16,8 @@
       "elite"
     ],
     "cost": 3,
-    "unique": false,
-    "limited": false,
+    "isUnique": false,
+    "isLimited": false,
     "modifiers": [],
     "restrictions": []
   },
@@ -27,8 +27,8 @@
       "amd"
     ],
     "cost": 4,
-    "unique": true,
-    "limited": false,
+    "isUnique": true,
+    "isLimited": false,
     "modifiers": [],
     "restrictions": []
   },
@@ -38,19 +38,19 @@
       "amd"
     ],
     "cost": 3,
-    "unique": true,
-    "limited": false,
+    "isUnique": true,
+    "isLimited": false,
     "modifiers": [],
     "restrictions": []
   },
   {
     "id": "protontorpedoes",
     "types": [
-      "tropedo"
+      "torpedo"
     ],
     "cost": 4,
-    "unique": false,
-    "limited": false,
+    "isUnique": false,
+    "isLimited": false,
     "modifiers": [],
     "restrictions": [],
     "stats": {
