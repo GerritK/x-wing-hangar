@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, OnChanges, OnDestroy, Output, SimpleChanges} from '@angular/core';
+import {Component, EventEmitter, Input, OnChanges, OnDestroy, OnInit, Output, SimpleChanges} from '@angular/core';
 import {Ship} from '../../models/ship.model';
 import {ShipProvider} from '../../providers/ship.provider';
 import {Faction} from '../../enums/faction.enum';
@@ -11,7 +11,7 @@ import {Subject} from 'rxjs/Subject';
     './ship-selector.component.scss'
   ]
 })
-export class ShipSelectorComponent implements OnChanges, OnDestroy {
+export class ShipSelectorComponent implements OnInit, OnChanges, OnDestroy {
   @Input() ship: Ship;
   @Output() shipChange: EventEmitter<Ship> = new EventEmitter<Ship>();
 
@@ -20,8 +20,16 @@ export class ShipSelectorComponent implements OnChanges, OnDestroy {
   public allShips: Ship[] = [];
 
   private ngDestroy$: Subject<any> = new Subject();
+  private initialized = false;
 
   constructor(private shipProv: ShipProvider) {
+  }
+
+  ngOnInit() {
+    this.initialized = true;
+
+    this.loadShips();
+
     this.shipProv.allShips
       .takeUntil(this.ngDestroy$)
       .subscribe(() => {
@@ -30,8 +38,10 @@ export class ShipSelectorComponent implements OnChanges, OnDestroy {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if (changes.faction) {
-      this.loadShips();
+    if (this.initialized) {
+      if (changes.faction) {
+        this.loadShips();
+      }
     }
   }
 

@@ -32,7 +32,7 @@
   <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="start start">
 
     <div fxFlex="grow" class="mat-typography">
-      <mat-card *ngFor="let squadronShip of squadron.ships; let index = index"
+      <mat-card *ngFor="let squadronShip of squadron.ships; let shipIndex = index"
                 (mouseenter)="previewPilot = squadronShip.pilot">
         <mat-card-title>
 
@@ -51,16 +51,20 @@
                                [faction]="squadron.faction">
             </xwh-ship-selector>
             <br/>
-            <xwh-pilot-selector [ship]="squadronShip.ship"
-                                [(pilot)]="squadronShip.pilot"
-                                [faction]="squadron.faction">
+            <xwh-pilot-selector [(pilot)]="squadronShip.pilot"
+                                [ship]="squadronShip.ship"
+                                [faction]="squadron.faction"
+                                [squadron]="squadron"
+                                [squadronIndex]="shipIndex">
             </xwh-pilot-selector>
           </div>
 
           <div *ngIf="squadronShip.pilot" fxFlex="grow">
-            <ng-container *ngFor="let slot of squadronShip.pilot.slots; let index = index">
+            <ng-container *ngFor="let slot of squadronShip.pilot.slots; let upgradeIndex = index">
               <xwh-upgrade-selector [upgradeType]="slot"
-                                    [(upgrade)]="squadronShip.upgrades[index]">
+                                    [(upgrade)]="squadronShip.upgrades[upgradeIndex]"
+                                    [squadron]="squadron"
+                                    [squadronIndex]="shipIndex">
               </xwh-upgrade-selector>
             </ng-container>
           </div>
@@ -68,7 +72,7 @@
         </mat-card-content>
 
         <mat-card-actions>
-          <button mat-button (click)="removeShip(index)">REMOVE</button>
+          <button mat-button (click)="removeShip(shipIndex)">REMOVE</button>
         </mat-card-actions>
       </mat-card>
     </div>

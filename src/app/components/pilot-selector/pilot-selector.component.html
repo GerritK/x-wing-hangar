@@ -4,9 +4,9 @@
       <xwh-pilot-name [pilot]="pilot"></xwh-pilot-name>
       <span class="lightweight">({{pilot.cost}})</span>
     </mat-select-trigger>
-    <mat-option *ngFor="let pilot of allPilots" [value]="pilot">
-      <xwh-pilot-name [pilot]="pilot"></xwh-pilot-name>
-      <span class="lightweight">({{pilot.cost}})</span>
+    <mat-option *ngFor="let pilot of allPilots" [value]="pilot.pilot" [disabled]="pilot.alreadyUsed">
+      <xwh-pilot-name [pilot]="pilot.pilot"></xwh-pilot-name>
+      <span class="lightweight">({{pilot.pilot.cost}})</span>
     </mat-option>
   </mat-select>
 </mat-form-field>
