@@ -48,10 +48,13 @@
 
           <div>
             <xwh-ship-selector [(ship)]="squadronShip.ship"
+                               (shipChange)="squadronShip.upgrades = []"
                                [faction]="squadron.faction">
             </xwh-ship-selector>
             <br/>
+            <!-- TODO: try to match selection on pilot change -->
             <xwh-pilot-selector [(pilot)]="squadronShip.pilot"
+                                (pilotChange)="squadronShip.upgrades = []"
                                 [ship]="squadronShip.ship"
                                 [faction]="squadron.faction"
                                 [squadron]="squadron"
