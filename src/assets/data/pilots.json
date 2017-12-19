@@ -23,7 +23,8 @@
     "slots": [
       "torpedo",
       "amd",
-      "modification"
+      "modification",
+      "title"
     ]
   },
   {
@@ -36,7 +37,8 @@
     "slots": [
       "torpedo",
       "amd",
-      "modification"
+      "modification",
+      "title"
     ]
   },
   {
@@ -49,7 +51,8 @@
     "slots": [
       "torpedo",
       "amd",
-      "modification"
+      "modification",
+      "title"
     ]
   },
 
@@ -62,7 +65,9 @@
     "skill": 7,
     "cost": 17,
     "slots": [
-      "elite"
+      "elite",
+      "modification",
+      "title"
     ]
   },
   {
@@ -73,7 +78,8 @@
     "skill": 6,
     "cost": 16,
     "slots": [
-      "modification"
+      "modification",
+      "title"
     ]
   },
   {
@@ -84,7 +90,8 @@
     "skill": 5,
     "cost": 15,
     "slots": [
-      "modification"
+      "modification",
+      "title"
     ]
   },
   {
@@ -95,7 +102,8 @@
     "skill": 4,
     "cost": 14,
     "slots": [
-      "modification"
+      "modification",
+      "title"
     ]
   },
   {
@@ -106,7 +114,8 @@
     "skill": 3,
     "cost": 13,
     "slots": [
-      "modification"
+      "modification",
+      "title"
     ]
   },
   {
@@ -117,7 +126,8 @@
     "skill": 1,
     "cost": 12,
     "slots": [
-      "modification"
+      "modification",
+      "title"
     ]
   }
 ]
