@@ -2,9 +2,10 @@
 
   <tr *ngFor="let maneuvers of shipManeuvers; let speedIndex = index">
     <th>{{shipManeuvers.length - speedIndex - 1 + speedOffset}}</th>
-    <td *ngFor="let difficulty of maneuvers; let type = index"
-        [ngClass]="{'maneuver': difficulty > 0, 'maneuver-normal': difficulty === 1, 'maneuver-easy': difficulty === 2, 'maneuver-stress': difficulty === 3}">
-      <i class="xwing-miniatures-font" *ngIf="difficulty > 0" [ngClass]="{
+    <ng-container *ngFor="let difficulty of maneuvers; let type = index">
+      <td *ngIf="difficulty > -1"
+          [ngClass]="{'maneuver': difficulty > 0, 'maneuver-normal': difficulty === 1, 'maneuver-easy': difficulty === 2, 'maneuver-stress': difficulty === 3}">
+        <i class="xwing-miniatures-font" *ngIf="difficulty > 0" [ngClass]="{
         'xwing-miniatures-font-turnleft': type === 0,
         'xwing-miniatures-font-bankleft': type === 1,
         'xwing-miniatures-font-straight': type === 2,
@@ -19,7 +20,8 @@
         'xwing-miniatures-font-reversestraight': type === 11,
         'xwing-miniatures-font-reversebankright': type === 12
       }"></i>
-    </td>
+      </td>
+    </ng-container>
   </tr>
 
 </table>
