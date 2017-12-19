@@ -33,17 +33,6 @@
     "restrictions": []
   },
   {
-    "id": "lukeskywalker-tropedo",
-    "types": [
-      "torpedo"
-    ],
-    "cost": 4,
-    "isUnique": true,
-    "isLimited": false,
-    "modifiers": [],
-    "restrictions": []
-  },
-  {
     "id": "r2f2",
     "types": [
       "amd"
