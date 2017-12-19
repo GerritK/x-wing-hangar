@@ -24,6 +24,8 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import {ShipSelectorComponent} from './components/ship-selector/ship-selector.component';
 import {PilotSelectorComponent} from './components/pilot-selector/pilot-selector.component';
 import {FormsModule} from '@angular/forms';
+import {PilotNameComponent} from './components/pilot-name/pilot-name.component';
+import {ShipNameComponent} from './components/ship-name/ship-name.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -37,6 +39,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BuilderRouteComponent,
 
     // Components
+    PilotNameComponent,
+    ShipNameComponent,
     ShipSelectorComponent,
     PilotSelectorComponent,
     ManeuverComponent,

@@ -24,6 +24,7 @@ export class BuilderRouteComponent {
   public setFaction(faction: Faction) {
     this.faction = faction;
     this.selectedPilots = [];
+    this.previewPilot = null;
   }
 
   public addShip(ship: Ship) {

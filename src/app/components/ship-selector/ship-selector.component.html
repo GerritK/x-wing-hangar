@@ -1,12 +1,10 @@
 <mat-form-field>
   <mat-select [(value)]="ship" (valueChange)="shipChange.emit($event)" [placeholder]="'ui.general.ship' | translate">
     <mat-select-trigger *ngIf="ship">
-      <i [class]="'xwing-miniatures-ship inline xwing-miniatures-ship-' + ship.id"></i>
-      {{'data.ships.' + ship.id | translate}}
+      <xwh-ship-name [ship]="ship"></xwh-ship-name>
     </mat-select-trigger>
     <mat-option *ngFor="let ship of allShips" [value]="ship">
-      <i [class]="'xwing-miniatures-ship inline xwing-miniatures-ship-' + ship.id"></i>
-      {{'data.ships.' + ship.id | translate}}
+      <xwh-ship-name [ship]="ship"></xwh-ship-name>
     </mat-option>
   </mat-select>
 </mat-form-field>

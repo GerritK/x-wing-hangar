@@ -30,16 +30,9 @@
         <mat-card-title>
 
           <!-- show pilot name if selected -->
-          <ng-container *ngIf="selectedPilot.pilot">
-            <i *ngIf="selectedPilot.pilot.isUnique"
-               class="xwing-miniatures-font xwing-miniatures-font-unique inline"> </i>
-            {{'data.pilots.' + selectedPilot.pilot.id + '.name' | translate}}
-          </ng-container>
+          <xwh-pilot-name *ngIf="selectedPilot.pilot" [pilot]="selectedPilot.pilot"></xwh-pilot-name>
           <!-- show ship name if no pilot selected -->
-          <ng-container *ngIf="!selectedPilot.pilot">
-            <i class="xwing-miniatures-ship inline" [ngClass]="['xwing-miniatures-ship-' + selectedPilot.ship.id]"></i>
-            {{'data.ships.' + selectedPilot.ship.id | translate}}
-          </ng-container>
+          <xwh-ship-name *ngIf="!selectedPilot.pilot" [ship]="selectedPilot.ship"></xwh-ship-name>
 
         </mat-card-title>
 
@@ -62,7 +55,8 @@
 
     <mat-card fxFlex="350px">
       <mat-card-title>
-        PREVIEW
+        <xwh-pilot-name *ngIf="previewPilot" [pilot]="previewPilot"></xwh-pilot-name>
+        <span *ngIf="!previewPilot">PREVIEW</span>
       </mat-card-title>
       <mat-card-content>
         <xwh-pilot-details [pilot]="previewPilot"></xwh-pilot-details>

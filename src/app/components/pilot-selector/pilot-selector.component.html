@@ -1,12 +1,10 @@
 <mat-form-field>
   <mat-select [value]="pilot" (valueChange)="pilotChange.emit($event)" [disabled]="allPilots.length === 0" [placeholder]="'ui.general.pilot' | translate">
     <mat-select-trigger *ngIf="pilot">
-      <i *ngIf="pilot.isUnique" class="xwing-miniatures-font xwing-miniatures-font-unique inline"></i>
-      {{'data.pilots.' + pilot.id + '.name' | translate}}
+      <xwh-pilot-name [pilot]="pilot"></xwh-pilot-name>
     </mat-select-trigger>
     <mat-option *ngFor="let pilot of allPilots" [value]="pilot">
-      <i *ngIf="pilot.isUnique" class="xwing-miniatures-font xwing-miniatures-font-unique inline"></i>
-      {{'data.pilots.' + pilot.id + '.name' | translate}}
+      <xwh-pilot-name [pilot]="pilot"></xwh-pilot-name>
     </mat-option>
   </mat-select>
 </mat-form-field>
