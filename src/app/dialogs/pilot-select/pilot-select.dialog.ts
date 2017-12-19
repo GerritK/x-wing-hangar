@@ -34,6 +34,9 @@ export class PilotSelectDialogComponent {
   }
 
   public onAdd() {
-    this.dialogRef.close(this.pilot);
+    this.dialogRef.close({
+      pilot: this.pilot,
+      ship: this.ship
+    });
   }
 }

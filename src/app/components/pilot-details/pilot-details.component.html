@@ -1,7 +1,12 @@
 <div *ngIf="pilot" class="mat-typography">
-  <h1><i *ngIf="pilot.isUnique" class="xwing-miniatures-font xwing-miniatures-font-unique inline"> </i>{{'data.pilots.' + pilot.id + '.name' | translate}}</h1>
+
+  <h1>
+    <i *ngIf="pilot.isUnique" class="xwing-miniatures-font xwing-miniatures-font-unique inline"> </i>
+    {{'data.pilots.' + pilot.id + '.name' | translate}}
+  </h1>
+
   <xwh-ship-stats [ship]="ship" [pilot]="pilot"></xwh-ship-stats>
-  <xwh-action-bar [ship]="ship"></xwh-action-bar>
+
   <i>{{'data.ships.' + ship.id | translate}}</i>
 
   <p *ngIf="pilot.isUnique" [innerHtml]="'data.pilots.' + pilot.id + '.description' | translate | icons"></p>

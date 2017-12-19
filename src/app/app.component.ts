@@ -11,4 +11,8 @@ import {MatDialog} from '@angular/material';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  constructor(pilotProv: PilotProvider,
+              shipProv: ShipProvider) {
+
+  }
 }

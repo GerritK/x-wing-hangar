@@ -11,13 +11,20 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {PilotDetailsComponent} from './components/pilot-details/pilot-details.component';
 import {PilotProvider} from './providers/pilot.provider';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCardModule, MatDialogModule, MatIconModule, MatSelectModule, MatToolbarModule} from '@angular/material';
+import {
+  MatButtonModule, MatCardModule, MatDialogModule, MatIconModule, MatRadioModule, MatSelectModule,
+  MatToolbarModule
+} from '@angular/material';
 import {IconsPipe} from './pipes/icons.pipe';
 import {ShipStatsComponent} from './components/ship-stats/ship-stats.component';
 import {ActionBarComponent} from './components/action-bar/action-bar.component';
 import {AppRoutingModule} from './app-routing.module';
 import {BuilderRouteComponent} from './routes/builder/builder.route';
 import {PilotSelectDialogComponent} from './dialogs/pilot-select/pilot-select.dialog';
+import {FlexLayoutModule} from '@angular/flex-layout';
+import {ShipSelectorComponent} from './components/ship-selector/ship-selector.component';
+import {PilotSelectorComponent} from './components/pilot-selector/pilot-selector.component';
+import {FormsModule} from '@angular/forms';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -34,6 +41,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     PilotSelectDialogComponent,
 
     // Components
+    ShipSelectorComponent,
+    PilotSelectorComponent,
     ManeuverComponent,
     PilotDetailsComponent,
     ShipStatsComponent,
@@ -49,8 +58,10 @@ export function HttpLoaderFactory(http: HttpClient) {
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     HttpClientModule,
     NgPipesModule,
+    FlexLayoutModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -66,7 +77,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatCardModule,
     MatButtonModule,
     MatIconModule,
-    MatDialogModule
+    MatDialogModule,
+    MatRadioModule
   ],
   providers: [
     ShipProvider,

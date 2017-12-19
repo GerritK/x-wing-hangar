@@ -27,6 +27,10 @@ export class PilotProvider {
       });
   }
 
+  public getAll() {
+    return this._allPilots.getValue();
+  }
+
   public getById(id: string) {
     return this._allPilots.getValue().find((pilot) => pilot.id === id);
   }

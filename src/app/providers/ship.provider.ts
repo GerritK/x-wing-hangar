@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import {BehaviorSubject} from 'rxjs/BehaviorSubject';
 import {Observable} from 'rxjs/Observable';
 import {Ship} from '../models/ship.model';
+import {Faction} from '../enums/faction.enum';
 
 @Injectable()
 export class ShipProvider {
@@ -25,6 +26,16 @@ export class ShipProvider {
 
         this._allShips.next(data);
       });
+  }
+
+  public getAll() {
+    return this._allShips.getValue();
+  }
+
+  public getByFaction(faction: Faction) {
+    return this._allShips.getValue().filter((ship) => {
+      return ship.factions.findIndex((f) => f === faction) !== -1;
+    });
   }
 
   public getById(id: string) {

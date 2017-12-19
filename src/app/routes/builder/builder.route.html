@@ -1,7 +1,47 @@
-<mat-card *ngFor="let pilot of selectedPilots">
+<mat-card>
+  <mat-card-title>BUILDER</mat-card-title>
+
   <mat-card-content>
-    <xwh-pilot-details [pilot]="pilot"></xwh-pilot-details>
+
+    <mat-radio-group [(ngModel)]="faction" (ngModelChange)="selectedPilots = []">
+      <mat-radio-button [value]="'rebel'">REBEL</mat-radio-button>
+      <mat-radio-button value="imperial">IMPERIAL</mat-radio-button>
+      <mat-radio-button value="scum">SCUM</mat-radio-button>
+    </mat-radio-group>
+    <br/>
+    <xwh-ship-selector (shipChange)="addShip($event)" [faction]="faction" #shipSelector></xwh-ship-selector>
+
   </mat-card-content>
 </mat-card>
 
-<button mat-fab (click)="openAddDialog()"><mat-icon>add</mat-icon></button>
+<br/>
+
+<div fxLayout="row" fxLayoutGap="20px">
+
+  <div fxFlex="grow">
+    <mat-card *ngFor="let selectedPilot of selectedPilots; let index = index" (mouseenter)="previewPilot = selectedPilot.pilot">
+      <mat-card-content>
+        <xwh-ship-selector [(ship)]="selectedPilot.ship" [faction]="faction"></xwh-ship-selector>
+        <br/>
+        <xwh-pilot-selector [ship]="selectedPilot.ship" [(pilot)]="selectedPilot.pilot" [faction]="faction"></xwh-pilot-selector>
+      </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-button (click)="selectedPilots.splice(index, 1)">Remove</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+  <mat-card fxFlex="25%">
+    <mat-card-title>
+      PREVIEW
+    </mat-card-title>
+    <mat-card-content>
+      <xwh-pilot-details [pilot]="previewPilot"></xwh-pilot-details>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+<button mat-fab (click)="openAddDialog()">
+  <mat-icon>add</mat-icon>
+</button>
