@@ -1,6 +1,8 @@
 {
   "ui": {
     "general": {
+      "unnamed": "Unnamed",
+      "squadron": "Squadron",
       "ship": "Ship",
       "pilot": "Pilot",
       "none": "None"
@@ -112,6 +114,48 @@
           "name": "Proton Torpedoes",
           "description": ""
         }
+      },
+      "missile": {
+
+      },
+      "cannon": {
+
+      },
+      "turret": {
+
+      },
+      "bomb": {
+
+      },
+      "crew": {
+
+      },
+      "salvagedastromech": {
+
+      },
+      "system": {
+
+      },
+      "title": {
+
+      },
+      "modification": {
+
+      },
+      "illicit": {
+
+      },
+      "cargo": {
+
+      },
+      "hardpoint": {
+
+      },
+      "team": {
+
+      },
+      "tech": {
+
       }
     }
   }

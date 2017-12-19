@@ -46,7 +46,6 @@ export class UpgradeSelectorComponent implements OnChanges, OnDestroy {
 
   private loadUpgrades() {
     let upgrades = this.upgradeProv.getAll();
-    console.log(upgrades);
 
     // TODO: filter by given data
 

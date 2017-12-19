@@ -14,7 +14,7 @@ import {PilotDetailsComponent} from './components/pilot-details/pilot-details.co
 import {PilotProvider} from './providers/pilot.provider';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {
-  MatButtonModule, MatCardModule, MatIconModule, MatRadioModule, MatSelectModule, MatTabsModule,
+  MatButtonModule, MatCardModule, MatIconModule, MatInputModule, MatRadioModule, MatSelectModule, MatTabsModule,
   MatToolbarModule
 } from '@angular/material';
 import {IconsPipe} from './pipes/icons.pipe';
@@ -80,7 +80,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatButtonModule,
     MatIconModule,
     MatRadioModule,
-    MatTabsModule
+    MatTabsModule,
+    MatInputModule
   ],
   providers: [
     ShipProvider,

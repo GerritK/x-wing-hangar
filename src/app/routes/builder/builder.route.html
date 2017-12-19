@@ -1,64 +1,74 @@
 <div fxLayout="column" fxLayoutGap="20px">
-  <mat-card>
+  <mat-card class="mat-typography">
     <mat-card-title>
       <div mat-tab-nav-bar>
-        <a mat-tab-link (click)="setFaction(Faction.REBEL)" [active]="faction === Faction.REBEL">
+        <a mat-tab-link (click)="setFaction(Faction.REBEL)" [active]="squadron.faction === Faction.REBEL">
           <i class="xwing-miniatures-font xwing-miniatures-font-rebel">&nbsp;</i>
           {{'ui.factions.rebel' | translate}}
         </a>
-        <a mat-tab-link (click)="setFaction(Faction.IMPERIAL)" [active]="faction === Faction.IMPERIAL">
+        <a mat-tab-link (click)="setFaction(Faction.IMPERIAL)" [active]="squadron.faction === Faction.IMPERIAL">
           <i class="xwing-miniatures-font xwing-miniatures-font-empire">&nbsp;</i>
           {{'ui.factions.imperial' | translate}}
         </a>
-        <a mat-tab-link (click)="setFaction(Faction.SCUM)" [active]="faction === Faction.SCUM">
+        <a mat-tab-link (click)="setFaction(Faction.SCUM)" [active]="squadron.faction === Faction.SCUM">
           <i class="xwing-miniatures-font xwing-miniatures-font-scum">&nbsp;</i>
           {{'ui.factions.scum' | translate}}
         </a>
       </div>
+
+      <br/>
+      {{squadron.name}}
+      <span class="lightweight">({{squadron.cost}})</span>
     </mat-card-title>
 
     <mat-card-content>
-      <xwh-ship-selector (shipChange)="addShip($event)" [faction]="faction" #shipSelector></xwh-ship-selector>
+      <mat-form-field>
+        <input matInput [placeholder]="'ui.general.squadron' | translate" [(ngModel)]="squadron.name">
+      </mat-form-field>
+      <xwh-ship-selector (shipChange)="addShip($event)" [faction]="squadron.faction" #shipSelector></xwh-ship-selector>
     </mat-card-content>
   </mat-card>
 
   <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="start start">
 
-    <div fxFlex="grow">
-      <mat-card *ngFor="let selectedPilot of selectedPilots; let index = index"
-                (mouseenter)="previewPilot = selectedPilot.pilot">
+    <div fxFlex="grow" class="mat-typography">
+      <mat-card *ngFor="let squadronShip of squadron.ships; let index = index"
+                (mouseenter)="previewPilot = squadronShip.pilot">
         <mat-card-title>
 
           <!-- show pilot name if selected -->
-          <xwh-pilot-name *ngIf="selectedPilot.pilot" [pilot]="selectedPilot.pilot"></xwh-pilot-name>
+          <xwh-pilot-name *ngIf="squadronShip.pilot" [pilot]="squadronShip.pilot"></xwh-pilot-name>
           <!-- show ship name if no pilot selected -->
-          <xwh-ship-name *ngIf="!selectedPilot.pilot" [ship]="selectedPilot.ship"></xwh-ship-name>
+          <xwh-ship-name *ngIf="!squadronShip.pilot" [ship]="squadronShip.ship"></xwh-ship-name>
 
+          <span class="lightweight" *ngIf="squadronShip.pilot && squadronShip.ship">({{squadronShip.cost}})</span>
         </mat-card-title>
 
         <mat-card-content fxLayout="row" fxLayoutGap="10px">
 
           <div>
-            <xwh-ship-selector [(ship)]="selectedPilot.ship"
-                               [faction]="faction">
+            <xwh-ship-selector [(ship)]="squadronShip.ship"
+                               [faction]="squadron.faction">
             </xwh-ship-selector>
             <br/>
-            <xwh-pilot-selector [ship]="selectedPilot.ship"
-                                [(pilot)]="selectedPilot.pilot"
-                                [faction]="faction">
+            <xwh-pilot-selector [ship]="squadronShip.ship"
+                                [(pilot)]="squadronShip.pilot"
+                                [faction]="squadron.faction">
             </xwh-pilot-selector>
           </div>
 
-          <div *ngIf="selectedPilot.pilot" fxFlex="grow">
-            <ng-container *ngFor="let slot of selectedPilot.pilot.slots; let index = index">
-              <xwh-upgrade-selector [upgradeType]="slot"></xwh-upgrade-selector>
+          <div *ngIf="squadronShip.pilot" fxFlex="grow">
+            <ng-container *ngFor="let slot of squadronShip.pilot.slots; let index = index">
+              <xwh-upgrade-selector [upgradeType]="slot"
+                                    [(upgrade)]="squadronShip.upgrades[index]">
+              </xwh-upgrade-selector>
             </ng-container>
           </div>
 
         </mat-card-content>
 
         <mat-card-actions>
-          <button mat-button (click)="selectedPilots.splice(index, 1); previewPilot = null">REMOVE</button>
+          <button mat-button (click)="removeShip(index)">REMOVE</button>
         </mat-card-actions>
       </mat-card>
     </div>
@@ -74,3 +84,5 @@
     </mat-card>
   </div>
 </div>
+
+<button mat-button (click)="echoSquadron()">ECHO</button>
