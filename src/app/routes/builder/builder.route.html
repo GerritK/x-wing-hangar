@@ -47,14 +47,13 @@
         <mat-card-content fxLayout="row" fxLayoutGap="10px">
 
           <div>
-            <xwh-ship-selector [(ship)]="squadronShip.ship"
-                               (shipChange)="squadronShip.upgrades = []"
+            <xwh-ship-selector [ship]="squadronShip.ship"
+                               (shipChange)="onShipChange($event, squadronShip)"
                                [faction]="squadron.faction">
             </xwh-ship-selector>
             <br/>
-            <!-- TODO: try to match selection on pilot change -->
-            <xwh-pilot-selector [(pilot)]="squadronShip.pilot"
-                                (pilotChange)="squadronShip.upgrades = []"
+            <xwh-pilot-selector [pilot]="squadronShip.pilot"
+                                (pilotChange)="onPilotChange($event, squadronShip)"
                                 [ship]="squadronShip.ship"
                                 [faction]="squadron.faction"
                                 [squadron]="squadron"

@@ -44,6 +44,31 @@ export class BuilderRouteComponent {
     setTimeout(() => this.shipSelector.ship = null);
   }
 
+  public onShipChange(ship: Ship, squadronShip: SquadronShip) {
+    squadronShip.ship = ship;
+    squadronShip.pilot = null;
+    squadronShip.upgrades = [];
+  }
+
+  public onPilotChange(pilot: Pilot, squadronShip: SquadronShip) {
+    const upgrades = [];
+
+    for (let i = 0; i < squadronShip.upgrades.length; i++) {
+      const upgrade = squadronShip.upgrades[i];
+      const type = squadronShip.pilot.slots[i];
+      const newIndex = pilot.slots.findIndex((slot, index) => {
+        return slot === type && !upgrades[index];
+      });
+
+      if (newIndex !== -1) {
+        upgrades[newIndex] = upgrade;
+      }
+    }
+
+    squadronShip.pilot = pilot;
+    squadronShip.upgrades = upgrades;
+  }
+
   public removeShip(index: number) {
     this.squadron.ships.splice(index, 1);
 
