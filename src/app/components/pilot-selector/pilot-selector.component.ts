@@ -5,7 +5,6 @@ import {PilotProvider} from '../../providers/pilot.provider';
 import {Faction} from '../../enums/faction.enum';
 import {Subject} from 'rxjs/Subject';
 import {Squadron} from '../../models/squadron.model';
-import {SquadronHelpers} from '../../helpers/squadron.helpers';
 
 @Component({
   selector: 'xwh-pilot-selector',
@@ -91,7 +90,7 @@ export class PilotSelectorComponent implements OnInit, OnChanges, OnDestroy, DoC
   private updateUnavailable() {
     for (const pilot of this.allPilots) {
       if (pilot.pilot.isUnique) {
-        pilot.alreadyUsed = SquadronHelpers.isUniqueUsed(pilot.pilot.id, this.squadron, this.squadronIndex);
+        pilot.alreadyUsed = this.squadron.isUniqueUsed(pilot.pilot.id, this.squadronIndex);
       }
     }
   }

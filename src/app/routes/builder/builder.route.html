@@ -64,10 +64,11 @@
 
           <div *ngIf="squadronShip.pilot" fxFlex="grow">
             <ng-container *ngFor="let slot of squadronShip.pilot.slots; let upgradeIndex = index">
-              <xwh-upgrade-selector [upgradeType]="slot"
-                                    [(upgrade)]="squadronShip.upgrades[upgradeIndex]"
+              <xwh-upgrade-selector [(upgrade)]="squadronShip.upgrades[upgradeIndex]"
                                     [squadron]="squadron"
-                                    [squadronIndex]="shipIndex">
+                                    [squadronIndex]="shipIndex"
+                                    [upgradeType]="slot"
+                                    [upgradeIndex]="upgradeIndex">
               </xwh-upgrade-selector>
             </ng-container>
           </div>

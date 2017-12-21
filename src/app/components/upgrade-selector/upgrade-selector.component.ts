@@ -1,12 +1,10 @@
 import {Component, DoCheck, EventEmitter, Input, OnChanges, OnDestroy, OnInit, Output, SimpleChanges} from '@angular/core';
-import {Pilot} from '../../models/pilot.model';
-import {Ship} from '../../models/ship.model';
 import {Subject} from 'rxjs/Subject';
 import {UpgradeType} from '../../enums/upgrade-type.enum';
 import {Upgrade} from '../../models/upgrade.model';
 import {UpgradeProvider} from '../../providers/upgrade.provider';
 import {Squadron} from '../../models/squadron.model';
-import {SquadronHelpers} from '../../helpers/squadron.helpers';
+import {SquadronShip} from '../../models/squadron-ship.model';
 
 @Component({
   selector: 'xwh-upgrade-selector',
@@ -22,6 +20,7 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
   @Input() squadron: Squadron;
   @Input() squadronIndex: number;
   @Input() upgradeType: UpgradeType;
+  @Input() upgradeIndex: number;
 
   public allUpgrades: any[] = [];
 
@@ -50,7 +49,7 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
     if (this.initialized) {
       if (changes.upgradeType) {
         this.loadUpgrades();
-      } else if (changes.squadron) {
+      } else if (changes.squadron || changes.squadronIndex) {
         this.squadronCheck = JSON.stringify(this.squadron);
         this.updateUnavailable();
       }
@@ -68,6 +67,10 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
       this.updateUnavailable();
       this.squadronCheck = JSON.stringify(this.squadron);
     }
+  }
+
+  public get squadronShip(): SquadronShip {
+    return this.squadron.ships[this.squadronIndex];
   }
 
   private loadUpgrades() {
@@ -97,9 +100,17 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
 
   private updateUnavailable() {
     for (const upgrade of this.allUpgrades) {
+      let used = false;
+
       if (upgrade.upgrade.isUnique) {
-        upgrade.alreadyUsed = SquadronHelpers.isUniqueUsed(upgrade.upgrade.id, this.squadron, this.squadronIndex);
+        used = used || this.squadron.isUniqueUsed(upgrade.upgrade.id, this.squadronIndex);
       }
+
+      if (upgrade.upgrade.isLimited) {
+        used = used || this.squadronShip.hasUpgradeEquipped(upgrade.upgrade.id, this.upgradeIndex);
+      }
+
+      upgrade.alreadyUsed = used;
     }
   }
 }
