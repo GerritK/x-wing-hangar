@@ -22,6 +22,39 @@
     "restrictions": []
   },
   {
+    "id": "squadleader",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "experthandling",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "swarmtactics",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
     "id": "r2d2",
     "types": [
       "amd"
@@ -44,6 +77,50 @@
     "restrictions": []
   },
   {
+    "id": "r5k6",
+    "types": [
+      "amd"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "r5astromech",
+    "types": [
+      "amd"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "r2astromech",
+    "types": [
+      "amd"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "r5d8",
+    "types": [
+      "amd"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
     "id": "protontorpedoes",
     "types": [
       "torpedo"
@@ -56,6 +133,51 @@
     "stats": {
       "attack": 4,
       "range": "2-3"
+    }
+  },
+  {
+    "id": "clustermissiles",
+    "types": [
+      "missile"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-2"
+    }
+  },
+  {
+    "id": "concussionmissiles",
+    "types": [
+      "missile"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 4,
+      "range": "2-3"
+    }
+  },
+  {
+    "id": "ioncannonturret",
+    "types": [
+      "turret"
+    ],
+    "cost": 5,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-2"
     }
   }
 ]

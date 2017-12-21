@@ -55,6 +55,100 @@
       "title"
     ]
   },
+  {
+    "id": "wedgeantilles",
+    "shipId": "xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 29,
+    "slots": [
+      "torpedo",
+      "amd",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "garvendreis",
+    "shipId": "xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 26,
+    "slots": [
+      "torpedo",
+      "amd",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
+    "id": "hortonsalm",
+    "shipId": "ywing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 25,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "amd",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "dutchvander",
+    "shipId": "ywing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 23,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "amd",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "graysquadronpilot",
+    "shipId": "ywing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 20,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "amd",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "graysquadronpilot",
+    "shipId": "ywing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 28,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "amd",
+      "modification",
+      "title"
+    ]
+  },
 
 
   {
@@ -126,6 +220,99 @@
     "skill": 1,
     "cost": 12,
     "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "howlrunner",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 18,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "backstabber",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 16,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "wingedgundark",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 15,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
+    "id": "darthvader",
+    "shipId": "tieadvanced",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 29,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "maarekstele",
+    "shipId": "tieadvanced",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 27,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "stormsquadronpilot",
+    "shipId": "tieadvanced",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 23,
+    "slots": [
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "tempestsquadronpilot",
+    "shipId": "tieadvanced",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 21,
+    "slots": [
+      "missile",
       "modification",
       "title"
     ]

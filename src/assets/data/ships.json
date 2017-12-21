@@ -23,6 +23,31 @@
     ]
   },
   {
+    "id": "ywing",
+    "factions": [
+      "rebel"
+    ],
+    "stats": {
+      "attack": 2,
+      "agility": 1,
+      "hull": 5,
+      "shield": 3
+    },
+    "actions": [
+      "focus",
+      "targetlock"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 2, 1, 0, 0],
+      [1, 1, 2, 1, 1, 0],
+      [3, 1, 1, 1, 3, 0],
+      [0, 0, 3, 0, 0, 3]
+    ]
+  },
+
+
+  {
     "id": "tiefighter",
     "factions": [
       "imperial",
@@ -44,6 +69,32 @@
       [1, 0, 0, 0, 1, 0],
       [1, 2, 2, 2, 1, 0],
       [1, 1, 2, 1, 1, 3],
+      [0, 0, 1, 0, 0, 3],
+      [0, 0, 1, 0, 0, 0]
+    ]
+  },
+  {
+    "id": "tieadvanced",
+    "factions": [
+      "imperial"
+    ],
+    "stats": {
+      "attack": 2,
+      "agility": 3,
+      "hull": 3,
+      "shield": 2
+    },
+    "actions": [
+      "focus",
+      "targetlock",
+      "barrelroll",
+      "evade"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 2, 0, 2, 0, 0],
+      [1, 1, 2, 1, 1, 0],
+      [1, 1, 2, 1, 1, 0],
       [0, 0, 1, 0, 0, 3],
       [0, 0, 1, 0, 0, 0]
     ]

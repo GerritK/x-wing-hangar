@@ -1,6 +1,6 @@
 [
   {
-    "id": "core-set",
+    "id": "coreset",
     "ships": [
       "xwing",
       "tiefighter",
@@ -28,6 +28,81 @@
       "r2d2",
       "r2f2",
       "protontorpedoes"
+    ]
+  },
+  {
+    "id": "tieadvanced",
+    "ships": [
+      "tieadvanced"
+    ],
+    "pilots": [
+      "darthvader",
+      "maarekstele",
+      "stormsquadronpilot",
+      "tempestsquadronpilot"
+    ],
+    "upgrades": [
+      "squadleader",
+      "experhandling",
+      "swarmtactics",
+      "clustermissiles",
+      "concussionmissiles"
+    ]
+  },
+  {
+    "id": "tiefighter",
+    "ships": [
+      "tiefighter"
+    ],
+    "pilots": [
+      "howlrunner",
+      "backstabber",
+      "wingedgundark",
+      "blacksquadronpilot",
+      "obsidiansquadronpilot",
+      "academypilot"
+    ],
+    "upgrades": [
+      "determination",
+      "swarmtactics"
+    ]
+  },
+  {
+    "id": "xwing",
+    "ships": [
+      "xwing"
+    ],
+    "pilots": [
+      "wedgeantilles",
+      "garvendreis",
+      "redsquadronpilot",
+      "rookiepilot"
+    ],
+    "upgrades": [
+      "experthandling",
+      "marksmanship",
+      "r5astromech",
+      "r5k6",
+      "protontorpedoes"
+    ]
+  },
+  {
+    "id": "ywing",
+    "ships": [
+      "ywing"
+    ],
+    "pilots": [
+      "hortonsalm",
+      "dutchvander",
+      "graysquadronpilot",
+      "goldsquadronpilot"
+    ],
+    "upgrades": [
+      "r2astromech",
+      "r5d8",
+      "protontorpedoes",
+      "protontorpedoes",
+      "ioncannonturret"
     ]
   }
 ]
