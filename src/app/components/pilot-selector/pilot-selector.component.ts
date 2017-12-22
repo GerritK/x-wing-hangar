@@ -5,6 +5,7 @@ import {PilotProvider} from '../../providers/pilot.provider';
 import {Faction} from '../../enums/faction.enum';
 import {Subject} from 'rxjs/Subject';
 import {Squadron} from '../../models/squadron.model';
+import * as _ from 'lodash';
 
 @Component({
   selector: 'xwh-pilot-selector',
@@ -77,6 +78,9 @@ export class PilotSelectorComponent implements OnInit, OnChanges, OnDestroy, DoC
     if (this.faction != null) {
       pilots = pilots.filter((pilot) => pilot.faction === this.faction);
     }
+
+    // TODO: sort by translated string instead of id
+    pilots = _.sortBy(pilots, ['cost', 'id']);
 
     this.allPilots = pilots.map((pilot) => {
       return {

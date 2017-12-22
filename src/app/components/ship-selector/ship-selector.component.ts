@@ -3,6 +3,7 @@ import {Ship} from '../../models/ship.model';
 import {ShipProvider} from '../../providers/ship.provider';
 import {Faction} from '../../enums/faction.enum';
 import {Subject} from 'rxjs/Subject';
+import * as _ from 'lodash';
 
 @Component({
   selector: 'xwh-ship-selector',
@@ -52,5 +53,8 @@ export class ShipSelectorComponent implements OnInit, OnChanges, OnDestroy {
 
   private loadShips() {
     this.allShips = this.shipProv.getByFaction(this.faction);
+
+    // TODO: sort by translated string instead of id
+    this.allShips = _.sortBy(this.allShips, ['cost', 'id']);
   }
 }
