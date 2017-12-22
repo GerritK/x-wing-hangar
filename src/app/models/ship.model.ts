@@ -1,6 +1,7 @@
 import {Faction} from '../enums/faction.enum';
 import {Action} from '../enums/action.enum';
 import {ShipStats} from './ship-stats.model';
+import {ShipSize} from '../enums/ship-size.enum';
 
 export class Ship {
   public id: string;
@@ -8,6 +9,7 @@ export class Ship {
   public stats: ShipStats;
   public actions: Action[] = [];
   public maneuvers: Array<number[]> = [];
+  public size: ShipSize;
 
   public static fromData(data): Ship {
     const result = new Ship();
@@ -17,6 +19,7 @@ export class Ship {
     result.stats = ShipStats.fromData(data.stats);
     result.actions = data.actions;
     result.maneuvers = data.maneuvers;
+    result.size = ShipSize.parse(data.size);
 
     return result;
   }

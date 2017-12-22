@@ -1,6 +1,7 @@
 [
   {
     "id": "xwing",
+    "size": "small",
     "factions": [
       "rebel"
     ],
@@ -24,6 +25,7 @@
   },
   {
     "id": "ywing",
+    "size": "small",
     "factions": [
       "rebel"
     ],
@@ -49,6 +51,7 @@
 
   {
     "id": "tiefighter",
+    "size": "small",
     "factions": [
       "imperial",
       "rebel"
@@ -75,6 +78,7 @@
   },
   {
     "id": "tieadvanced",
+    "size": "small",
     "factions": [
       "imperial"
     ],

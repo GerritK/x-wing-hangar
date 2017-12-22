@@ -17,3 +17,13 @@ export enum UpgradeType {
   TEAM = 'team',
   TECH = 'tech',
 }
+
+export namespace UpgradeType {
+  export function parse(upgradeType: string): UpgradeType {
+    if (upgradeType) {
+      return UpgradeType[upgradeType.toUpperCase()];
+    }
+
+    return undefined;
+  }
+}
