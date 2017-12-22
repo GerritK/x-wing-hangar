@@ -25,6 +25,7 @@ export class ManeuverComponent implements OnChanges {
 
   private updateShipManeuvers() {
     if (this.ship != null) {
+      this.speedOffset = 0;
       this.shipManeuvers = _.cloneDeep(this.ship.maneuvers);
 
       // ignoring first maneuver speeds without maneuvers (typically speed 0)
