@@ -104,5 +104,33 @@
       "protontorpedoes",
       "ioncannonturret"
     ]
+  },
+  {
+    "id": "milleniumfalcon",
+    "ships": [
+      "yt1300"
+    ],
+    "pilots": [
+      "hansolo",
+      "landocalrissian",
+      "chewbacca",
+      "outerrimsmuggler"
+    ],
+    "upgrades": [
+      "drawtheirfire",
+      "elusiveness",
+      "veteraninstincts",
+      "assaultmissiles",
+      "concussionmissiles",
+      "chewbacca",
+      "lukeskywalker",
+      "niennunb",
+      "weaponsengineer",
+      "millenniumfalcon",
+      "engineupgrade",
+      "engineupgrade",
+      "shieldupgrade",
+      "shieldupgrade"
+    ]
   }
 ]

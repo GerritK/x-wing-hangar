@@ -152,6 +152,71 @@
 
 
   {
+    "id": "hansolo",
+    "shipId": "yt1300",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 46,
+    "slots": [
+      "elite",
+      "missile",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "landocalrissian",
+    "shipId": "yt1300",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 44,
+    "slots": [
+      "elite",
+      "missile",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "chewbacca",
+    "shipId": "yt1300",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 42,
+    "slots": [
+      "elite",
+      "missile",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "outerrimsmuggler",
+    "shipId": "yt1300",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 27,
+    "slots": [
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ],
+    "_comment": "TODO: add maneuvers changed by pilot"
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",

@@ -54,6 +54,41 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "drawtheirfire",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "elusiveness",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "veteraninstincts",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "changeSkill", "value": 2}
+    ],
+    "restrictions": []
+  },
 
 
   {
@@ -171,6 +206,21 @@
       "range": "2-3"
     }
   },
+  {
+    "id": "assaultmissiles",
+    "types": [
+      "missile"
+    ],
+    "cost": 5,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 4,
+      "range": "2-3"
+    }
+  },
 
 
   {
@@ -187,5 +237,98 @@
       "attack": 3,
       "range": "1-2"
     }
+  },
+
+
+  {
+    "id": "chewbacca",
+    "types": [
+      "crew"
+    ],
+    "cost": 4,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "lukeskywalker",
+    "types": [
+      "crew"
+    ],
+    "cost": 7,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "niennunb",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "maneuverDifficulty", "maneuver": "2", "difficulty": "2"}
+    ],
+    "restrictions": []
+  },
+  {
+    "id": "weaponsengineer",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+
+
+  {
+    "id": "millenniumfalcon",
+    "types": [
+      "title"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainAction", "action": "evade"}
+    ],
+    "restrictions": [
+      {"fnc": "shipIdOnly", "value": "yt1300"}
+    ]
+  },
+
+
+  {
+    "id": "engineupgrade",
+    "types": [
+      "modification"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainAction", "action": "boost"}
+    ],
+    "restrictions": []
+  },
+  {
+    "id": "shieldupgrade",
+    "types": [
+      "modification"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "changeShield", "value": 1}
+    ],
+    "restrictions": []
   }
 ]

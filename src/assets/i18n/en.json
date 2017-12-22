@@ -50,6 +50,7 @@
     "ships": {
       "xwing": "X-Wing",
       "ywing": "Y-Wing",
+      "yt1300": "YT-1300",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced"
     },
@@ -89,6 +90,21 @@
       },
       "goldsquadronpilot": {
         "name": "Gold Squadron Pilot"
+      },
+      "hansolo": {
+        "name": "Han Solo",
+        "description": "When attacking, you may reroll all of your dice. If you choose to do so, you must reroll as many of your dice as possible."
+      },
+      "landocalrissian": {
+        "name": "Lando Calrissian",
+        "description": "After you execute a green maneuver, choose 1 other friendly ship at Range 1. That ship may perform 1 free action shown in its action bar."
+      },
+      "chewbacca": {
+        "name": "Chewbacca",
+        "description": "When you are dealt a faceup Damage card, immediately flip it facedown (without resolving its ability)."
+      },
+      "outerrimsmuggler": {
+        "name": "Outer Rim Smuggler"
       },
       "maulermithel": {
         "name": "\"Mauler Mithel\"",
@@ -159,6 +175,18 @@
         "swarmtactics": {
           "name": "Swarm Tactics",
           "description": ""
+        },
+        "drawtheirfire": {
+          "name": "Draw Their Fire",
+          "description": ""
+        },
+        "elusiveness": {
+          "name": "Elusiveness",
+          "description": ""
+        },
+        "veteraninstincts": {
+          "name": "Veteran Instincts",
+          "description": ""
         }
       },
       "amd": {
@@ -201,6 +229,10 @@
         "concussionmissiles": {
           "name": "Concussion Missiles",
           "description": ""
+        },
+        "assaultmissiles": {
+          "name": "Assault Missiles",
+          "description": ""
         }
       },
       "cannon": {
@@ -216,7 +248,22 @@
 
       },
       "crew": {
-
+        "chewbacca": {
+          "name": "Chewbacca",
+          "description": ""
+        },
+        "lukeskywalker": {
+          "name": "Luke Skywalker",
+          "description": ""
+        },
+        "niennunb": {
+          "name": "Nien Nunb",
+          "description": ""
+        },
+        "weaponsengineer": {
+          "name": "Weapons Engineer",
+          "description": ""
+        }
       },
       "salvagedastromech": {
 
@@ -225,10 +272,20 @@
 
       },
       "title": {
-
+        "millenniumfalcon": {
+          "name": "Millennium Falcon",
+          "description": ""
+        }
       },
       "modification": {
-
+        "engineupgrade": {
+          "name": "Engine Upgrade",
+          "description": ""
+        },
+        "shieldupgrade": {
+          "name": "Shield Upgrade",
+          "description": ""
+        }
       },
       "illicit": {
 
