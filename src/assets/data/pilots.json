@@ -134,12 +134,12 @@
     ]
   },
   {
-    "id": "graysquadronpilot",
+    "id": "goldsquadronpilot",
     "shipId": "ywing",
     "faction": "rebel",
     "isUnique": false,
     "skill": 2,
-    "cost": 28,
+    "cost": 18,
     "slots": [
       "turret",
       "torpedo",

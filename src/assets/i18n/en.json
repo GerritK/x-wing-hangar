@@ -49,7 +49,9 @@
   "data": {
     "ships": {
       "xwing": "X-Wing",
-      "tiefighter": "TIE Fighter"
+      "ywing": "Y-Wing",
+      "tiefighter": "TIE Fighter",
+      "tieadvanced": "TIE Advanced"
     },
     "pilots": {
       "lukeskywalker": {
@@ -65,6 +67,28 @@
       },
       "rookiepilot": {
         "name": "Rookie Pilot"
+      },
+      "wedgeantilles": {
+        "name": "Wedge Antilles",
+        "description": "When attacking, reduce the defender's agility value by 1 (to a minimum of \"0\")."
+      },
+      "garvendreis": {
+        "name": "Garven Dreis",
+        "description": "After spending a focus token, you may place that token on any other friendly ship at Range 1-2 (instead of discarding it)."
+      },
+      "hortonsalm": {
+        "name": "Horton Salm",
+        "description": "When attacking at Range 2-3, you may reroll any of your blank results."
+      },
+      "dutchvander": {
+        "name": "\"Dutch\" Vander",
+        "description": "After acquiring a target lock, choose another ship at Range 1-2. The chosen ship may immediately acquire a target lock."
+      },
+      "graysquadronpilot": {
+        "name": "Gray Squadron Pilot"
+      },
+      "goldsquadronpilot": {
+        "name": "Gold Squadron Pilot"
       },
       "maulermithel": {
         "name": "\"Mauler Mithel\"",
@@ -86,6 +110,32 @@
       },
       "academypilot": {
         "name": "Academy Pilot"
+      },
+      "howlrunner": {
+        "name": "\"Howlrunner\"",
+        "description": "When another friendly ship at Range 1 is attacking with its primary weapon, it may reroll 1 attack die."
+      },
+      "backstabber": {
+        "name": "\"Backstabber\"",
+        "description": "When attacking from outside the defender's firing arc, roll 1 additional attack die."
+      },
+      "wingedgundark": {
+        "name": "\"Winged Gundark\"",
+        "description": "When attacking at Range 1, you may change 1 of your hit results to a critical result."
+      },
+      "darthvader": {
+        "name": "Darth Vader",
+        "description": "During your \"Perform Action\" step, you may perform 2 actions."
+      },
+      "maarekstele": {
+        "name": "Maarek Stele",
+        "description": "When your attack deals a faceup Damage card to the defender, instead draw 3 Damage cards, choose 1 to deal and discard the others."
+      },
+      "stormsquadronpilot": {
+        "name": "Storm Squadron Pilot"
+      },
+      "tempestsquadronpilot": {
+        "name": "Tempest Squadron Pilot"
       }
     },
     "upgrades": {
@@ -97,6 +147,18 @@
         "determination": {
           "name": "Determination",
           "description": ""
+        },
+        "squadleader": {
+          "name": "Squad Leader",
+          "description": ""
+        },
+        "experthandling": {
+          "name": "Expert Handling",
+          "description": ""
+        },
+        "swarmtactics": {
+          "name": "Swarm Tactics",
+          "description": ""
         }
       },
       "amd": {
@@ -107,6 +169,22 @@
         "r2f2": {
           "name": "R2-F2",
           "description": ""
+        },
+        "r2astromech": {
+          "name": "R2 Astromech",
+          "description": ""
+        },
+        "r5d8": {
+          "name": "R5-D8",
+          "description": ""
+        },
+        "r5astromech": {
+          "name": "R5 Astromech",
+          "description": ""
+        },
+        "r5k6": {
+          "name": "R5-K6",
+          "description": ""
         }
       },
       "torpedo": {
@@ -116,13 +194,23 @@
         }
       },
       "missile": {
-
+        "clustermissiles": {
+          "name": "Cluster Missiles",
+          "description": ""
+        },
+        "concussionmissiles": {
+          "name": "Concussion Missiles",
+          "description": ""
+        }
       },
       "cannon": {
 
       },
       "turret": {
-
+        "ioncannonturret": {
+          "name": "Ion Cannon Turret",
+          "description": ""
+        }
       },
       "bomb": {
 
