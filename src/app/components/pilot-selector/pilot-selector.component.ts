@@ -6,6 +6,7 @@ import {Faction} from '../../enums/faction.enum';
 import {Subject} from 'rxjs/Subject';
 import {Squadron} from '../../models/squadron.model';
 import * as _ from 'lodash';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'xwh-pilot-selector',
@@ -30,7 +31,8 @@ export class PilotSelectorComponent implements OnInit, OnChanges, OnDestroy, DoC
 
   private squadronCheck;
 
-  constructor(private pilotProv: PilotProvider) {
+  constructor(private pilotProv: PilotProvider,
+              private translate: TranslateService) {
   }
 
   ngOnInit() {
@@ -79,8 +81,9 @@ export class PilotSelectorComponent implements OnInit, OnChanges, OnDestroy, DoC
       pilots = pilots.filter((pilot) => pilot.faction === this.faction);
     }
 
-    // TODO: sort by translated string instead of id
-    pilots = _.sortBy(pilots, ['cost', 'id']);
+    pilots = _.sortBy(pilots, ['cost', (pilot) => {
+      return this.translate.instant('data.pilots.' + pilot.id + '.name');
+    }]);
 
     this.allPilots = pilots.map((pilot) => {
       return {

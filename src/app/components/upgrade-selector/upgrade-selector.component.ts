@@ -6,6 +6,7 @@ import {UpgradeProvider} from '../../providers/upgrade.provider';
 import {Squadron} from '../../models/squadron.model';
 import {SquadronShip} from '../../models/squadron-ship.model';
 import * as _ from 'lodash';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'xwh-upgrade-selector',
@@ -30,7 +31,7 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
 
   private squadronCheck: string;
 
-  constructor(private upgradeProv: UpgradeProvider) {
+  constructor(private upgradeProv: UpgradeProvider, private translate: TranslateService) {
   }
 
   ngOnInit() {
@@ -89,8 +90,9 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
       });
     }
 
-    // TODO: sort by translated string instead of id
-    upgrades = _.sortBy(upgrades, ['cost', 'id']);
+    upgrades = _.sortBy(upgrades, ['cost', (upgrade) => {
+      return this.translate.instant('data.upgrades.' + upgrade.types[0] + '.' + upgrade.id + '.name');
+    }]);
 
     this.allUpgrades = upgrades.map((upgrade) => {
       return {

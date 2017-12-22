@@ -4,6 +4,7 @@ import {ShipProvider} from '../../providers/ship.provider';
 import {Faction} from '../../enums/faction.enum';
 import {Subject} from 'rxjs/Subject';
 import * as _ from 'lodash';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'xwh-ship-selector',
@@ -23,7 +24,8 @@ export class ShipSelectorComponent implements OnInit, OnChanges, OnDestroy {
   private ngDestroy$: Subject<any> = new Subject();
   private initialized = false;
 
-  constructor(private shipProv: ShipProvider) {
+  constructor(private shipProv: ShipProvider,
+              private translate: TranslateService) {
   }
 
   ngOnInit() {
@@ -54,7 +56,8 @@ export class ShipSelectorComponent implements OnInit, OnChanges, OnDestroy {
   private loadShips() {
     this.allShips = this.shipProv.getByFaction(this.faction);
 
-    // TODO: sort by translated string instead of id
-    this.allShips = _.sortBy(this.allShips, ['cost', 'id']);
+    this.allShips = _.sortBy(this.allShips, ['cost', (ship) => {
+      return this.translate.instant('data.ships.' + ship.id);
+    }]);
   }
 }
