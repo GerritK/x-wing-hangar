@@ -7,6 +7,7 @@ import {Squadron} from '../../models/squadron.model';
 import {SquadronShip} from '../../models/squadron-ship.model';
 import * as _ from 'lodash';
 import {TranslateService} from '@ngx-translate/core';
+import {RestrictionHelper} from '../../helpers/restriction.helper';
 
 @Component({
   selector: 'xwh-upgrade-selector',
@@ -78,14 +79,13 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
     let upgrades = this.upgradeProv.getAll();
 
     // TODO: filter by given data
+    upgrades = upgrades.filter((upgrade) => {
+      return RestrictionHelper.isUseable(this.squadronShip, upgrade);
+    });
 
     if (this.upgradeType) {
       upgrades = upgrades.filter((upgrade) => {
-        let keep = true;
-
-        keep = keep && upgrade.types.findIndex((type) => type === this.upgradeType) !== -1;
-
-        return keep;
+        return upgrade.types.findIndex((type) => type === this.upgradeType) !== -1;
       });
     }
 

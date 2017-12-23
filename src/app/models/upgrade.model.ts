@@ -7,6 +7,7 @@ export class Upgrade {
   public isUnique: boolean;
   public isLimited: boolean;
   public modifiers: any[] = []; // TODO: add correct type!
+  public restrictions: any[] = []; // TODO: add correct type!
 
   public static fromData(data): Upgrade {
     const result = new Upgrade();
@@ -17,6 +18,7 @@ export class Upgrade {
     result.isUnique = data.isUnique;
     result.isLimited = data.isLimited;
     result.modifiers = data.modifiers;
+    result.restrictions = data.restrictions;
 
     return result;
   }
