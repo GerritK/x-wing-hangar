@@ -22,7 +22,6 @@ export class PilotSelectorComponent implements OnInit, OnChanges, OnDestroy, DoC
   @Input() ship: Ship;
   @Input() faction: Faction;
   @Input() squadron: Squadron;
-  @Input() squadronIndex: number;
 
   public allPilots: any[] = [];
 
@@ -97,7 +96,7 @@ export class PilotSelectorComponent implements OnInit, OnChanges, OnDestroy, DoC
   private updateUnavailable() {
     for (const pilot of this.allPilots) {
       if (pilot.pilot.isUnique) {
-        pilot.alreadyUsed = this.squadron.isUniqueUsed(pilot.pilot.id, this.squadronIndex);
+        pilot.alreadyUsed = this.squadron.isUniqueUsed(pilot.pilot.id);
       }
     }
   }

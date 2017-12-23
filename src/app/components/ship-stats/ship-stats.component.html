@@ -4,22 +4,22 @@
   </span>
 
   <span class="stat attack" [title]="'ui.stats.attack' | translate">
-    <i class="xwing-miniatures-font" [ngClass]="[ship.stats.firingArc ? 'xwing-miniatures-font-attack-' + ship.stats.firingArc : 'xwing-miniatures-font-attack']"></i>
-    <span class="value">{{ship.stats.attack}}</span>
+    <i class="xwing-miniatures-font" [ngClass]="[stats.firingArc ? 'xwing-miniatures-font-attack-' + stats.firingArc : 'xwing-miniatures-font-attack']"></i>
+    <span class="value">{{stats.attack}}</span>
   </span>
 
   <span class="stat agility" [title]="'ui.stats.agility' | translate">
     <i class="xwing-miniatures-font xwing-miniatures-font-agility"></i>
-    <span class="value">{{ship.stats.agility}}</span>
+    <span class="value">{{stats.agility}}</span>
   </span>
 
   <span class="stat hull" [title]="'ui.stats.hull' | translate">
     <i class="xwing-miniatures-font xwing-miniatures-font-hull"></i>
-    <span class="value">{{ship.stats.hull}}</span>
+    <span class="value">{{stats.hull}}</span>
   </span>
 
   <span class="stat shield" [title]="'ui.stats.shield' | translate">
     <i class="xwing-miniatures-font xwing-miniatures-font-shield"></i>
-    <span class="value">{{ship.stats.shield}}</span>
+    <span class="value">{{stats.shield}}</span>
   </span>
 </div>

@@ -18,16 +18,16 @@ export class Squadron {
     return cost;
   }
 
-  public isUniqueUsed(id: string, squadronShipIndex): boolean {
+  public isUniqueUsed(id: string): boolean {
     const uniqueId = id.split('-')[0];
 
     let usingShip = this.ships
       .filter((ship) => ship.pilot && ship.pilot.isUnique)
-      .findIndex((ship, shipIndex) => {
+      .findIndex((ship) => {
         if (ship.pilot && ship.pilot.isUnique) {
           const uniquePilotId = ship.pilot.id.split('-')[0];
 
-          return uniquePilotId === uniqueId && (shipIndex !== squadronShipIndex || ship.pilot.id !== id);
+          return uniquePilotId === uniqueId;
         }
 
         return false;
@@ -38,12 +38,12 @@ export class Squadron {
     }
 
     usingShip = this.ships
-      .findIndex((ship, shipIndex) => {
+      .findIndex((ship) => {
         for (const upgrade of ship.upgrades) {
           if (upgrade && upgrade.isUnique) {
             const uniqueUpgradeId = upgrade.id.split('-')[0];
 
-            if (uniqueUpgradeId === uniqueId && (shipIndex !== squadronShipIndex || upgrade.id !== id)) {
+            if (uniqueUpgradeId === uniqueId) {
               return true;
             }
           }

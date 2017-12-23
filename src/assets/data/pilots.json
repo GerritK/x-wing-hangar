@@ -212,7 +212,12 @@
       "modification",
       "title"
     ],
-    "_comment": "TODO: add maneuvers changed by pilot"
+    "stats": {
+      "attack": 2,
+      "agility": 1,
+      "hull": 6,
+      "shield": 4
+    }
   },
 
 

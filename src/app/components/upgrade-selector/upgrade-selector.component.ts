@@ -22,7 +22,6 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
   @Input() squadron: Squadron;
   @Input() squadronIndex: number;
   @Input() upgradeType: UpgradeType;
-  @Input() upgradeIndex: number;
 
   public allUpgrades: any[] = [];
 
@@ -109,11 +108,11 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
       let used = false;
 
       if (upgrade.upgrade.isUnique) {
-        used = used || this.squadron.isUniqueUsed(upgrade.upgrade.id, this.squadronIndex);
+        used = used || this.squadron.isUniqueUsed(upgrade.upgrade.id);
       }
 
       if (upgrade.upgrade.isLimited) {
-        used = used || this.squadronShip.hasUpgradeEquipped(upgrade.upgrade.id, this.upgradeIndex);
+        used = used || this.squadronShip.hasUpgradeEquipped(upgrade.upgrade.id);
       }
 
       upgrade.alreadyUsed = used;

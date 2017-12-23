@@ -23,11 +23,11 @@ export class SquadronShip {
     return cost;
   }
 
-  public hasUpgradeEquipped(id: string, upgradeIndex: number): boolean {
+  public hasUpgradeEquipped(id: string): boolean {
     for (let i = 0; i < this.upgrades.length; i++) {
       const upgrade = this.upgrades[i];
 
-      if (upgrade && upgrade.isLimited && upgrade.id === id && upgradeIndex !== i) {
+      if (upgrade && upgrade.isLimited && upgrade.id === id) {
         return true;
       }
     }

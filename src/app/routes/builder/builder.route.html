@@ -56,8 +56,7 @@
                                 (pilotChange)="onPilotChange($event, squadronShip)"
                                 [ship]="squadronShip.ship"
                                 [faction]="squadron.faction"
-                                [squadron]="squadron"
-                                [squadronIndex]="shipIndex">
+                                [squadron]="squadron">
             </xwh-pilot-selector>
           </div>
 
@@ -66,8 +65,7 @@
               <xwh-upgrade-selector [(upgrade)]="squadronShip.upgrades[upgradeIndex]"
                                     [squadron]="squadron"
                                     [squadronIndex]="shipIndex"
-                                    [upgradeType]="slot"
-                                    [upgradeIndex]="upgradeIndex">
+                                    [upgradeType]="slot">
               </xwh-upgrade-selector>
             </ng-container>
           </div>
