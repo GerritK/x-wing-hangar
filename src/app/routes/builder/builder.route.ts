@@ -6,6 +6,7 @@ import {SquadronShip} from '../../models/squadron-ship.model';
 import {Squadron} from '../../models/squadron.model';
 import {TranslateService} from '@ngx-translate/core';
 import {Upgrade} from '../../models/upgrade.model';
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
   templateUrl: './builder.route.html',
@@ -22,11 +23,15 @@ export class BuilderRouteComponent {
 
   public previewPilot: Pilot;
 
-  constructor(private translate: TranslateService) {
+  constructor(private translate: TranslateService, private route: ActivatedRoute) {
     this.translate.get('ui.general.unnamed')
       .subscribe((result) => {
         this.squadron.name = result;
       });
+
+    this.route.params.subscribe((event) => {
+      this.setFaction(event.faction);
+    });
   }
 
   public setFaction(faction: Faction) {

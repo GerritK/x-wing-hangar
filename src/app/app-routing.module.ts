@@ -5,16 +5,16 @@ import {BuilderRouteComponent} from './routes/builder/builder.route';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'builder',
+    redirectTo: 'builder/rebel',
     pathMatch: 'full'
   },
   {
-    path: 'builder',
+    path: 'builder/:faction',
     component: BuilderRouteComponent
   },
   {
     path: '**',
-    redirectTo: 'builder'
+    redirectTo: 'builder/rebel'
   }
 ];
 

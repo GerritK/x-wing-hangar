@@ -1,20 +1,20 @@
 <div fxLayout="column" fxLayoutGap="20px">
   <mat-card class="mat-typography">
     <mat-card-title>
-      <div mat-tab-nav-bar>
-        <a mat-tab-link (click)="setFaction(Faction.REBEL)" [active]="squadron.faction === Faction.REBEL">
+      <nav mat-tab-nav-bar>
+        <a mat-tab-link routerLink="/builder/rebel" [active]="squadron.faction === Faction.REBEL">
           <i class="xwing-miniatures-font xwing-miniatures-font-rebel">&nbsp;</i>
           {{'ui.factions.rebel' | translate}}
         </a>
-        <a mat-tab-link (click)="setFaction(Faction.IMPERIAL)" [active]="squadron.faction === Faction.IMPERIAL">
+        <a mat-tab-link routerLink="/builder/imperial" [active]="squadron.faction === Faction.IMPERIAL">
           <i class="xwing-miniatures-font xwing-miniatures-font-empire">&nbsp;</i>
           {{'ui.factions.imperial' | translate}}
         </a>
-        <a mat-tab-link (click)="setFaction(Faction.SCUM)" [active]="squadron.faction === Faction.SCUM">
+        <a mat-tab-link routerLink="/builder/scum" [active]="squadron.faction === Faction.SCUM">
           <i class="xwing-miniatures-font xwing-miniatures-font-scum">&nbsp;</i>
           {{'ui.factions.scum' | translate}}
         </a>
-      </div>
+      </nav>
 
       <br/>
       {{squadron.name}}
