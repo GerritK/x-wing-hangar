@@ -94,7 +94,7 @@
   {
     "id": "r2d2",
     "types": [
-      "amd"
+      "astromech"
     ],
     "cost": 4,
     "isUnique": true,
@@ -105,7 +105,7 @@
   {
     "id": "r2f2",
     "types": [
-      "amd"
+      "astromech"
     ],
     "cost": 3,
     "isUnique": true,
@@ -116,7 +116,7 @@
   {
     "id": "r5k6",
     "types": [
-      "amd"
+      "astromech"
     ],
     "cost": 2,
     "isUnique": true,
@@ -127,7 +127,7 @@
   {
     "id": "r5astromech",
     "types": [
-      "amd"
+      "astromech"
     ],
     "cost": 1,
     "isUnique": false,
@@ -138,7 +138,7 @@
   {
     "id": "r2astromech",
     "types": [
-      "amd"
+      "astromech"
     ],
     "cost": 1,
     "isUnique": false,
@@ -149,7 +149,7 @@
   {
     "id": "r5d8",
     "types": [
-      "amd"
+      "astromech"
     ],
     "cost": 3,
     "isUnique": true,

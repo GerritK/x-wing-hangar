@@ -28,7 +28,7 @@
     },
     "upgrades": {
       "elite": "Elite",
-      "amd": "Astromech",
+      "astromech": "Astromech",
       "torpedo": "Torpedo",
       "missile": "Missile",
       "cannon": "Cannon",
@@ -189,7 +189,7 @@
           "description": ""
         }
       },
-      "amd": {
+      "astromech": {
         "r2d2": {
           "name": "R2-D2",
           "description": ""

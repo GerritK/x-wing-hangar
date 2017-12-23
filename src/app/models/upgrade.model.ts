@@ -12,7 +12,7 @@ export class Upgrade {
     const result = new Upgrade();
 
     result.id = data.id;
-    result.types = data.types;
+    result.types = UpgradeType.parseArray(data.types);
     result.cost = data.cost;
     result.isUnique = data.isUnique;
     result.isLimited = data.isLimited;

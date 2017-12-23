@@ -6,8 +6,14 @@ export enum ShipSize {
 
 export namespace ShipSize {
   export function parse(shipSize: string): ShipSize {
+    let result;
+
     if (shipSize) {
-      return ShipSize[shipSize.toUpperCase()];
+      result = ShipSize[shipSize.toUpperCase()];
+    }
+
+    if (!result) {
+      console.error('invalid ship size "' + shipSize + '"');
     }
 
     return undefined;

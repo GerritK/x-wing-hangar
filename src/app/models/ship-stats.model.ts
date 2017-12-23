@@ -14,7 +14,7 @@ export class ShipStats {
     result.agility = data.agility;
     result.hull = data.hull;
     result.shield = data.shield;
-    result.firingArc = data.firingArc;
+    result.firingArc = FiringArc.parse(data.firingArc);
 
     return result;
   }

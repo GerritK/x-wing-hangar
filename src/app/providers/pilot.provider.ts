@@ -20,7 +20,13 @@ export class PilotProvider {
         const data = [];
 
         for (const result of results) {
-          data.push(Pilot.fromData(result));
+          const pilot = Pilot.fromData(result);
+
+          if (data.findIndex((p) => p.id === pilot.id) !== -1) {
+            console.error('pilot id "' + pilot.id + '" already used');
+          } else {
+            data.push(pilot);
+          }
         }
 
         this._allPilots.next(data);

@@ -9,7 +9,7 @@
     "slots": [
       "elite",
       "torpedo",
-      "amd",
+      "astromech",
       "modification"
     ]
   },
@@ -22,7 +22,7 @@
     "cost": 25,
     "slots": [
       "torpedo",
-      "amd",
+      "astromech",
       "modification",
       "title"
     ]
@@ -36,7 +36,7 @@
     "cost": 23,
     "slots": [
       "torpedo",
-      "amd",
+      "astromech",
       "modification",
       "title"
     ]
@@ -50,7 +50,7 @@
     "cost": 21,
     "slots": [
       "torpedo",
-      "amd",
+      "astromech",
       "modification",
       "title"
     ]
@@ -64,7 +64,7 @@
     "cost": 29,
     "slots": [
       "torpedo",
-      "amd",
+      "astromech",
       "modification",
       "title"
     ]
@@ -78,7 +78,7 @@
     "cost": 26,
     "slots": [
       "torpedo",
-      "amd",
+      "astromech",
       "modification",
       "title"
     ]
@@ -96,7 +96,7 @@
       "turret",
       "torpedo",
       "torpedo",
-      "amd",
+      "astromech",
       "modification",
       "title"
     ]
@@ -112,7 +112,7 @@
       "turret",
       "torpedo",
       "torpedo",
-      "amd",
+      "astromech",
       "modification",
       "title"
     ]
@@ -128,7 +128,7 @@
       "turret",
       "torpedo",
       "torpedo",
-      "amd",
+      "astromech",
       "modification",
       "title"
     ]
@@ -144,7 +144,7 @@
       "turret",
       "torpedo",
       "torpedo",
-      "amd",
+      "astromech",
       "modification",
       "title"
     ]

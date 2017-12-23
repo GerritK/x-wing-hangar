@@ -15,9 +15,9 @@ export class Ship {
     const result = new Ship();
 
     result.id = data.id;
-    result.factions = data.factions;
+    result.factions = Faction.parseArray(data.factions);
     result.stats = ShipStats.fromData(data.stats);
-    result.actions = data.actions;
+    result.actions = Action.parseArray(data.actions);
     result.maneuvers = data.maneuvers;
     result.size = ShipSize.parse(data.size);
 

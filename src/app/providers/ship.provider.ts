@@ -21,7 +21,13 @@ export class ShipProvider {
         const data = [];
 
         for (const result of results) {
-          data.push(Ship.fromData(result));
+          const ship = Ship.fromData(result);
+
+          if (data.findIndex((s) => s.id === ship.id) !== -1) {
+            console.error('ship id "' + ship.id + '" already used');
+          } else {
+            data.push(ship);
+          }
         }
 
         this._allShips.next(data);

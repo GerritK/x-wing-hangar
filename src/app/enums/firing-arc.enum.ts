@@ -1,16 +1,25 @@
 export enum FiringArc {
   DEFAULT = '',
   TURRET = 'turret',
-  FRONT_BACK = 'frontback',
+  FRONTBACK = 'frontback',
   DEGREE180 = '180'
 }
 
 export namespace FiringArc {
   export function parse(firingArc: string): FiringArc {
+    let result;
+
     if (firingArc) {
-      return FiringArc[firingArc.toUpperCase()];
+      result = FiringArc[firingArc.toUpperCase()];
     }
 
-    return undefined;
+    if (!result) {
+      if (firingArc) {
+        console.error('invalid firing arc "' + firingArc + '"');
+      }
+      result = FiringArc.DEFAULT;
+    }
+
+    return result;
   }
 }

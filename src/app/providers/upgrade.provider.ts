@@ -21,7 +21,13 @@ export class UpgradeProvider {
         const data = [];
 
         for (const result of results) {
-          data.push(Upgrade.fromData(result));
+          const upgrade = Upgrade.fromData(result);
+
+          if (data.findIndex((u) => u.id === upgrade.id) !== -1) {
+            console.error('upgrade id "' + upgrade.id + '" already used');
+          } else {
+            data.push(upgrade);
+          }
         }
 
         this._allUpgrades.next(data);

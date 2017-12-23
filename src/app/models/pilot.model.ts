@@ -17,11 +17,11 @@ export class Pilot {
 
     result.id = data.id;
     result.shipId = data.shipId;
-    result.faction = data.faction;
+    result.faction = Faction.parse(data.faction);
     result.isUnique = data.isUnique;
     result.skill = data.skill;
     result.cost = data.cost;
-    result.slots = data.slots;
+    result.slots = UpgradeType.parseArray(data.slots);
 
     if (data.stats) {
       result.stats = ShipStats.fromData(data.stats);

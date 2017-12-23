@@ -1,6 +1,6 @@
 export enum UpgradeType {
   ELITE = 'elite',
-  ASTROMECH = 'amd',
+  ASTROMECH = 'astromech',
   TORPEDO = 'torpedo',
   MISSILE = 'missile',
   CANNON = 'cannon',
@@ -20,10 +20,30 @@ export enum UpgradeType {
 
 export namespace UpgradeType {
   export function parse(upgradeType: string): UpgradeType {
+    let result;
+
     if (upgradeType) {
-      return UpgradeType[upgradeType.toUpperCase()];
+      result = UpgradeType[upgradeType.toUpperCase()];
     }
 
-    return undefined;
+    if (!result) {
+      console.error('invalid upgrade type "' + upgradeType + '"');
+    }
+
+    return result;
+  }
+
+  export function parseArray(upgradeTypes: string[]): UpgradeType[] {
+    const result = [];
+
+    for (const value of upgradeTypes) {
+      const parsed = UpgradeType.parse(value);
+
+      if (parsed) {
+        result.push(parsed);
+      }
+    }
+
+    return result;
   }
 }
