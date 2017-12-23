@@ -12,26 +12,34 @@ export class ShipProvider {
   public allShips: Observable<Ship[]> = this._allShips.asObservable();
 
   constructor(private http: HttpClient) {
-    this.load();
   }
 
-  public load() {
-    this.http.get('assets/data/ships.json')
-      .subscribe((results: any[]) => {
-        const data = [];
+  public load(): Observable<any> {
+    console.log('loading ships...');
 
-        for (const result of results) {
-          const ship = Ship.fromData(result);
+    return Observable.create((observer) => {
+      this.http.get('assets/data/ships.json')
+        .subscribe((results: any[]) => {
+          const data = [];
 
-          if (data.findIndex((s) => s.id === ship.id) !== -1) {
-            console.error('ship id "' + ship.id + '" already used');
-          } else {
-            data.push(ship);
+          for (const result of results) {
+            const ship = Ship.fromData(result);
+
+            if (data.findIndex((s) => s.id === ship.id) !== -1) {
+              console.error('ship id "' + ship.id + '" already used');
+            } else {
+              data.push(ship);
+            }
           }
-        }
 
-        this._allShips.next(data);
-      });
+          console.log('successfully loaded ' + data.length + ' ships');
+
+          this._allShips.next(data);
+
+          observer.next();
+          observer.complete();
+        });
+    });
   }
 
   public getAll() {

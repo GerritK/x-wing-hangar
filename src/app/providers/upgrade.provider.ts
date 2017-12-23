@@ -12,26 +12,34 @@ export class UpgradeProvider {
   public allUpgrades: Observable<Upgrade[]> = this._allUpgrades.asObservable();
 
   constructor(private http: HttpClient) {
-    this.load();
   }
 
-  public load() {
-    this.http.get('assets/data/upgrades.json')
-      .subscribe((results: any[]) => {
-        const data = [];
+  public load(): Observable<any> {
+    console.log('loading upgrades...');
 
-        for (const result of results) {
-          const upgrade = Upgrade.fromData(result);
+    return Observable.create((observer) => {
+      this.http.get('assets/data/upgrades.json')
+        .subscribe((results: any[]) => {
+          const data = [];
 
-          if (data.findIndex((u) => u.id === upgrade.id) !== -1) {
-            console.error('upgrade id "' + upgrade.id + '" already used');
-          } else {
-            data.push(upgrade);
+          for (const result of results) {
+            const upgrade = Upgrade.fromData(result);
+
+            if (data.findIndex((u) => u.id === upgrade.id) !== -1) {
+              console.error('upgrade id "' + upgrade.id + '" already used');
+            } else {
+              data.push(upgrade);
+            }
           }
-        }
 
-        this._allUpgrades.next(data);
-      });
+          console.log('successfully loaded ' + data.length + ' upgrades');
+
+          this._allUpgrades.next(data);
+
+          observer.next();
+          observer.complete();
+        });
+    });
   }
 
   public getAll() {

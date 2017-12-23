@@ -1,7 +1,8 @@
 import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import {APP_INITIALIZER, NgModule} from '@angular/core';
 
 import 'rxjs/add/operator/takeUntil';
+import 'rxjs/add/operator/mergeMap';
 
 import {AppComponent} from './app.component';
 import {ShipProvider} from './providers/ship.provider';
@@ -30,9 +31,33 @@ import {PilotNameComponent} from './components/pilot-name/pilot-name.component';
 import {ShipNameComponent} from './components/ship-name/ship-name.component';
 import {UpgradeSelectorComponent} from './components/upgrade-selector/upgrade-selector.component';
 import {UpgradeProvider} from './providers/upgrade.provider';
+import {ExpansionProvider} from './providers/expansion.provider';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
+}
+
+export function InitDataFactory(shipProv: ShipProvider,
+                                pilotProv: PilotProvider,
+                                upgradeProv: UpgradeProvider,
+                                expansionProv: ExpansionProvider) {
+  console.log('start loading data...');
+
+  return () => {
+    return new Promise((resolve, reject) => {
+      return shipProv.load()
+        .flatMap(() => pilotProv.load())
+        .flatMap(() => upgradeProv.load())
+        .flatMap(() => expansionProv.load())
+        .subscribe(() => {
+          console.log('successfully loaded data');
+
+          resolve();
+        }, (err) => {
+          reject(err);
+        });
+    });
+  };
 }
 
 @NgModule({
@@ -84,9 +109,17 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatInputModule
   ],
   providers: [
+    {
+      provide: APP_INITIALIZER,
+      useFactory: InitDataFactory,
+      deps: [ShipProvider, PilotProvider, UpgradeProvider, ExpansionProvider],
+      multi: true
+    },
+
     ShipProvider,
     PilotProvider,
-    UpgradeProvider
+    UpgradeProvider,
+    ExpansionProvider
   ],
   bootstrap: [AppComponent]
 })

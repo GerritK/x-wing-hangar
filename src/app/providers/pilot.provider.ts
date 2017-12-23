@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import {BehaviorSubject} from 'rxjs/BehaviorSubject';
 import {Pilot} from '../models/pilot.model';
 import {Observable} from 'rxjs/Observable';
+import {ShipProvider} from './ship.provider';
 
 @Injectable()
 export class PilotProvider {
@@ -10,27 +11,40 @@ export class PilotProvider {
 
   public allPilots: Observable<Pilot[]> = this._allPilots.asObservable();
 
-  constructor(private http: HttpClient) {
-    this.load();
+  constructor(private http: HttpClient,
+              private shipProv: ShipProvider) {
   }
 
-  public load() {
-    this.http.get('assets/data/pilots.json')
-      .subscribe((results: any[]) => {
-        const data = [];
+  public load(): Observable<any> {
+    console.log('loading pilots...');
 
-        for (const result of results) {
-          const pilot = Pilot.fromData(result);
+    return Observable.create((observer) => {
+      this.http.get('assets/data/pilots.json')
+        .subscribe((results: any[]) => {
+          const data = [];
 
-          if (data.findIndex((p) => p.id === pilot.id) !== -1) {
-            console.error('pilot id "' + pilot.id + '" already used');
-          } else {
-            data.push(pilot);
+          for (const result of results) {
+            const pilot = Pilot.fromData(result);
+
+            if (this.shipProv.getById(pilot.shipId) == null) {
+              console.warn('no ship with id "' + pilot.shipId + '" loaded.');
+            }
+
+            if (data.findIndex((p) => p.id === pilot.id) !== -1) {
+              console.error('pilot id "' + pilot.id + '" already used');
+            } else {
+              data.push(pilot);
+            }
           }
-        }
 
-        this._allPilots.next(data);
-      });
+          console.log('successfully loaded ' + data.length + ' pilots');
+
+          this._allPilots.next(data);
+
+          observer.next();
+          observer.complete();
+        });
+    });
   }
 
   public getAll() {
