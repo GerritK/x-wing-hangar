@@ -56,118 +56,130 @@
       "firespray31": "Firespray-31"
     },
     "pilots": {
-      "lukeskywalker": {
-        "name": "Luke Skywalker",
-        "description": "When defending, you may change 1 of your <i-focus> results to a <i-evade> result."
+      "xwing": {
+        "lukeskywalker": {
+          "name": "Luke Skywalker",
+          "description": "When defending, you may change 1 of your <i-focus> results to a <i-evade> result."
+        },
+        "biggsdarklighter": {
+          "name": "Biggs Darklighter",
+          "description": "Once per game, at the start of the Combat phase, you may choose that until the end of the round, other friendly ships at Range 1 cannot be targeted by attacks if the attacker could target you instead."
+        },
+        "redsquadronpilot": {
+          "name": "Red Squadron Pilot"
+        },
+        "rookiepilot": {
+          "name": "Rookie Pilot"
+        },
+        "wedgeantilles": {
+          "name": "Wedge Antilles",
+          "description": "When attacking, reduce the defender's agility value by 1 (to a minimum of \"0\")."
+        },
+        "garvendreis": {
+          "name": "Garven Dreis",
+          "description": "After spending a focus token, you may place that token on any other friendly ship at Range 1-2 (instead of discarding it)."
+        }
       },
-      "biggsdarklighter": {
-        "name": "Biggs Darklighter",
-        "description": "Once per game, at the start of the Combat phase, you may choose that until the end of the round, other friendly ships at Range 1 cannot be targeted by attacks if the attacker could target you instead."
+      "ywing": {
+        "hortonsalm": {
+          "name": "Horton Salm",
+          "description": "When attacking at Range 2-3, you may reroll any of your blank results."
+        },
+        "dutchvander": {
+          "name": "\"Dutch\" Vander",
+          "description": "After acquiring a target lock, choose another ship at Range 1-2. The chosen ship may immediately acquire a target lock."
+        },
+        "graysquadronpilot": {
+          "name": "Gray Squadron Pilot"
+        },
+        "goldsquadronpilot": {
+          "name": "Gold Squadron Pilot"
+        }
       },
-      "redsquadronpilot": {
-        "name": "Red Squadron Pilot"
+      "yt1300": {
+        "hansolo": {
+          "name": "Han Solo",
+          "description": "When attacking, you may reroll all of your dice. If you choose to do so, you must reroll as many of your dice as possible."
+        },
+        "landocalrissian": {
+          "name": "Lando Calrissian",
+          "description": "After you execute a green maneuver, choose 1 other friendly ship at Range 1. That ship may perform 1 free action shown in its action bar."
+        },
+        "chewbacca": {
+          "name": "Chewbacca",
+          "description": "When you are dealt a faceup Damage card, immediately flip it facedown (without resolving its ability)."
+        },
+        "outerrimsmuggler": {
+          "name": "Outer Rim Smuggler"
+        }
       },
-      "rookiepilot": {
-        "name": "Rookie Pilot"
+      "tiefighter": {
+        "maulermithel": {
+          "name": "\"Mauler Mithel\"",
+          "description": "When attacking at Range 1, roll 1 additional attack die."
+        },
+        "darkcurse": {
+          "name": "\"Dark Curse\"",
+          "description": "When defending, ships attacking you cannot spend focus tokens or reroll attack dice."
+        },
+        "nightbeast": {
+          "name": "\"Night Beast\"",
+          "description": "After executing a green maneuver, you may perform a free focus action."
+        },
+        "blacksquadronpilot": {
+          "name": "Black Squadron Pilot"
+        },
+        "obsidiansquadronpilot": {
+          "name": "Obsidian Squadron Pilot"
+        },
+        "academypilot": {
+          "name": "Academy Pilot"
+        },
+        "howlrunner": {
+          "name": "\"Howlrunner\"",
+          "description": "When another friendly ship at Range 1 is attacking with its primary weapon, it may reroll 1 attack die."
+        },
+        "backstabber": {
+          "name": "\"Backstabber\"",
+          "description": "When attacking from outside the defender's firing arc, roll 1 additional attack die."
+        },
+        "wingedgundark": {
+          "name": "\"Winged Gundark\"",
+          "description": "When attacking at Range 1, you may change 1 of your hit results to a critical result."
+        }
       },
-      "wedgeantilles": {
-        "name": "Wedge Antilles",
-        "description": "When attacking, reduce the defender's agility value by 1 (to a minimum of \"0\")."
+      "tieadvanced": {
+        "darthvader": {
+          "name": "Darth Vader",
+          "description": "During your \"Perform Action\" step, you may perform 2 actions."
+        },
+        "maarekstele": {
+          "name": "Maarek Stele",
+          "description": "When your attack deals a faceup Damage card to the defender, instead draw 3 Damage cards, choose 1 to deal and discard the others."
+        },
+        "stormsquadronpilot": {
+          "name": "Storm Squadron Pilot"
+        },
+        "tempestsquadronpilot": {
+          "name": "Tempest Squadron Pilot"
+        }
       },
-      "garvendreis": {
-        "name": "Garven Dreis",
-        "description": "After spending a focus token, you may place that token on any other friendly ship at Range 1-2 (instead of discarding it)."
-      },
-      "hortonsalm": {
-        "name": "Horton Salm",
-        "description": "When attacking at Range 2-3, you may reroll any of your blank results."
-      },
-      "dutchvander": {
-        "name": "\"Dutch\" Vander",
-        "description": "After acquiring a target lock, choose another ship at Range 1-2. The chosen ship may immediately acquire a target lock."
-      },
-      "graysquadronpilot": {
-        "name": "Gray Squadron Pilot"
-      },
-      "goldsquadronpilot": {
-        "name": "Gold Squadron Pilot"
-      },
-      "hansolo": {
-        "name": "Han Solo",
-        "description": "When attacking, you may reroll all of your dice. If you choose to do so, you must reroll as many of your dice as possible."
-      },
-      "landocalrissian": {
-        "name": "Lando Calrissian",
-        "description": "After you execute a green maneuver, choose 1 other friendly ship at Range 1. That ship may perform 1 free action shown in its action bar."
-      },
-      "chewbacca": {
-        "name": "Chewbacca",
-        "description": "When you are dealt a faceup Damage card, immediately flip it facedown (without resolving its ability)."
-      },
-      "outerrimsmuggler": {
-        "name": "Outer Rim Smuggler"
-      },
-      "maulermithel": {
-        "name": "\"Mauler Mithel\"",
-        "description": "When attacking at Range 1, roll 1 additional attack die."
-      },
-      "darkcurse": {
-        "name": "\"Dark Curse\"",
-        "description": "When defending, ships attacking you cannot spend focus tokens or reroll attack dice."
-      },
-      "nightbeast": {
-        "name": "\"Night Beast\"",
-        "description": "After executing a green maneuver, you may perform a free focus action."
-      },
-      "blacksquadronpilot": {
-        "name": "Black Squadron Pilot"
-      },
-      "obsidiansquadronpilot": {
-        "name": "Obsidian Squadron Pilot"
-      },
-      "academypilot": {
-        "name": "Academy Pilot"
-      },
-      "howlrunner": {
-        "name": "\"Howlrunner\"",
-        "description": "When another friendly ship at Range 1 is attacking with its primary weapon, it may reroll 1 attack die."
-      },
-      "backstabber": {
-        "name": "\"Backstabber\"",
-        "description": "When attacking from outside the defender's firing arc, roll 1 additional attack die."
-      },
-      "wingedgundark": {
-        "name": "\"Winged Gundark\"",
-        "description": "When attacking at Range 1, you may change 1 of your hit results to a critical result."
-      },
-      "darthvader": {
-        "name": "Darth Vader",
-        "description": "During your \"Perform Action\" step, you may perform 2 actions."
-      },
-      "maarekstele": {
-        "name": "Maarek Stele",
-        "description": "When your attack deals a faceup Damage card to the defender, instead draw 3 Damage cards, choose 1 to deal and discard the others."
-      },
-      "stormsquadronpilot": {
-        "name": "Storm Squadron Pilot"
-      },
-      "tempestsquadronpilot": {
-        "name": "Tempest Squadron Pilot"
-      },
-      "bobafett": {
-        "name": "Boba Fett",
-        "description": "When you reveal a bank maneuver (<i-bankleft> or <i-bankright>), you may rotate your dial to the other bank maneuver of the same speed."
-      },
-      "kathscarlet": {
-        "name": "Kath Scarlet",
-        "description": "When attacking, the defender receives 1 stress token if he cancels at least 1 <i-crit> result."
-      },
-      "krassistrelix": {
-        "name": "Krassis Trelix",
-        "description": "When attacking with a secondary weapon, you may reroll 1 attack die."
-      },
-      "bountyhunter": {
-        "name": "Bounty Hunter"
+      "firespray31": {
+        "bobafett": {
+          "name": "Boba Fett",
+          "description": "When you reveal a bank maneuver (<i-bankleft> or <i-bankright>), you may rotate your dial to the other bank maneuver of the same speed."
+        },
+        "kathscarlet": {
+          "name": "Kath Scarlet",
+          "description": "When attacking, the defender receives 1 stress token if he cancels at least 1 <i-crit> result."
+        },
+        "krassistrelix": {
+          "name": "Krassis Trelix",
+          "description": "When attacking with a secondary weapon, you may reroll 1 attack die."
+        },
+        "bountyhunter": {
+          "name": "Bounty Hunter"
+        }
       }
     },
     "upgrades": {

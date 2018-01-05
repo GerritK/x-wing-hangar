@@ -4,7 +4,7 @@
 
   <i><xwh-ship-name [ship]="ship"></xwh-ship-name></i>
 
-  <p [innerHtml]="pilot.isUnique ? ('data.pilots.' + pilot.id + '.description' | translate | icons) : ''"></p>
+  <p [innerHtml]="pilot.isUnique ? ('data.pilots.' + pilot.shipId + '.' + pilot.id + '.description' | translate | icons) : ''"></p>
 
   <div fxLayout="row" fxLayoutAlign="center">
     <xwh-maneuver [ship]="ship" [faction]="pilot.faction"></xwh-maneuver>

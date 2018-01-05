@@ -81,7 +81,7 @@ export class PilotSelectorComponent implements OnInit, OnChanges, OnDestroy, DoC
     }
 
     pilots = _.sortBy(pilots, ['cost', (pilot) => {
-      return this.translate.instant('data.pilots.' + pilot.id + '.name');
+      return this.translate.instant('data.pilots.' + pilot.shipId + '.' + pilot.id + '.name');
     }]);
 
     this.allPilots = pilots.map((pilot) => {
