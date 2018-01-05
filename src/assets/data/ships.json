@@ -127,5 +127,32 @@
       [0, 0, 1, 0, 0, 3],
       [0, 0, 1, 0, 0, 0]
     ]
+  },
+  {
+    "id": "firespray31",
+    "size": "large",
+    "factions": [
+      "imperial",
+      "scum"
+    ],
+    "stats": {
+      "attack": 3,
+      "agility": 2,
+      "hull": 6,
+      "shields": 4,
+      "firingArc": "frontback"
+    },
+    "actions": [
+      "focus",
+      "targetlock",
+      "evade"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 2, 2, 2, 0, 0],
+      [1, 1, 2, 1, 1, 0],
+      [1, 1, 1, 1, 1, 3],
+      [0, 0, 1, 0, 0, 3]
+    ]
   }
 ]

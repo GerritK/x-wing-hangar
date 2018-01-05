@@ -132,5 +132,32 @@
       "shieldupgrade",
       "shieldupgrade"
     ]
+  },
+  {
+    "id": "slave1",
+    "ships": [
+      "firespray31"
+    ],
+    "pilots": [
+      "bobafett",
+      "kathscarlet",
+      "krassistrelix",
+      "bountyhunter"
+    ],
+    "upgrades": [
+      "expose",
+      "veteraninstincts",
+      "assaultmissiles",
+      "homingmissiles",
+      "heavylasercannon",
+      "ioncannon",
+      "proximitymines",
+      "seismiccharges",
+      "gunner",
+      "mercenarycopilot",
+      "slave1",
+      "stealthdevice",
+      "stealthdevice"
+    ]
   }
 ]

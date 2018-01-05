@@ -386,5 +386,73 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "bobafett",
+    "shipId": "firespray31",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 39,
+    "slots": [
+      "elite",
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "kathscarlet",
+    "shipId": "firespray31",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 38,
+    "slots": [
+      "elite",
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "krassistrelix",
+    "shipId": "firespray31",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 36,
+    "slots": [
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "bountyhunter",
+    "shipId": "firespray31",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 33,
+    "slots": [
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "modification",
+      "title"
+    ]
   }
 ]

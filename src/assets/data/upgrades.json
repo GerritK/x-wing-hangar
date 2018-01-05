@@ -89,6 +89,17 @@
     ],
     "restrictions": []
   },
+  {
+    "id": "expose",
+    "types": [
+      "elite"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -221,6 +232,53 @@
       "range": "2-3"
     }
   },
+  {
+    "id": "homingmissiles",
+    "types": [
+      "missile"
+    ],
+    "cost": 5,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 4,
+      "range": "2-3"
+    }
+  },
+
+
+  {
+    "id": "heavylasercannon",
+    "types": [
+      "cannon"
+    ],
+    "cost": 7,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 4,
+      "range": "2-3"
+    }
+  },
+  {
+    "id": "ioncannon",
+    "types": [
+      "cannon"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-3"
+    }
+  },
 
 
   {
@@ -237,6 +295,30 @@
       "attack": 3,
       "range": "1-2"
     }
+  },
+
+
+  {
+    "id": "proximitymines",
+    "types": [
+      "bomb"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "seismiccharges",
+    "types": [
+      "bomb"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 
@@ -286,6 +368,28 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "gunner",
+    "types": [
+      "crew"
+    ],
+    "cost": 5,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "mercenarycopilot",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -301,6 +405,21 @@
     ],
     "restrictions": [
       {"fnc": "shipIdOnly", "value": "yt1300"}
+    ]
+  },
+  {
+    "id": "slave1",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "action": "torpedo"}
+    ],
+    "restrictions": [
+      {"fnc": "shipIdOnly", "value": "firespray31"}
     ]
   },
 
@@ -329,6 +448,17 @@
     "modifiers": [
       {"fnc": "changeShield", "value": 1}
     ],
+    "restrictions": []
+  },
+  {
+    "id": "stealthdevice",
+    "types": [
+      "modification"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
     "restrictions": []
   }
 ]
