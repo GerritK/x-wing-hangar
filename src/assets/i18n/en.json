@@ -52,7 +52,8 @@
       "ywing": "Y-Wing",
       "yt1300": "YT-1300",
       "tiefighter": "TIE Fighter",
-      "tieadvanced": "TIE Advanced"
+      "tieadvanced": "TIE Advanced",
+      "firespray31": "Firespray-31"
     },
     "pilots": {
       "lukeskywalker": {
@@ -152,6 +153,21 @@
       },
       "tempestsquadronpilot": {
         "name": "Tempest Squadron Pilot"
+      },
+      "bobafett": {
+        "name": "Boba Fett",
+        "description": "When you reveal a bank maneuver (<i-bankleft> or <i-bankright>), you may rotate your dial to the other bank maneuver of the same speed."
+      },
+      "kathscarlet": {
+        "name": "Kath Scarlet",
+        "description": "When attacking, the defender receives 1 stress token if he cancels at least 1 <i-crit> result."
+      },
+      "krassistrelix": {
+        "name": "Krassis Trelix",
+        "description": "When attacking with a secondary weapon, you may reroll 1 attack die."
+      },
+      "bountyhunter": {
+        "name": "Bounty Hunter"
       }
     },
     "upgrades": {
@@ -186,6 +202,10 @@
         },
         "veteraninstincts": {
           "name": "Veteran Instincts",
+          "description": ""
+        },
+        "expose": {
+          "name": "Expose",
           "description": ""
         }
       },
@@ -233,10 +253,21 @@
         "assaultmissiles": {
           "name": "Assault Missiles",
           "description": ""
+        },
+        "homingmissiles": {
+          "name": "Homing Missiles",
+          "description": ""
         }
       },
       "cannon": {
-
+        "heavylasercannon": {
+          "name": "Heavy Laser Cannon",
+          "description": ""
+        },
+        "ioncannon": {
+          "name": "Ion Cannon",
+          "description": ""
+        }
       },
       "turret": {
         "ioncannonturret": {
@@ -245,7 +276,14 @@
         }
       },
       "bomb": {
-
+        "proximitymines": {
+          "name": "Proximity Mines",
+          "description": ""
+        },
+        "seismiccharges": {
+          "name": "Seismic Charges",
+          "description": ""
+        }
       },
       "crew": {
         "chewbacca": {
@@ -263,6 +301,14 @@
         "weaponsengineer": {
           "name": "Weapons Engineer",
           "description": ""
+        },
+        "gunner": {
+          "name": "Gunner",
+          "description": ""
+        },
+        "mercenarycopilot": {
+          "name": "Mercenary Copilot",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -275,6 +321,10 @@
         "millenniumfalcon": {
           "name": "Millennium Falcon",
           "description": ""
+        },
+        "slavei": {
+          "name": "Slave I",
+          "description": ""
         }
       },
       "modification": {
@@ -284,6 +334,10 @@
         },
         "shieldupgrade": {
           "name": "Shield Upgrade",
+          "description": ""
+        },
+        "stealthdevice": {
+          "name": "Stealth Device",
           "description": ""
         }
       },

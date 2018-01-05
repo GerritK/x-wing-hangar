@@ -134,7 +134,7 @@
     ]
   },
   {
-    "id": "slave1",
+    "id": "slavei",
     "ships": [
       "firespray31"
     ],
@@ -155,7 +155,7 @@
       "seismiccharges",
       "gunner",
       "mercenarycopilot",
-      "slave1",
+      "slavei",
       "stealthdevice",
       "stealthdevice"
     ]
