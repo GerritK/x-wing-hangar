@@ -178,5 +178,23 @@
       "concussionmissiles",
       "homingmissiles"
     ]
+  },
+  {
+    "id": "tieinterceptor",
+    "ships": [
+      "tieinterceptor"
+    ],
+    "pilots": [
+      "soontirfel",
+      "turrphennir",
+      "felswrath",
+      "sabersquadronpilot",
+      "avengersquadronpilot",
+      "alphasquadronpilot"
+    ],
+    "upgrades": [
+      "daredevil",
+      "elusiveness"
+    ]
   }
 ]

@@ -54,7 +54,8 @@
       "awing": "A-Wing",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
-      "firespray31": "Firespray-31"
+      "firespray31": "Firespray-31",
+      "tieinterceptor": "TIE Interceptor"
     },
     "pilots": {
       "xwing": {
@@ -197,6 +198,29 @@
         "bountyhunter": {
           "name": "Bounty Hunter"
         }
+      },
+      "tieinterceptor": {
+        "soontirfel": {
+          "name": "Soontir Fel",
+          "description": "When you receive a stress token, you may assign 1 focus token to your ship."
+        },
+        "turrphennir": {
+          "name": "Turr Phennir",
+          "description": "After you perform an attack, you may perform a free boost or barrel roll action."
+        },
+        "felswrath": {
+          "name": "\"Fel's Wrath\"",
+          "description": "When the number of Damage cards assigned to you equals or exceeds your hull value, you are not destroyed until the end of the Combat phase."
+        },
+        "sabersquadronpilot": {
+          "name": "Saber Squadron Pilot"
+        },
+        "avengersquadronpilot": {
+          "name": "Avenger Squadron Pilot"
+        },
+        "alphasquadronpilot": {
+          "name": "Alpha Squadron Pilot"
+        }
       }
     },
     "upgrades": {
@@ -243,6 +267,10 @@
         },
         "deadeye": {
           "name": "Deadeye",
+          "description": ""
+        },
+        "daredevil": {
+          "name": "Daredevil",
           "description": ""
         }
       },

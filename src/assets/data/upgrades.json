@@ -124,6 +124,17 @@
       {"fnc": "shipSize", "value": "small"}
     ]
   },
+  {
+    "id": "daredevil",
+    "types": [
+      "elite"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {

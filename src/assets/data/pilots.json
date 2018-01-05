@@ -510,5 +510,81 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "soontirfel",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 27,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "turrphennir",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 25,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "felswrath",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 23,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sabersquadronpilot",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 21,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "avengersquadronpilot",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 20,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "alphasquadronpilot",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 18,
+    "slots": [
+      "modification",
+      "title"
+    ]
   }
 ]
