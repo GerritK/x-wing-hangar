@@ -51,6 +51,7 @@
       "xwing": "X-Wing",
       "ywing": "Y-Wing",
       "yt1300": "YT-1300",
+      "awing": "A-Wing",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31"
@@ -111,6 +112,22 @@
         },
         "outerrimsmuggler": {
           "name": "Outer Rim Smuggler"
+        }
+      },
+      "awing": {
+        "tychocelchu": {
+          "name": "Tycho Celchu",
+          "description": "You may perform actions even while you have stress tokens."
+        },
+        "arvelcrynyd": {
+          "name": "Arvel Crynyd",
+          "description": "You may declare an enemy ship inside your firing arc that you are touching as the target of your attack."
+        },
+        "greensquadronpilot": {
+          "name": "Green Squadron Pilot"
+        },
+        "prototypepilot": {
+          "name": "Prototype Pilot"
         }
       },
       "tiefighter": {
@@ -218,6 +235,14 @@
         },
         "expose": {
           "name": "Expose",
+          "description": ""
+        },
+        "pushthelimit": {
+          "name": "Push The Limit",
+          "description": ""
+        },
+        "deadeye": {
+          "name": "Deadeye",
           "description": ""
         }
       },

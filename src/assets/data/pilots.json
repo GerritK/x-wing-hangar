@@ -222,6 +222,62 @@
 
 
   {
+    "id": "tychocelchu",
+    "shipId": "awing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 26,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "arvelcrynyd",
+    "shipId": "awing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 23,
+    "slots": [
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "greensquadronpilot",
+    "shipId": "awing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 19,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "prototypepilot",
+    "shipId": "awing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 17,
+    "slots": [
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",

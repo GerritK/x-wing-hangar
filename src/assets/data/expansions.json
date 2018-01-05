@@ -159,5 +159,24 @@
       "stealthdevice",
       "stealthdevice"
     ]
+  },
+  {
+    "id": "awing",
+    "ships": [
+      "awing"
+    ],
+    "pilots": [
+      "tychocelchu",
+      "arvelcrynyd",
+      "greensquadronpilot",
+      "prototypepilot"
+    ],
+    "upgrades": [
+      "deadeye",
+      "pushthelimit",
+      "clustermissiles",
+      "concussionmissiles",
+      "homingmissiles"
+    ]
   }
 ]

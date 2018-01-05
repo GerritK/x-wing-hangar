@@ -12,7 +12,11 @@ export class RestrictionHelper {
     return true;
   }
 
-  public static shipIdOnly(ship: SquadronShip, restrictionData: any) {
+  public static shipId(ship: SquadronShip, restrictionData: any) {
     return ship.ship.id === restrictionData.value;
+  }
+
+  public static shipSize(ship: SquadronShip, restrictionData: any) {
+    return ship.ship.size === restrictionData.value;
   }
 }

@@ -100,6 +100,30 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "pushthelimit",
+    "types": [
+      "elite"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "deadeye",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "small"}
+    ]
+  },
 
 
   {
@@ -404,7 +428,7 @@
       {"fnc": "gainAction", "action": "evade"}
     ],
     "restrictions": [
-      {"fnc": "shipIdOnly", "value": "yt1300"}
+      {"fnc": "shipId", "value": "yt1300"}
     ]
   },
   {
@@ -419,7 +443,7 @@
       {"fnc": "gainUpgrade", "action": "torpedo"}
     ],
     "restrictions": [
-      {"fnc": "shipIdOnly", "value": "firespray31"}
+      {"fnc": "shipId", "value": "firespray31"}
     ]
   },
 
