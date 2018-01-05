@@ -17,6 +17,8 @@ import {RestrictionHelper} from '../../helpers/restriction.helper';
   ]
 })
 export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, DoCheck {
+  public readonly UpgradeType = UpgradeType;
+
   @Input() upgrade: Upgrade;
   @Output() upgradeChange: EventEmitter<Upgrade> = new EventEmitter();
 
@@ -78,11 +80,6 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
   private loadUpgrades() {
     let upgrades = this.upgradeProv.getAll();
 
-    // TODO: filter by given data
-    upgrades = upgrades.filter((upgrade) => {
-      return RestrictionHelper.isUseable(this.squadronShip, upgrade);
-    });
-
     if (this.upgradeType) {
       upgrades = upgrades.filter((upgrade) => {
         return upgrade.types.findIndex((type) => type === this.upgradeType) !== -1;
@@ -104,18 +101,22 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
   }
 
   private updateUnavailable() {
-    for (const upgrade of this.allUpgrades) {
+    for (const option of this.allUpgrades) {
+      option.notUseable = !RestrictionHelper.isUseable(this.squadronShip, option.upgrade);
+
       let used = false;
 
-      if (upgrade.upgrade.isUnique) {
-        used = used || this.squadron.isUniqueUsed(upgrade.upgrade.id);
+      if (option.upgrade.isUnique) {
+        used = used || this.squadron.isUniqueUsed(option.upgrade.id);
       }
 
-      if (upgrade.upgrade.isLimited) {
-        used = used || this.squadronShip.hasUpgradeEquipped(upgrade.upgrade.id);
+      if (option.upgrade.isLimited) {
+        used = used || this.squadronShip.hasUpgradeEquipped(option.upgrade.id);
       }
 
-      upgrade.alreadyUsed = used;
+      option.alreadyUsed = used;
     }
+
+    console.log(this.allUpgrades);
   }
 }

@@ -12,14 +12,17 @@
 
     <mat-option>{{'ui.general.none' | translate}}</mat-option>
 
-    <mat-option *ngFor="let option of allUpgrades" [value]="option.upgrade"
-                [disabled]="option.alreadyUsed && (!upgrade || upgrade.id !== option.upgrade.id)"
-                [class.limited]="option.upgrade.isLimited">
-      <i *ngIf="option.upgrade.isUnique"
-         class="xwing-miniatures-font xwing-miniatures-font-unique inline"> </i>
-      {{'data.upgrades.' + upgradeType + '.' + option.upgrade.id + '.name' | translate}}
-      <span class="lightweight">({{option.upgrade.cost}})</span>
-    </mat-option>
+    <ng-container *ngFor="let option of allUpgrades">
+      <mat-option *ngIf="upgradeType !== UpgradeType.TITLE || !option.notUseable"
+                  [value]="option.upgrade"
+                  [disabled]="(option.alreadyUsed || option.notUseable) && (!upgrade || upgrade.id !== option.upgrade.id)"
+                  [class.limited]="option.upgrade.isLimited">
+        <i *ngIf="option.upgrade.isUnique"
+           class="xwing-miniatures-font xwing-miniatures-font-unique inline"> </i>
+        {{'data.upgrades.' + upgradeType + '.' + option.upgrade.id + '.name' | translate}}
+        <span class="lightweight">({{option.upgrade.cost}})</span>
+      </mat-option>
+    </ng-container>
 
   </mat-select>
 </mat-form-field>
