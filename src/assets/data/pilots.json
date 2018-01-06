@@ -338,6 +338,74 @@
 
 
   {
+    "id": "tennumb",
+    "shipId": "bwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 31,
+    "slots": [
+      "elite",
+      "system",
+      "cannon",
+      "torpedo",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "ibtisam",
+    "shipId": "bwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "system",
+      "cannon",
+      "torpedo",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "daggersquadronpilot",
+    "shipId": "bwing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 24,
+    "slots": [
+      "system",
+      "cannon",
+      "torpedo",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "bluesquadronpilot",
+    "shipId": "bwing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 22,
+    "slots": [
+      "system",
+      "cannon",
+      "torpedo",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",

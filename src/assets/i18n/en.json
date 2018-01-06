@@ -53,6 +53,7 @@
       "yt1300": "YT-1300",
       "awing": "A-Wing",
       "hwk290": "HWK-290",
+      "bwing": "B-Wing",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -131,6 +132,22 @@
         },
         "prototypepilot": {
           "name": "Prototype Pilot"
+        }
+      },
+      "bwing": {
+        "tennumb": {
+          "name": "Ten Numb",
+          "description": "When attacking, 1 of your <i-crit> results cannot be canceled by defense dice."
+        },
+        "ibtisam": {
+          "name": "Ibtisam",
+          "description": "When attacking or defending, if you have at least one stress token, you may reroll 1 of your dice."
+        },
+        "daggersquadronpilot": {
+          "name": "Dagger Squadron Pilot"
+        },
+        "bluesquadronpilot": {
+          "name": "Blue Squadron Pilot"
         }
       },
       "hwk290": {
@@ -340,6 +357,10 @@
         "protontorpedoes": {
           "name": "Proton Torpedoes",
           "description": ""
+        },
+        "advancedprotontorpedoes": {
+          "name": "Advanced Proton Torpedoes",
+          "description": ""
         }
       },
       "missile": {
@@ -367,6 +388,10 @@
         },
         "ioncannon": {
           "name": "Ion Cannon",
+          "description": ""
+        },
+        "autoblaster": {
+          "name": "Autoblaster",
           "description": ""
         }
       },
@@ -454,6 +479,10 @@
         },
         "sensorjammer": {
           "name": "Sensor Jammer",
+          "description": ""
+        },
+        "firecontrolsystem": {
+          "name": "Fire-Control System",
           "description": ""
         }
       },

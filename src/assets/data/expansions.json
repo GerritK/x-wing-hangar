@@ -242,5 +242,24 @@
       "advancedsensors",
       "sensorjammer"
     ]
+  },
+  {
+    "id": "bwing",
+    "ships": [
+      "bwing"
+    ],
+    "pilots": [
+      "tennumb",
+      "ibtisam",
+      "daggersquadronpilot",
+      "bluesquadronpilot"
+    ],
+    "upgrades": [
+      "advancedprotontorpedoes",
+      "protontorpedoes",
+      "autoblaster",
+      "ioncannon",
+      "firecontrolsystem"
+    ]
   }
 ]

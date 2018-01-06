@@ -220,6 +220,21 @@
       "range": "2-3"
     }
   },
+  {
+    "id": "advancedprotontorpedoes",
+    "types": [
+      "torpedo"
+    ],
+    "cost": 6,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 5,
+      "range": "1"
+    }
+  },
 
 
   {
@@ -312,6 +327,21 @@
     "stats": {
       "attack": 3,
       "range": "1-3"
+    }
+  },
+  {
+    "id": "autoblaster",
+    "types": [
+      "cannon"
+    ],
+    "cost": 5,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1"
     }
   },
 
@@ -545,6 +575,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "firecontrolsystem",
+    "types": [
+      "system"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -643,7 +684,7 @@
     "restrictions": []
   },
   {
-    "id": "antipursuitlasers",
+    "id": "antipursuitlaser",
     "types": [
       "modification"
     ],
