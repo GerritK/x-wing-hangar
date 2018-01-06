@@ -278,6 +278,66 @@
 
 
   {
+    "id": "janors",
+    "shipId": "hwk290",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 25,
+    "slots": [
+      "elite",
+      "turret",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "kylekatarn",
+    "shipId": "hwk290",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 21,
+    "slots": [
+      "elite",
+      "turret",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "roarkgarnet",
+    "shipId": "hwk290",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 19,
+    "slots": [
+      "turret",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "rebeloperative",
+    "shipId": "hwk290",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 16,
+    "slots": [
+      "turret",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",

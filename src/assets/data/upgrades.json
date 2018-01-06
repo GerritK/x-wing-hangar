@@ -331,6 +331,21 @@
       "range": "1-2"
     }
   },
+  {
+    "id": "blasterturret",
+    "types": [
+      "turret"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-2"
+    }
+  },
 
 
   {
@@ -425,6 +440,39 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "intelligenceagent",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "reconspecialist",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "saboteur",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -455,6 +503,19 @@
     ],
     "restrictions": [
       {"fnc": "shipId", "value": "firespray31"}
+    ]
+  },
+  {
+    "id": "moldycrow",
+    "types": [
+      "title"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "hwk290"}
     ]
   },
 

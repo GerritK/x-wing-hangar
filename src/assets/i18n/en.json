@@ -52,6 +52,7 @@
       "ywing": "Y-Wing",
       "yt1300": "YT-1300",
       "awing": "A-Wing",
+      "hwk290": "HWK-290",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -129,6 +130,23 @@
         },
         "prototypepilot": {
           "name": "Prototype Pilot"
+        }
+      },
+      "hwk290": {
+        "janors": {
+          "name": "Jan Ors",
+          "description": "When another friendly ship at Range 1-3 is attacking, if you have no stress tokens, you may receive 1 stress token to allow that ship to roll 1 additional attack die."
+        },
+        "kylekatarn": {
+          "name": "Kyle Katarn",
+          "description": "At the start of the Combat phase, you may assign 1 of your focus tokens to another friendly ship at Range 1-3."
+        },
+        "roarkgarnet": {
+          "name": "Roark Garnet",
+          "description": "At the start of the Combat phase, choose 1 other friendly ship at Range 1-3. Until the end of the phase, treat that ship's pilot skill value as \"12\"."
+        },
+        "rebeloperative": {
+          "name": "Rebel Operative"
         }
       },
       "tiefighter": {
@@ -338,6 +356,10 @@
         "ioncannonturret": {
           "name": "Ion Cannon Turret",
           "description": ""
+        },
+        "blasterturret": {
+          "name": "Blaster Turret",
+          "description": ""
         }
       },
       "bomb": {
@@ -374,6 +396,18 @@
         "mercenarycopilot": {
           "name": "Mercenary Copilot",
           "description": ""
+        },
+        "intelligenceagent": {
+          "name": "Intelligence Agent",
+          "description": ""
+        },
+        "reconspecialist": {
+          "name": "Recon Specialist",
+          "description": ""
+        },
+        "saboteur": {
+          "name": "Saboteur",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -389,6 +423,10 @@
         },
         "slavei": {
           "name": "Slave I",
+          "description": ""
+        },
+        "moldycrow": {
+          "name": "Moldy Crow",
           "description": ""
         }
       },

@@ -27,7 +27,8 @@
     "id": "ywing",
     "size": "small",
     "factions": [
-      "rebel"
+      "rebel",
+      "scum"
     ],
     "stats": {
       "attack": 2,
@@ -97,6 +98,31 @@
       [1, 1, 2, 1, 1, 3],
       [0, 0, 2, 0, 0, 0],
       [0, 0, 2, 0, 0, 3]
+    ]
+  },
+  {
+    "id": "hwk290",
+    "size": "small",
+    "factions": [
+      "rebel",
+      "scum"
+    ],
+    "stats": {
+      "attack": 1,
+      "agility": 2,
+      "hull": 4,
+      "shield": 1
+    },
+    "actions": [
+      "focus",
+      "targetlock"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 2, 2, 2, 0, 0],
+      [1, 1, 2, 1, 1, 0],
+      [0, 3, 1, 3, 0, 0],
+      [0, 0, 3, 0, 0, 0]
     ]
   },
 

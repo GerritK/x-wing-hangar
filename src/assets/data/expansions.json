@@ -196,5 +196,25 @@
       "daredevil",
       "elusiveness"
     ]
+  },
+  {
+    "id": "hwk290",
+    "ships": [
+      "hwk290"
+    ],
+    "pilots": [
+      "janors",
+      "kylekatarn",
+      "roarkgarnet",
+      "rebeloperative"
+    ],
+    "upgrades": [
+      "blasterturret",
+      "ioncannonturret",
+      "intelligenceagent",
+      "reconspecialist",
+      "saboteur",
+      "moldycrow"
+    ]
   }
 ]
