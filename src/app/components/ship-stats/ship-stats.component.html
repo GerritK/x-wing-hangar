@@ -3,9 +3,14 @@
     <span class="value">PS {{pilot.skill}}</span>
   </span>
 
-  <span class="stat attack" [title]="'ui.stats.attack' | translate">
+  <span class="stat attack" [title]="'ui.stats.attack' | translate" *ngIf="stats.attack">
     <i class="xwing-miniatures-font" [ngClass]="[stats.firingArc ? 'xwing-miniatures-font-attack-' + stats.firingArc : 'xwing-miniatures-font-attack']"></i>
     <span class="value">{{stats.attack}}</span>
+  </span>
+
+  <span class="stat energy" [title]="'ui.stats.attack' | translate" *ngIf="stats.energy">
+    <i class="xwing-miniatures-font xwing-miniatures-font-energy"></i>
+    <span class="value">{{stats.energy}}</span>
   </span>
 
   <span class="stat agility" [title]="'ui.stats.agility' | translate">

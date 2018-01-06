@@ -12,6 +12,10 @@ export class ShipStatsHelper {
         result.attack = pilot.stats.attack;
       }
 
+      if (pilot.stats.energy != null) {
+        result.energy = pilot.stats.energy;
+      }
+
       if (pilot.stats.agility != null) {
         result.agility = pilot.stats.agility;
       }

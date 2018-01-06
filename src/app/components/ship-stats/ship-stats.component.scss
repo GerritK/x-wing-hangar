@@ -14,6 +14,10 @@ $config: mat-typography-config();
     color: mat-color($mat-red, 600);
   }
 
+  &.energy {
+    color: mat-color($mat-deep-purple, 300);
+  }
+
   &.agility {
     color: mat-color($mat-green, 600);
   }
