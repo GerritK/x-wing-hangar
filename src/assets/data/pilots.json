@@ -646,5 +646,71 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "captainkagi",
+    "shipId": "lambdaclassshuttle",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 27,
+    "slots": [
+      "system",
+      "cannon",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "coloneljendon",
+    "shipId": "lambdaclassshuttle",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 26,
+    "slots": [
+      "system",
+      "cannon",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "captainyorr",
+    "shipId": "lambdaclassshuttle",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 24,
+    "slots": [
+      "system",
+      "cannon",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "omicrongrouppilot",
+    "shipId": "lambdaclassshuttle",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 21,
+    "slots": [
+      "system",
+      "cannon",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
   }
 ]

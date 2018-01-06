@@ -56,7 +56,8 @@
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
-      "tieinterceptor": "TIE Interceptor"
+      "tieinterceptor": "TIE Interceptor",
+      "lambdaclassshuttle": "Lambda-class Shuttle"
     },
     "pilots": {
       "xwing": {
@@ -239,6 +240,23 @@
         "alphasquadronpilot": {
           "name": "Alpha Squadron Pilot"
         }
+      },
+      "lambdaclassshuttle": {
+        "captainkagi": {
+          "name": "Captain Kagi",
+          "description": "When an enemy ship acquires a target lock, it must lock onto your ship if able."
+        },
+        "coloneljendon": {
+          "name": "Colonel Jendon",
+          "description": "At the start of the Combat phase, you may assign one of your blue target lock tokens to a friendly ship at Range 1 if it does not have a blue target lock token."
+        },
+        "captainyorr": {
+          "name": "Captain Yorr",
+          "description": "When another friendly ship at Range 1-2 would receive a stress token, if you have 2 or fewer stress tokens, you may receive that token instead."
+        },
+        "omicrongrouppilot": {
+          "name": "Omicron Group Pilot"
+        }
       }
     },
     "upgrades": {
@@ -408,13 +426,36 @@
         "saboteur": {
           "name": "Saboteur",
           "description": ""
+        },
+        "darthvader": {
+          "name": "Darth Vader",
+          "description": ""
+        },
+        "flightinstructor": {
+          "name": "Flight Instructor",
+          "description": ""
+        },
+        "navigator": {
+          "name": "Navigator",
+          "description": ""
+        },
+        "rebelcaptive": {
+          "name": "Rebel Captive",
+          "description": ""
         }
       },
       "salvagedastromech": {
 
       },
       "system": {
-
+        "advancedsensors": {
+          "name": "Advanced Sensors",
+          "description": ""
+        },
+        "sensorjammer": {
+          "name": "Sensor Jammer",
+          "description": ""
+        }
       },
       "title": {
         "millenniumfalcon": {
@@ -427,6 +468,10 @@
         },
         "moldycrow": {
           "name": "Moldy Crow",
+          "description": ""
+        },
+        "st321": {
+          "name": "ST-321",
           "description": ""
         }
       },

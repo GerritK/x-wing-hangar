@@ -19,4 +19,8 @@ export class RestrictionHelper {
   public static shipSize(ship: SquadronShip, restrictionData: any) {
     return ship.ship.size === restrictionData.value;
   }
+
+  public static faction(ship: SquadronShip, restrictionData: any) {
+    return ship.pilot.faction === restrictionData.value;
+  }
 }

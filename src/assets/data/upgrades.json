@@ -473,6 +473,78 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "darthvader",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "imperial"}
+    ]
+  },
+  {
+    "id": "navigator",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "rebelcaptive",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "imperial"}
+    ]
+  },
+  {
+    "id": "flightinstructor",
+    "types": [
+      "crew"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+
+
+  {
+    "id": "advancedsensors",
+    "types": [
+      "system"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "sensorjammer",
+    "types": [
+      "system"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -518,6 +590,19 @@
       {"fnc": "shipId", "value": "hwk290"}
     ]
   },
+  {
+    "id": "st321",
+    "types": [
+      "title"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "lambdaclassshuttle"}
+    ]
+  },
 
 
   {
@@ -556,5 +641,18 @@
     "isLimited": false,
     "modifiers": [],
     "restrictions": []
+  },
+  {
+    "id": "antipursuitlasers",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "large"}
+    ]
   }
 ]

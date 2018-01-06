@@ -216,5 +216,31 @@
       "saboteur",
       "moldycrow"
     ]
+  },
+  {
+    "id": "lambdaclassshuttle",
+    "ships": [
+      "lambdaclassshuttle"
+    ],
+    "pilots": [
+      "captainkagi",
+      "coloneljendon",
+      "captainyorr",
+      "omicrongrouppilot"
+    ],
+    "upgrades": [
+      "heavylasercannon",
+      "darthvader",
+      "flightinstructor",
+      "intelligenceagent",
+      "navigator",
+      "rebelcaptive",
+      "weaponsengineer",
+      "antipursuitlaser",
+      "antipursuitlaser",
+      "st321",
+      "advancedsensors",
+      "sensorjammer"
+    ]
   }
 ]
