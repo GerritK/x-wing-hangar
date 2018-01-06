@@ -3,7 +3,11 @@ export enum Action {
   EVADE = 'evade',
   BARRELROLL = 'barrelroll',
   BOOST = 'boost',
-  TARGETLOCK = 'targetlock'
+  TARGETLOCK = 'targetlock',
+  RECOVER = 'recover',
+  REINFORCE = 'reinforce',
+  COORDINATE = 'coordinate',
+  JAM = 'jam'
 }
 
 export namespace Action {

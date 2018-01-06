@@ -214,6 +214,55 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "r2d6",
+    "types": [
+      "astromech"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "elite"}
+    ],
+    "restrictions": [
+      {"fnc": "not", "value": {"fnc": "hasSlot", "value": "elite"}},
+      {"fnc": "skill", "operator": ">", "value": 2}
+    ]
+  },
+  {
+    "id": "r3a2",
+    "types": [
+      "astromech"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "r4d6",
+    "types": [
+      "astromech"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "r5p9",
+    "types": [
+      "astromech"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -244,6 +293,21 @@
     "stats": {
       "attack": 5,
       "range": "1"
+    }
+  },
+  {
+    "id": "flechettetorpedoes",
+    "types": [
+      "torpedo"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "2-3"
     }
   },
 
@@ -579,6 +643,61 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "carlistrieekan",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "huge"},
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "jandodonna",
+    "types": [
+      "crew"
+    ],
+    "cost": 6,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "huge"},
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "torynfarr",
+    "types": [
+      "crew"
+    ],
+    "cost": 6,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "huge"},
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "wed15repairdroid",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "huge"}
+    ]
+  },
 
 
   {
@@ -672,6 +791,48 @@
       {"fnc": "shipId", "value": "lambdaclassshuttle"}
     ]
   },
+  {
+    "id": "brighthope",
+    "types": [
+      "title"
+    ],
+    "cost": 5,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "changeEnergy", "value": 2}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "gr75mediumtransporter"}
+    ]
+  },
+  {
+    "id": "dutyfree",
+    "types": [
+      "title"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "restrictions": [
+      {"fnc": "shipId", "value": "gr75mediumtransporter"}
+    ]
+  },
+  {
+    "id": "quantumstorm",
+    "types": [
+      "title"
+    ],
+    "cost": 4,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "changeEnergy", "value": 1}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "gr75mediumtransporter"}
+    ]
+  },
 
 
   {
@@ -723,5 +884,125 @@
     "restrictions": [
       {"fnc": "shipSize", "value": "large"}
     ]
+  },
+  {
+    "id": "combatretrofit",
+    "types": [
+      "modification"
+    ],
+    "cost": 10,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "changeHull", "value": 2},
+      {"fnc": "changeShield", "value": 1}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "gr75mediumtransporter"},
+      {"fnc": "shipSize", "value": "huge"}
+    ]
+  },
+
+
+  {
+    "id": "backupshieldgenerator",
+    "types": [
+      "cargo"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "commsbooster",
+    "types": [
+      "cargo"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "ememitter",
+    "types": [
+      "cargo"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "enginebooster",
+    "types": [
+      "cargo"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "expandedcargohold",
+    "types": [
+      "cargo"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "gr75mediumtransporter"}
+    ]
+  },
+  {
+    "id": "frequencyjammer",
+    "types": [
+      "cargo"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "shieldprojector",
+    "types": [
+      "cargo"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "slicertools",
+    "types": [
+      "cargo"
+    ],
+    "cost": 7,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "tibannagassupplies",
+    "types": [
+      "cargo"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
   }
 ]

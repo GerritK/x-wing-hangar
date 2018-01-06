@@ -83,6 +83,64 @@
       "title"
     ]
   },
+  {
+    "id": "hobbieklivian",
+    "shipId": "xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 25,
+    "slots": [
+      "torpedo",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "jekporkins",
+    "shipId": "xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 26,
+    "slots": [
+      "elite",
+      "torpedo",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "tarnmison",
+    "shipId": "xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 23,
+    "slots": [
+      "torpedo",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "wesjanson",
+    "shipId": "xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 29,
+    "slots": [
+      "elite",
+      "torpedo",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
 
 
   {
@@ -399,6 +457,25 @@
       "cannon",
       "torpedo",
       "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
+    "id": "gr75mediumtransporter",
+    "shipId": "gr75mediumtransporter",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 30,
+    "slots": [
+      "crew",
+      "crew",
+      "cargo",
+      "cargo",
+      "cargo",
       "modification",
       "title"
     ]

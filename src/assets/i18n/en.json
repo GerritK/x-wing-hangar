@@ -54,6 +54,7 @@
       "awing": "A-Wing",
       "hwk290": "HWK-290",
       "bwing": "B-Wing",
+      "gr75mediumtransporter": "GR-75 Medium Transporter",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -84,6 +85,22 @@
         "garvendreis": {
           "name": "Garven Dreis",
           "description": "After spending a focus token, you may place that token on any other friendly ship at Range 1-2 (instead of discarding it)."
+        },
+        "hobbieklivian": {
+          "name": "\"Hobbie\" Klivian",
+          "description": "When you acquire or spend a target lock, you may remove 1 stress token from your ship."
+        },
+        "jekporkins": {
+          "name": "Jek Porkins",
+          "description": "When you receive a stress token, you may remove it and roll 1 attack die. On a <i-hit> result, deal 1 facedown Damage card to this ship."
+        },
+        "tarnmison": {
+          "name": "Tarn Mison",
+          "description": "When an enemy ship declares you as the target of an attack, you may acquire a target lock on that ship."
+        },
+        "wesjanson": {
+          "name": "Wes Janson",
+          "description": "After you perform an attack, you may remove 1 focus, evade, or blue target lock token from the defender"
         }
       },
       "ywing": {
@@ -135,6 +152,23 @@
           "name": "Prototype Pilot"
         }
       },
+      "hwk290": {
+        "janors": {
+          "name": "Jan Ors",
+          "description": "When another friendly ship at Range 1-3 is attacking, if you have no stress tokens, you may receive 1 stress token to allow that ship to roll 1 additional attack die."
+        },
+        "kylekatarn": {
+          "name": "Kyle Katarn",
+          "description": "At the start of the Combat phase, you may assign 1 of your focus tokens to another friendly ship at Range 1-3."
+        },
+        "roarkgarnet": {
+          "name": "Roark Garnet",
+          "description": "At the start of the Combat phase, choose 1 other friendly ship at Range 1-3. Until the end of the phase, treat that ship's pilot skill value as \"12\"."
+        },
+        "rebeloperative": {
+          "name": "Rebel Operative"
+        }
+      },
       "bwing": {
         "tennumb": {
           "name": "Ten Numb",
@@ -151,21 +185,9 @@
           "name": "Blue Squadron Pilot"
         }
       },
-      "hwk290": {
-        "janors": {
-          "name": "Jan Ors",
-          "description": "When another friendly ship at Range 1-3 is attacking, if you have no stress tokens, you may receive 1 stress token to allow that ship to roll 1 additional attack die."
-        },
-        "kylekatarn": {
-          "name": "Kyle Katarn",
-          "description": "At the start of the Combat phase, you may assign 1 of your focus tokens to another friendly ship at Range 1-3."
-        },
-        "roarkgarnet": {
-          "name": "Roark Garnet",
-          "description": "At the start of the Combat phase, choose 1 other friendly ship at Range 1-3. Until the end of the phase, treat that ship's pilot skill value as \"12\"."
-        },
-        "rebeloperative": {
-          "name": "Rebel Operative"
+      "gr75mediumtransporter": {
+        "gr75mediumtransporter": {
+          "name": "GR-75 Medium Transporter"
         }
       },
       "tiefighter": {
@@ -372,6 +394,22 @@
         "r5k6": {
           "name": "R5-K6",
           "description": ""
+        },
+        "r2d6": {
+          "name": "R2-D6",
+          "description": ""
+        },
+        "r3a2": {
+          "name": "R3-A2",
+          "description": ""
+        },
+        "r4d6": {
+          "name": "R4-D6",
+          "description": ""
+        },
+        "r5p9": {
+          "name": "R5-P9",
+          "description": ""
         }
       },
       "torpedo": {
@@ -381,6 +419,10 @@
         },
         "advancedprotontorpedoes": {
           "name": "Advanced Proton Torpedoes",
+          "description": ""
+        },
+        "flechettetorpedoes": {
+          "name": "Flechette Torpedoes",
           "description": ""
         }
       },
@@ -492,6 +534,22 @@
         "rebelcaptive": {
           "name": "Rebel Captive",
           "description": ""
+        },
+        "carlistrieekan": {
+          "name": "Carlist Rieekan",
+          "description": ""
+        },
+        "jandodonna": {
+          "name": "Jan Dodonna",
+          "description": ""
+        },
+        "torynfarr": {
+          "name": "Toryn Farr",
+          "description": ""
+        },
+        "wed15repairdroid": {
+          "name": "WED-15 Repair Droid",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -527,6 +585,18 @@
         "st321": {
           "name": "ST-321",
           "description": ""
+        },
+        "brighthope": {
+          "name": "Bright Hope",
+          "description": ""
+        },
+        "dutyfree": {
+          "name": "Dutyfree",
+          "description": ""
+        },
+        "quantumstorm": {
+          "name": "Quantum Storm",
+          "description": ""
         }
       },
       "modification": {
@@ -545,13 +615,52 @@
         "antipursuitlaser": {
           "name": "Anti Pursuit Laser",
           "description": ""
+        },
+        "combatretrofit": {
+          "name": "Combat Retrofit",
+          "description": ""
         }
       },
       "illicit": {
 
       },
       "cargo": {
-
+        "backupshieldgenerator": {
+          "name": "Backup Shield Generator",
+          "description": ""
+        },
+        "commsbooster": {
+          "name": "Comms Booster",
+          "description": ""
+        },
+        "ememitter": {
+          "name": "EM Emitter",
+          "description": ""
+        },
+        "enginebooster": {
+          "name": "Engine Booster",
+          "description": ""
+        },
+        "expandedcargohold": {
+          "name": "Expanded Cargo Hold",
+          "description": ""
+        },
+        "frequencyjammer": {
+          "name": "Frequency Jammer",
+          "description": ""
+        },
+        "shieldprojector": {
+          "name": "Shield Projector",
+          "description": ""
+        },
+        "slicertools": {
+          "name": "Slicer Tools",
+          "description": ""
+        },
+        "tibannagassupplies": {
+          "name": "Tibanna Gas Supplies",
+          "description": ""
+        }
       },
       "hardpoint": {
 

@@ -198,6 +198,49 @@
     ]
   },
   {
+    "id": "rebeltransporter",
+    "ships": [
+      "gr75mediumtransporter",
+      "xwing"
+    ],
+    "pilots": [
+      "hobbieklivian",
+      "jekporkins",
+      "tarnmison",
+      "wesjanson",
+      "redsquadronpilot",
+      "rookiepilot",
+
+      "gr75mediumtransporter"
+    ],
+    "upgrades": [
+      "r2d6",
+      "r3a2",
+      "r4d6",
+      "r5p9",
+      "carlistrieekan",
+      "jandodonna",
+      "torynfarr",
+      "wed15repairdroid",
+      "flechettetorpedoes",
+      "flechettetorpedoes",
+      "flechettetorpedoes",
+      "combatretrofit",
+      "brighthope",
+      "dutyfree",
+      "quantumstorm",
+      "backupshieldgenerator",
+      "commsbooster",
+      "ememitter",
+      "enginebooster",
+      "expandedcargohold",
+      "frequencyjammer",
+      "shieldprojector",
+      "slicertools",
+      "tibannagassupplies"
+    ]
+  },
+  {
     "id": "hwk290",
     "ships": [
       "hwk290"

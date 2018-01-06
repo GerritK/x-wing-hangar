@@ -150,6 +150,32 @@
       [0, 0, 3, 0, 0, 0]
     ]
   },
+  {
+    "id": "gr75mediumtransporter",
+    "size": "huge",
+    "factions": [
+      "rebel"
+    ],
+    "stats": {
+      "energy": 4,
+      "agility": 0,
+      "hull": 8,
+      "shield": 4
+    },
+    "actions": [
+      "recover",
+      "reinforce",
+      "coordinate",
+      "jam"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 1, 1, 0, 0],
+      [0, 1, 1, 1, 0, 0],
+      [0, 0, 1, 0, 0, 0],
+      [0, 0, 1, 0, 0, 0]
+    ]
+  },
 
 
   {
