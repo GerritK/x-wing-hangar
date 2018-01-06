@@ -361,5 +361,24 @@
       "ionpulsemissiles",
       "munitionsfailsafe"
     ]
+  },
+  {
+    "id": "ewing",
+    "ships": [
+      "ewing"
+    ],
+    "pilots": [
+      "corranhorn",
+      "etahnabaht",
+      "blackmoonsquadronpilot",
+      "knavesquadronpilot"
+    ],
+    "upgrades": [
+      "outmaneuver",
+      "r7astromech",
+      "r7t1",
+      "flechettetorpedoes",
+      "advancedsensors"
+    ]
   }
 ]

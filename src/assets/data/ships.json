@@ -201,6 +201,34 @@
       [0, 0, 1, 0, 0, 0]
     ]
   },
+  {
+    "id": "ewing",
+    "size": "small",
+    "factions": [
+      "rebel",
+      "scum"
+    ],
+    "stats": {
+      "attack": 3,
+      "agility": 3,
+      "hull": 2,
+      "shield": 3
+    },
+    "actions": [
+      "focus",
+      "targetlock",
+      "barrelroll",
+      "evade"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 2, 1, 0, 0],
+      [1, 2, 2, 2, 1, 0],
+      [1, 1, 2, 1, 1, 3],
+      [0, 0, 1, 0, 0, 3],
+      [0, 0, 1, 0, 0, 0]
+    ]
+  },
 
 
   {

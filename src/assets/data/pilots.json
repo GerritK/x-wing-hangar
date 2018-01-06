@@ -539,6 +539,70 @@
 
 
   {
+    "id": "corranhorn",
+    "shipId": "ewing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 35,
+    "slots": [
+      "elite",
+      "system",
+      "torpedo",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "etahnabaht",
+    "shipId": "ewing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 32,
+    "slots": [
+      "elite",
+      "system",
+      "torpedo",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "blackmoonsquadronpilot",
+    "shipId": "ewing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 29,
+    "slots": [
+      "system",
+      "torpedo",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "knavesquadronpilot",
+    "shipId": "ewing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 27,
+    "slots": [
+      "system",
+      "torpedo",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",
