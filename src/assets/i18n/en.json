@@ -541,6 +541,10 @@
         "stealthdevice": {
           "name": "Stealth Device",
           "description": ""
+        },
+        "antipursuitlaser": {
+          "name": "Anti Pursuit Laser",
+          "description": ""
         }
       },
       "illicit": {

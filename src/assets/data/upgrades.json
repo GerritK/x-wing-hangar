@@ -433,7 +433,9 @@
     "isUnique": true,
     "isLimited": false,
     "modifiers": [],
-    "restrictions": []
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
   },
   {
     "id": "lukeskywalker",
@@ -444,7 +446,9 @@
     "isUnique": true,
     "isLimited": false,
     "modifiers": [],
-    "restrictions": []
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
   },
   {
     "id": "niennunb",
@@ -457,7 +461,9 @@
     "modifiers": [
       {"fnc": "maneuverDifficulty", "maneuver": "2", "difficulty": "2"}
     ],
-    "restrictions": []
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
   },
   {
     "id": "weaponsengineer",
