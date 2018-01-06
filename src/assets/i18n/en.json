@@ -55,6 +55,7 @@
       "hwk290": "HWK-290",
       "bwing": "B-Wing",
       "gr75mediumtransporter": "GR-75 Medium Transporter",
+      "z95headhunter": "Z-95 Headhunter",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -188,6 +189,22 @@
       "gr75mediumtransporter": {
         "gr75mediumtransporter": {
           "name": "GR-75 Medium Transporter"
+        }
+      },
+      "z95headhunter": {
+        "airencracken": {
+          "name": "Airen Cracken",
+          "description": "After you perform an attack, you may choose another friendly ship at Range 1. That ship may perform 1 free action."
+        },
+        "lieutenantblount": {
+          "name": "Lieutenant Blount",
+          "description": "When attacking, the defender is hit by your attack, even if he does not suffer any damage."
+        },
+        "talasquadronpilot": {
+          "name": "Tala Squadron Pilot"
+        },
+        "banditsquadronpilot": {
+          "name": "Bandit Squadron Pilot"
         }
       },
       "tiefighter": {
@@ -368,6 +385,14 @@
         "adrenalinerush": {
           "name": "Adrenaline Rush",
           "description": ""
+        },
+        "decoy": {
+          "name": "Decoy",
+          "description": ""
+        },
+        "wingman": {
+          "name": "Wingman",
+          "description": ""
         }
       },
       "astromech": {
@@ -441,6 +466,10 @@
         },
         "homingmissiles": {
           "name": "Homing Missiles",
+          "description": ""
+        },
+        "ionpulsemissiles": {
+          "name": "Ion Pulse Missiles",
           "description": ""
         }
       },
@@ -618,6 +647,10 @@
         },
         "combatretrofit": {
           "name": "Combat Retrofit",
+          "description": ""
+        },
+        "munitionsfailsafe": {
+          "name": "Munitions Failsafe",
           "description": ""
         }
       },

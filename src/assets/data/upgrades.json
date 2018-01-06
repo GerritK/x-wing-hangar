@@ -146,6 +146,28 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "decoy",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "wingman",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -369,6 +391,21 @@
     "restrictions": [],
     "stats": {
       "attack": 4,
+      "range": "2-3"
+    }
+  },
+  {
+    "id": "ionpulsemissiles",
+    "types": [
+      "missile"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
       "range": "2-3"
     }
   },
@@ -901,6 +938,17 @@
       {"fnc": "shipId", "value": "gr75mediumtransporter"},
       {"fnc": "shipSize", "value": "huge"}
     ]
+  },
+  {
+    "id": "munitionsfailsafe",
+    "types": [
+      "modification"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 

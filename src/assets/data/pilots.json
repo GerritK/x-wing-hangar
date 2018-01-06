@@ -483,6 +483,62 @@
 
 
   {
+    "id": "airencracken",
+    "shipId": "z95headhunter",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 19,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "lieutenantblount",
+    "shipId": "z95headhunter",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 17,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "talasquadronpilot",
+    "shipId": "z95headhunter",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 13,
+    "slots": [
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "banditsquadronpilot",
+    "shipId": "z95headhunter",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 12,
+    "slots": [
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",

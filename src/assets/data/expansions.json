@@ -323,5 +323,24 @@
       "protonbombs",
       "seismiccharges"
     ]
+  },
+  {
+    "id": "z95headhunter",
+    "ships": [
+      "z95headhunter"
+    ],
+    "pilots": [
+      "airencracken",
+      "lieutenantblount",
+      "talasquadronpilot",
+      "banditsquadronpilot"
+    ],
+    "upgrades": [
+      "decoy",
+      "wingman",
+      "ionpulsemissiles",
+      "assaultmissiles",
+      "munitionsfailsafe"
+    ]
   }
 ]
