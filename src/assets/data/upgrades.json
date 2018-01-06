@@ -168,6 +168,28 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "outmaneuver",
+    "types": [
+      "elite"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "predator",
+    "types": [
+      "elite"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {

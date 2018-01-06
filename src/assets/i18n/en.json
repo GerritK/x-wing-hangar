@@ -61,7 +61,8 @@
       "firespray31": "Firespray-31",
       "tieinterceptor": "TIE Interceptor",
       "lambdaclassshuttle": "Lambda-class Shuttle",
-      "tiebomber": "TIE Bomber"
+      "tiebomber": "TIE Bomber",
+      "tiedefender": "TIE Defender"
     },
     "pilots": {
       "xwing": {
@@ -330,6 +331,22 @@
         "scimitarsquadronpilot": {
           "name": "Scimitar Squadron Pilot"
         }
+      },
+      "tiedefender": {
+        "rexlerbrath": {
+          "name": "Rexler Brath",
+          "description": "After you perform an attack that deals at least 1 Damage card to the defender, you may spend a focus token to flip those cards faceup."
+        },
+        "colonelvessery": {
+          "name": "Colonel Vessery",
+          "description": "When attacking, immediately after you roll attack dice, you may acquire a target lock on the defender if it already has a red target lock token."
+        },
+        "onyxsquadronpilot": {
+          "name": "Onyx Squadron Pilot"
+        },
+        "deltasquadronpilot": {
+          "name": "Delta Squadron Pilot"
+        }
       }
     },
     "upgrades": {
@@ -392,6 +409,14 @@
         },
         "wingman": {
           "name": "Wingman",
+          "description": ""
+        },
+        "outmaneuver": {
+          "name": "Outmaneuver",
+          "description": ""
+        },
+        "predator": {
+          "name": "Predator",
           "description": ""
         }
       },

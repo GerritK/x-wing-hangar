@@ -985,5 +985,65 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "rexlerbrath",
+    "shipId": "tiedefender",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 37,
+    "slots": [
+      "elite",
+      "cannon",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "colonelvessery",
+    "shipId": "tiedefender",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 35,
+    "slots": [
+      "elite",
+      "cannon",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "onyxsquadronpilot",
+    "shipId": "tiedefender",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 32,
+    "slots": [
+      "cannon",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "deltasquadronpilot",
+    "shipId": "tiedefender",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 30,
+    "slots": [
+      "cannon",
+      "missile",
+      "modification",
+      "title"
+    ]
   }
 ]

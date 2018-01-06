@@ -342,5 +342,24 @@
       "assaultmissiles",
       "munitionsfailsafe"
     ]
+  },
+  {
+    "id": "tiedefender",
+    "ships": [
+      "tiedefender"
+    ],
+    "pilots": [
+      "rexlerbrath",
+      "colonelvessery",
+      "onyxsquadronpilot",
+      "deltasquadronpilot"
+    ],
+    "upgrades": [
+      "outmaneuver",
+      "predator",
+      "ioncannon",
+      "ionpulsemissiles",
+      "munitionsfailsafe"
+    ]
   }
 ]
