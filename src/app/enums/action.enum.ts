@@ -7,7 +7,8 @@ export enum Action {
   RECOVER = 'recover',
   REINFORCE = 'reinforce',
   COORDINATE = 'coordinate',
-  JAM = 'jam'
+  JAM = 'jam',
+  CLOAK = 'cloak'
 }
 
 export namespace Action {

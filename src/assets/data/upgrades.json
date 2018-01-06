@@ -779,6 +779,17 @@
       {"fnc": "shipSize", "value": "huge"}
     ]
   },
+  {
+    "id": "tactician",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -989,6 +1000,30 @@
       "modification"
     ],
     "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "advancedcloakingdevice",
+    "types": [
+      "modification"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "tiephantom"}
+    ]
+  },
+  {
+    "id": "stygiumparticleaccelerator",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],

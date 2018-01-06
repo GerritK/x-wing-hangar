@@ -63,7 +63,8 @@
       "tieinterceptor": "TIE Interceptor",
       "lambdaclassshuttle": "Lambda-class Shuttle",
       "tiebomber": "TIE Bomber",
-      "tiedefender": "TIE Defender"
+      "tiedefender": "TIE Defender",
+      "tiephantom": "TIE Phantom"
     },
     "pilots": {
       "xwing": {
@@ -364,6 +365,22 @@
         "deltasquadronpilot": {
           "name": "Delta Squadron Pilot"
         }
+      },
+      "tiephantom": {
+        "whisper": {
+          "name": "\"Whisper\"",
+          "description": "After you perform an attack that hits, you may assign 1 focus token to your ship."
+        },
+        "echo": {
+          "name": "\"Echo\"",
+          "description": "When you decloak, you must use the [<i-bankleft> 2] or [<i-bankright> 2] template instead of the [<i-straight> 2] template."
+        },
+        "shadowsquadronpilot": {
+          "name": "Shadow Squadron Pilot"
+        },
+        "sigmasquadronpilot": {
+          "name": "Sigma Squadron Pilot"
+        }
       }
     },
     "upgrades": {
@@ -629,6 +646,10 @@
         "wed15repairdroid": {
           "name": "WED-15 Repair Droid",
           "description": ""
+        },
+        "tactician": {
+          "name": "Tactician",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -701,6 +722,14 @@
         },
         "munitionsfailsafe": {
           "name": "Munitions Failsafe",
+          "description": ""
+        },
+        "advancedcloakingdevice": {
+          "name": "Advanced Cloaking Device",
+          "description": ""
+        },
+        "stygiumparticleaccelerator": {
+          "name": "Stygium Particle Accelerator",
           "description": ""
         }
       },

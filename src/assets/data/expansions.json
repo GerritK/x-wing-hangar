@@ -380,5 +380,24 @@
       "flechettetorpedoes",
       "advancedsensors"
     ]
+  },
+  {
+    "id": "tiephantom",
+    "ships": [
+      "tiephantom"
+    ],
+    "pilots": [
+      "whisper",
+      "echo",
+      "shadowsquadronpilot",
+      "sigmasquadronpilot"
+    ],
+    "upgrades": [
+      "reconspecialist",
+      "tactician",
+      "firecontrolsystem",
+      "advancedcloakingdevice",
+      "stygiumparticleaccelerator"
+    ]
   }
 ]

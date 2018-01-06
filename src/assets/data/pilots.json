@@ -1109,5 +1109,65 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "whisper",
+    "shipId": "tiephantom",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 32,
+    "slots": [
+      "elite",
+      "system",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "echo",
+    "shipId": "tiephantom",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 30,
+    "slots": [
+      "elite",
+      "system",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "shadowsquadronpilot",
+    "shipId": "tiephantom",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 27,
+    "slots": [
+      "system",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sigmasquadronpilot",
+    "shipId": "tiephantom",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 25,
+    "slots": [
+      "system",
+      "crew",
+      "modification",
+      "title"
+    ]
   }
 ]
