@@ -780,5 +780,77 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "majorrhymer",
+    "shipId": "tiebomber",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 26,
+    "slots": [
+      "elite",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "captainjonus",
+    "shipId": "tiebomber",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 22,
+    "slots": [
+      "elite",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "gammasquadronpilot",
+    "shipId": "tiebomber",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 18,
+    "slots": [
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "scimitarsquadronpilot",
+    "shipId": "tiebomber",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 16,
+    "slots": [
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "modification",
+      "title"
+    ]
   }
 ]

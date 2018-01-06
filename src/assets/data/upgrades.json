@@ -135,6 +135,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "adrenalinerush",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -395,6 +406,17 @@
       "bomb"
     ],
     "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "protonbombs",
+    "types": [
+      "bomb"
+    ],
+    "cost": 5,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],

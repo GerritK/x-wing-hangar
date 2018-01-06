@@ -261,5 +261,24 @@
       "ioncannon",
       "firecontrolsystem"
     ]
+  },
+  {
+    "id": "tiebomber",
+    "ships": [
+      "tiebomber"
+    ],
+    "pilots": [
+      "majorrhymer",
+      "captainjonus",
+      "gammasquadronpilot",
+      "scimitarsquadronpilot"
+    ],
+    "upgrades": [
+      "adrenalinerush",
+      "advancedprotontorpedoes",
+      "assaultmissiles",
+      "protonbombs",
+      "seismiccharges"
+    ]
   }
 ]
