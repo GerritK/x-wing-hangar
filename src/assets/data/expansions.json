@@ -436,5 +436,32 @@
       "jainaslight",
       "tantiveiv"
     ]
+  },
+  {
+    "id": "yt2400",
+    "ships": [
+      "yt2400"
+    ],
+    "pilots": [
+      "dashrendar",
+      "leebo",
+      "eadenvrill",
+      "wildspacefringer"
+    ],
+    "upgrades": [
+      "lonewolf",
+      "stayontarget",
+      "protonrockets",
+      "heavylasercannon",
+      "leebo",
+      "dashrendar",
+      "gunner",
+      "landocalrissian",
+      "mercenarycopilot",
+      "outrider",
+      "countermeasures",
+      "countermeasures",
+      "experimentalinterface"
+    ]
   }
 ]

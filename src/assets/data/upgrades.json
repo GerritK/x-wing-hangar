@@ -190,6 +190,28 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "lonewolf",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "stayontarget",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -451,6 +473,21 @@
     "stats": {
       "attack": 3,
       "range": "2-3"
+    }
+  },
+  {
+    "id": "protonrockets",
+    "types": [
+      "missile"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 2,
+      "range": "1"
     }
   },
 
@@ -867,6 +904,45 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "leebo",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "dashrendar",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "landocalrissian",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
 
 
   {
@@ -1044,6 +1120,19 @@
       {"fnc": "shipId", "value": "cr90corvettefore"}
     ]
   },
+  {
+    "id": "outrider",
+    "types": [
+      "title"
+    ],
+    "cost": 5,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "yt2400"}
+    ]
+  },
 
 
   {
@@ -1144,6 +1233,30 @@
     ],
     "cost": 2,
     "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "countermeasures",
+    "types": [
+      "modification"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "large"}
+    ]
+  },
+  {
+    "id": "experimentalinterface",
+    "types": [
+      "modification"
+    ],
+    "cost": 3,
+    "isUnique": true,
     "isLimited": false,
     "modifiers": [],
     "restrictions": []

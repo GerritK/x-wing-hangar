@@ -639,6 +639,70 @@
 
 
   {
+    "id": "dashrendar",
+    "shipId": "yt2400",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 36,
+    "slots": [
+      "elite",
+      "cannon",
+      "missile",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "leebo",
+    "shipId": "yt2400",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 34,
+    "slots": [
+      "elite",
+      "cannon",
+      "missile",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "eadenvrill",
+    "shipId": "yt2400",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 32,
+    "slots": [
+      "cannon",
+      "missile",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "wildspacefringer",
+    "shipId": "yt2400",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 30,
+    "slots": [
+      "cannon",
+      "missile",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",

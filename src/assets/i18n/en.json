@@ -59,6 +59,7 @@
       "ewing": "E-Wing",
       "cr90corvettefore": "CR90 Corvette (Fore)",
       "cr90corvetteaft": "CR90 Corvette (Aft)",
+      "yt2400": "YT-2400",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -237,6 +238,23 @@
       "cr90corvetteaft": {
         "cr90corvetteaft": {
           "name": "CR90 Corvette (Aft)"
+        }
+      },
+      "yt2400": {
+        "dashrendar": {
+          "name": "Dash Rendar",
+          "description": "You may ignore obstacles during the Activation phase and when performing actions."
+        },
+        "leebo": {
+          "name": "\"Leebo\"",
+          "description": "When you are dealt a faceup Damage card, draw 1 additional Damage card, choose 1 to resolve, and discard the other."
+        },
+        "eadenvrill": {
+          "name": "Eaden Vrill",
+          "description": "When performing a primary weapon attack against a stressed ship, roll 1 additional attack die."
+        },
+        "wildspacefringer": {
+          "name": "Wild Space Fringer"
         }
       },
       "tiefighter": {
@@ -465,6 +483,14 @@
         "predator": {
           "name": "Predator",
           "description": ""
+        },
+        "lonewolf": {
+          "name": "Lone Wolf",
+          "description": ""
+        },
+        "stayontarget": {
+          "name": "Stay On Target",
+          "description": ""
         }
       },
       "astromech": {
@@ -550,6 +576,10 @@
         },
         "ionpulsemissiles": {
           "name": "Ion Pulse Missiles",
+          "description": ""
+        },
+        "protonrockets": {
+          "name": "Proton Rockets",
           "description": ""
         }
       },
@@ -687,6 +717,18 @@
         "tactician": {
           "name": "Tactician",
           "description": ""
+        },
+        "leebo": {
+          "name": "\"Leebo\"",
+          "description": ""
+        },
+        "dashrendar": {
+          "name": "Dash Rendar",
+          "description": ""
+        },
+        "landocalrissian": {
+          "name": "Lando Calrissian",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -746,6 +788,10 @@
         "tantiveiv": {
           "name": "Tantive IV",
           "description": ""
+        },
+        "outrider": {
+          "name": "Outrider",
+          "description": ""
         }
       },
       "modification": {
@@ -779,6 +825,14 @@
         },
         "stygiumparticleaccelerator": {
           "name": "Stygium Particle Accelerator",
+          "description": ""
+        },
+        "countermeasures": {
+          "name": "Counter Measures",
+          "description": ""
+        },
+        "experimentalinterface": {
+          "name": "Experimental Interface",
           "description": ""
         }
       },
