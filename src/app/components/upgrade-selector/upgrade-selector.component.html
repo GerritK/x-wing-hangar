@@ -15,7 +15,7 @@
     <ng-container *ngFor="let option of allUpgrades">
       <mat-option *ngIf="upgradeType !== UpgradeType.TITLE || !option.notUseable"
                   [value]="option.upgrade"
-                  [disabled]="(option.alreadyUsed || option.notUseable) && (!upgrade || upgrade.id !== option.upgrade.id)"
+                  [disabled]="(option.alreadyUsed && (!upgrade || upgrade.id !== option.upgrade.id)) || option.notUseable"
                   [class.limited]="option.upgrade.isLimited">
         <i *ngIf="option.upgrade.isUnique"
            class="xwing-miniatures-font xwing-miniatures-font-unique inline"> </i>

@@ -104,6 +104,13 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
     for (const option of this.allUpgrades) {
       option.notUseable = !RestrictionHelper.isUseable(this.squadronShip, option.upgrade);
 
+      if (this.upgrade === option.upgrade && option.notUseable) {
+        setTimeout(() => {
+          this.upgrade = null;
+          this.upgradeChange.next(null);
+        });
+      }
+
       let used = false;
 
       if (option.upgrade.isUnique) {
