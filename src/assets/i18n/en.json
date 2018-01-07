@@ -57,8 +57,8 @@
       "gr75mediumtransporter": "GR-75 Medium Transporter",
       "z95headhunter": "Z-95 Headhunter",
       "ewing": "E-Wing",
-      "cr90corevettefore": "CR90 Corvette (Fore)",
-      "cr90corevetteaft": "CR90 Corvette (Aft)",
+      "cr90corvettefore": "CR90 Corvette (Fore)",
+      "cr90corvetteaft": "CR90 Corvette (Aft)",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -228,12 +228,14 @@
           "name": "Knave Squadron Pilot"
         }
       },
-      "cr90corevettefore": {
-        "cr90corevettefore": {
+      "cr90corvettefore": {
+        "cr90corvettefore": {
           "name": "CR90 Corvette (Fore)",
           "description": "When attacking with your primary weapon, you may spend 1 energy to roll 1 additional attack die."
-        },
-        "cr90corevetteaft": {
+        }
+      },
+      "cr90corvetteaft": {
+        "cr90corvetteaft": {
           "name": "CR90 Corvette (Aft)"
         }
       },
@@ -680,6 +682,10 @@
         },
         "targetingcoordinator": {
           "name": "Targeting Coordinator",
+          "description": ""
+        },
+        "tactician": {
+          "name": "Tactician",
           "description": ""
         }
       },
