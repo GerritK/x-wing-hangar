@@ -116,7 +116,5 @@ export class UpgradeSelectorComponent implements OnInit, OnChanges, OnDestroy, D
 
       option.alreadyUsed = used;
     }
-
-    console.log(this.allUpgrades);
   }
 }
