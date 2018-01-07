@@ -153,6 +153,7 @@
   {
     "id": "gr75mediumtransporter",
     "size": "huge",
+    "epicPoints": 2,
     "factions": [
       "rebel"
     ],
@@ -205,8 +206,7 @@
     "id": "ewing",
     "size": "small",
     "factions": [
-      "rebel",
-      "scum"
+      "rebel"
     ],
     "stats": {
       "attack": 3,
@@ -227,6 +227,65 @@
       [1, 1, 2, 1, 1, 3],
       [0, 0, 1, 0, 0, 3],
       [0, 0, 1, 0, 0, 0]
+    ]
+  },
+  {
+    "id": "cr90corvettefore",
+    "canonicalId": "cr90corvette",
+    "size": "huge",
+    "epicPoints": 1.5,
+    "factions": [
+      "rebel"
+    ],
+    "stats": {
+      "attack": 4,
+      "agility": 0,
+      "hull": 8,
+      "shield": 5,
+      "firingArc": "turret"
+    },
+    "actions": [
+      "coordinate",
+      "targetlock"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 0, 1, 0, 0],
+      [0, 1, 1, 1, 0, 0],
+      [0, 0, 1, 0, 0, 0],
+      [0, 0, 1, 0, 0, 0]
+    ],
+    "multisection": [
+      "cr90corvetteaft"
+    ]
+  },
+  {
+    "id": "cr90corvetteaft",
+    "canonicalId": "cr90corvette",
+    "size": "huge",
+    "epicPoints": 1.5,
+    "factions": [
+      "rebel"
+    ],
+    "stats": {
+      "energy": 5,
+      "agility": 0,
+      "hull": 8,
+      "shield": 3
+    },
+    "actions": [
+      "reinforce",
+      "recover"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 0, 1, 0, 0],
+      [0, 1, 1, 1, 0, 0],
+      [0, 0, 1, 0, 0, 0],
+      [0, 0, 1, 0, 0, 0]
+    ],
+    "multisection": [
+      "cr90corvettefore"
     ]
   },
 

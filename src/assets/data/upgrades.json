@@ -790,6 +790,83 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "c3po",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "hansolo",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "leiaorgana",
+    "types": [
+      "crew"
+    ],
+    "cost": 4,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "r2d2-swx22",
+    "types": [
+      "crew"
+    ],
+    "cost": 4,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "raymusantilles",
+    "types": [
+      "crew"
+    ],
+    "cost": 6,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"},
+      {"fnc": "shipSize", "value": "huge"}
+    ]
+  },
+  {
+    "id": "targetingcoordinator",
+    "types": [
+      "crew"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -923,6 +1000,48 @@
     ],
     "restrictions": [
       {"fnc": "shipId", "value": "gr75mediumtransporter"}
+    ]
+  },
+  {
+    "id": "dodonnaspride",
+    "types": [
+      "title"
+    ],
+    "cost": 4,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "cr90corvettefore"}
+    ]
+  },
+  {
+    "id": "jainaslight",
+    "types": [
+      "title"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "cr90corvettefore"}
+    ]
+  },
+  {
+    "id": "tantiveiv",
+    "types": [
+      "title"
+    ],
+    "cost": 4,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "crew"},
+      {"fnc": "gainUpgrade", "value": "team"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "cr90corvettefore"}
     ]
   },
 
@@ -1129,6 +1248,84 @@
     "cost": 4,
     "isUnique": false,
     "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "ionizationreactor",
+    "types": [
+      "cargo"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
+
+
+  {
+    "id": "quadlasercannons",
+    "types": [
+      "hardpoint"
+    ],
+    "cost": 6,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-2"
+    }
+  },
+  {
+    "id": "singleturbolasers",
+    "types": [
+      "hardpoint"
+    ],
+    "cost": 8,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 4,
+      "range": "3-5"
+    }
+  },
+
+
+  {
+    "id": "engineeringteam",
+    "types": [
+      "team"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "gunneryteam",
+    "types": [
+      "team"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "sensorteam",
+    "types": [
+      "team"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
     "modifiers": [],
     "restrictions": []
   }

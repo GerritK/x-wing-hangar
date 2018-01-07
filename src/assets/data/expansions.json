@@ -399,5 +399,42 @@
       "advancedcloakingdevice",
       "stygiumparticleaccelerator"
     ]
+  },
+  {
+    "id": "tantiveiv",
+    "ships": [
+      "cr90corvettefore",
+      "cr90corvetteaft"
+    ],
+    "pilots": [
+      "cr90corvettefore",
+      "cr90corvetteaft"
+    ],
+    "upgrades": [
+      "backupshieldgenerator",
+      "commsbooster",
+      "commsbooster",
+      "enginebooster",
+      "ionizationreactor",
+      "tibannagassupplies",
+      "c3po",
+      "hansolo",
+      "leiaorgana",
+      "r2d2-swx22",
+      "raymusantilles",
+      "targetingcoordinator",
+      "quadlasercannons",
+      "quadlasercannons",
+      "quadlasercannons",
+      "singleturbolasers",
+      "singleturbolasers",
+      "singleturbolasers",
+      "engineeringteam",
+      "gunneryteam",
+      "sensorteam",
+      "dodonnaspride",
+      "jainaslight",
+      "tantiveiv"
+    ]
   }
 ]

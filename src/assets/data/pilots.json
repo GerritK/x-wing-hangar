@@ -603,6 +603,42 @@
 
 
   {
+    "id": "cr90corvettefore",
+    "shipId": "cr90corvettefore",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 50,
+    "slots": [
+      "crew",
+      "hardpoint",
+      "hardpoint",
+      "team",
+      "team",
+      "cargo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "cr90corvetteaft",
+    "shipId": "cr90corvetteaft",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 40,
+    "slots": [
+      "crew",
+      "hardpoint",
+      "team",
+      "cargo",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",
