@@ -67,7 +67,8 @@
       "lambdaclassshuttle": "Lambda-class Shuttle",
       "tiebomber": "TIE Bomber",
       "tiedefender": "TIE Defender",
-      "tiephantom": "TIE Phantom"
+      "tiephantom": "TIE Phantom",
+      "vt49decimator": "VT-49 Decimator"
     },
     "pilots": {
       "xwing": {
@@ -412,6 +413,23 @@
         "sigmasquadronpilot": {
           "name": "Sigma Squadron Pilot"
         }
+      },
+      "vt49decimator": {
+        "rearadmiralchiraneau": {
+          "name": "Rear Admiral Chiraneau",
+          "description": "When attacking at Range 1-2, you may change one of your <i-focus> results to a <i-crit> result."
+        },
+        "commanderkenkirk": {
+          "name": "Commander Kenkirk",
+          "description": "If you have no shields and at least 1 Damage card assigned to you, increase your agility value by 1."
+        },
+        "captainoicunn": {
+          "name": "Captain Oicunn",
+          "description": "After executing a maneuver, each enemy ship you are touching suffers 1 damage."
+        },
+        "patrolleader": {
+          "name": "Patrol Leader"
+        }
       }
     },
     "upgrades": {
@@ -491,6 +509,14 @@
         "stayontarget": {
           "name": "Stay On Target",
           "description": ""
+        },
+        "intimidation": {
+          "name": "Intimidation",
+          "description": ""
+        },
+        "ruthlessness": {
+          "name": "Ruthlessness",
+          "description": ""
         }
       },
       "astromech": {
@@ -554,6 +580,10 @@
         },
         "flechettetorpedoes": {
           "name": "Flechette Torpedoes",
+          "description": ""
+        },
+        "iontorpedoes": {
+          "name": "Ion Torpedoes",
           "description": ""
         }
       },
@@ -729,6 +759,22 @@
         "landocalrissian": {
           "name": "Lando Calrissian",
           "description": ""
+        },
+        "fleetofficer": {
+          "name": "Fleet Officer",
+          "description": ""
+        },
+        "marajade": {
+          "name": "Mara Jade",
+          "description": ""
+        },
+        "moffjerjerrod": {
+          "name": "Moff Jerjerrod",
+          "description": ""
+        },
+        "ysanneisard": {
+          "name": "Ysanne Isard",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -792,6 +838,10 @@
         "outrider": {
           "name": "Outrider",
           "description": ""
+        },
+        "dauntless": {
+          "name": "Dauntless",
+          "description": ""
         }
       },
       "modification": {
@@ -833,6 +883,10 @@
         },
         "experimentalinterface": {
           "name": "Experimental Interface",
+          "description": ""
+        },
+        "tacticaljammer": {
+          "name": "Tactical Jammer",
           "description": ""
         }
       },

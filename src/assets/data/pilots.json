@@ -1269,5 +1269,78 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "rearadmiralchiraneau",
+    "shipId": "vt49decimator",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 46,
+    "slots": [
+      "elite",
+      "torpedo",
+      "crew",
+      "crew",
+      "crew",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "commanderkenkirk",
+    "shipId": "vt49decimator",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 44,
+    "slots": [
+      "elite",
+      "torpedo",
+      "crew",
+      "crew",
+      "crew",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "captainoicunn",
+    "shipId": "vt49decimator",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 42,
+    "slots": [
+      "elite",
+      "torpedo",
+      "crew",
+      "crew",
+      "crew",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "patrolleader",
+    "shipId": "vt49decimator",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 40,
+    "slots": [
+      "torpedo",
+      "crew",
+      "crew",
+      "crew",
+      "bomb",
+      "modification",
+      "title"
+    ]
   }
 ]

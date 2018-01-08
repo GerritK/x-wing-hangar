@@ -463,5 +463,31 @@
       "countermeasures",
       "experimentalinterface"
     ]
+  },
+  {
+    "id": "vt49decimator",
+    "ships": [
+      "vt49decimator"
+    ],
+    "pilots": [
+      "rearadmiralchiraneau",
+      "commanderkenkirk",
+      "captainoicunn",
+      "patrolleader"
+    ],
+    "upgrades": [
+      "intimidation",
+      "ruthlessness",
+      "ruthlessness",
+      "iontorpedoes",
+      "iontorpedoes",
+      "protonbombs",
+      "fleetofficer",
+      "marajade",
+      "moffjerjerrod",
+      "ysanneisard",
+      "dauntless",
+      "tacticaljammer"
+    ]
   }
 ]

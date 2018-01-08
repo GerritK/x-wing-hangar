@@ -212,6 +212,30 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "intimidation",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "ruthlessness",
+    "types": [
+      "elite"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "imperial"}
+    ]
+  },
 
 
   {
@@ -395,6 +419,21 @@
     "restrictions": [],
     "stats": {
       "attack": 3,
+      "range": "2-3"
+    }
+  },
+  {
+    "id": "iontorpedoes",
+    "types": [
+      "torpedo"
+    ],
+    "cost": 5,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 4,
       "range": "2-3"
     }
   },
@@ -943,6 +982,58 @@
       {"fnc": "faction", "value": "rebel"}
     ]
   },
+  {
+    "id": "fleetofficer",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "imperial"}
+    ]
+  },
+  {
+    "id": "marajade",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "imperial"}
+    ]
+  },
+  {
+    "id": "moffjerjerrod",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "imperial"}
+    ]
+  },
+  {
+    "id": "ysanneisard",
+    "types": [
+      "crew"
+    ],
+    "cost": 4,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "imperial"}
+    ]
+  },
 
 
   {
@@ -1133,6 +1224,19 @@
       {"fnc": "shipId", "value": "yt2400"}
     ]
   },
+  {
+    "id": "dauntless",
+    "types": [
+      "title"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "vt49decimator"}
+    ]
+  },
 
 
   {
@@ -1260,6 +1364,19 @@
     "isLimited": false,
     "modifiers": [],
     "restrictions": []
+  },
+  {
+    "id": "tacticaljammer",
+    "types": [
+      "modification"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "large"}
+    ]
   },
 
 
