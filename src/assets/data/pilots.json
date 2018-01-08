@@ -1012,6 +1012,69 @@
       "title"
     ]
   },
+  {
+    "id": "carnorjax",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 26,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "tetrancowall",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 24,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "kirkanos",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 24,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "lieutenantlorrir",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 23,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "royalguardpilot",
+    "shipId": "tieinterceptor",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 6,
+    "cost": 22,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
 
 
   {

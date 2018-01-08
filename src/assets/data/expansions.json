@@ -401,6 +401,37 @@
     ]
   },
   {
+    "id": "imperialaces",
+    "ships": [
+      "tieinterceptor",
+      "tieinterceptor"
+    ],
+    "pilots": [
+      "carnorjax",
+      "tetrancowall",
+      "kirkanos",
+      "lieutenantlorrir",
+      "royalguardpilot",
+      "royalguardpilot",
+      "sabersquadronpilot",
+      "sabersquadronpilot"
+    ],
+    "upgrades": [
+      "opportunist",
+      "opportunist",
+      "pushthelimit",
+      "pushthelimit",
+      "royalguardtie",
+      "royalguardtie",
+      "hullupgrade",
+      "hullupgrade",
+      "shieldupgrade",
+      "shieldupgrade",
+      "targetingcomputer",
+      "targetingcomputer"
+    ]
+  },
+  {
     "id": "tantiveiv",
     "ships": [
       "cr90corvettefore",

@@ -236,6 +236,17 @@
       {"fnc": "faction", "value": "imperial"}
     ]
   },
+  {
+    "id": "opportunist",
+    "types": [
+      "elite"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -1237,6 +1248,20 @@
       {"fnc": "shipId", "value": "vt49decimator"}
     ]
   },
+  {
+    "id": "royalguardtie",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "tieinterceptor"},
+      {"fnc": "skill", "operator": ">", "value": 4}
+    ]
+  },
 
 
   {
@@ -1377,6 +1402,32 @@
     "restrictions": [
       {"fnc": "shipSize", "value": "large"}
     ]
+  },
+  {
+    "id": "hullupgrade",
+    "types": [
+      "modification"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "changeHull", "value": 1}
+    ],
+    "restrictions": []
+  },
+  {
+    "id": "targetingcomputer",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainAction", "value": "targetlock"}
+    ],
+    "restrictions": []
   },
 
 
