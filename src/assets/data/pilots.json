@@ -372,6 +372,33 @@
     ]
   },
   {
+    "id": "jakefarrell",
+    "shipId": "awing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 24,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "gemmersojan",
+    "shipId": "awing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 22,
+    "slots": [
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
     "id": "greensquadronpilot",
     "shipId": "awing",
     "faction": "rebel",
@@ -546,6 +573,40 @@
     "isUnique": true,
     "skill": 6,
     "cost": 28,
+    "slots": [
+      "elite",
+      "system",
+      "cannon",
+      "torpedo",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "keyanfarlander",
+    "shipId": "bwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 29,
+    "slots": [
+      "elite",
+      "system",
+      "cannon",
+      "torpedo",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "neradantels",
+    "shipId": "bwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 26,
     "slots": [
       "elite",
       "system",

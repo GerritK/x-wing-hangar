@@ -642,5 +642,38 @@
       "andrasta",
       "hotshotblaster"
     ]
+  },
+  {
+    "id": "rebelaces",
+    "ships": [
+      "awing",
+      "bwing"
+    ],
+    "pilots": [
+      "keyanfarlander",
+      "neradantels",
+      "daggersquadronpilot",
+      "bluesquadronpilot",
+
+      "jakefarrell",
+      "gemmersojan",
+      "greensquadronpilot",
+      "prototypepilot"
+    ],
+    "upgrades": [
+      "chardaanrefit",
+      "chardaanrefit",
+      "chardaanrefit",
+      "protonrockets",
+      "protonrockets",
+      "janors",
+      "kylekatarn",
+      "enhancedscopes",
+      "enhancedscopes",
+      "awingtestpilot",
+      "awingtestpilot",
+      "bwinge2",
+      "bwinge2"
+    ]
   }
 ]

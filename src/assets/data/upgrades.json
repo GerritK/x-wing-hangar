@@ -638,6 +638,19 @@
       "range": "1"
     }
   },
+  {
+    "id": "chardaanrefit",
+    "types": [
+      "missile"
+    ],
+    "cost": -2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "awing"}
+    ]
+  },
 
 
   {
@@ -1227,6 +1240,32 @@
       {"fnc": "faction", "value": "scum"}
     ]
   },
+  {
+    "id": "janors",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "kylekatarn",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
 
 
   {
@@ -1268,6 +1307,17 @@
       "system"
     ],
     "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "enhancedscopes",
+    "types": [
+      "system"
+    ],
+    "cost": 1,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],
@@ -1533,6 +1583,22 @@
       {"fnc": "shipId", "value": "firespray31"}
     ]
   },
+  {
+    "id": "awingtestpilot",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "elite"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "awing"},
+      {"fnc": "skill", "operator": ">", "value": 1}
+    ]
+  },
 
 
   {
@@ -1711,6 +1777,21 @@
     "modifiers": [],
     "restrictions": [
       {"fnc": "hasAction", "value": "boost"}
+    ]
+  },
+  {
+    "id": "bwinge2",
+    "types": [
+      "modification"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "crew"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "bwing"}
     ]
   },
 

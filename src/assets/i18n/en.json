@@ -170,6 +170,14 @@
           "name": "Arvel Crynyd",
           "description": "You may declare an enemy ship inside your firing arc that you are touching as the target of your attack."
         },
+        "jakefarrell": {
+          "name": "Jake Farrell",
+          "description": "After you perform a focus action or are assigned a focus token, you may perform a free boost or barrel roll action."
+        },
+        "gemmersojan": {
+          "name": "Gemmer Sojan",
+          "description": "While you are at Range 1 of at least 1 enemy ship, increase your agility value by 1."
+        },
         "greensquadronpilot": {
           "name": "Green Squadron Pilot"
         },
@@ -217,6 +225,14 @@
         "ibtisam": {
           "name": "Ibtisam",
           "description": "When attacking or defending, if you have at least one stress token, you may reroll 1 of your dice."
+        },
+        "keyanfarlander": {
+          "name": "Keyan Farlander",
+          "description": "When attacking, you may remove 1 stress token to change all of your <i-focus> results to <i-hit> results."
+        },
+        "neradantels": {
+          "name": "Nera Dantels",
+          "description": "You can perform <i-torpedo> secondary weapon attacks against enemy ships outside your firing arc."
         },
         "daggersquadronpilot": {
           "name": "Dagger Squadron Pilot"
@@ -757,6 +773,10 @@
         "protonrockets": {
           "name": "Proton Rockets",
           "description": ""
+        },
+        "chardaanrefit": {
+          "name": "Chardaan Refit",
+          "description": ""
         }
       },
       "cannon": {
@@ -945,6 +965,14 @@
         "outlawtech": {
           "name": "Outlaw Tech",
           "description": ""
+        },
+        "janors": {
+          "name": "Jan Ors",
+          "description": ""
+        },
+        "kylekatarn": {
+          "name": "Kyle Katarn",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -984,6 +1012,10 @@
         },
         "accuracycorrector": {
           "name": "Accuracy Corrector",
+          "description": ""
+        },
+        "enhancedscopes": {
+          "name": "Enhanced Scopes",
           "description": ""
         }
       },
@@ -1059,6 +1091,10 @@
         "andrasta": {
           "name": "Andrasta",
           "description": ""
+        },
+        "awingtestpilot": {
+          "name": "A-Wing Test Pilot",
+          "description": ""
         }
       },
       "modification": {
@@ -1116,6 +1152,10 @@
         },
         "autothrusters": {
           "name": "Autothrusters",
+          "description": ""
+        },
+        "bwinge2": {
+          "name": "B-Wing/E2",
           "description": ""
         }
       },
