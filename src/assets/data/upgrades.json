@@ -913,6 +913,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "clustermines",
+    "types": [
+      "bomb"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -2107,6 +2118,22 @@
     "isLimited": false,
     "modifiers": [],
     "restrictions": []
+  },
+  {
+    "id": "twinionenginemkii",
+    "types": [
+      "modification"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "maneuverDifficulty", "maneuver": "1", "difficulty": "2"},
+      {"fnc": "maneuverDifficulty", "maneuver": "3", "difficulty": "2"}
+    ],
+    "restrictions": [
+      {"fnc": "isTIE"}
+    ]
   },
 
 

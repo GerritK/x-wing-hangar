@@ -68,6 +68,10 @@ export class RestrictionHelper {
     return result;
   }
 
+  public static isTIE(ship: SquadronShip, restrictionData: any) {
+    return ship.ship.id.startsWith('tie');
+  }
+
   private static callRestrictionFunction(ship: SquadronShip, restriction: any) {
     return RestrictionHelper[restriction.fnc](ship, restriction);
   }

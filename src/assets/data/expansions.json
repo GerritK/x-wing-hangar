@@ -799,5 +799,27 @@
       "bombardier",
       "advancedslam"
     ]
+  },
+  {
+    "id": "tiepunisher",
+    "ships": [
+      "tiepunisher"
+    ],
+    "pilots": [
+      "redline",
+      "deathrain",
+      "blackeightsqpilot",
+      "cutlasssquadronpilot"
+    ],
+    "upgrades": [
+      "extramunitions",
+      "flechettetorpedoes",
+      "plasmatorpedoes",
+      "advhomingmissiles",
+      "clustermines",
+      "ionbombs",
+      "enhancedscopes",
+      "twinionenginemkii"
+    ]
   }
 ]

@@ -72,6 +72,7 @@
       "vt49decimator": "VT-49 Decimator",
       "raiderclasscorvettefore": "Raider-class Corvette (Fore)",
       "raiderclasscorvetteaft": "Raider-class Corvette (Aft)",
+      "tiepunisher": "TIE Punisher",
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
@@ -575,6 +576,22 @@
           "name": "Raider-class Corvette (Aft)"
         }
       },
+      "tiepunisher": {
+        "redline": {
+          "name": "\"Redline\"",
+          "description": "You may maintain 2 target locks on the same ship. When you acquire a target lock, you may acquire a second lock on that same ship."
+        },
+        "deathrain": {
+          "name": "\"Deathrain\"",
+          "description": "When dropping a bomb, you may use the front guides of your ship. After dropping a bomb, you may perform a free barrel roll action."
+        },
+        "blackeightsqpilot": {
+          "name": "Black Eight Squadron Pilot"
+        },
+        "cutlasssquadronpilot": {
+          "name": "Cutlass Squadron Pilot"
+        }
+      },
       "starviper": {
         "princexizor": {
           "name": "Prince Xizor",
@@ -939,6 +956,10 @@
         },
         "ionbombs": {
           "name": "Ion Bombs",
+          "description": ""
+        },
+        "clustermines": {
+          "name": "Cluster Mines",
           "description": ""
         }
       },
@@ -1333,6 +1354,10 @@
         },
         "advancedslam": {
           "name": "Advanced SLAM",
+          "description": ""
+        },
+        "twinionenginemkii": {
+          "name": "Twin Ion Engine Mk. II",
           "description": ""
         }
       },

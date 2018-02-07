@@ -1894,6 +1894,84 @@
 
 
   {
+    "id": "redline",
+    "shipId": "tiepunisher",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 27,
+    "slots": [
+      "system",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "deathrain",
+    "shipId": "tiepunisher",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 26,
+    "slots": [
+      "system",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "blackeightsqpilot",
+    "shipId": "tiepunisher",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 23,
+    "slots": [
+      "system",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "cutlasssquadronpilot",
+    "shipId": "tiepunisher",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 21,
+    "slots": [
+      "system",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "princexizor",
     "shipId": "starviper",
     "faction": "scum",
