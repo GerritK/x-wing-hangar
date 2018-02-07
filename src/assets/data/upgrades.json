@@ -247,6 +247,30 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "bodyguard",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
+  {
+    "id": "calculation",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -1080,6 +1104,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "accuracycorrector",
+    "types": [
+      "system"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -1262,6 +1297,23 @@
       {"fnc": "skill", "operator": ">", "value": 4}
     ]
   },
+  {
+    "id": "virago",
+    "types": [
+      "title"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "system"},
+      {"fnc": "gainUpgrade", "value": "illicit"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "starviper"},
+      {"fnc": "skill", "operator": ">", "value": 3}
+    ]
+  },
 
 
   {
@@ -1429,6 +1481,19 @@
     ],
     "restrictions": []
   },
+  {
+    "id": "autothrusters",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "hasAction", "value": "boost"}
+    ]
+  },
 
 
   {
@@ -1574,6 +1639,19 @@
       "attack": 4,
       "range": "3-5"
     }
+  },
+
+
+  {
+    "id": "inertialdampeners",
+    "types": [
+      "illicit"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 

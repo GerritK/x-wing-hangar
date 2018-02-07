@@ -42,6 +42,10 @@ export class RestrictionHelper {
     return ship.pilot.slots.findIndex((slot) => slot === restrictionData.value) !== -1;
   }
 
+  public static hasAction(ship: SquadronShip, restrictionData: any) {
+    return ship.ship.actions.findIndex((action) => action === restrictionData.value) !== -1;
+  }
+
   public static skill(ship: SquadronShip, restrictionData: any) {
     let result;
 

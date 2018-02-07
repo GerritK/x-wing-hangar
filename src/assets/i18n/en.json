@@ -68,7 +68,8 @@
       "tiebomber": "TIE Bomber",
       "tiedefender": "TIE Defender",
       "tiephantom": "TIE Phantom",
-      "vt49decimator": "VT-49 Decimator"
+      "vt49decimator": "VT-49 Decimator",
+      "starviper": "StarViper"
     },
     "pilots": {
       "xwing": {
@@ -449,6 +450,22 @@
         "patrolleader": {
           "name": "Patrol Leader"
         }
+      },
+      "starviper": {
+        "princexizor": {
+          "name": "Prince Xizor",
+          "description": "When defending, a friendly ship at Range 1 may suffer 1 uncancelled <i-hit> or <i-crit> result instead of you."
+        },
+        "guri": {
+          "name": "Guri",
+          "description": "At the start of the Combat phase, if you are at Range 1 of an enemy ship, you may assign 1 focus token to your ship."
+        },
+        "blacksunvigo": {
+          "name": "Black Sun Vigo"
+        },
+        "blacksunenforcer": {
+          "name": "Blac Sun Enforcer"
+        }
       }
     },
     "upgrades": {
@@ -539,6 +556,14 @@
         },
         "opportunist": {
           "name": "Opportunist",
+          "description": ""
+        },
+        "bodyguard": {
+          "name": "Bodyguard",
+          "description": ""
+        },
+        "calculation": {
+          "name": "Calculation",
           "description": ""
         }
       },
@@ -801,7 +826,6 @@
         }
       },
       "salvagedastromech": {
-
       },
       "system": {
         "advancedsensors": {
@@ -814,6 +838,10 @@
         },
         "firecontrolsystem": {
           "name": "Fire-Control System",
+          "description": ""
+        },
+        "accuracycorrector": {
+          "name": "Accuracy Corrector",
           "description": ""
         }
       },
@@ -869,6 +897,10 @@
         "royalguardtie": {
           "name": "Royal Guard TIE",
           "description": ""
+        },
+        "virago": {
+          "name": "Virago",
+          "description": ""
         }
       },
       "modification": {
@@ -923,10 +955,17 @@
         "tacticaljammer": {
           "name": "Tactical Jammer",
           "description": ""
+        },
+        "autothrusters": {
+          "name": "Autothrusters",
+          "description": ""
         }
       },
       "illicit": {
-
+        "inertialdampeners": {
+          "name": "Inertial Dampeners",
+          "description": ""
+        }
       },
       "cargo": {
         "backupshieldgenerator": {
@@ -995,7 +1034,6 @@
         }
       },
       "tech": {
-
       }
     }
   }

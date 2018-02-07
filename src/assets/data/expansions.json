@@ -520,5 +520,28 @@
       "dauntless",
       "tacticaljammer"
     ]
+  },
+  {
+    "id": "starviper",
+    "ships": [
+      "starviper"
+    ],
+    "pilots": [
+      "princexizor",
+      "guri",
+      "blacksunvigo",
+      "blacksunenforcer"
+    ],
+    "upgrades": [
+      "bodyguard",
+      "calculation",
+      "iontorpedoes",
+      "accuracycorrector",
+      "virago",
+      "autothrusters",
+      "autothrusters",
+      "hullupgrade",
+      "inertialdampeners"
+    ]
   }
 ]

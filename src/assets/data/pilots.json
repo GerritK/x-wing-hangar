@@ -1405,5 +1405,61 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "princexizor",
+    "shipId": "starviper",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 31,
+    "slots": [
+      "elite",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "guri",
+    "shipId": "starviper",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 30,
+    "slots": [
+      "elite",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "blacksunvigo",
+    "shipId": "starviper",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 27,
+    "slots": [
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "blacksunenforcer",
+    "shipId": "starviper",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 25,
+    "slots": [
+      "torpedo",
+      "modification",
+      "title"
+    ]
   }
 ]
