@@ -757,5 +757,24 @@
       "maneuveringfins",
       "glitterstim"
     ]
+  },
+  {
+    "id": "kihraxzfighter",
+    "ships": [
+      "kihraxzfighter"
+    ],
+    "pilots": [
+      "talonbanecobra",
+      "grazthehunter",
+      "blacksunace",
+      "cartelmarauder"
+    ],
+    "upgrades": [
+      "crackshot",
+      "lightningreflexes",
+      "predator",
+      "homingmissiles",
+      "glitterstim"
+    ]
   }
 ]

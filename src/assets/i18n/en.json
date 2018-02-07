@@ -69,12 +69,13 @@
       "tiedefender": "TIE Defender",
       "tiephantom": "TIE Phantom",
       "vt49decimator": "VT-49 Decimator",
+      "raiderclasscorvettefore": "Raider-class Corvette (Fore)",
+      "raiderclasscorvetteaft": "Raider-class Corvette (Aft)",
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
-      "raiderclasscorvettefore": "Raider-class Corvette (Fore)",
-      "raiderclasscorvetteaft": "Raider-class Corvette (Aft)",
-      "yv666": "YV-666"
+      "yv666": "YV-666",
+      "kihraxzfighter": "Kihraxz Fighter"
     },
     "pilots": {
       "xwing": {
@@ -623,6 +624,22 @@
         "trandoshanslaver": {
           "name": "Trandoshan Slaver"
         }
+      },
+      "kihraxzfighter": {
+        "talonbanecobra": {
+          "name": "Talonbane Cobra",
+          "description": "When attacking or defending, double the effect of your range combat bonuses."
+        },
+        "grazthehunter": {
+          "name": "Graz The Hunter",
+          "description": "When defending, if the attacker is inside your firing arc, roll 1 additional defense die."
+        },
+        "blacksunace": {
+          "name": "Black Sun Ace"
+        },
+        "cartelmarauder": {
+          "name": "Cartel Marauder"
+        }
       }
     },
     "upgrades": {
@@ -725,6 +742,10 @@
         },
         "crackshot": {
           "name": "Crack Shot",
+          "description": ""
+        },
+        "lightningreflexes": {
+          "name": "Lightning Reflexes",
           "description": ""
         }
       },

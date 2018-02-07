@@ -282,6 +282,19 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "lightningreflexes",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "small"}
+    ]
+  },
 
 
   {
@@ -1978,7 +1991,7 @@
     "isLimited": false,
     "modifiers": [],
     "restrictions": [
-      {"fnc": "size", "value": "large"}
+      {"fnc": "shipSize", "value": "large"}
     ]
   },
   {

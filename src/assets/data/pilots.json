@@ -2069,5 +2069,65 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "talonbanecobra",
+    "shipId": "kihraxzfighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "grazthehunter",
+    "shipId": "kihraxzfighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 25,
+    "slots": [
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "blacksunace",
+    "shipId": "kihraxzfighter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 23,
+    "slots": [
+      "elite",
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "cartelmarauder",
+    "shipId": "kihraxzfighter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 20,
+    "slots": [
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
   }
 ]
