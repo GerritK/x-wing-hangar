@@ -71,7 +71,9 @@
       "vt49decimator": "VT-49 Decimator",
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
-      "aggressor": "Aggressor"
+      "aggressor": "Aggressor",
+      "raiderclasscorvettefore": "Raider-class Corvette (Fore)",
+      "raiderclasscorvetteaft": "Raider-class Corvette (Aft)"
     },
     "pilots": {
       "xwing": {
@@ -364,6 +366,22 @@
           "name": "Maarek Stele",
           "description": "When your attack deals a faceup Damage card to the defender, instead draw 3 Damage cards, choose 1 to deal and discard the others."
         },
+        "zertikstrom": {
+          "name": "Zertik Strom",
+          "description": "Enemy ships at Range 1 cannot add their range combat bonus when attacking."
+        },
+        "junoeclipse": {
+          "name": "Juno Eclipse",
+          "description": "When you reveal your maneuver, you may increase or decrease its speed by 1 (to a minimum of 1)."
+        },
+        "commanderalozen": {
+          "name": "Commander Alozen",
+          "description": "At the start of the Combat phase, you may acquire a target lock on an enemy ship at Range 1."
+        },
+        "lieutenantcolzet": {
+          "name": "Lieutenant Colzet",
+          "description": "At the start of the End phase, you may spend a target lock you have on an enemy ship to flip 1 random facedown Damage card assigned to it faceup."
+        },
         "stormsquadronpilot": {
           "name": "Storm Squadron Pilot"
         },
@@ -525,6 +543,17 @@
         },
         "patrolleader": {
           "name": "Patrol Leader"
+        }
+      },
+      "raiderclasscorvettefore": {
+        "raiderclasscorvettefore": {
+          "name": "Raider-class Corvette (Fore)",
+          "description": "Once per round, after you perform a primary weapon attack, you may spend 2 energy to perform another primary weapon attack."
+        }
+      },
+      "raiderclasscorvetteaft": {
+        "raiderclasscorvetteaft": {
+          "name": "Raider-class Corvette (Aft)"
         }
       },
       "starviper": {
@@ -973,6 +1002,26 @@
         "kylekatarn": {
           "name": "Kyle Katarn",
           "description": ""
+        },
+        "admiralozzel": {
+          "name": "Admiral Ozzel",
+          "description": ""
+        },
+        "captainneeda": {
+          "name": "Captain Needa",
+          "description": ""
+        },
+        "emperorpalpatine": {
+          "name": "Emperor Palpatine",
+          "description": ""
+        },
+        "grandmofftarkin": {
+          "name": "Grand Moff Tarkin",
+          "description": ""
+        },
+        "shieldtechnician": {
+          "name": "Shield Technician",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1016,6 +1065,10 @@
         },
         "enhancedscopes": {
           "name": "Enhanced Scopes",
+          "description": ""
+        },
+        "advancedtargetingcomputer": {
+          "name": "Advanced Targeting Computer",
           "description": ""
         }
       },
@@ -1094,6 +1147,22 @@
         },
         "awingtestpilot": {
           "name": "A-Wing Test Pilot",
+          "description": ""
+        },
+        "assailer": {
+          "name": "Assailer",
+          "description": ""
+        },
+        "impetuous": {
+          "name": "Impetuous",
+          "description": ""
+        },
+        "instigator": {
+          "name": "Instigator",
+          "description": ""
+        },
+        "tiex1": {
+          "name": "TIE/x1",
           "description": ""
         }
       },
@@ -1216,6 +1285,10 @@
         },
         "ionizationreactor": {
           "name": "Ionization Reactor",
+          "description": ""
+        },
+        "ioncannonbattery": {
+          "name": "Ion Cannon Battery",
           "description": ""
         }
       },

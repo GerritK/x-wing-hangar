@@ -862,7 +862,6 @@
       "team",
       "team",
       "cargo",
-      "modification",
       "title"
     ]
   },
@@ -878,8 +877,7 @@
       "hardpoint",
       "team",
       "cargo",
-      "modification",
-      "title"
+      "modification"
     ]
   },
 
@@ -1083,6 +1081,61 @@
     "cost": 27,
     "slots": [
       "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "zertikstrom",
+    "shipId": "tieadvanced",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 26,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "junoeclipse",
+    "shipId": "tieadvanced",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "commanderalozen",
+    "shipId": "tieadvanced",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 25,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "lieutenantcolzet",
+    "shipId": "tieadvanced",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 23,
+    "slots": [
       "missile",
       "modification",
       "title"
@@ -1721,6 +1774,41 @@
       "crew",
       "crew",
       "bomb",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
+    "id": "raiderclasscorvettefore",
+    "shipId": "raiderclasscorvettefore",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 50,
+    "slots": [
+      "hardpoint",
+      "team",
+      "cargo",
+      "modification"
+    ]
+  },
+  {
+    "id": "raiderclasscorvetteaft",
+    "shipId": "raiderclasscorvetteaft",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 50,
+    "slots": [
+      "crew",
+      "crew",
+      "hardpoint",
+      "hardpoint",
+      "team",
+      "team",
+      "cargo",
       "modification",
       "title"
     ]

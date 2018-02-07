@@ -675,5 +675,60 @@
       "bwinge2",
       "bwinge2"
     ]
+  },
+  {
+    "id": "imperialraider",
+    "ships": [
+      "raiderclasscorvettefore",
+      "raiderclasscorvetteaft",
+      "tieadvanced"
+    ],
+    "pilots": [
+      "raiderclasscorvettefore",
+      "raiderclasscorvetteaft",
+
+      "zertikstrom",
+      "junoeclipse",
+      "commanderalozen",
+      "lieutenantcolzet",
+      "stormsquadronpilot",
+      "tempestsquadronpilot"
+    ],
+    "upgrades": [
+      "clustermissiles",
+      "protonrockets",
+      "admiralozzel",
+      "captainneeda",
+      "emperorpalpatine",
+      "grandmofftarkin",
+      "shieldtechnician",
+      "shieldtechnician",
+      "advancedtargetingcomputer",
+      "advancedtargetingcomputer",
+      "advancedtargetingcomputer",
+      "advancedtargetingcomputer",
+      "assailer",
+      "impetuous",
+      "instigator",
+      "tiex1",
+      "tiex1",
+      "tiex1",
+      "tiex1",
+      "backupshieldgenerator",
+      "commsbooster",
+      "enginebooster",
+      "tibannagassupplies",
+      "ioncannonbattery",
+      "ioncannonbattery",
+      "ioncannonbattery",
+      "ioncannonbattery",
+      "quadlasercannons",
+      "quadlasercannons",
+      "singleturbolasers",
+      "singleturbolasers",
+      "engineeringteam",
+      "gunneryteam",
+      "sensorteam"
+    ]
   }
 ]
