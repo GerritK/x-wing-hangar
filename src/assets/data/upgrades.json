@@ -271,6 +271,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "crackshot",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -1335,6 +1346,19 @@
       {"fnc": "shipSize", "value": "huge"}
     ]
   },
+  {
+    "id": "bossk",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
 
 
   {
@@ -1736,6 +1760,19 @@
       {"fnc": "shipId", "value": "tieadvanced"}
     ]
   },
+  {
+    "id": "houndstooth",
+    "types": [
+      "title"
+    ],
+    "cost": 6,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "yv666"}
+    ]
+  },
 
 
   {
@@ -1929,6 +1966,32 @@
     ],
     "restrictions": [
       {"fnc": "shipId", "value": "bwing"}
+    ]
+  },
+  {
+    "id": "ionprojector",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "size", "value": "large"}
+    ]
+  },
+  {
+    "id": "maneuveringfins",
+    "types": [
+      "modification"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "yv666"}
     ]
   },
 
@@ -2133,6 +2196,17 @@
   },
   {
     "id": "feedbackarray",
+    "types": [
+      "illicit"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "glitterstim",
     "types": [
       "illicit"
     ],

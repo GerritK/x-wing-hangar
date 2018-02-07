@@ -1994,5 +1994,80 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "bossk",
+    "shipId": "yv666",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 35,
+    "slots": [
+      "elite",
+      "cannon",
+      "missile",
+      "crew",
+      "crew",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "lattsrazzi",
+    "shipId": "yv666",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 33,
+    "slots": [
+      "cannon",
+      "missile",
+      "crew",
+      "crew",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "moraloeval",
+    "shipId": "yv666",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 34,
+    "slots": [
+      "cannon",
+      "missile",
+      "crew",
+      "crew",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "trandoshanslaver",
+    "shipId": "yv666",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 2,
+    "cost": 29,
+    "slots": [
+      "cannon",
+      "missile",
+      "crew",
+      "crew",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
   }
 ]

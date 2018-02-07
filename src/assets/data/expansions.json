@@ -730,5 +730,32 @@
       "gunneryteam",
       "sensorteam"
     ]
+  },
+  {
+    "id": "houndstooth",
+    "ships": [
+      "yv666"
+    ],
+    "pilots": [
+      "bossk",
+      "lattsrazzi",
+      "moraloeval",
+      "trandoshanslaver"
+    ],
+    "upgrades": [
+      "crackshot",
+      "lonewolf",
+      "stayontarget",
+      "heavylasercannon",
+      "bossk",
+      "k4securitydroid",
+      "outlawtech",
+      "houndstooth",
+      "engineupgrade",
+      "ionprojector",
+      "ionprojector",
+      "maneuveringfins",
+      "glitterstim"
+    ]
   }
 ]

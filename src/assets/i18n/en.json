@@ -73,7 +73,8 @@
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
       "raiderclasscorvettefore": "Raider-class Corvette (Fore)",
-      "raiderclasscorvetteaft": "Raider-class Corvette (Aft)"
+      "raiderclasscorvetteaft": "Raider-class Corvette (Aft)",
+      "yv666": "YV-666"
     },
     "pilots": {
       "xwing": {
@@ -605,6 +606,23 @@
           "name": "IG-88D",
           "description": "You may execute the [<i-sloopleft> 3] or [<i-sloopright> 3] maneuver using the corresponding [<i-turnleft> 3] or [<i-turnright> 3] template."
         }
+      },
+      "yv666": {
+        "bossk": {
+          "name": "Bossk",
+          "description": "When you perform an attack that hits, before dealing damage, you may cancel 1 of your <i-crit> results to add 2 <i-hit> results."
+        },
+        "lattsrazzi": {
+          "name": "Latts Razzi",
+          "description": "When a friendly ship declares an attack, you may spend a target lock you have on the defender to reduce its agility by 1 for that attack."
+        },
+        "moraloeval": {
+          "name": "Moralo Eval",
+          "description": "You can perform <i-cannon> secondary weapon attacks against ships inside your auxiliary firing arc."
+        },
+        "trandoshanslaver": {
+          "name": "Trandoshan Slaver"
+        }
       }
     },
     "upgrades": {
@@ -703,6 +721,10 @@
         },
         "calculation": {
           "name": "Calculation",
+          "description": ""
+        },
+        "crackshot": {
+          "name": "Crack Shot",
           "description": ""
         }
       },
@@ -1022,6 +1044,10 @@
         "shieldtechnician": {
           "name": "Shield Technician",
           "description": ""
+        },
+        "bossk": {
+          "name": "Bossk",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1164,6 +1190,10 @@
         "tiex1": {
           "name": "TIE/x1",
           "description": ""
+        },
+        "houndstooth": {
+          "name": "Hound's Tooth",
+          "description": ""
         }
       },
       "modification": {
@@ -1226,6 +1256,14 @@
         "bwinge2": {
           "name": "B-Wing/E2",
           "description": ""
+        },
+        "ionprojector": {
+          "name": "Ion Projector",
+          "description": ""
+        },
+        "maneuveringfins": {
+          "name": "Maneuvering Fins",
+          "description": ""
         }
       },
       "illicit": {
@@ -1243,6 +1281,10 @@
         },
         "feedbackarray": {
           "name": "Feedback Array",
+          "description": ""
+        },
+        "glitterstim": {
+          "name": "Glitterstim",
           "description": ""
         }
       },
