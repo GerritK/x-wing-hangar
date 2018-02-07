@@ -1362,6 +1362,20 @@
       {"fnc": "shipId", "value": "m3ainterceptor"}
     ]
   },
+  {
+    "id": "ig2000",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"},
+      {"fnc": "shipId", "value": "aggressor"}
+    ]
+  },
 
 
   {
@@ -1696,6 +1710,43 @@
       "illicit"
     ],
     "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "hotshotblaster",
+    "types": [
+      "illicit"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-2"
+    }
+  },
+  {
+    "id": "deadmansswitch",
+    "types": [
+      "illicit"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "feedbackarray",
+    "types": [
+      "illicit"
+    ],
+    "cost": 2,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],

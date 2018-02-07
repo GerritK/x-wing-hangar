@@ -70,7 +70,8 @@
       "tiephantom": "TIE Phantom",
       "vt49decimator": "VT-49 Decimator",
       "starviper": "StarViper",
-      "m3ainterceptor": "M3-A Interceptor"
+      "m3ainterceptor": "M3-A Interceptor",
+      "aggressor": "Aggressor"
     },
     "pilots": {
       "xwing": {
@@ -482,6 +483,24 @@
         },
         "cartelspacer": {
           "name": "Cartel Spacer"
+        }
+      },
+      "aggressor": {
+        "ig88a": {
+          "name": "IG-88A",
+          "description": "After you perform an attack that destroys the defender, you may recover 1 shield."
+        },
+        "ig88b": {
+          "name": "IG-88B",
+          "description": "Once per round, after you perform an attack that does not hit, you may perform an attack with an equipped <i-cannon> secondary weapon."
+        },
+        "ig88c": {
+          "name": "IG-88C",
+          "description": "After you perform a boost action, you may perform a free evade action."
+        },
+        "ig88d": {
+          "name": "IG-88D",
+          "description": "You may execute the [<i-sloopleft> 3] or [<i-sloopright> 3] maneuver using the corresponding [<i-turnleft> 3] or [<i-turnright> 3] template."
         }
       }
     },
@@ -930,6 +949,10 @@
         "heavyscykinterceptor": {
           "name": "\"Heavy Scyk\" Interceptor",
           "description": ""
+        },
+        "ig2000": {
+          "name": "IG-2000",
+          "description": ""
         }
       },
       "modification": {
@@ -993,6 +1016,18 @@
       "illicit": {
         "inertialdampeners": {
           "name": "Inertial Dampeners",
+          "description": ""
+        },
+        "hotshotblaster": {
+          "name": "\"Hot Shot\" Blaster",
+          "description": ""
+        },
+        "deadmansswitch": {
+          "name": "Dead Man's Switch",
+          "description": ""
+        },
+        "feedbackarray": {
+          "name": "Feedback Array",
           "description": ""
         }
       },

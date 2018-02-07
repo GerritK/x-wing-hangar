@@ -1513,5 +1513,79 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "ig88a",
+    "shipId": "aggressor",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 36,
+    "slots": [
+      "elite",
+      "system",
+      "cannon",
+      "cannon",
+      "bomb",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "ig88b",
+    "shipId": "aggressor",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 36,
+    "slots": [
+      "elite",
+      "system",
+      "cannon",
+      "cannon",
+      "bomb",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "ig88c",
+    "shipId": "aggressor",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 36,
+    "slots": [
+      "elite",
+      "system",
+      "cannon",
+      "cannon",
+      "bomb",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "ig88d",
+    "shipId": "aggressor",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 36,
+    "slots": [
+      "elite",
+      "system",
+      "cannon",
+      "cannon",
+      "bomb",
+      "illicit",
+      "modification",
+      "title"
+    ]
   }
 ]

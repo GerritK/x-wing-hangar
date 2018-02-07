@@ -562,5 +562,31 @@
       "heavyscykinterceptor",
       "stealthdevice"
     ]
+  },
+  {
+    "id": "ig2000",
+    "ships": [
+      "aggressor"
+    ],
+    "pilots": [
+      "ig88a",
+      "ig88b",
+      "ig88c",
+      "ig88d"
+    ],
+    "upgrades": [
+      "manglercannon",
+      "autoblaster",
+      "proximitymines",
+      "seismiccharges",
+      "accuracycorrector",
+      "ig2000",
+      "hotshotblaster",
+      "deadmansswitch",
+      "deadmansswitch",
+      "feedbackarray",
+      "feedbackarray",
+      "inertialdampeners"
+    ]
   }
 ]

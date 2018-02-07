@@ -604,5 +604,31 @@
       [0, 0, 1, 0, 0, 0],
       [0, 0, 0, 0, 0, 3]
     ]
+  },
+  {
+    "id": "aggressor",
+    "size": "large",
+    "factions": [
+      "scum"
+    ],
+    "stats": {
+      "attack": 3,
+      "agility": 3,
+      "hull": 4,
+      "shield": 4
+    },
+    "actions": [
+      "focus",
+      "targetlock",
+      "boost",
+      "evade"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 2, 2, 2, 1, 0, 0, 0],
+      [1, 2, 2, 2, 1, 0, 0, 0],
+      [0, 2, 2, 2, 0, 0, 3, 3],
+      [0, 0, 0, 0, 0, 3, 0, 0]
+    ]
   }
 ]
