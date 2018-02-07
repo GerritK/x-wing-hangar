@@ -69,7 +69,8 @@
       "tiedefender": "TIE Defender",
       "tiephantom": "TIE Phantom",
       "vt49decimator": "VT-49 Decimator",
-      "starviper": "StarViper"
+      "starviper": "StarViper",
+      "m3ainterceptor": "M3-A Interceptor"
     },
     "pilots": {
       "xwing": {
@@ -466,6 +467,22 @@
         "blacksunenforcer": {
           "name": "Blac Sun Enforcer"
         }
+      },
+      "m3ainterceptor": {
+        "serissu": {
+          "name": "Serissu",
+          "description": "When another friendly ship at Range 1 is defending, it may reroll 1 defense die."
+        },
+        "laetinashera": {
+          "name": "Laetin A'Shera",
+          "description": "After you defend against an attack, if the attack did not hit, you may assign 1 evade token to your ship."
+        },
+        "tansariipointveteran": {
+          "name": "Tansarii Point Veteran"
+        },
+        "cartelspacer": {
+          "name": "Cartel Spacer"
+        }
       }
     },
     "upgrades": {
@@ -672,6 +689,14 @@
         },
         "autoblaster": {
           "name": "Autoblaster",
+          "description": ""
+        },
+        "manglercannon": {
+          "name": "\"Mangler\" Cannon",
+          "description": ""
+        },
+        "flechettecannon": {
+          "name": "Flechette Cannon",
           "description": ""
         }
       },
@@ -900,6 +925,10 @@
         },
         "virago": {
           "name": "Virago",
+          "description": ""
+        },
+        "heavyscykinterceptor": {
+          "name": "\"Heavy Scyk\" Interceptor",
           "description": ""
         }
       },

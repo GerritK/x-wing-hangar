@@ -543,5 +543,24 @@
       "hullupgrade",
       "inertialdampeners"
     ]
+  },
+  {
+    "id": "m3ainterceptor",
+    "ships": [
+      "m3ainterceptor"
+    ],
+    "pilots": [
+      "serissu",
+      "laetinashera",
+      "tansariipointveteran",
+      "cartelspacer"
+    ],
+    "upgrades": [
+      "manglercannon",
+      "flechettecannon",
+      "ioncannon",
+      "heavyscykinterceptor",
+      "stealthdevice"
+    ]
   }
 ]

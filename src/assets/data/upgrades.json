@@ -611,6 +611,36 @@
       "range": "1"
     }
   },
+  {
+    "id": "manglercannon",
+    "types": [
+      "cannon"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-3"
+    }
+  },
+  {
+    "id": "flechettecannon",
+    "types": [
+      "cannon"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-3"
+    }
+  },
 
 
   {
@@ -1312,6 +1342,24 @@
     "restrictions": [
       {"fnc": "shipId", "value": "starviper"},
       {"fnc": "skill", "operator": ">", "value": 3}
+    ]
+  },
+  {
+    "id": "heavyscykinterceptor",
+    "types": [
+      "title"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "cannon"},
+      {"fnc": "gainUpgrade", "value": "torpedo"},
+      {"fnc": "gainUpgrade", "value": "missile"},
+      {"fnc": "changeHull", "value": 1}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "m3ainterceptor"}
     ]
   },
 

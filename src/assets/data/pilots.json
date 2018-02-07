@@ -1461,5 +1461,57 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "serissu",
+    "shipId": "m3ainterceptor",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 20,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "laetinashera",
+    "shipId": "m3ainterceptor",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 18,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "tansariipointveteran",
+    "shipId": "m3ainterceptor",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 17,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "cartelspacer",
+    "shipId": "m3ainterceptor",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 14,
+    "slots": [
+      "modification",
+      "title"
+    ]
   }
 ]
