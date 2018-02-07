@@ -947,6 +947,84 @@
 
 
   {
+    "id": "mirandadoni",
+    "shipId": "kwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 29,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "esegetuketu",
+    "shipId": "kwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 28,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "guardiansquadronpilot",
+    "shipId": "kwing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 25,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "wardensquadronpilot",
+    "shipId": "kwing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 23,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",

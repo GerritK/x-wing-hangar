@@ -776,5 +776,28 @@
       "homingmissiles",
       "glitterstim"
     ]
+  },
+  {
+    "id": "kwing",
+    "ships": [
+      "kwing"
+    ],
+    "pilots": [
+      "mirandadoni",
+      "esegetuketu",
+      "guardiansquadronpilot",
+      "wardensquadronpilot"
+    ],
+    "upgrades": [
+      "extramunitions",
+      "plasmatorpedoes",
+      "advhomingmissiles",
+      "twinlaserturret",
+      "twinlaserturret",
+      "connernet",
+      "ionbombs",
+      "bombardier",
+      "advancedslam"
+    ]
   }
 ]

@@ -8,7 +8,8 @@ export enum Action {
   REINFORCE = 'reinforce',
   COORDINATE = 'coordinate',
   JAM = 'jam',
-  CLOAK = 'cloak'
+  CLOAK = 'cloak',
+  SLAM = 'slam'
 }
 
 export namespace Action {

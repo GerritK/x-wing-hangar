@@ -570,6 +570,32 @@
       {"fnc": "shipId", "value": "ywing"}
     ]
   },
+  {
+    "id": "extramunitions",
+    "types": [
+      "torpedo"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "plasmatorpedoes",
+    "types": [
+      "torpedo"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 4,
+      "range": "2-3"
+    }
+  },
 
 
   {
@@ -674,6 +700,21 @@
     "restrictions": [
       {"fnc": "shipId", "value": "awing"}
     ]
+  },
+  {
+    "id": "advhomingmissiles",
+    "types": [
+      "missile"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "2"
+    }
   },
 
 
@@ -799,6 +840,22 @@
       "range": "1"
     }
   },
+  {
+    "id": "twinlaserturret",
+    "types": [
+      "turret"
+    ],
+    "cost": 6,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "2-3"
+    }
+  },
+
 
 
   {
@@ -829,6 +886,28 @@
       "bomb"
     ],
     "cost": 5,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "connernet",
+    "types": [
+      "bomb"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "ionbombs",
+    "types": [
+      "bomb"
+    ],
+    "cost": 2,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],
@@ -1371,6 +1450,17 @@
     "restrictions": [
       {"fnc": "faction", "value": "scum"}
     ]
+  },
+  {
+    "id": "bombardier",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 
@@ -2006,6 +2096,17 @@
     "restrictions": [
       {"fnc": "shipId", "value": "yv666"}
     ]
+  },
+  {
+    "id": "advancedslam",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 

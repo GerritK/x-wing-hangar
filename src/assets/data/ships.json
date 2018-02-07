@@ -314,6 +314,30 @@
       [0, 0, 1, 0, 0, 3]
     ]
   },
+  {
+    "id": "kwing",
+    "size": "small",
+    "factions": [
+      "rebel"
+    ],
+    "stats": {
+      "attack": 2,
+      "agility": 1,
+      "hull": 5,
+      "shield": 4
+    },
+    "actions": [
+      "focus",
+      "targetlock",
+      "slam"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 2, 2, 2, 0, 0],
+      [1, 1, 2, 1, 1, 0],
+      [0, 1, 1, 1, 0, 0]
+    ]
+  },
 
 
   {

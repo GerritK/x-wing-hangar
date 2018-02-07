@@ -60,6 +60,7 @@
       "cr90corvettefore": "CR90 Corvette (Fore)",
       "cr90corvetteaft": "CR90 Corvette (Aft)",
       "yt2400": "YT-2400",
+      "kwing": "K-Wing",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -322,6 +323,22 @@
         },
         "wildspacefringer": {
           "name": "Wild Space Fringer"
+        }
+      },
+      "kwing": {
+        "mirandadoni": {
+          "name": "Miranda Doni",
+          "description": "Once per round when attacking, you may either spend 1 shield to roll 1 additional attack die or roll 1 fewer attack die to recover 1 shield."
+        },
+        "esegetuketu": {
+          "name": "Esege Tuketu",
+          "description": "When another friendly ship at Range 1-2 is attacking, it may treat your focus tokens as its own."
+        },
+        "guardiansquadronpilot": {
+          "name": "Guardian Squadron Pilot"
+        },
+        "wardensquadronpilot": {
+          "name": "Warden Squadron Pilot"
         }
       },
       "tiefighter": {
@@ -819,6 +836,14 @@
         "bombloadout": {
           "name": "Bomb Loadout",
           "description": ""
+        },
+        "extramunitions": {
+          "name": "Extra Munitions",
+          "description": ""
+        },
+        "plasmatorpedoes": {
+          "name": "Plasma Torpedoes",
+          "description": ""
         }
       },
       "missile": {
@@ -848,6 +873,10 @@
         },
         "chardaanrefit": {
           "name": "Chardaan Refit",
+          "description": ""
+        },
+        "advhomingmissiles": {
+          "name": "Advanced Homing Missiles",
           "description": ""
         }
       },
@@ -885,6 +914,10 @@
         "autoblasterturret": {
           "name": "Autoblaster Turret",
           "description": ""
+        },
+        "twinlaserturret": {
+          "name": "Twin Laser Turret",
+          "description": ""
         }
       },
       "bomb": {
@@ -898,6 +931,14 @@
         },
         "protonbombs": {
           "name": "Proton Bombs",
+          "description": ""
+        },
+        "connornet": {
+          "name": "Connor Net",
+          "description": ""
+        },
+        "ionbombs": {
+          "name": "Ion Bombs",
           "description": ""
         }
       },
@@ -1068,6 +1109,10 @@
         },
         "bossk": {
           "name": "Bossk",
+          "description": ""
+        },
+        "bombardier": {
+          "name": "Bombardier",
           "description": ""
         }
       },
@@ -1284,6 +1329,10 @@
         },
         "maneuveringfins": {
           "name": "Maneuvering Fins",
+          "description": ""
+        },
+        "advancedslam": {
+          "name": "Advanced SLAM",
           "description": ""
         }
       },
