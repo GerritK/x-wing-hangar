@@ -207,6 +207,71 @@
       "title"
     ]
   },
+  {
+    "id": "kavil",
+    "shipId": "ywing",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 24,
+    "slots": [
+      "elite",
+      "turret",
+      "torpedo",
+      "torpedo",
+      "salvagedastromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "drearenthal",
+    "shipId": "ywing",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 22,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "salvagedastromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "hiredgun",
+    "shipId": "ywing",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 20,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "salvagedastromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "syndicatethug",
+    "shipId": "ywing",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 18,
+    "slots": [
+      "turret",
+      "torpedo",
+      "torpedo",
+      "salvagedastromech",
+      "modification",
+      "title"
+    ]
+  },
 
 
   {
@@ -393,6 +458,68 @@
       "title"
     ]
   },
+  {
+    "id": "dacebonearm",
+    "shipId": "hwk290",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 23,
+    "slots": [
+      "elite",
+      "turret",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "palobgodalhi",
+    "shipId": "hwk290",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 20,
+    "slots": [
+      "elite",
+      "turret",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "torkilmux",
+    "shipId": "hwk290",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 19,
+    "slots": [
+      "turret",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "spicerunner",
+    "shipId": "hwk290",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 16,
+    "slots": [
+      "turret",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
 
 
   {
@@ -532,6 +659,64 @@
     "cost": 12,
     "slots": [
       "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "ndrusuhlak",
+    "shipId": "z95headhunter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 17,
+    "slots": [
+      "elite",
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "kaatoleeachos",
+    "shipId": "z95headhunter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 15,
+    "slots": [
+      "elite",
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "blacksunsoldier",
+    "shipId": "z95headhunter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 13,
+    "slots": [
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "binayrepirate",
+    "shipId": "z95headhunter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 12,
+    "slots": [
+      "missile",
+      "illicit",
       "modification",
       "title"
     ]
@@ -932,6 +1117,79 @@
       "bomb",
       "crew",
       "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "bobafett-scum",
+    "canonicalId": "bobafett",
+    "shipId": "firespray31",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 39,
+    "slots": [
+      "elite",
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "kathscarlet-scum",
+    "canonicalId": "kathscarlet",
+    "shipId": "firespray31",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 38,
+    "slots": [
+      "elite",
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "emonazzameen",
+    "shipId": "firespray31",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 36,
+    "slots": [
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "mandalorianmercenary",
+    "shipId": "firespray31",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 35,
+    "slots": [
+      "elite",
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "illicit",
       "modification",
       "title"
     ]

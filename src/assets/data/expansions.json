@@ -588,5 +588,59 @@
       "feedbackarray",
       "inertialdampeners"
     ]
+  },
+  {
+    "id": "mostwanted",
+    "ships": [
+      "z95headhunter",
+      "z95headhunter",
+      "ywing"
+    ],
+    "pilots": [
+      "ndrusuhlak",
+      "kaatoleeachos",
+      "blacksunsoldier",
+      "blacksunsoldier",
+      "binayrepirate",
+      "binayrepirate",
+
+      "kavil",
+      "drearenthal",
+      "hiredgun",
+      "hiredgun",
+      "syndicatethug",
+      "syndicatethug",
+
+      "bobafett-scum",
+      "kathscarlet-scum",
+      "emonazzameen",
+      "mandalorianmercenary",
+
+      "dacebonearm",
+      "palobgodalhi",
+      "torkilmux",
+      "spicerunner"
+    ],
+    "upgrades": [
+      "autoblasterturret",
+      "autoblasterturret",
+      "bombloadout",
+      "bombloadout",
+      "greedo",
+      "k4securitydroid",
+      "outlawtech",
+      "genius",
+      "r4agromech",
+      "r4agromech",
+      "r4b11",
+      "salvagedastromech",
+      "salvagedastromech",
+      "unhingedastromech",
+      "unhingedastromech",
+      "btla4ywing",
+      "btla4ywing",
+      "andrasta",
+      "hotshotblaster"
+    ]
   }
 ]

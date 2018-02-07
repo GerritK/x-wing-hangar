@@ -7,7 +7,7 @@ export enum UpgradeType {
   TURRET = 'turret',
   BOMB = 'bomb',
   CREW = 'crew',
-  SALVAGED_ASTROMECH = 'salvagedastromech',
+  SALVAGEDASTROMECH = 'salvagedastromech',
   SYSTEM = 'system',
   TITLE = 'title',
   MODIFICATION = 'modification',

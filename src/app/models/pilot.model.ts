@@ -4,6 +4,7 @@ import {ShipStats} from './ship-stats.model';
 
 export class Pilot {
   public id: string;
+  public canonicalId?: string;
   public shipId: string;
   public faction: Faction;
   public isUnique: boolean;
@@ -22,6 +23,10 @@ export class Pilot {
     result.skill = data.skill;
     result.cost = data.cost;
     result.slots = UpgradeType.parseArray(data.slots);
+
+    if (data.canonicalId) {
+      result.canonicalId = data.canonicalId;
+    }
 
     if (data.stats) {
       result.stats = ShipStats.fromData(data.stats);

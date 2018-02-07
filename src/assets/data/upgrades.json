@@ -413,6 +413,65 @@
 
 
   {
+    "id": "genius",
+    "types": [
+      "salvagedastromech"
+    ],
+    "cost": 0,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "r4agromech",
+    "types": [
+      "salvagedastromech"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "r4b11",
+    "types": [
+      "salvagedastromech"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "salvagedastromech",
+    "types": [
+      "salvagedastromech"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "unhingedastromech",
+    "types": [
+      "salvagedastromech"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "maneuverDifficulty", "speed": "3", "difficulty": "2"}
+    ],
+    "restrictions": []
+  },
+
+
+  {
     "id": "protontorpedoes",
     "types": [
       "torpedo"
@@ -471,6 +530,21 @@
       "attack": 4,
       "range": "2-3"
     }
+  },
+  {
+    "id": "bombloadout",
+    "types": [
+      "torpedo"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "bomb"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "ywing"}
+    ]
   },
 
 
@@ -671,6 +745,21 @@
     "stats": {
       "attack": 3,
       "range": "1-2"
+    }
+  },
+  {
+    "id": "autoblasterturret",
+    "types": [
+      "turret"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 2,
+      "range": "1"
     }
   },
 
@@ -1099,6 +1188,45 @@
       {"fnc": "faction", "value": "imperial"}
     ]
   },
+  {
+    "id": "greedo",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
+  {
+    "id": "k4securitydroid",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
+  {
+    "id": "outlawtech",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
 
 
   {
@@ -1374,6 +1502,35 @@
     "restrictions": [
       {"fnc": "faction", "value": "scum"},
       {"fnc": "shipId", "value": "aggressor"}
+    ]
+  },
+  {
+    "id": "btla4ywing",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "ywing"}
+    ]
+  },
+  {
+    "id": "andrasta",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "bomb"},
+      {"fnc": "gainUpgrade", "value": "bomb"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "firespray31"}
     ]
   },
 
