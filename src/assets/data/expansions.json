@@ -994,5 +994,28 @@
       "guidancechips",
       "tiev1"
     ]
+  },
+  {
+    "id": "misthunter",
+    "ships": [
+      "g1astarfighter"
+    ],
+    "pilots": [
+      "zuckuss",
+      "4lom",
+      "gandfindsman",
+      "ruthlessfreelancer"
+    ],
+    "upgrades": [
+      "adaptability",
+      "adaptability",
+      "4lom",
+      "zuckuss",
+      "tractorbeam",
+      "misthunter",
+      "electronicbaffle",
+      "electronicbaffle",
+      "cloakingdevice"
+    ]
   }
 ]

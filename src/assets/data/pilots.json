@@ -2767,5 +2767,70 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "zuckuss",
+    "shipId": "g1astarfighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "crew",
+      "system",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "4lom",
+    "shipId": "g1astarfighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 27,
+    "slots": [
+      "elite",
+      "crew",
+      "system",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "gandfindsman",
+    "shipId": "g1astarfighter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 25,
+    "slots": [
+      "elite",
+      "crew",
+      "system",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "ruthlessfreelancer",
+    "shipId": "g1astarfighter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 23,
+    "slots": [
+      "crew",
+      "system",
+      "illicit",
+      "modification",
+      "title"
+    ]
   }
 ]

@@ -83,7 +83,8 @@
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
       "yv666": "YV-666",
-      "kihraxzfighter": "Kihraxz Fighter"
+      "kihraxzfighter": "Kihraxz Fighter",
+      "g1astarfighter": "G-1A Starfighter"
     },
     "pilots": {
       "xwing": {
@@ -812,6 +813,22 @@
         "cartelmarauder": {
           "name": "Cartel Marauder"
         }
+      },
+      "g1astarfighter": {
+        "zuckuss": {
+          "name": "Zuckuss",
+          "description": "When attacking, you may roll 1 additional attack die. If you do, then the defender rolls 1 additional defense die."
+        },
+        "4lom": {
+          "name": "4-LOM",
+          "description": "At the start of the End phase, you may assign 1 of your stress tokens to another ship at Range 1."
+        },
+        "gandfindsman": {
+          "name": "Gand Findsman"
+        },
+        "ruthlessfreelancer": {
+          "name": "Ruthless Freelancer"
+        }
       }
     },
     "upgrades": {
@@ -930,6 +947,10 @@
         },
         "juke": {
           "name": "Juke",
+          "description": ""
+        },
+        "adaptability": {
+          "name": "Adaptability",
           "description": ""
         }
       },
@@ -1086,6 +1107,10 @@
         },
         "flechettecannon": {
           "name": "Flechette Cannon",
+          "description": ""
+        },
+        "tractorbeam": {
+          "name": "Tractor Beam",
           "description": ""
         }
       },
@@ -1349,6 +1374,14 @@
         "sabinewren": {
           "name": "Sabine Wren",
           "description": ""
+        },
+        "4lom": {
+          "name": "4-LOM",
+          "description": ""
+        },
+        "zuckuss": {
+          "name": "Zuckuss",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1400,6 +1433,10 @@
         },
         "reinforceddeflectors": {
           "name": "Reinforced Deflectors",
+          "description": ""
+        },
+        "electronicbaffle": {
+          "name": "Electronic Baffle",
           "description": ""
         }
       },
@@ -1523,6 +1560,10 @@
         "tiev1": {
           "name": "TIE/v1",
           "description": ""
+        },
+        "misthunter": {
+          "name": "Misthunter",
+          "description": ""
         }
       },
       "modification": {
@@ -1642,6 +1683,10 @@
         },
         "glitterstim": {
           "name": "Glitterstim",
+          "description": ""
+        },
+        "cloakingdevice": {
+          "name": "Cloaking Device",
           "description": ""
         }
       },
