@@ -3207,5 +3207,70 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "ketsuonyo",
+    "shipId": "lancerclasspursuitcraft",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 38,
+    "slots": [
+      "elite",
+      "crew",
+      "illicit",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "asajjventress",
+    "shipId": "lancerclasspursuitcraft",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 37,
+    "slots": [
+      "elite",
+      "crew",
+      "illicit",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sabinewren-lcpc",
+    "canonicalId": "sabinewren",
+    "shipId": "lancerclasspursuitcraft",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 35,
+    "slots": [
+      "crew",
+      "illicit",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "shadowporthunter",
+    "shipId": "lancerclasspursuitcraft",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 33,
+    "slots": [
+      "crew",
+      "illicit",
+      "illicit",
+      "modification",
+      "title"
+    ]
   }
 ]

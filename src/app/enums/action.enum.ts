@@ -9,7 +9,8 @@ export enum Action {
   COORDINATE = 'coordinate',
   JAM = 'jam',
   CLOAK = 'cloak',
-  SLAM = 'slam'
+  SLAM = 'slam',
+  ROTATEARC = 'rotatearc'
 }
 
 export namespace Action {

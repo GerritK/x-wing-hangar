@@ -1138,5 +1138,31 @@
       "fearlessness",
       "concorddawnprotector"
     ]
+  },
+  {
+    "id": "shadowcaster",
+    "ships": [
+      "lancerclasspursuitcraft"
+    ],
+    "pilots": [
+      "ketsuonyo",
+      "asajjventress",
+      "sabinewren-lcpc",
+      "shadowporthunter"
+    ],
+    "upgrades": [
+      "veteraninstincts",
+      "lattsrazzi",
+      "ketsuonyo",
+      "ig88d",
+      "riggedcargochute",
+      "blackmarketslicertools",
+      "blackmarketslicertools",
+      "shadowcaster",
+      "countermeasures",
+      "tacticaljammer",
+      "tacticaljammer",
+      "gyroscopictargeting"
+    ]
   }
 ]

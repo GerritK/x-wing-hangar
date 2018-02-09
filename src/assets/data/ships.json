@@ -1071,5 +1071,32 @@
       [0, 0, 1, 0, 0, 3, 0, 0, 0, 0],
       [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
     ]
+  },
+  {
+    "id": "lancerclasspursuitcraft",
+    "size": "large",
+    "factions": [
+      "scum"
+    ],
+    "stats": {
+      "attack": 3,
+      "agility": 2,
+      "hull": 7,
+      "shield": 3
+    },
+    "actions": [
+      "focus",
+      "targetlock",
+      "evade",
+      "rotatearc"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 1, 1, 0, 0],
+      [1, 1, 2, 1, 1, 0],
+      [2, 2, 2, 2, 2, 0],
+      [0, 0, 2, 0, 0, 0],
+      [0, 0, 1, 0, 0, 3]
+    ]
   }
 ]

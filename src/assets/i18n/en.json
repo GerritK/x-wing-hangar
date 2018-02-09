@@ -88,7 +88,8 @@
       "kihraxzfighter": "Kihraxz Fighter",
       "g1astarfighter": "G-1A Starfighter",
       "jumpmaster5000": "JumpMaster 5000",
-      "protectoratestarfighter": "Protectorate Starfighter"
+      "protectoratestarfighter": "Protectorate Starfighter",
+      "lancerclasspursuitcraft": "Lancer-class Pursuit Craft"
     },
     "pilots": {
       "xwing": {
@@ -929,6 +930,23 @@
         "zealousrecruit": {
           "name": "Zealous Recruit"
         }
+      },
+      "lancerclasspursuitcraft": {
+        "ketsuonyo": {
+          "name": "Ketsu Onyo",
+          "description": "At the start of the Combat phase, you may choose a ship at Range 1. If it is inside your primary <b>and</b> mobile firing arcs, assign 1 tractor beam token to it."
+        },
+        "asajjventress": {
+          "name": "Asajj Ventress",
+          "description": "At the start of the Combat phase, you may choose a ship at Range 1-2. If it is inside your mobile firing arc, assign 1 stress token to it."
+        },
+        "sabinewren-lcpc": {
+          "name": "Sabine Wren",
+          "description": "When defending against an enemy ship inside your mobile firing arc at Range 1-2, you may add 1 <i-focus> result to your roll."
+        },
+        "shadowporthunter": {
+          "name": "Shadowport Hunter"
+        }
       }
     },
     "upgrades": {
@@ -1522,6 +1540,18 @@
         "tailgunner": {
           "name": "Tail Gunner",
           "description": ""
+        },
+        "lattsrazzi": {
+          "name": "Latts Razzi",
+          "description": ""
+        },
+        "ketsuonyo": {
+          "name": "Ketsu Onyo",
+          "description": ""
+        },
+        "ig88d": {
+          "name": "ig88d",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1744,6 +1774,10 @@
         "concorddawnprotector": {
           "name": "Concord Dawn Protector",
           "description": ""
+        },
+        "shadowcaster": {
+          "name": "Shadow Caster",
+          "description": ""
         }
       },
       "modification": {
@@ -1850,6 +1884,10 @@
         "vectoredthrusters": {
           "name": "Vectored Thrusters",
           "description": ""
+        },
+        "gyroscopictargeting": {
+          "name": "Gyroscopic Targeting",
+          "description": ""
         }
       },
       "illicit": {
@@ -1875,6 +1913,14 @@
         },
         "cloakingdevice": {
           "name": "Cloaking Device",
+          "description": ""
+        },
+        "riggedcargochute": {
+          "name": "Rigged Cargo Chute",
+          "description": ""
+        },
+        "blackmarketslicertools": {
+          "name": "Black Market Slicer Tools",
           "description": ""
         }
       },

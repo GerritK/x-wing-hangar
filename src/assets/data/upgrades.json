@@ -1913,6 +1913,45 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "lattsrazzi",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
+  {
+    "id": "ketsuonyo",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
+  {
+    "id": "ig88d",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
 
 
   {
@@ -2596,6 +2635,19 @@
       {"fnc": "shipId", "value": "protectoratestarfighter"}
     ]
   },
+  {
+    "id": "shadowcaster",
+    "types": [
+      "title"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "lancerclasspursuitcraft"}
+    ]
+  },
 
 
   {
@@ -2936,6 +2988,19 @@
       {"fnc": "shipSize", "value": "small"}
     ]
   },
+  {
+    "id": "gyroscopictargeting",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "lancerclasspursuitcraft"}
+    ]
+  },
 
 
   {
@@ -3226,6 +3291,30 @@
     "restrictions": [
       {"fnc": "shipSize", "value": "small"}
     ]
+  },
+  {
+    "id": "riggedcargochute",
+    "types": [
+      "illicit"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "large"}
+    ]
+  },
+  {
+    "id": "blackmarketslicertools",
+    "types": [
+      "illicit"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 
