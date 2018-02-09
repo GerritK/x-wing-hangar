@@ -1045,5 +1045,38 @@
       "guidancechips",
       "feedbackarray"
     ]
+  },
+  {
+    "id": "imperialveterans",
+    "ships": [
+      "tiedefender",
+      "tiebomber"
+    ],
+    "pilots": [
+      "maarekstele-iv",
+      "countessryad",
+      "glaivesquadronpilot",
+      "glaivesquadronpilot",
+
+      "tomaxbren",
+      "deathfire",
+      "gammasquadronveteran",
+      "gammasquadronveteran"
+    ],
+    "upgrades": [
+      "proximitymines",
+      "clustermines",
+      "tractorbeam",
+      "systemsofficer",
+      "crackshot",
+      "tiex7",
+      "tiex7",
+      "tied",
+      "tied",
+      "tieshuttle",
+      "tieshuttle",
+      "longrangescanners",
+      "longrangescanners"
+    ]
   }
 ]

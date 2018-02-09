@@ -1854,6 +1854,19 @@
       {"fnc": "faction", "value": "scum"}
     ]
   },
+  {
+    "id": "systemsofficer",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "imperial"}
+    ]
+  },
 
 
   {
@@ -2425,6 +2438,57 @@
       {"fnc": "shipId", "value": "jumpmaster5000"}
     ]
   },
+  {
+    "id": "tiex7",
+    "types": [
+      "title"
+    ],
+    "cost": -2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "loseUpgrade", "value": "cannon"},
+      {"fnc": "loseUpgrade", "value": "missile"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "tiedefender"}
+    ]
+  },
+  {
+    "id": "tied",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "tiedefender"}
+    ]
+  },
+  {
+    "id": "tieshuttle",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "loseUpgrade", "value": "torpedo"},
+      {"fnc": "loseUpgrade", "value": "torpedo"},
+      {"fnc": "loseUpgrade", "value": "missile"},
+      {"fnc": "loseUpgrade", "value": "missile"},
+      {"fnc": "loseUpgrade", "value": "bomb"},
+      {"fnc": "gainUpgrade", "value": "crew"},
+      {"fnc": "gainUpgrade", "value": "crew"},
+      {"fnc": "maxUpgradeCost", "slot": "crew", "value": 4}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "tiebomber"}
+    ]
+  },
 
 
   {
@@ -2735,6 +2799,20 @@
     "isLimited": false,
     "modifiers": [],
     "restrictions": []
+  },
+  {
+    "id": "longrangescanners",
+    "types": [
+      "modification"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "hasSlot", "value": "torpedo"},
+      {"fnc": "hasSlot", "value": "missile"}
+    ]
   },
 
 

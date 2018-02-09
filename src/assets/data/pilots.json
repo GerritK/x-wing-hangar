@@ -1944,6 +1944,59 @@
       "title"
     ]
   },
+  {
+    "id": "tomaxbren",
+    "shipId": "tiebomber",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 24,
+    "slots": [
+      "elite",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "deathfire",
+    "shipId": "tiebomber",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 17,
+    "slots": [
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "gammasquadronveteran",
+    "shipId": "tiebomber",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 19,
+    "slots": [
+      "elite",
+      "torpedo",
+      "torpedo",
+      "missile",
+      "missile",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
 
 
   {
@@ -1998,6 +2051,51 @@
     "skill": 1,
     "cost": 30,
     "slots": [
+      "cannon",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "maarekstele-iv",
+    "shipId": "tiedefender",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 35,
+    "slots": [
+      "elite",
+      "cannon",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "countessryad",
+    "shipId": "tiedefender",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 34,
+    "slots": [
+      "elite",
+      "cannon",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "glaivesquadronpilot",
+    "shipId": "tiedefender",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 6,
+    "cost": 34,
+    "slots": [
+      "elite",
       "cannon",
       "missile",
       "modification",

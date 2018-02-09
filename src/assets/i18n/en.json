@@ -592,6 +592,17 @@
           "name": "Captain Jonus",
           "description": "When another friendly ship at Range 1 attacks with a secondary weapon, it may reroll up to 2 attack dice."
         },
+        "tomaxbren": {
+          "name": "Tomax Bren",
+          "description": "Once per round, after you discard an <i-elite> Upgrade card, flip that card faceup."
+        },
+        "deathfire": {
+          "name": "\"Deathfire\"",
+          "description": "When you reveal your maneuver dial or after you perform an action, you may perform a <i-bomb> Upgrade card action as a free action."
+        },
+        "gammasquadronveteran": {
+          "name": "Gamma Squadron Veteran"
+        },
         "gammasquadronpilot": {
           "name": "Gamma Squadron Pilot"
         },
@@ -607,6 +618,17 @@
         "colonelvessery": {
           "name": "Colonel Vessery",
           "description": "When attacking, immediately after you roll attack dice, you may acquire a target lock on the defender if it already has a red target lock token."
+        },
+        "maarekstele-iv": {
+          "name": "Maarek Stele",
+          "description": "When your attack deals a faceup Damage card to the defender, instead draw 3 Damage cards, choose 1 to deal and discard the others."
+        },
+        "countessryad": {
+          "name": "Countess Ryad",
+          "description": "When you reveal a [<i-straight>] maneuver, you may treat it as a [<i-kturn>] maneuver."
+        },
+        "glaivesquadronpilot": {
+          "name": "Glaive Squadron Pilot"
         },
         "onyxsquadronpilot": {
           "name": "Onyx Squadron Pilot"
@@ -1420,6 +1442,10 @@
         "dengar": {
           "name": "Dengar",
           "description": ""
+        },
+        "systemsofficer": {
+          "name": "Systems Officer",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1614,6 +1640,18 @@
         "punishingone": {
           "name": "Punishing One",
           "description": ""
+        },
+        "tiex7": {
+          "name": "TIE/x7",
+          "description": ""
+        },
+        "tied": {
+          "name": "TIE/D",
+          "description": ""
+        },
+        "tieshuttle": {
+          "name": "TIE Shuttle",
+          "description": ""
         }
       },
       "modification": {
@@ -1711,6 +1749,10 @@
         },
         "guidancechips": {
           "name": "Guidance Chips",
+          "description": ""
+        },
+        "longrangescanners": {
+          "name": "Long Range Scanners",
           "description": ""
         }
       },
