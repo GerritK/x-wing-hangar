@@ -1062,6 +1062,56 @@
     ]
   },
   {
+    "id": "scourge",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 17,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "youngster",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 15,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "wampa",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 14,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "chaser",
+    "shipId": "tiefighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 14,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
     "id": "blacksquadronpilot",
     "shipId": "tiefighter",
     "faction": "imperial",
@@ -1965,6 +2015,24 @@
       "missile",
       "bomb",
       "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "gozanticlasscruiser",
+    "shipId": "gozanticlasscruiser",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 40,
+    "slots": [
+      "crew",
+      "crew",
+      "hardpoint",
+      "team",
+      "cargo",
+      "cargo",
       "modification",
       "title"
     ]

@@ -821,5 +821,55 @@
       "enhancedscopes",
       "twinionenginemkii"
     ]
+  },
+  {
+    "id": "imperialassaultcarrier",
+    "ships": [
+      "gozanticlasscruiser",
+      "tiefighter",
+      "tiefighter"
+    ],
+    "pilots": [
+      "gozanticlasscruiser",
+
+      "scourge",
+      "youngster",
+      "wampa",
+      "chaser",
+      "blacksquadronpilot",
+      "blacksquadronpilot",
+      "obsidiansquadronpilot",
+      "obsidiansquadronpilot",
+      "academypilot",
+      "academypilot"
+    ],
+    "upgrades": [
+      "expose",
+      "marksmanship",
+      "experthandling",
+      "clustermissiles",
+      "homingmissiles",
+      "iontorpedoes",
+      "agentkallus",
+      "rearadmiralchiraneau",
+      "constructiondroid",
+      "constructiondroid",
+      "requiem",
+      "suppressor",
+      "vector",
+      "ordnanceexperts",
+      "ordnanceexperts",
+      "automatedprotocols",
+      "automatedprotocols",
+      "optimizedgenerators",
+      "optimizedgenerators",
+      "ordnancetubes",
+      "ordnancetubes",
+      "duallaserturret",
+      "broadcastarray",
+      "dockingclamps",
+      "clusterbombs",
+      "clusterbombs"
+    ]
   }
 ]

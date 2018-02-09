@@ -658,6 +658,33 @@
       [0, 0, 0, 0, 0, 3]
     ]
   },
+  {
+    "id": "gozanticlasscruiser",
+    "size": "huge",
+    "epicPoints": 2,
+    "factions": [
+      "imperial"
+    ],
+    "stats": {
+      "energy": 4,
+      "agility": 0,
+      "hull": 9,
+      "shield": 5
+    },
+    "actions": [
+      "recover",
+      "reinforce",
+      "coordinate",
+      "targetlock"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 1, 1, 0, 0],
+      [0, 1, 1, 1, 0, 0],
+      [0, 0, 1, 0, 0, 0],
+      [0, 0, 1, 0, 0, 0]
+    ]
+  },
 
 
   {

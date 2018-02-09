@@ -73,6 +73,7 @@
       "raiderclasscorvettefore": "Raider-class Corvette (Fore)",
       "raiderclasscorvetteaft": "Raider-class Corvette (Aft)",
       "tiepunisher": "TIE Punisher",
+      "gozanticlasscruiser": "Gozanti-Class Cruiser",
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
@@ -355,6 +356,22 @@
           "name": "\"Night Beast\"",
           "description": "After executing a green maneuver, you may perform a free focus action."
         },
+        "scourge": {
+          "name": "\"Scourge\"",
+          "description": "When attacking a defender that has 1 or more Damage cards, roll 1 additional attack die."
+        },
+        "youngster": {
+          "name": "\"Youngster\"",
+          "description": "Friendly TIE fighters at Range 1-3 may perform the action on your equipped <i-elite> Upgrade card."
+        },
+        "wampa": {
+          "name": "\"Wampa\"",
+          "description": "When attacking, at the start of the \"Compare Results\" step, you may cancel all dice results. If you cancel a <i-crit> result, deal 1 facedown Damage card to the defender."
+        },
+        "chaser": {
+          "name": "\"Chaser\"",
+          "description": "When another friendly ship at Range 1 spends a focus token, assign a focus token to your ship."
+        },
         "blacksquadronpilot": {
           "name": "Black Squadron Pilot"
         },
@@ -590,6 +607,12 @@
         },
         "cutlasssquadronpilot": {
           "name": "Cutlass Squadron Pilot"
+        }
+      },
+      "gozanticlasscruiser": {
+        "gozanticlasscruiser": {
+          "name": "Gozanti-Class Cruiser",
+          "description": "After you execute a maneuver, you may deploy up to 2 docked ships."
         }
       },
       "starviper": {
@@ -1135,6 +1158,18 @@
         "bombardier": {
           "name": "Bombardier",
           "description": ""
+        },
+        "agentkallus": {
+          "name": "Agent Kallus",
+          "description": ""
+        },
+        "rearadmiralchiraneau": {
+          "name": "Rear Admiral Chiraneau",
+          "description": ""
+        },
+        "constructiondroid": {
+          "name": "Construction Droid",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1281,6 +1316,18 @@
         "houndstooth": {
           "name": "Hound's Tooth",
           "description": ""
+        },
+        "requiem": {
+          "name": "Requiem",
+          "description": ""
+        },
+        "suppressor": {
+          "name": "Suppressor",
+          "description": ""
+        },
+        "vector": {
+          "name": "Vector",
+          "description": ""
         }
       },
       "modification": {
@@ -1359,6 +1406,18 @@
         "twinionenginemkii": {
           "name": "Twin Ion Engine Mk. II",
           "description": ""
+        },
+        "automatedprotocols": {
+          "name": "Automated Protocols",
+          "description": ""
+        },
+        "optimizedgenerators": {
+          "name": "Optimized Generators",
+          "description": ""
+        },
+        "ordnancetubes": {
+          "name": "Ordnance Tubes",
+          "description": ""
         }
       },
       "illicit": {
@@ -1427,6 +1486,18 @@
         "ioncannonbattery": {
           "name": "Ion Cannon Battery",
           "description": ""
+        },
+        "broadcastarray": {
+          "name": "Broadcast Array",
+          "description": ""
+        },
+        "dockingclamps": {
+          "name": "Docking Clamps",
+          "description": ""
+        },
+        "clusterbombs": {
+          "name": "Cluster Bombs",
+          "description": ""
         }
       },
       "hardpoint": {
@@ -1436,6 +1507,10 @@
         },
         "singleturbolasers": {
           "name": "Single Turbolasers",
+          "description": ""
+        },
+        "duallaserturret": {
+          "name": "Dual Laser Turret",
           "description": ""
         }
       },
@@ -1450,6 +1525,10 @@
         },
         "sensorteam": {
           "name": "Sensor Team",
+          "description": ""
+        },
+        "ordnanceexperts": {
+          "name": "Ordnance Experts",
           "description": ""
         }
       },
