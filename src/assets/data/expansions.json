@@ -1120,5 +1120,23 @@
       "sensorcluster",
       "specialopstraining"
     ]
+  },
+  {
+    "id": "protectoratestarfighter",
+    "ships": [
+      "protectoratestarfighter"
+    ],
+    "pilots": [
+      "fennrau",
+      "oldteroch",
+      "kadsolus",
+      "concorddawnace",
+      "concorddawnveteran",
+      "zealousrecruit"
+    ],
+    "upgrades": [
+      "fearlessness",
+      "concorddawnprotector"
+    ]
   }
 ]

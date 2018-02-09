@@ -3122,5 +3122,90 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "fennrau",
+    "shipId": "protectoratestarfighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "oldteroch",
+    "shipId": "protectoratestarfighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 26,
+    "slots": [
+      "elite",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "kadsolus",
+    "shipId": "protectoratestarfighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 25,
+    "slots": [
+      "elite",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "concorddawnace",
+    "shipId": "protectoratestarfighter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 23,
+    "slots": [
+      "elite",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "concorddawnveteran",
+    "shipId": "protectoratestarfighter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 22,
+    "slots": [
+      "elite",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "zealousrecruit",
+    "shipId": "protectoratestarfighter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 20,
+    "slots": [
+      "torpedo",
+      "modification",
+      "title"
+    ]
   }
 ]

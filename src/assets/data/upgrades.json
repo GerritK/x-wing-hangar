@@ -366,6 +366,19 @@
       {"fnc": "limit", "value": 2}
     ]
   },
+  {
+    "id": "fearlessness",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
 
 
   {
@@ -2568,6 +2581,19 @@
     "modifiers": [],
     "restrictions": [
       {"fnc": "shipId", "value": "tiesffighter"}
+    ]
+  },
+  {
+    "id": "concorddawnprotector",
+    "types": [
+      "title"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "protectoratestarfighter"}
     ]
   },
 

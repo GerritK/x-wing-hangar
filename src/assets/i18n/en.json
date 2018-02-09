@@ -87,7 +87,8 @@
       "yv666": "YV-666",
       "kihraxzfighter": "Kihraxz Fighter",
       "g1astarfighter": "G-1A Starfighter",
-      "jumpmaster5000": "JumpMaster 5000"
+      "jumpmaster5000": "JumpMaster 5000",
+      "protectoratestarfighter": "Protectorate Starfighter"
     },
     "pilots": {
       "xwing": {
@@ -905,6 +906,29 @@
         "contractedscout": {
           "name": "Contracted Scout"
         }
+      },
+      "protectoratestarfighter": {
+        "fennrau": {
+          "name": "Fenn Rau",
+          "description": "When attacking or defending, if the enemy ship is at Range 1, you may roll 1 additional die."
+        },
+        "oldteroch": {
+          "name": "Old Teroch",
+          "description": "At the start of the Combat phase, you may choose 1 enemy ship at Range 1. If you are inside its firing arc, it discards all focus and evade tokens."
+        },
+        "kadsolus": {
+          "name": "Kad Solus",
+          "description": "After you execute a red maneuver, assign 2 focus tokens to your ship."
+        },
+        "concorddawnace": {
+          "name": "Concord Dawn Ace"
+        },
+        "concorddawnveteran": {
+          "name": "Concord Dawn Veteran"
+        },
+        "zealousrecruit": {
+          "name": "Zealous Recruit"
+        }
       }
     },
     "upgrades": {
@@ -1035,6 +1059,10 @@
         },
         "attannimindlink": {
           "name": "Attanni Mindlink",
+          "description": ""
+        },
+        "fearlessness": {
+          "name": "Fearlessness",
           "description": ""
         }
       },
@@ -1711,6 +1739,10 @@
         },
         "specialopstraining": {
           "name": "Special Ops Training",
+          "description": ""
+        },
+        "concorddawnprotector": {
+          "name": "Concord Dawn Protector",
           "description": ""
         }
       },
