@@ -1120,6 +1120,142 @@
 
 
   {
+    "id": "herasyndulla",
+    "shipId": "vcx100",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 40,
+    "slots": [
+      "system",
+      "turret",
+      "torpedo",
+      "torpedo",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "kananjarrus",
+    "shipId": "vcx100",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 38,
+    "slots": [
+      "system",
+      "turret",
+      "torpedo",
+      "torpedo",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "chopper",
+    "shipId": "vcx100",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 37,
+    "slots": [
+      "system",
+      "turret",
+      "torpedo",
+      "torpedo",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "lothalrebel",
+    "shipId": "vcx100",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 35,
+    "slots": [
+      "system",
+      "turret",
+      "torpedo",
+      "torpedo",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
+    "id": "herasyndulla-as",
+    "canonicalId": "herasyndulla",
+    "shipId": "attackshuttle",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 22,
+    "slots": [
+      "elite",
+      "turret",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sabinewren",
+    "shipId": "attackshuttle",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 21,
+    "slots": [
+      "elite",
+      "turret",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "ezrabridger",
+    "shipId": "attackshuttle",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 20,
+    "slots": [
+      "elite",
+      "turret",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "zeborrelios",
+    "shipId": "attackshuttle",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 18,
+    "slots": [
+      "turret",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",

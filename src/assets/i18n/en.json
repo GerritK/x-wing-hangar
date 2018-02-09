@@ -62,6 +62,8 @@
       "yt2400": "YT-2400",
       "kwing": "K-Wing",
       "t70xwing": "T-70 X-Wing",
+      "vcx100": "VCX-100",
+      "attackshuttle": "Attack Shuttle",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -367,6 +369,41 @@
         },
         "bluesquadronnovice": {
           "name": "Blue Squadron Novice"
+        }
+      },
+      "vcx100": {
+        "herasyndulla": {
+          "name": "Hera Syndulla",
+          "description": "When you reveal a red or green maneuver, you may rotate your dial to another maneuver of the same difficulty."
+        },
+        "kananjarrus": {
+          "name": "Kanan Jarrus",
+          "description": "When an enemy ship at Range 1-2 is attacking, you may spend a focus token. If you do, the attacker rolls 1 fewer attack die."
+        },
+        "chopper": {
+          "name": "\"Chopper\"",
+          "description": "At the start of the Combat phase, each enemy ship you are touching receives 1 stress token."
+        },
+        "lothalrebel": {
+          "name": "Lothal Rebel"
+        }
+      },
+      "attackshuttle": {
+        "herasyndulla-as": {
+          "name": "Hera Syndulla",
+          "description": "When you reveal a green or red maneuver, you may rotate your dial to another maneuver of the same difficulty."
+        },
+        "sabinewren": {
+          "name": "Sabine Wren",
+          "description": "Immediately before you reveal your maneuver, you may perform a free boost or barrel roll action."
+        },
+        "ezrabridger": {
+          "name": "Ezra Bridger",
+          "description": "When defending, if you are stressed, you may change up to 2 of your <i-focus> results to <i-evade> results."
+        },
+        "zeborrelios": {
+          "name": "\"Zeb\" Orrelios",
+          "description": "When defending, you may cancel <i-crit> results before <i-hit> results."
         }
       },
       "tiefighter": {
@@ -969,6 +1006,10 @@
         "plasmatorpedoes": {
           "name": "Plasma Torpedoes",
           "description": ""
+        },
+        "advprotontorpedoes": {
+          "name": "Advanced Proton Torpedoes",
+          "description": ""
         }
       },
       "missile": {
@@ -1043,6 +1084,10 @@
         "twinlaserturret": {
           "name": "Twin Laser Turret",
           "description": ""
+        },
+        "drosalturret": {
+          "name": "Drosal Turret",
+          "description": ""
         }
       },
       "bomb": {
@@ -1068,6 +1113,10 @@
         },
         "clustermines": {
           "name": "Cluster Mines",
+          "description": ""
+        },
+        "thermaldetonators": {
+          "name": "Thermal Detonators",
           "description": ""
         }
       },
@@ -1255,6 +1304,30 @@
         "constructiondroid": {
           "name": "Construction Droid",
           "description": ""
+        },
+        "chopper": {
+          "name": "\"Chopper\"",
+          "description": ""
+        },
+        "zeborrelios": {
+          "name": "\"Zeb\" Orrelios",
+          "description": ""
+        },
+        "ezrabridger": {
+          "name": "Ezra Bridger",
+          "description": ""
+        },
+        "herasyndulla": {
+          "name": "Hera Syndulla",
+          "description": ""
+        },
+        "kananjarrus": {
+          "name": "Kanan Jarrus",
+          "description": ""
+        },
+        "sabinewren": {
+          "name": "Sabine Wren",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1302,6 +1375,10 @@
         },
         "advancedtargetingcomputer": {
           "name": "Advanced Targeting Computer",
+          "description": ""
+        },
+        "reinforceddeflectors": {
+          "name": "Reinforced Deflectors",
           "description": ""
         }
       },
@@ -1412,6 +1489,14 @@
         },
         "vector": {
           "name": "Vector",
+          "description": ""
+        },
+        "ghost": {
+          "name": "Ghost",
+          "description": ""
+        },
+        "phantom": {
+          "name": "Phantom",
           "description": ""
         }
       },

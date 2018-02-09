@@ -939,5 +939,41 @@
       "juke",
       "commrelay"
     ]
+  },
+  {
+    "id": "ghost",
+    "ships": [
+      "vcx100",
+      "attackshuttle"
+    ],
+    "pilots": [
+      "herasyndulla",
+      "kananjarrus",
+      "chopper",
+      "lothalrebel",
+
+      "herasyndulla-as",
+      "sabinewren",
+      "ezrabridger",
+      "zeborrelios"
+    ],
+    "upgrades": [
+      "predator",
+      "advprotontorpedoes",
+      "drosalturret",
+      "drosalturret",
+      "clustermines",
+      "connernet",
+      "thermaldetonators",
+      "chopper",
+      "zeborrelios",
+      "ezrabridger",
+      "herasyndulla",
+      "kananjarrus",
+      "sabinewren",
+      "ghost",
+      "phantom",
+      "reinforceddeflectors"
+    ]
   }
 ]
