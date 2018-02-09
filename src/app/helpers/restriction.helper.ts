@@ -72,6 +72,10 @@ export class RestrictionHelper {
     return ship.ship.id.startsWith('tie');
   }
 
+  public static isXWing(ship: SquadronShip, restrictionData: any) {
+    return ship.ship.id === 'xwing' || ship.ship.id === 't70xwing';
+  }
+
   private static callRestrictionFunction(ship: SquadronShip, restriction: any) {
     return RestrictionHelper[restriction.fnc](ship, restriction);
   }

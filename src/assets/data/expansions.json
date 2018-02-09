@@ -902,5 +902,24 @@
       "weaponsguidance",
       "protontorpedoes"
     ]
+  },
+  {
+    "id": "t70xwing",
+    "ships": [
+      "t70xwing"
+    ],
+    "pilots": [
+      "elloasty",
+      "redace",
+      "redsquadronveteran",
+      "bluesquadronnovice"
+    ],
+    "upgrades": [
+      "coolhand",
+      "targetingastromech",
+      "advancedprotontorpedoes",
+      "integratedastromech",
+      "weaponsguidance"
+    ]
   }
 ]

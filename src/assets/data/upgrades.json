@@ -306,6 +306,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "coolhand",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -463,6 +474,17 @@
     ],
     "cost": 1,
     "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "targetingastromech",
+    "types": [
+      "astromech"
+    ],
+    "cost": 2,
+    "isUnique": false,
     "isLimited": false,
     "modifiers": [],
     "restrictions": []
@@ -2297,6 +2319,19 @@
     "modifiers": [],
     "restrictions": [
       {"fnc": "shipSize", "value": "huge"}
+    ]
+  },
+  {
+    "id": "integratedastromech",
+    "types": [
+      "modification"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "isXWing"}
     ]
   },
 

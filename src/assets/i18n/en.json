@@ -354,6 +354,14 @@
           "name": "\"Blue Ace\"",
           "description": "When performing a boost action, you may use the [<i-turnleft> 1] or [<i-turnright> 1] template."
         },
+        "elloasty": {
+          "name": "Ello Asty",
+          "description": "While you are not stressed, you may treat your [<i-trollleft>] and [<i-trollright>] maneuvers as white maneuvers."
+        },
+        "redace": {
+          "name": "\"Red Ace\"",
+          "description": "The first time you remove a shield token from your ship each round, assign 1 evade token to your ship."
+        },
         "redsquadronveteran": {
           "name": "Red Squadron Veteran"
         },
@@ -849,6 +857,10 @@
         "wired": {
           "name": "Wired",
           "description": ""
+        },
+        "coolhand": {
+          "name": "Cool Hand",
+          "description": ""
         }
       },
       "astromech": {
@@ -906,6 +918,10 @@
         },
         "r5x3": {
           "name": "R5-X3",
+          "description": ""
+        },
+        "targetingastromech": {
+          "name": "Targeting Astromech",
           "description": ""
         }
       },
@@ -1470,6 +1486,10 @@
         },
         "ordnancetubes": {
           "name": "Ordnance Tubes",
+          "description": ""
+        },
+        "integratedastromech": {
+          "name": "Integrated Astromech",
           "description": ""
         }
       },
