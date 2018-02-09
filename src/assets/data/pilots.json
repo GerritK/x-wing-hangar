@@ -1256,6 +1256,70 @@
 
 
   {
+    "id": "norrawexley",
+    "shipId": "arc170",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 29,
+    "slots": [
+      "elite",
+      "torpedo",
+      "crew",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sharabey",
+    "shipId": "arc170",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "torpedo",
+      "crew",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "thanekyrell",
+    "shipId": "arc170",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 26,
+    "slots": [
+      "torpedo",
+      "crew",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "braylenstramm",
+    "shipId": "arc170",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 25,
+    "slots": [
+      "torpedo",
+      "crew",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",
@@ -2059,6 +2123,7 @@
   },
   {
     "id": "maarekstele-iv",
+    "canonicalId": "maarekstele",
     "shipId": "tiedefender",
     "faction": "imperial",
     "isUnique": true,

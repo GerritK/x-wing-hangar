@@ -538,6 +538,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "r3astromech",
+    "types": [
+      "astromech"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -736,6 +747,17 @@
       "attack": 5,
       "range": "1"
     }
+  },
+  {
+    "id": "seismictorpedo",
+    "types": [
+      "torpedo"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 
@@ -1867,6 +1889,17 @@
       {"fnc": "faction", "value": "imperial"}
     ]
   },
+  {
+    "id": "tailgunner",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -2489,6 +2522,19 @@
       {"fnc": "shipId", "value": "tiebomber"}
     ]
   },
+  {
+    "id": "allianceoverhaul",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "arc170"}
+    ]
+  },
 
 
   {
@@ -2812,6 +2858,21 @@
     "restrictions": [
       {"fnc": "hasSlot", "value": "torpedo"},
       {"fnc": "hasSlot", "value": "missile"}
+    ]
+  },
+  {
+    "id": "vectoredthrusters",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainAction", "value": "barrelroll"}
+    ],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "small"}
     ]
   },
 

@@ -1078,5 +1078,28 @@
       "longrangescanners",
       "longrangescanners"
     ]
+  },
+  {
+    "id": "arc170",
+    "ships": [
+      "arc170"
+    ],
+    "pilots": [
+      "norrawexley",
+      "sharabey",
+      "thanekyrell",
+      "braylenstramm"
+    ],
+    "upgrades": [
+      "adrenalinerush",
+      "seismictorpedo",
+      "tailgunner",
+      "reconspecialist",
+      "r3astromech",
+      "r3astromech",
+      "allianceoverhaul",
+      "vectoredthrusters",
+      "vectoredthrusters"
+    ]
   }
 ]

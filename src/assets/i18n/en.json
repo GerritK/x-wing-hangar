@@ -64,6 +64,7 @@
       "t70xwing": "T-70 X-Wing",
       "vcx100": "VCX-100",
       "attackshuttle": "Attack Shuttle",
+      "arc170": "ARC-170",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -407,6 +408,24 @@
         "zeborrelios": {
           "name": "\"Zeb\" Orrelios",
           "description": "When defending, you may cancel <i-crit> results before <i-hit> results."
+        }
+      },
+      "arc170": {
+        "norrawexley": {
+          "name": "Norra Wexley",
+          "description": "When attacking or defending, you may spend a target lock you have on the enemy ship to add 1 <i-focus> result to your roll."
+        },
+        "sharabey": {
+          "name": "Shara Bey",
+          "description": "When another friendly ship at Range 1-2 is attacking, it may treat your blue target lock tokens as its own."
+        },
+        "thanekyrell": {
+          "name": "Thane Kyrell",
+          "description": "After an enemy ship inside your firing arc at Range 1-3 attacks another friendly ship, you may perform a free action."
+        },
+        "braylenstramm": {
+          "name": "Braylen Stramm",
+          "description": "After you execute a maneuver, you may roll an attack die. On a <i-hit> or <i-crit> result, remove 1 stress token from your ship."
         }
       },
       "tiefighter": {
@@ -1062,6 +1081,10 @@
         "targetingastromech": {
           "name": "Targeting Astromech",
           "description": ""
+        },
+        "r3astromech": {
+          "name": "R3 Astromech",
+          "description": ""
         }
       },
       "torpedo": {
@@ -1095,6 +1118,10 @@
         },
         "advprotontorpedoes": {
           "name": "Advanced Proton Torpedoes",
+          "description": ""
+        },
+        "seismictorpedo": {
+          "name": "Seismic Torpedo",
           "description": ""
         }
       },
@@ -1446,6 +1473,10 @@
         "systemsofficer": {
           "name": "Systems Officer",
           "description": ""
+        },
+        "tailgunner": {
+          "name": "Tail Gunner",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1652,6 +1683,10 @@
         "tieshuttle": {
           "name": "TIE Shuttle",
           "description": ""
+        },
+        "allianceoverhaul": {
+          "name": "Alliance Overhaul",
+          "description": ""
         }
       },
       "modification": {
@@ -1753,6 +1788,10 @@
         },
         "longrangescanners": {
           "name": "Long Range Scanners",
+          "description": ""
+        },
+        "vectoredthrusters": {
+          "name": "Vectored Thrusters",
           "description": ""
         }
       },
