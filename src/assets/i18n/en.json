@@ -61,6 +61,7 @@
       "cr90corvetteaft": "CR90 Corvette (Aft)",
       "yt2400": "YT-2400",
       "kwing": "K-Wing",
+      "t70xwing": "T-70 X-Wing",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -74,6 +75,7 @@
       "raiderclasscorvetteaft": "Raider-class Corvette (Aft)",
       "tiepunisher": "TIE Punisher",
       "gozanticlasscruiser": "Gozanti-Class Cruiser",
+      "tiefofighter": "TIE/fo Fighter",
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
@@ -341,6 +343,22 @@
         },
         "wardensquadronpilot": {
           "name": "Warden Squadron Pilot"
+        }
+      },
+      "t70xwing": {
+        "poedameron": {
+          "name": "Poe Dameron",
+          "description": "While attacking or defending, if you have a focus token, you may change 1 of your <i-focus> results to a <i-hit> or <i-evade> result."
+        },
+        "blueace": {
+          "name": "\"Blue Ace\"",
+          "description": "When performing a boost action, you may use the [<i-turnleft> 1] or [<i-turnright> 1] template."
+        },
+        "redsquadronveteran": {
+          "name": "Red Squadron Veteran"
+        },
+        "bluesquadronnovice": {
+          "name": "Blue Squadron Novice"
         }
       },
       "tiefighter": {
@@ -615,6 +633,29 @@
           "description": "After you execute a maneuver, you may deploy up to 2 docked ships."
         }
       },
+      "tiefofighter": {
+        "omegaace": {
+          "name": "\"Omega Ace\"",
+          "description": "When attacking, you may spend a focus token and a target lock you have on the defender to change all of your results to <i-crit> results."
+        },
+        "epsilonleader": {
+          "name": "\"Epsilon Leader\"",
+          "description": "At the start of the Combat phase, remove 1 stress token from each friendly ship at Range 1."
+        },
+        "zetaace": {
+          "name": "\"Zeta Ace\"",
+          "description": "When performing a barrel roll, you may use the [<i-straight> 2] template (instead of the [<i-straight> 1] template)."
+        },
+        "omegasquadronpilot": {
+          "name": "Omega Squadron Pilot"
+        },
+        "zetasquadronpilot": {
+          "name": "Zeta Squadron Pilot"
+        },
+        "epsilonsquadronpilot": {
+          "name": "Epsilon Squadron Pilot"
+        }
+      },
       "starviper": {
         "princexizor": {
           "name": "Prince Xizor",
@@ -804,6 +845,10 @@
         "lightningreflexes": {
           "name": "Lightning Reflexes",
           "description": ""
+        },
+        "wired": {
+          "name": "Wired",
+          "description": ""
         }
       },
       "astromech": {
@@ -853,6 +898,14 @@
         },
         "r7t1": {
           "name": "R7-T1",
+          "description": ""
+        },
+        "bb8": {
+          "name": "BB-8",
+          "description": ""
+        },
+        "r5x3": {
+          "name": "R5-X3",
           "description": ""
         }
       },
@@ -1533,6 +1586,10 @@
         }
       },
       "tech": {
+        "weaponsguidance": {
+          "name": "Weapons Guidance",
+          "description": ""
+        }
       }
     }
   }

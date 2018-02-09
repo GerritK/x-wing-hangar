@@ -871,5 +871,36 @@
       "clusterbombs",
       "clusterbombs"
     ]
+  },
+  {
+    "id": "corset-tfa",
+    "ships": [
+      "t70xwing",
+      "tiefofighter",
+      "tiefofighter"
+    ],
+    "pilots": [
+      "poedameron",
+      "blueace",
+      "redsquadronveteran",
+      "bluesquadronnovice",
+
+      "omegaace",
+      "epsilonleader",
+      "zetaace",
+      "omegasquadronpilot",
+      "omegasquadronpilot",
+      "zetasquadronpilot",
+      "zetasquadronpilot",
+      "epsilonsquadronpilot",
+      "epsilonsquadronpilot"
+    ],
+    "upgrades": [
+      "bb8",
+      "r5x3",
+      "wired",
+      "weaponsguidance",
+      "protontorpedoes"
+    ]
   }
 ]

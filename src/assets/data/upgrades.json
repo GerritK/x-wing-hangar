@@ -295,6 +295,17 @@
       {"fnc": "shipSize", "value": "small"}
     ]
   },
+  {
+    "id": "wired",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -429,6 +440,28 @@
       "astromech"
     ],
     "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "bb8",
+    "types": [
+      "astromech"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "r5x3",
+    "types": [
+      "astromech"
+    ],
+    "cost": 1,
     "isUnique": true,
     "isLimited": false,
     "modifiers": [],
@@ -1582,6 +1615,19 @@
     "restrictions": [
       {"fnc": "shipId", "value": "tieadvanced"}
     ]
+  },
+
+
+  {
+    "id": "weaponsguidance",
+    "types": [
+      "tech"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 

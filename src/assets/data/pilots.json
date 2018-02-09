@@ -1025,6 +1025,70 @@
 
 
   {
+    "id": "poedameron",
+    "shipId": "t70xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 31,
+    "slots": [
+      "elite",
+      "torpedo",
+      "astromech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "blueace",
+    "shipId": "t70xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 27,
+    "slots": [
+      "torpedo",
+      "astromech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "redsquadronveteran",
+    "shipId": "t70xwing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 26,
+    "slots": [
+      "elite",
+      "torpedo",
+      "astromech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "bluesquadronnovice",
+    "shipId": "t70xwing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 24,
+    "slots": [
+      "torpedo",
+      "astromech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",
@@ -2019,6 +2083,8 @@
       "title"
     ]
   },
+
+
   {
     "id": "gozanticlasscruiser",
     "shipId": "gozanticlasscruiser",
@@ -2033,6 +2099,89 @@
       "team",
       "cargo",
       "cargo",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
+    "id": "omegaace",
+    "shipId": "tiefofighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 20,
+    "slots": [
+      "elite",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "epsilonleader",
+    "shipId": "tiefofighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 19,
+    "slots": [
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "zetaace",
+    "shipId": "tiefofighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 18,
+    "slots": [
+      "elite",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "omegasquadronpilot",
+    "shipId": "tiefofighter",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 17,
+    "slots": [
+      "elite",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "zetasquadronpilot",
+    "shipId": "tiefofighter",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 16,
+    "slots": [
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "epsilonsquadronpilot",
+    "shipId": "tiefofighter",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 15,
+    "slots": [
+      "tech",
       "modification",
       "title"
     ]
