@@ -1101,5 +1101,24 @@
       "vectoredthrusters",
       "vectoredthrusters"
     ]
+  },
+  {
+    "id": "specialforcestie",
+    "ships": [
+      "tiesffighter"
+    ],
+    "pilots": [
+      "quickdraw",
+      "backdraft",
+      "omegaspecialist",
+      "zetaspecialist"
+    ],
+    "upgrades": [
+      "wired",
+      "collisiondetector",
+      "sensorcluster",
+      "sensorcluster",
+      "specialopstraining"
+    ]
   }
 ]

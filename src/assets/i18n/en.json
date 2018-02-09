@@ -80,6 +80,7 @@
       "gozanticlasscruiser": "Gozanti-Class Cruiser",
       "tiefofighter": "TIE/fo Fighter",
       "tieadvprototype": "TIE Advanced Prototype",
+      "tiesffighter": "TIE/sf Fighter",
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
@@ -771,6 +772,22 @@
         },
         "sienartestpilot": {
           "name": "Sienar Test Pilot"
+        }
+      },
+      "tiesffighter": {
+        "quickdraw": {
+          "name": "\"Quickdraw\"",
+          "description": "Once per round, when you lose a shield token, you may perform a primary weapon attack."
+        },
+        "backdraft": {
+          "name": "\"Backdraft\"",
+          "description": "When attacking a ship inside your auxiliary firing arc, you may add 1 <i-crit> result."
+        },
+        "omegaspecialist": {
+          "name": "Omega Specialist"
+        },
+        "zetaspecialist": {
+          "name": "Zeta Specialist"
         }
       },
       "starviper": {
@@ -1541,6 +1558,10 @@
         "electronicbaffle": {
           "name": "Electronic Baffle",
           "description": ""
+        },
+        "collisiondetector": {
+          "name": "Collision Detector",
+          "description": ""
         }
       },
       "title": {
@@ -1686,6 +1707,10 @@
         },
         "allianceoverhaul": {
           "name": "Alliance Overhaul",
+          "description": ""
+        },
+        "specialopstraining": {
+          "name": "Special Ops Training",
           "description": ""
         }
       },
@@ -1918,6 +1943,10 @@
         },
         "commrelay": {
           "name": "Comm Relay",
+          "description": ""
+        },
+        "sensorcluster": {
+          "name": "Sensor Cluster",
           "description": ""
         }
       }

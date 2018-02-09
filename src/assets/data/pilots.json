@@ -2617,6 +2617,71 @@
 
 
   {
+    "id": "quickdraw",
+    "shipId": "tiesffighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 29,
+    "slots": [
+      "elite",
+      "system",
+      "missile",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "backdraft",
+    "shipId": "tiesffighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 27,
+    "slots": [
+      "elite",
+      "system",
+      "missile",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "omegaspecialist",
+    "shipId": "tiesffighter",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 25,
+    "slots": [
+      "elite",
+      "system",
+      "missile",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "zetaspecialist",
+    "shipId": "tiesffighter",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 23,
+    "slots": [
+      "system",
+      "missile",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "princexizor",
     "shipId": "starviper",
     "faction": "scum",
