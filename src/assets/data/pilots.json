@@ -2178,6 +2178,47 @@
     ]
   },
   {
+    "id": "zetaleader",
+    "shipId": "tiefofighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 20,
+    "slots": [
+      "elite",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "epsilonace",
+    "shipId": "tiefofighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 17,
+    "slots": [
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "omegaleader",
+    "shipId": "tiefofighter",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 21,
+    "slots": [
+      "elite",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
     "id": "omegasquadronpilot",
     "shipId": "tiefofighter",
     "faction": "imperial",

@@ -654,6 +654,18 @@
           "name": "\"Zeta Ace\"",
           "description": "When performing a barrel roll, you may use the [<i-straight> 2] template (instead of the [<i-straight> 1] template)."
         },
+        "omegaleader": {
+          "name": "\"Omega Leader\"",
+          "description": "Enemy ships that you have locked cannot modify any dice when attacking you or defending against your attacks."
+        },
+        "zetaleader": {
+          "name": "\"Zeta Leader\"",
+          "description": "When attacking, if you are not stressed, you may receive 1 stress token to roll 1 additional attack die."
+        },
+        "epsilonace": {
+          "name": "\"Epsilon Ace\"",
+          "description": "While you do not have any Damage cards, treat your pilot skill value as \"12.\""
+        },
         "omegasquadronpilot": {
           "name": "Omega Squadron Pilot"
         },
@@ -860,6 +872,10 @@
         },
         "coolhand": {
           "name": "Cool Hand",
+          "description": ""
+        },
+        "juke": {
+          "name": "Juke",
           "description": ""
         }
       },
@@ -1608,6 +1624,10 @@
       "tech": {
         "weaponsguidance": {
           "name": "Weapons Guidance",
+          "description": ""
+        },
+        "commrelay": {
+          "name": "Comm Relay",
           "description": ""
         }
       }

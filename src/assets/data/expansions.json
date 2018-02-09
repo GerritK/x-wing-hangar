@@ -921,5 +921,23 @@
       "integratedastromech",
       "weaponsguidance"
     ]
+  },
+  {
+    "id": "tiefofighter",
+    "ships": [
+      "tiefofighter"
+    ],
+    "pilots": [
+      "omegaleader",
+      "zetaleader",
+      "epsilonace",
+      "omegasquadronpilot",
+      "zetasquadronpilot",
+      "epsilonsquadronpilot"
+    ],
+    "upgrades": [
+      "juke",
+      "commrelay"
+    ]
   }
 ]

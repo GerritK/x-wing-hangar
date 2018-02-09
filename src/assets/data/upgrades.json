@@ -317,6 +317,19 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "juke",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "small"}
+    ]
+  },
 
 
   {
@@ -1646,6 +1659,17 @@
       "tech"
     ],
     "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "commrelay",
+    "types": [
+      "tech"
+    ],
+    "cost": 3,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],
