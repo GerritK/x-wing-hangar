@@ -78,6 +78,7 @@
       "tiepunisher": "TIE Punisher",
       "gozanticlasscruiser": "Gozanti-Class Cruiser",
       "tiefofighter": "TIE/fo Fighter",
+      "tieadvprototype": "TIE Advanced Prototype",
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
@@ -713,6 +714,22 @@
           "name": "Epsilon Squadron Pilot"
         }
       },
+      "tieadvprototype": {
+        "theinquisitor": {
+          "name": "The Inquisitor",
+          "description": "When attacking with your primary weapon at Range 2-3, treat the range of the attack as Range 1."
+        },
+        "valenrudor": {
+          "name": "Valen Rudor",
+          "description": "After defending, you may perform a free action."
+        },
+        "baronoftheempire": {
+          "name": "Baron of the Empire"
+        },
+        "sienartestpilot": {
+          "name": "Sienar Test Pilot"
+        }
+      },
       "starviper": {
         "princexizor": {
           "name": "Prince Xizor",
@@ -1043,6 +1060,10 @@
         },
         "advhomingmissiles": {
           "name": "Advanced Homing Missiles",
+          "description": ""
+        },
+        "xx23sthreadtracers": {
+          "name": "XX-23 S-Thread Tracers",
           "description": ""
         }
       },
@@ -1498,6 +1519,10 @@
         "phantom": {
           "name": "Phantom",
           "description": ""
+        },
+        "tiev1": {
+          "name": "TIE/v1",
+          "description": ""
         }
       },
       "modification": {
@@ -1591,6 +1616,10 @@
         },
         "integratedastromech": {
           "name": "Integrated Astromech",
+          "description": ""
+        },
+        "guidancechips": {
+          "name": "Guidance Chips",
           "description": ""
         }
       },

@@ -799,6 +799,21 @@
       "range": "2"
     }
   },
+  {
+    "id": "xx23sthreadtracers",
+    "types": [
+      "missile"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-3"
+    }
+  },
 
 
   {
@@ -2217,6 +2232,19 @@
       {"fnc": "shipId", "value": "attackshuttle"}
     ]
   },
+  {
+    "id": "tiev1",
+    "types": [
+      "title"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "tieadvprototype"}
+    ]
+  },
 
 
   {
@@ -2516,6 +2544,17 @@
     "restrictions": [
       {"fnc": "isXWing"}
     ]
+  },
+  {
+    "id": "guidancechips",
+    "types": [
+      "modification"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 

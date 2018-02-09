@@ -975,5 +975,24 @@
       "phantom",
       "reinforceddeflectors"
     ]
+  },
+  {
+    "id": "inquisitorstie",
+    "ships": [
+      "tieadvprototype"
+    ],
+    "pilots": [
+      "theinquisitor",
+      "valenrudor",
+      "baronoftheempire",
+      "sienartestpilot"
+    ],
+    "upgrades": [
+      "deadeye",
+      "homingmissiles",
+      "xx23sthreadtracers",
+      "guidancechips",
+      "tiev1"
+    ]
   }
 ]

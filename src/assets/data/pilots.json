@@ -2397,6 +2397,63 @@
 
 
   {
+    "id": "theinquisitor",
+    "shipId": "tieadvprototype",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 25,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "valenrudor",
+    "shipId": "tieadvprototype",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 22,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "baronoftheempire",
+    "shipId": "tieadvprototype",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 19,
+    "slots": [
+      "elite",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sienartestpilot",
+    "shipId": "tieadvprototype",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 16,
+    "slots": [
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "princexizor",
     "shipId": "starviper",
     "faction": "scum",
