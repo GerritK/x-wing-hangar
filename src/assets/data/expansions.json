@@ -1017,5 +1017,33 @@
       "electronicbaffle",
       "cloakingdevice"
     ]
+  },
+  {
+    "id": "punishingone",
+    "ships": [
+      "jumpmaster5000"
+    ],
+    "pilots": [
+      "dengar",
+      "teltrevura",
+      "manaroo",
+      "contractedscout"
+    ],
+    "upgrades": [
+      "rage",
+      "attannimindlink",
+      "attannimindlink",
+      "plasmatorpedoes",
+      "gonk",
+      "bobafett",
+      "dengar",
+      "r5p8",
+      "overclockedr4",
+      "overclockedr4",
+      "punishingone",
+      "guidancechips",
+      "guidancechips",
+      "feedbackarray"
+    ]
   }
 ]

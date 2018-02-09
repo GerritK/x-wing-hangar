@@ -1,10 +1,11 @@
 import {SquadronShip} from '../models/squadron-ship.model';
 import {Upgrade} from '../models/upgrade.model';
+import {Squadron} from '../models/squadron.model';
 
 export class RestrictionHelper {
-  public static isUseable(ship: SquadronShip, upgrade: Upgrade) {
+  public static isUseable(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade) {
     for (const restriction of upgrade.restrictions) {
-      if (!RestrictionHelper.callRestrictionFunction(ship, restriction)) {
+      if (!RestrictionHelper.callRestrictionFunction(squadron, ship, upgrade, restriction)) {
         return false;
       }
     }
@@ -12,9 +13,9 @@ export class RestrictionHelper {
     return true;
   }
 
-  public static or(ship: SquadronShip, restrictionData: any) {
+  public static or(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     for (const restriction of restrictionData.value) {
-      if (RestrictionHelper.callRestrictionFunction(ship, restriction)) {
+      if (RestrictionHelper.callRestrictionFunction(squadron, ship, upgrade, restriction)) {
         return true;
       }
     }
@@ -22,31 +23,37 @@ export class RestrictionHelper {
     return false;
   }
 
-  public static not(ship: SquadronShip, restrictionData: any) {
-    return !RestrictionHelper.callRestrictionFunction(ship, restrictionData.value);
+  public static not(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
+    return !RestrictionHelper.callRestrictionFunction(squadron, ship, upgrade, restrictionData.value);
   }
 
-  public static shipId(ship: SquadronShip, restrictionData: any) {
+  public static shipId(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     return ship.ship.id === restrictionData.value;
   }
 
-  public static shipSize(ship: SquadronShip, restrictionData: any) {
+  public static shipSize(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     return ship.ship.size === restrictionData.value;
   }
 
-  public static faction(ship: SquadronShip, restrictionData: any) {
+  public static faction(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     return ship.pilot.faction === restrictionData.value;
   }
 
-  public static hasSlot(ship: SquadronShip, restrictionData: any) {
+  public static hasSlot(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     return ship.pilot.slots.findIndex((slot) => slot === restrictionData.value) !== -1;
   }
 
-  public static hasAction(ship: SquadronShip, restrictionData: any) {
+  public static hasAction(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     return ship.ship.actions.findIndex((action) => action === restrictionData.value) !== -1;
   }
 
-  public static skill(ship: SquadronShip, restrictionData: any) {
+  public static limit(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
+    const count = squadron.ships.filter((s) => s !== ship && s.hasUpgradeEquipped(upgrade.id)).length;
+
+    return count < restrictionData.value;
+  }
+
+  public static skill(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     let result;
 
     if (restrictionData.operator === '==') {
@@ -68,15 +75,15 @@ export class RestrictionHelper {
     return result;
   }
 
-  public static isTIE(ship: SquadronShip, restrictionData: any) {
+  public static isTIE(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     return ship.ship.id.startsWith('tie');
   }
 
-  public static isXWing(ship: SquadronShip, restrictionData: any) {
+  public static isXWing(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     return ship.ship.id === 'xwing' || ship.ship.id === 't70xwing';
   }
 
-  private static callRestrictionFunction(ship: SquadronShip, restriction: any) {
-    return RestrictionHelper[restriction.fnc](ship, restriction);
+  private static callRestrictionFunction(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restriction: any) {
+    return RestrictionHelper[restriction.fnc](squadron, ship, upgrade, restriction);
   }
 }

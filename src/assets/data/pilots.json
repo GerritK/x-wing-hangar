@@ -2832,5 +2832,67 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "dengar",
+    "shipId": "jumpmaster5000",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 33,
+    "slots": [
+      "elite",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "teltrevura",
+    "shipId": "jumpmaster5000",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 30,
+    "slots": [
+      "elite",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "manaroo",
+    "shipId": "jumpmaster5000",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 27,
+    "slots": [
+      "elite",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "contractedscout",
+    "shipId": "jumpmaster5000",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 25,
+    "slots": [
+      "elite",
+      "crew",
+      "illicit",
+      "modification",
+      "title"
+    ]
   }
 ]

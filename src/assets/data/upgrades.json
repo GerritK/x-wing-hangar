@@ -341,6 +341,31 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "rage",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "attannimindlink",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"},
+      {"fnc": "limit", "value": 2}
+    ]
+  },
 
 
   {
@@ -570,6 +595,28 @@
     "modifiers": [
       {"fnc": "maneuverDifficulty", "speed": "3", "difficulty": "2"}
     ],
+    "restrictions": []
+  },
+  {
+    "id": "r5p8",
+    "types": [
+      "salvagedastromech"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "overclockedr4",
+    "types": [
+      "salvagedastromech"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
     "restrictions": []
   },
 
@@ -1768,6 +1815,45 @@
       {"fnc": "faction", "value": "scum"}
     ]
   },
+  {
+    "id": "gonk",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
+  {
+    "id": "bobafett",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
+  {
+    "id": "dengar",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
 
 
   {
@@ -2322,6 +2408,21 @@
     ],
     "restrictions": [
       {"fnc": "shipId", "value": "g1astarfighter"}
+    ]
+  },
+  {
+    "id": "punishingone",
+    "types": [
+      "title"
+    ],
+    "cost": 12,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "changeAttack", "value": 1}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "jumpmaster5000"}
     ]
   },
 

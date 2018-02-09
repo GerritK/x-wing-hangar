@@ -27,7 +27,7 @@ export class SquadronShip {
     for (let i = 0; i < this.upgrades.length; i++) {
       const upgrade = this.upgrades[i];
 
-      if (upgrade && upgrade.isLimited && upgrade.id === id) {
+      if (upgrade && upgrade.id === id) {
         return true;
       }
     }
