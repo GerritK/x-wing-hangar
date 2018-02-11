@@ -175,6 +175,21 @@
           "name": "Chewbacca",
           "description": "When you are dealt a faceup Damage card, immediately flip it facedown (without resolving its ability)."
         },
+        "hansolo-swx57": {
+          "name": "Han Solo (HotR)",
+          "description": "When you are placed during setup, you can be placed anywhere in the play area beyond Range 3 of the enemy ships."
+        },
+        "rey": {
+          "name": "Rey",
+          "description": "When attacking or defending, if the enemy ship is inside your firing arc, you may reroll up to 2 of your blank results."
+        },
+        "chewbacca-swx57": {
+          "name": "Chewbacca (HotR)",
+          "description": "When another friendly ship at Range 1-3 is destroyed (but has not fled the battlefield), you may perform an attack."
+        },
+        "resistancesympathizer": {
+          "name": "Resistance Sympathizer"
+        },
         "outerrimsmuggler": {
           "name": "Outer Rim Smuggler"
         }
@@ -370,6 +385,22 @@
         "redace": {
           "name": "\"Red Ace\"",
           "description": "The first time you remove a shield token from your ship each round, assign 1 evade token to your ship."
+        },
+        "poedameron-swx57": {
+          "name": "Poe Dameron (HotR)",
+          "description": "While attacking or defending, if you have a focus token, you may change 1 of your <i-focus> results to a <i-hit> or <i-evade> result."
+        },
+        "niennunb": {
+          "name": "Nien Nunb",
+          "description": "When you recieve a stress token, if there is an enemy ship inside your firing arc at Range 1, you may discard that stress token."
+        },
+        "snapwexley": {
+          "name": "\"Snap\" Wexley",
+          "description": "After you execute a 2-, 3- or 4-speed maneuver, if you are not touching a ship, you may perform a free boost action"
+        },
+        "jesspava": {
+          "name": "Jess Pava",
+          "description": "When attacking or defending, you may reroll 1 of your dice for each other friendly ship at Range 1."
         },
         "redsquadronveteran": {
           "name": "Red Squadron Veteran"
@@ -1082,6 +1113,14 @@
         "fearlessness": {
           "name": "Fearlessness",
           "description": ""
+        },
+        "snapshot": {
+          "name": "Snap Shot",
+          "description": ""
+        },
+        "trickshot": {
+          "name": "Trick Shot",
+          "description": ""
         }
       },
       "astromech": {
@@ -1147,6 +1186,10 @@
         },
         "r3astromech": {
           "name": "R3 Astromech",
+          "description": ""
+        },
+        "m9g8": {
+          "name": "M9-G8",
           "description": ""
         }
       },
@@ -1552,6 +1595,18 @@
         "ig88d": {
           "name": "ig88d",
           "description": ""
+        },
+        "finn": {
+          "name": "Finn",
+          "description": ""
+        },
+        "Rey": {
+          "name": "Rey",
+          "description": ""
+        },
+        "hotshotcopilot": {
+          "name": "Hotshot Co-Pilot",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1778,6 +1833,14 @@
         "shadowcaster": {
           "name": "Shadow Caster",
           "description": ""
+        },
+        "blackone": {
+          "name": "Black One",
+          "description": ""
+        },
+        "millenniumfalcon-swx57": {
+          "name": "Millennium Falcon (HotR)",
+          "description": ""
         }
       },
       "modification": {
@@ -1888,6 +1951,10 @@
         "gyroscopictargeting": {
           "name": "Gyroscopic Targeting",
           "description": ""
+        },
+        "smugglingcompartment": {
+          "name": "Smuggling Compartment",
+          "description": ""
         }
       },
       "illicit": {
@@ -1921,6 +1988,10 @@
         },
         "blackmarketslicertools": {
           "name": "Black Market Slicer Tools",
+          "description": ""
+        },
+        "burnoutslam": {
+          "name": "Burnout SLAM",
           "description": ""
         }
       },
@@ -2025,6 +2096,14 @@
         },
         "sensorcluster": {
           "name": "Sensor Cluster",
+          "description": ""
+        },
+        "patternanalyzer": {
+          "name": "Pattern Analyzer",
+          "description": ""
+        },
+        "primedthrusters": {
+          "name": "Primed Thrusters",
           "description": ""
         }
       }

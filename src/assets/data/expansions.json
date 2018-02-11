@@ -1164,5 +1164,45 @@
       "tacticaljammer",
       "gyroscopictargeting"
     ]
+  },
+  {
+    "id": "heroesofresistance",
+    "ships": [
+      "t70xwing",
+      "yt1300"
+    ],
+    "pilots": [
+      "hansolo-swx57",
+      "rey",
+      "chewbacca-swx57",
+      "resistancesympathizer",
+
+      "poedameron-swx57",
+      "niennunb",
+      "snapwexley",
+      "jesspava",
+      "redsquadronveteran",
+      "bluesquadronnovice"
+    ],
+    "upgrades": [
+      "m9g8",
+      "finn",
+      "rey",
+      "hotshotcopilot",
+      "snapshot",
+      "snapshot",
+      "trickshot",
+      "trickshot",
+      "burnoutslam",
+      "burnoutslam",
+      "integratedastromech",
+      "integratedastromech",
+      "smugglingcompartment",
+      "patternanalyzer",
+      "patternanalyzer",
+      "primedthrusters",
+      "blackone",
+      "millenniumfalcon-swx57"
+    ]
   }
 ]

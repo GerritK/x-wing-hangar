@@ -379,6 +379,32 @@
       {"fnc": "faction", "value": "scum"}
     ]
   },
+  {
+    "id": "snapshot",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 2,
+      "range": "1"
+    }
+  },
+  {
+    "id": "trickshot",
+    "types": [
+      "elite"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -557,6 +583,17 @@
       "astromech"
     ],
     "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "m9g8",
+    "types": [
+      "astromech"
+    ],
+    "cost": 3,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],
@@ -1952,6 +1989,43 @@
       {"fnc": "faction", "value": "scum"}
     ]
   },
+  {
+    "id": "finn",
+    "types": [
+      "crew"
+    ],
+    "cost": 5,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "rey",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "hotshotcopilot",
+    "types": [
+      "crew"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -2091,6 +2165,30 @@
     "isLimited": false,
     "modifiers": [],
     "restrictions": []
+  },
+  {
+    "id": "patternanalyzer",
+    "types": [
+      "tech"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "primedthrusters",
+    "types": [
+      "tech"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "small"}
+    ]
   },
 
 
@@ -2648,6 +2746,33 @@
       {"fnc": "shipId", "value": "lancerclasspursuitcraft"}
     ]
   },
+  {
+    "id": "blackone",
+    "types": [
+      "title"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "t70xwing"},
+      {"fnc": "skill", "operator": ">", "value": 6}
+    ]
+  },
+  {
+    "id": "millenniumfalcon-swx57",
+    "types": [
+      "title"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "yt1300"}
+    ]
+  },
 
 
   {
@@ -3001,6 +3126,28 @@
       {"fnc": "shipId", "value": "lancerclasspursuitcraft"}
     ]
   },
+  {
+    "id": "smugglingcompartment",
+    "types": [
+      "modification"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "illicit"},
+      {"fnc": "gainUpgrade", "value": "modification", "maxCost": "3"}
+    ],
+    "restrictions": [
+      {
+        "fnc": "or",
+        "value": [
+          {"fnc": "shipId", "value": "yt1300"},
+          {"fnc": "shipId", "value": "yt2400"}
+        ]
+      }
+    ]
+  },
 
 
   {
@@ -3315,6 +3462,19 @@
     "isLimited": false,
     "modifiers": [],
     "restrictions": []
+  },
+  {
+    "id": "burnoutslam",
+    "types": [
+      "illicit"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "large"}
+    ]
   },
 
 

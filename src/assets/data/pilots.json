@@ -342,6 +342,69 @@
       "shield": 4
     }
   },
+  {
+    "id": "hansolo-swx57",
+    "shipId": "yt1300",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 46,
+    "slots": [
+      "elite",
+      "missile",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "rey",
+    "shipId": "yt1300",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 45,
+    "slots": [
+      "elite",
+      "missile",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "chewbacca-swx57",
+    "shipId": "yt1300",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 42,
+    "slots": [
+      "elite",
+      "missile",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "resistancesympathizer",
+    "shipId": "yt1300",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 38,
+    "slots": [
+      "missile",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
 
 
   {
@@ -1109,6 +1172,69 @@
     "isUnique": false,
     "skill": 2,
     "cost": 24,
+    "slots": [
+      "torpedo",
+      "astromech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "poedameron-swx57",
+    "shipId": "t70xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 33,
+    "slots": [
+      "elite",
+      "torpedo",
+      "astromech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "niennunb",
+    "shipId": "t70xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 29,
+    "slots": [
+      "elite",
+      "torpedo",
+      "astromech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "snapwexley",
+    "shipId": "t70xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "torpedo",
+      "astromech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "jesspava",
+    "shipId": "t70xwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 25,
     "slots": [
       "torpedo",
       "astromech",
