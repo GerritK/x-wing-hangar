@@ -75,6 +75,28 @@ export class RestrictionHelper {
     return result;
   }
 
+  public static shield(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
+    let result;
+
+    if (restrictionData.operator === '==') {
+      result = ship.pilot.stats.shield === restrictionData.value;
+    } else if (restrictionData.operator[0] === '>') {
+      result = ship.pilot.stats.shield > restrictionData.value;
+
+      if (restrictionData.operator.length > 1 && restrictionData.operator[1] === '=') {
+        result = result || ship.pilot.stats.shield === restrictionData.value;
+      }
+    } else if (restrictionData.operator[0] === '<') {
+      result = ship.pilot.stats.shield < restrictionData.value;
+
+      if (restrictionData.operator.length > 1 && restrictionData.operator[1] === '=') {
+        result = result || ship.pilot.stats.shield === restrictionData.value;
+      }
+    }
+
+    return result;
+  }
+
   public static isTIE(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     return ship.ship.id.startsWith('tie');
   }

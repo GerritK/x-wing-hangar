@@ -1204,5 +1204,54 @@
       "blackone",
       "millenniumfalcon-swx57"
     ]
+  },
+  {
+    "id": "croccruiser",
+    "ships": [
+      "croccruiser",
+      "m3ainterceptor"
+    ],
+    "pilots": [
+      "croccruiser",
+
+      "genesisred",
+      "quinnjast",
+      "inaldra",
+      "sunnybounder",
+      "tansariipointveteran",
+      "cartelspacer"
+    ],
+    "upgrades": [
+      "azmorigan",
+      "cikatrovizago",
+      "jabbathehutt",
+      "merchantone",
+      "brokenhorn",
+      "insatiableworrt",
+      "lightscykinterceptor",
+      "lightscykinterceptor",
+      "lightscykinterceptor",
+      "lightscykinterceptor",
+      "lightscykinterceptor",
+      "lightscykinterceptor",
+      "heavyscykinterceptor",
+      "igrmthugdroids",
+      "arccaster",
+      "arccaster",
+      "arccaster",
+      "arccaster",
+      "arccaster",
+      "automatedprotocols",
+      "optimizedgenerators",
+      "pulsedrayshield",
+      "pulsedrayshield",
+      "pulsedrayshield",
+      "pulsedrayshield",
+      "pulsedrayshield",
+      "heavylaserturret",
+      "superchargedpowercells",
+      "superchargedpowercells",
+      "quickreleasecargolocks"
+    ]
   }
 ]

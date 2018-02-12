@@ -89,7 +89,8 @@
       "g1astarfighter": "G-1A Starfighter",
       "jumpmaster5000": "JumpMaster 5000",
       "protectoratestarfighter": "Protectorate Starfighter",
-      "lancerclasspursuitcraft": "Lancer-class Pursuit Craft"
+      "lancerclasspursuitcraft": "Lancer-class Pursuit Craft",
+      "croccruiser": "C-ROC Cruiser"
     },
     "pilots": {
       "xwing": {
@@ -848,6 +849,22 @@
           "name": "Laetin A'Shera",
           "description": "After you defend against an attack, if the attack did not hit, you may assign 1 evade token to your ship."
         },
+        "genesisred": {
+          "name": "Genesis Red",
+          "description": "After you aquire a target lock, assign focus and evade tokens to your ship until you have the same number of each token as the locked ship."
+        },
+        "quinnjast": {
+          "name": "Quinn Jast",
+          "description": "At the start of the Combat phase, you may receive a weapons disabled token to flip one of your discarded <i-torpedo> or <i-missile> Upgrade cards faceup."
+        },
+        "inaldra": {
+          "name": "Inaldra",
+          "description": "When attacking or defending, you may spend 1 shield to reroll any number of your dice."
+        },
+        "sunnybounder": {
+          "name": "Sunny Bounder",
+          "description": "Once per round, after you roll or reroll dice, if you have the same result on each of your dice, you may add 1 matching result."
+        },
         "tansariipointveteran": {
           "name": "Tansarii Point Veteran"
         },
@@ -977,6 +994,11 @@
         },
         "shadowporthunter": {
           "name": "Shadowport Hunter"
+        }
+      },
+      "croccruiser": {
+        "croccruiser": {
+          "name": "C-ROC Cruiser"
         }
       }
     },
@@ -1293,6 +1315,10 @@
         "tractorbeam": {
           "name": "Tractor Beam",
           "description": ""
+        },
+        "arccaster": {
+          "name": "Arc Caster",
+          "description": ""
         }
       },
       "turret": {
@@ -1607,6 +1633,18 @@
         "hotshotcopilot": {
           "name": "Hotshot Co-Pilot",
           "description": ""
+        },
+        "azmorigan": {
+          "name": "Azmorigan",
+          "description": ""
+        },
+        "cikatrovizago": {
+          "name": "Cikatro Vizago",
+          "description": ""
+        },
+        "jabbathehutt": {
+          "name": "Jabba The Hutt",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1841,6 +1879,22 @@
         "millenniumfalcon-swx57": {
           "name": "Millennium Falcon (HotR)",
           "description": ""
+        },
+        "merchantone": {
+          "name": "Merchant One",
+          "description": ""
+        },
+        "brokenhorn": {
+          "name": "Broken Horn",
+          "description": ""
+        },
+        "insatiableworrt": {
+          "name": "Insatiable Worrt",
+          "description": ""
+        },
+        "lightscykinterceptor": {
+          "name": "\"Light Scyk\" Interceptor",
+          "description": ""
         }
       },
       "modification": {
@@ -1955,6 +2009,10 @@
         "smugglingcompartment": {
           "name": "Smuggling Compartment",
           "description": ""
+        },
+        "pulsedrayshield": {
+          "name": "Pulsed Ray Shield",
+          "description": ""
         }
       },
       "illicit": {
@@ -2051,6 +2109,14 @@
         "clusterbombs": {
           "name": "Cluster Bombs",
           "description": ""
+        },
+        "superchargedpowercells": {
+          "name": "Supercharged Power Cells",
+          "description": ""
+        },
+        "Quick-Release Cargo Locks": {
+          "name": "Quick-Release Cargo Locks",
+          "description": ""
         }
       },
       "hardpoint": {
@@ -2064,6 +2130,10 @@
         },
         "duallaserturret": {
           "name": "Dual Laser Turret",
+          "description": ""
+        },
+        "heavylaserturret": {
+          "name": "Heavy Laser Turret",
           "description": ""
         }
       },
@@ -2082,6 +2152,10 @@
         },
         "ordnanceexperts": {
           "name": "Ordnance Experts",
+          "description": ""
+        },
+        "igrmthugdroids": {
+          "name": "IG-RM Thug Droids",
           "description": ""
         }
       },

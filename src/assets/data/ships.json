@@ -1098,5 +1098,32 @@
       [0, 0, 2, 0, 0, 0],
       [0, 0, 1, 0, 0, 3]
     ]
+  },
+  {
+    "id": "croccruiser",
+    "size": "huge",
+    "epicPoints": 0,
+    "factions": [
+      "scum"
+    ],
+    "stats": {
+      "energy": 4,
+      "agility": 0,
+      "hull": 10,
+      "shield": 4
+    },
+    "actions": [
+      "recover",
+      "reinforce",
+      "targetlock",
+      "jam"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 1, 1, 0, 0],
+      [0, 1, 1, 1, 0, 0],
+      [0, 0, 1, 0, 0, 0],
+      [0, 0, 1, 0, 0, 0]
+    ]
   }
 ]

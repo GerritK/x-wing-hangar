@@ -2889,6 +2889,57 @@
     ]
   },
   {
+    "id": "genesisred",
+    "shipId": "m3ainterceptor",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 19,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "quinnjast",
+    "shipId": "m3ainterceptor",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 18,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "inaldra",
+    "shipId": "m3ainterceptor",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 15,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sunnybounder",
+    "shipId": "m3ainterceptor",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 1,
+    "cost": 14,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
     "id": "tansariipointveteran",
     "shipId": "m3ainterceptor",
     "faction": "scum",
@@ -3395,6 +3446,27 @@
       "crew",
       "illicit",
       "illicit",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
+    "id": "croccruiser",
+    "shipId": "croccruiser",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 35,
+    "slots": [
+      "crew",
+      "crew",
+      "hardpoint",
+      "team",
+      "cargo",
+      "cargo",
+      "cargo",
       "modification",
       "title"
     ]
