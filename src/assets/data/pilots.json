@@ -1446,6 +1446,60 @@
 
 
   {
+    "id": "ahsokatano",
+    "shipId": "tiefighter",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 17,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sabinewren-tie",
+    "canonicalId": "sabinewren",
+    "shipId": "tiefighter",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 15,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "captainrex",
+    "shipId": "tiefighter",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 14,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "zeborrelios-tie",
+    "canonicalId": "zeborrelios",
+    "shipId": "tiefighter",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 13,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "maulermithel",
     "shipId": "tiefighter",
     "faction": "imperial",

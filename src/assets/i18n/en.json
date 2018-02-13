@@ -512,6 +512,22 @@
         "wingedgundark": {
           "name": "\"Winged Gundark\"",
           "description": "When attacking at Range 1, you may change 1 of your hit results to a critical result."
+        },
+        "ahsokatano": {
+          "name": "Ahsoka Tano",
+          "description": "At the start of the Combat phase, you may spend 1 focus token to choose a friendly ship at Range 1. It may perform 1 free action."
+        },
+        "sabinewren-tie": {
+          "name": "Sabine Wren",
+          "description": "Immediately before you reveal your maneuver, you may perform a free boost or barrel roll action."
+        },
+        "captainrex": {
+          "name": "Captain Rex",
+          "description": "After you perform an attack, assign the \"Suppressive Fire\" Condition card to the defender."
+        },
+        "zeborrelios-tie": {
+          "name": "\"Zeb\" Orrelios",
+          "description": "When defending, you may cancel <i-crit> results before <i-hit> results."
         }
       },
       "tieadvanced": {
@@ -1645,6 +1661,10 @@
         "jabbathehutt": {
           "name": "Jabba The Hutt",
           "description": ""
+        },
+        "captainrex": {
+          "name": "Captain Rex",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1895,6 +1915,10 @@
         "lightscykinterceptor": {
           "name": "\"Light Scyk\" Interceptor",
           "description": ""
+        },
+        "sabinesmasterpiece": {
+          "name": "Sabine's Masterpiece",
+          "description": ""
         }
       },
       "modification": {
@@ -2013,6 +2037,10 @@
         "pulsedrayshield": {
           "name": "Pulsed Ray Shield",
           "description": ""
+        },
+        "capturedtie": {
+          "name": "Captured TIE",
+          "description": ""
         }
       },
       "illicit": {
@@ -2050,6 +2078,10 @@
         },
         "burnoutslam": {
           "name": "Burnout SLAM",
+          "description": ""
+        },
+        "empdevice": {
+          "name": "EMP Device",
           "description": ""
         }
       },

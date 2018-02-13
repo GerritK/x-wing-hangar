@@ -2090,6 +2090,19 @@
       {"fnc": "faction", "value": "scum"}
     ]
   },
+  {
+    "id": "captainrex",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
 
 
   {
@@ -2896,6 +2909,23 @@
       {"fnc": "shipId", "value": "m3ainterceptor"}
     ]
   },
+  {
+    "id": "sabinesmasterpiece",
+    "types": [
+      "title"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "crew"},
+      {"fnc": "gainUpgrade", "value": "illicit"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "tiefighter"},
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
 
 
   {
@@ -3291,6 +3321,20 @@
       {"fnc": "shield", "operator": "==", "value": 1}
     ]
   },
+  {
+    "id": "capturedtie",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"},
+      {"fnc": "shipId", "value": "tiefighter"}
+    ]
+  },
 
 
   {
@@ -3665,6 +3709,17 @@
     "restrictions": [
       {"fnc": "shipSize", "value": "large"}
     ]
+  },
+  {
+    "id": "empdevice",
+    "types": [
+      "illicit"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 

@@ -1,6 +1,8 @@
 import {SquadronShip} from '../models/squadron-ship.model';
 import {Upgrade} from '../models/upgrade.model';
 import {Squadron} from '../models/squadron.model';
+import {ShipStatsHelper} from './ship-stats.helper';
+import {ShipStats} from '../models/ship-stats.model';
 
 export class RestrictionHelper {
   public static isUseable(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade) {
@@ -76,21 +78,22 @@ export class RestrictionHelper {
   }
 
   public static shield(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
+    const stats: ShipStats = ShipStatsHelper.getShipStats(ship.ship, ship.pilot);
     let result;
 
     if (restrictionData.operator === '==') {
-      result = ship.pilot.stats.shield === restrictionData.value;
+      result = stats.shield === restrictionData.value;
     } else if (restrictionData.operator[0] === '>') {
-      result = ship.pilot.stats.shield > restrictionData.value;
+      result = stats.shield > restrictionData.value;
 
       if (restrictionData.operator.length > 1 && restrictionData.operator[1] === '=') {
-        result = result || ship.pilot.stats.shield === restrictionData.value;
+        result = result || stats.shield === restrictionData.value;
       }
     } else if (restrictionData.operator[0] === '<') {
-      result = ship.pilot.stats.shield < restrictionData.value;
+      result = stats.shield < restrictionData.value;
 
       if (restrictionData.operator.length > 1 && restrictionData.operator[1] === '=') {
-        result = result || ship.pilot.stats.shield === restrictionData.value;
+        result = result || stats.shield === restrictionData.value;
       }
     }
 

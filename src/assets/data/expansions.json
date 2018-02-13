@@ -1253,5 +1253,24 @@
       "superchargedpowercells",
       "quickreleasecargolocks"
     ]
+  },
+  {
+    "id": "sabinestiefighter",
+    "ships": [
+      "tiefighter"
+    ],
+    "pilots": [
+      "ahsokatano",
+      "sabinewren-tie",
+      "captainrex",
+      "zeborrelios-tie"
+    ],
+    "upgrades": [
+      "veteraninstincts",
+      "captainrex",
+      "sabinesmasterpiece",
+      "empdevice",
+      "capturedtie"
+    ]
   }
 ]
