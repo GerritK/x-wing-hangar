@@ -81,6 +81,7 @@
       "tiefofighter": "TIE/fo Fighter",
       "tieadvprototype": "TIE Advanced Prototype",
       "tiesffighter": "TIE/sf Fighter",
+      "upsilonclassshuttle": "Upsilon-class Shuttle",
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
@@ -838,6 +839,23 @@
         },
         "zetaspecialist": {
           "name": "Zeta Specialist"
+        }
+      },
+      "upsilonclassshuttle": {
+        "kyloren": {
+          "name": "Kylo Ren",
+          "description": "The first time you are hit by an attack each round, assign the \"I'll Show You the Dark Side\" Condition card to the attacker."
+        },
+        "majorstridan": {
+          "name": "Major Stridan",
+          "description": "For the purpose of your actions and Upgrade cards, you may treat friendly ships at Range 2-3 as being at Range 1."
+        },
+        "lieutenantdormitz": {
+          "name": "Lieutenant Dormitz",
+          "description": "During setup, friendly ships may be placed anywhere in the play area at Range 1-2 of you."
+        },
+        "starkillerbasepilot": {
+          "name": "Starkiller Base Pilot"
         }
       },
       "starviper": {
@@ -1665,6 +1683,18 @@
         "captainrex": {
           "name": "Captain Rex",
           "description": ""
+        },
+        "kyloren": {
+          "name": "Kylo Ren",
+          "description": ""
+        },
+        "generalhux": {
+          "name": "General Hux",
+          "description": ""
+        },
+        "operationsspecialist": {
+          "name": "Operations Specialist",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1918,6 +1948,10 @@
         },
         "sabinesmasterpiece": {
           "name": "Sabine's Masterpiece",
+          "description": ""
+        },
+        "kylorensshuttle": {
+          "name": "Kylo Ren's Shuttle",
           "description": ""
         }
       },
@@ -2210,6 +2244,14 @@
         },
         "primedthrusters": {
           "name": "Primed Thrusters",
+          "description": ""
+        },
+        "targetingsynchronizer": {
+          "name": "Targeting Synchronizer",
+          "description": ""
+        },
+        "hyperwavecommscanner": {
+          "name": "Hyperwave Comm Scanner",
           "description": ""
         }
       }

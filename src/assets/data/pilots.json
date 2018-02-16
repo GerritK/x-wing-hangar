@@ -2862,6 +2862,77 @@
 
 
   {
+    "id": "kyloren",
+    "shipId": "upsilonclassshuttle",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 34,
+    "slots": [
+      "elite",
+      "system",
+      "crew",
+      "crew",
+      "tech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "majorstridan",
+    "shipId": "upsilonclassshuttle",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 32,
+    "slots": [
+      "system",
+      "crew",
+      "crew",
+      "tech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "lieutenantdormitz",
+    "shipId": "upsilonclassshuttle",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 31,
+    "slots": [
+      "system",
+      "crew",
+      "crew",
+      "tech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "starkillerbasepilot",
+    "shipId": "upsilonclassshuttle",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 30,
+    "slots": [
+      "system",
+      "crew",
+      "crew",
+      "tech",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "princexizor",
     "shipId": "starviper",
     "faction": "scum",

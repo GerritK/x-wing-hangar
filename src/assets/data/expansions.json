@@ -1272,5 +1272,32 @@
       "empdevice",
       "capturedtie"
     ]
+  },
+  {
+    "id": "upsilonclassshuttle",
+    "ships": [
+      "upsilonclassshuttle"
+    ],
+    "pilots": [
+      "kyloren",
+      "majorstridan",
+      "lieutenantdormitz",
+      "starkillerbasepilot"
+    ],
+    "upgrades": [
+      "snapshot",
+      "snapshot",
+      "kyloren",
+      "generalhux",
+      "operationsspecialist",
+      "operationsspecialist",
+      "targetingsynchronizer",
+      "targetingsynchronizer",
+      "hyperwavecommscanner",
+      "hyperwavecommscanner",
+      "kylorensshuttle",
+      "ionprojector",
+      "ionprojector"
+    ]
   }
 ]

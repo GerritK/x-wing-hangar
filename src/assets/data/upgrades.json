@@ -2103,6 +2103,43 @@
       {"fnc": "faction", "value": "rebel"}
     ]
   },
+  {
+    "id": "kyloren",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "imperial"}
+    ]
+  },
+  {
+    "id": "generalhux",
+    "types": [
+      "crew"
+    ],
+    "cost": 5,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "imperial"}
+    ]
+  },
+  {
+    "id": "operationsspecialist",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -2266,6 +2303,28 @@
     "restrictions": [
       {"fnc": "shipSize", "value": "small"}
     ]
+  },
+  {
+    "id": "targetingsynchronizer",
+    "types": [
+      "tech"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "hyperwavecommscanner",
+    "types": [
+      "tech"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
   },
 
 
@@ -2924,6 +2983,19 @@
     "restrictions": [
       {"fnc": "shipId", "value": "tiefighter"},
       {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "kylorensshuttle",
+    "types": [
+      "title"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "upsilonclassshuttle"}
     ]
   },
 
