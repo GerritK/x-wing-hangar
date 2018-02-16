@@ -3000,6 +3000,83 @@
 
 
   {
+    "id": "duchess",
+    "shipId": "tiestriker",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 23,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "puresabacc",
+    "shipId": "tiestriker",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 22,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "countdown",
+    "shipId": "tiestriker",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 20,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "blacksquadronscout",
+    "shipId": "tiestriker",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 20,
+    "slots": [
+      "elite",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "scarifdefender",
+    "shipId": "tiestriker",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 18,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "imperialtrainee",
+    "shipId": "tiestriker",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 17,
+    "slots": [
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "princexizor",
     "shipId": "starviper",
     "faction": "scum",

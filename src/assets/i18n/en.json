@@ -83,6 +83,7 @@
       "tieadvprototype": "TIE Advanced Prototype",
       "tiesffighter": "TIE/sf Fighter",
       "upsilonclassshuttle": "Upsilon-class Shuttle",
+      "tiestriker": "TIE Striker",
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
@@ -877,6 +878,29 @@
           "name": "Starkiller Base Pilot"
         }
       },
+      "tiestriker": {
+        "duchess": {
+          "name": "\"Duchess\"",
+          "description": "While you have the \"Adaptive Ailerons\" Upgrade card equipped, you may choose to ignore its card ability."
+        },
+        "puresabacc": {
+          "name": "\"Pure Sabacc\"",
+          "description": "When attacking. If you have 1 or fewer Damage cards, roll 1 additional attack die."
+        },
+        "countdown": {
+          "name": "\"Countdown\"",
+          "description": "When defending, if you are not stressed during the \"Compare Results\" step, you may suffer 1 damage to cancel <strong>all</strong> dice results. if you do, receive 1 stress token."
+        },
+        "blacksquadronscout": {
+          "name": "Black Squadron Scout"
+        },
+        "scarifdefender": {
+          "name": "Scarif Defender"
+        },
+        "imperialtrainee": {
+          "name": "Imperial Trainee"
+        }
+      },
       "starviper": {
         "princexizor": {
           "name": "Prince Xizor",
@@ -1220,6 +1244,10 @@
         },
         "expertise": {
           "name": "Expertise",
+          "description": ""
+        },
+        "swarmleader": {
+          "name": "Swarm Leader",
           "description": ""
         }
       },
@@ -2033,6 +2061,10 @@
         "pivotwing": {
           "name": "Pivot Wing",
           "description": ""
+        },
+        "adaptiveailerons": {
+          "name": "Adaptive Ailerons",
+          "description": ""
         }
       },
       "modification": {
@@ -2158,6 +2190,10 @@
         },
         "spacetugtractorarray": {
           "name": "Spacetug Tractor Array",
+          "description": ""
+        },
+        "lightweightframe": {
+          "name": "Lightweight Frame",
           "description": ""
         }
       },

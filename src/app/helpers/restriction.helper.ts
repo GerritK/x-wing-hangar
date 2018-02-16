@@ -56,48 +56,31 @@ export class RestrictionHelper {
   }
 
   public static skill(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
-    let result;
+    return this.compare(ship.pilot.skill, restrictionData.value, restrictionData.operator);
+  }
 
-    if (restrictionData.operator === '==') {
-      result = ship.pilot.skill === restrictionData.value;
-    } else if (restrictionData.operator[0] === '>') {
-      result = ship.pilot.skill > restrictionData.value;
+  public static attack(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
+    const stats: ShipStats = ShipStatsHelper.getShipStats(ship.ship, ship.pilot);
 
-      if (restrictionData.operator.length > 1 && restrictionData.operator[1] === '=') {
-        result = result || ship.pilot.skill === restrictionData.value;
-      }
-    } else if (restrictionData.operator[0] === '<') {
-      result = ship.pilot.skill < restrictionData.value;
+    return this.compare(stats.attack, restrictionData.value, restrictionData.operator);
+  }
 
-      if (restrictionData.operator.length > 1 && restrictionData.operator[1] === '=') {
-        result = result || ship.pilot.skill === restrictionData.value;
-      }
-    }
+  public static agility(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
+    const stats: ShipStats = ShipStatsHelper.getShipStats(ship.ship, ship.pilot);
 
-    return result;
+    return this.compare(stats.agility, restrictionData.value, restrictionData.operator);
+  }
+
+  public static hull(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
+    const stats: ShipStats = ShipStatsHelper.getShipStats(ship.ship, ship.pilot);
+
+    return this.compare(stats.hull, restrictionData.value, restrictionData.operator);
   }
 
   public static shield(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     const stats: ShipStats = ShipStatsHelper.getShipStats(ship.ship, ship.pilot);
-    let result;
 
-    if (restrictionData.operator === '==') {
-      result = stats.shield === restrictionData.value;
-    } else if (restrictionData.operator[0] === '>') {
-      result = stats.shield > restrictionData.value;
-
-      if (restrictionData.operator.length > 1 && restrictionData.operator[1] === '=') {
-        result = result || stats.shield === restrictionData.value;
-      }
-    } else if (restrictionData.operator[0] === '<') {
-      result = stats.shield < restrictionData.value;
-
-      if (restrictionData.operator.length > 1 && restrictionData.operator[1] === '=') {
-        result = result || stats.shield === restrictionData.value;
-      }
-    }
-
-    return result;
+    return this.compare(stats.shield, restrictionData.value, restrictionData.operator);
   }
 
   public static isTIE(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
@@ -110,5 +93,27 @@ export class RestrictionHelper {
 
   private static callRestrictionFunction(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restriction: any) {
     return RestrictionHelper[restriction.fnc](squadron, ship, upgrade, restriction);
+  }
+
+  private static compare(currentValue, value, operator) {
+    let result;
+
+    if (operator === '==') {
+      result = currentValue === value;
+    } else if (operator[0] === '>') {
+      result = currentValue > value;
+
+      if (operator.length > 1 && operator[1] === '=') {
+        result = result || currentValue === value;
+      }
+    } else if (operator[0] === '<') {
+      result = currentValue < value;
+
+      if (operator.length > 1 && operator[1] === '=') {
+        result = result || currentValue === value;
+      }
+    }
+
+    return result;
   }
 }

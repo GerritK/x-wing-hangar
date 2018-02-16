@@ -1348,5 +1348,24 @@
       "stealthdevice",
       "stealthdevice"
     ]
+  },
+  {
+    "id": "tiestriker",
+    "ships": [
+      "tiestriker"
+    ],
+    "pilots": [
+      "duchess",
+      "puresabacc",
+      "countdown",
+      "blacksquadronscout",
+      "scarifdefender",
+      "imperialtrainee"
+    ],
+    "upgrades": [
+      "swarmleader",
+      "adaptiveailerons",
+      "lightweightframe"
+    ]
   }
 ]

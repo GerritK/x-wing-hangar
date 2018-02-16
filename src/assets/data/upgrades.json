@@ -427,6 +427,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "swarmleader",
+    "types": [
+      "elite"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -3133,6 +3144,19 @@
       {"fnc": "shipId", "value": "uwing"}
     ]
   },
+  {
+    "id": "adaptiveailerons",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "tiestriker"}
+    ]
+  },
 
 
   {
@@ -3553,6 +3577,20 @@
     "modifiers": [],
     "restrictions": [
       {"fnc": "shipId", "value": "quadjumper"}
+    ]
+  },
+  {
+    "id": "lightweightframe",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "isTIE"},
+      {"fnc": "agility", "operator": "<", "value": 3}
     ]
   },
 
