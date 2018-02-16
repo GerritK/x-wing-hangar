@@ -3652,7 +3652,7 @@
     "id": "jakkugunrunner",
     "shipId": "quadjumper",
     "faction": "scum",
-    "isUnique": true,
+    "isUnique": false,
     "skill": 1,
     "cost": 15,
     "slots": [
