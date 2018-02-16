@@ -1446,6 +1446,73 @@
 
 
   {
+    "id": "cassianandor",
+    "shipId": "uwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 27,
+    "slots": [
+      "elite",
+      "system",
+      "torpedo",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "bodhirook",
+    "shipId": "uwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 25,
+    "slots": [
+      "system",
+      "torpedo",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "hefftobber",
+    "shipId": "uwing",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 24,
+    "slots": [
+      "system",
+      "torpedo",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "bluesquadronpathfinder",
+    "shipId": "uwing",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 23,
+    "slots": [
+      "system",
+      "torpedo",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "ahsokatano",
     "shipId": "tiefighter",
     "faction": "rebel",

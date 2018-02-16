@@ -416,6 +416,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "expertise",
+    "types": [
+      "elite"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -2016,8 +2027,8 @@
       "crew"
     ],
     "cost": 1,
-    "isUnique": false,
-    "isLimited": true,
+    "isUnique": true,
+    "isLimited": false,
     "modifiers": [],
     "restrictions": [
       {"fnc": "faction", "value": "scum"}
@@ -2161,7 +2172,7 @@
     "isLimited": false,
     "modifiers": [],
     "restrictions": [
-      {"fnc": "faction", "value": "unkarplutt"}
+      {"fnc": "faction", "value": "scum"}
     ]
   },
   {
@@ -2171,6 +2182,82 @@
     ],
     "cost": 2,
     "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "jynerso",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "cassianandor",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "bazemalbus",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "bistan",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "bodhirook",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "inspiringrecruit",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": false,
     "isLimited": false,
     "modifiers": [],
     "restrictions": []
@@ -3031,6 +3118,19 @@
     "modifiers": [],
     "restrictions": [
       {"fnc": "shipId", "value": "upsilonclassshuttle"}
+    ]
+  },
+  {
+    "id": "pivotwing",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "uwing"}
     ]
   },
 

@@ -65,6 +65,7 @@
       "vcx100": "VCX-100",
       "attackshuttle": "Attack Shuttle",
       "arc170": "ARC-170",
+      "uwing": "U-Wing",
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -463,6 +464,23 @@
         "braylenstramm": {
           "name": "Braylen Stramm",
           "description": "After you execute a maneuver, you may roll an attack die. On a <i-hit> or <i-crit> result, remove 1 stress token from your ship."
+        }
+      },
+      "uwing": {
+        "cassianandor": {
+          "name": "Cassian Andor",
+          "description": "At the start of the Activation phase, you may remove 1 stress token from 1 other friendly ship at Range 1-2."
+        },
+        "bodhirook": {
+          "name": "Bodhi Rook",
+          "description": "When a friendly ship acquires a target lock, that ship can lock onto an enemy ship at Range 1-3 of any friendly ship."
+        },
+        "hefftobber": {
+          "name": "Heff Tobber",
+          "description": "After an enemy ship executes a maneuver that causes it to overlap your ship, you may perform a free action."
+        },
+        "bluesquadronpathfinder": {
+          "name": "Blue Squadron Pathfinder"
         }
       },
       "tiefighter": {
@@ -1199,6 +1217,10 @@
         "ascoretosettle": {
           "name": "A Score To Settle",
           "description": ""
+        },
+        "expertise": {
+          "name": "Expertise",
+          "description": ""
         }
       },
       "astromech": {
@@ -1675,14 +1697,14 @@
           "description": ""
         },
         "ig88d": {
-          "name": "ig88d",
+          "name": "IG-88D",
           "description": ""
         },
         "finn": {
           "name": "Finn",
           "description": ""
         },
-        "Rey": {
+        "rey": {
           "name": "Rey",
           "description": ""
         },
@@ -1724,6 +1746,30 @@
         },
         "boshek": {
           "name": "BoShek",
+          "description": ""
+        },
+        "jynerso": {
+          "name": "Jyn Erso",
+          "description": ""
+        },
+        "cassianandor": {
+          "name": "Cassian Andor",
+          "description": ""
+        },
+        "bazemalbus": {
+          "name": "Baze Malbus",
+          "description": ""
+        },
+        "bistan": {
+          "name": "Bistan",
+          "description": ""
+        },
+        "bodhirook": {
+          "name": "Bodhi Rook",
+          "description": ""
+        },
+        "inspiringrecruit": {
+          "name": "Inspiring Recruit",
           "description": ""
         }
       },
@@ -1982,6 +2028,10 @@
         },
         "kylorensshuttle": {
           "name": "Kylo Ren's Shuttle",
+          "description": ""
+        },
+        "pivotwing": {
+          "name": "Pivot Wing",
           "description": ""
         }
       },

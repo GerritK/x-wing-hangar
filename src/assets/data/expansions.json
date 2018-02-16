@@ -1320,5 +1320,33 @@
       "scavengercrane",
       "spacetugtractorarray"
     ]
+  },
+  {
+    "id": "uwing",
+    "ships": [
+      "uwing"
+    ],
+    "pilots": [
+      "cassianandor",
+      "bodhirook",
+      "hefftobber",
+      "bluesquadronpathfinder"
+    ],
+    "upgrades": [
+      "expertise",
+      "expertise",
+      "jynerso",
+      "cassianandor",
+      "bazemalbus",
+      "bistan",
+      "bodhirook",
+      "inspiringrecruit",
+      "inspiringrecruit",
+      "flechettetorpedoes",
+      "sensorjammer",
+      "pivotwing",
+      "stealthdevice",
+      "stealthdevice"
+    ]
   }
 ]
