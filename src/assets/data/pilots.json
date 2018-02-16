@@ -3595,5 +3595,73 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "constablezuvio",
+    "shipId": "quadjumper",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 19,
+    "slots": [
+      "elite",
+      "crew",
+      "bomb",
+      "tech",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sarcoplank",
+    "shipId": "quadjumper",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 18,
+    "slots": [
+      "elite",
+      "crew",
+      "bomb",
+      "tech",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "unkarplutt",
+    "shipId": "quadjumper",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 17,
+    "slots": [
+      "crew",
+      "bomb",
+      "tech",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "jakkugunrunner",
+    "shipId": "quadjumper",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 1,
+    "cost": 15,
+    "slots": [
+      "crew",
+      "bomb",
+      "tech",
+      "illicit",
+      "modification",
+      "title"
+    ]
   }
 ]

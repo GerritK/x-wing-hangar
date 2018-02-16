@@ -1299,5 +1299,26 @@
       "ionprojector",
       "ionprojector"
     ]
+  },
+  {
+    "id": "quadjumper",
+    "ships": [
+      "quadjumper"
+    ],
+    "pilots": [
+      "constablezuvio",
+      "sarcoplank",
+      "unkarplutt",
+      "jakkugunrunner"
+    ],
+    "upgrades": [
+      "ascoretosettle",
+      "unkarplutt",
+      "boshek",
+      "thermaldetonators",
+      "hyperwavecommscanner",
+      "scavengercrane",
+      "spacetugtractorarray"
+    ]
   }
 ]

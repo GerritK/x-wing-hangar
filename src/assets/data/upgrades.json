@@ -405,6 +405,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "ascoretosettle",
+    "types": [
+      "elite"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -2140,6 +2151,30 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "unkarplutt",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "unkarplutt"}
+    ]
+  },
+  {
+    "id": "boshek",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -3407,6 +3442,19 @@
       {"fnc": "shipId", "value": "tiefighter"}
     ]
   },
+  {
+    "id": "spacetugtractorarray",
+    "types": [
+      "modification"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "quadjumper"}
+    ]
+  },
 
 
   {
@@ -3784,6 +3832,17 @@
   },
   {
     "id": "empdevice",
+    "types": [
+      "illicit"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "scavengercrane",
     "types": [
       "illicit"
     ],

@@ -91,7 +91,8 @@
       "jumpmaster5000": "JumpMaster 5000",
       "protectoratestarfighter": "Protectorate Starfighter",
       "lancerclasspursuitcraft": "Lancer-class Pursuit Craft",
-      "croccruiser": "C-ROC Cruiser"
+      "croccruiser": "C-ROC Cruiser",
+      "quadjumper": "Quadjumper"
     },
     "pilots": {
       "xwing": {
@@ -1034,6 +1035,23 @@
         "croccruiser": {
           "name": "C-ROC Cruiser"
         }
+      },
+      "quadjumper": {
+        "constablezuvio": {
+          "name": "Constable Zuvio",
+          "description": "When you reveal a reverse maneuver, you may drop a bomb using your front guides (including a bomb with the \"<strong>Action:</strong>\" header)."
+        },
+        "sarcoplank": {
+          "name": "Sarco Plank",
+          "description": "When defending, instead of using your agility value, you may roll a number of defense dice equal to the speed of the maneuver you executed this round."
+        },
+        "unkarplutt": {
+          "name": "Unkar Plutt",
+          "description": "At the end of the Activation phase, you <strong>must</strong> assign a tractor beam token to each ship you are touching."
+        },
+        "jakkugunrunner": {
+          "name": "Jakku Gunrunner"
+        }
       }
     },
     "upgrades": {
@@ -1176,6 +1194,10 @@
         },
         "trickshot": {
           "name": "Trick Shot",
+          "description": ""
+        },
+        "ascoretosettle": {
+          "name": "A Score To Settle",
           "description": ""
         }
       },
@@ -1695,6 +1717,14 @@
         "operationsspecialist": {
           "name": "Operations Specialist",
           "description": ""
+        },
+        "unkarplutt": {
+          "name": "Unkar Plutt",
+          "description": ""
+        },
+        "boshek": {
+          "name": "BoShek",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -2075,6 +2105,10 @@
         "capturedtie": {
           "name": "Captured TIE",
           "description": ""
+        },
+        "spacetugtractorarray": {
+          "name": "Spacetug Tractor Array",
+          "description": ""
         }
       },
       "illicit": {
@@ -2116,6 +2150,10 @@
         },
         "empdevice": {
           "name": "EMP Device",
+          "description": ""
+        },
+        "scavengercrane": {
+          "name": "Scavenger Crane",
           "description": ""
         }
       },
