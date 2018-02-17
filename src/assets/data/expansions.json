@@ -1387,5 +1387,30 @@
       "breachspecialist",
       "hullupgrade"
     ]
+  },
+  {
+    "id": "scurrgh6bomber",
+    "ships": [
+      "scurrgh6bomber"
+    ],
+    "pilots": [
+      "captainnym",
+      "captainnym-rebel",
+      "solsixxa",
+      "lokrevenant",
+      "karthakkpirate"
+    ],
+    "upgrades": [
+      "lightningreflexes",
+      "seismictorpedo",
+      "cruisemissiles",
+      "cruisemissiles",
+      "bombletgenerator",
+      "minefieldmapper",
+      "syncedturret",
+      "cadbane",
+      "r4e1",
+      "havoc"
+    ]
   }
 ]

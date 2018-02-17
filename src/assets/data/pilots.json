@@ -3868,5 +3868,101 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "captainnym",
+    "shipId": "scurrgh6bomber",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 30,
+    "slots": [
+      "elite",
+      "turret",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "captainnym-rebel",
+    "shipId": "scurrgh6bomber",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 30,
+    "slots": [
+      "elite",
+      "turret",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "solsixxa",
+    "shipId": "scurrgh6bomber",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "turret",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "lokrevenant",
+    "shipId": "scurrgh6bomber",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 26,
+    "slots": [
+      "elite",
+      "turret",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "karthakkpirate",
+    "shipId": "scurrgh6bomber",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 24,
+    "slots": [
+      "turret",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb",
+      "bomb",
+      "modification",
+      "title"
+    ]
   }
 ]

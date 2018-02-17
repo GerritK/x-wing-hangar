@@ -727,6 +727,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "r4e1",
+    "types": [
+      "salvagedastromech"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -991,6 +1002,21 @@
       "range": "1-3"
     }
   },
+  {
+    "id": "cruisemissiles",
+    "types": [
+      "missile"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 1,
+      "range": "2-3"
+    }
+  },
 
 
   {
@@ -1183,6 +1209,21 @@
       "range": "1-2"
     }
   },
+  {
+    "id": "syncedturret",
+    "types": [
+      "turret"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-2"
+    }
+  },
 
 
   {
@@ -1258,6 +1299,18 @@
     ],
     "cost": 3,
     "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "bombletgenerator",
+    "types": [
+      "bomb",
+      "bomb"
+    ],
+    "cost": 3,
+    "isUnique": true,
     "isLimited": false,
     "modifiers": [],
     "restrictions": []
@@ -2312,6 +2365,21 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "cadbane",
+    "types": [
+      "crew"
+    ],
+    "cost": 2,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "bomb"}
+    ],
+    "restrictions": [
+      {"fnc": "faction", "value": "scum"}
+    ]
+  },
 
 
   {
@@ -2408,6 +2476,17 @@
   },
   {
     "id": "collisiondetector",
+    "types": [
+      "system"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "minefieldmapper",
     "types": [
       "system"
     ],
@@ -3194,6 +3273,23 @@
     "modifiers": [],
     "restrictions": [
       {"fnc": "shipId", "value": "tiestriker"}
+    ]
+  },
+  {
+    "id": "havoc",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "system"},
+      {"fnc": "gainUpgrade", "value": "salvagedastromech", "restrictions": [{"fnc": "unique", "value": "true"}]},
+      {"fnc": "loseUpgrade", "value": "crew"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "scurrgh6bomber"}
     ]
   },
 

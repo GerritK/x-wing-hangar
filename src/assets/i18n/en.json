@@ -97,7 +97,8 @@
       "protectoratestarfighter": "Protectorate Starfighter",
       "lancerclasspursuitcraft": "Lancer-class Pursuit Craft",
       "croccruiser": "C-ROC Cruiser",
-      "quadjumper": "Quadjumper"
+      "quadjumper": "Quadjumper",
+      "scurrgh6bomber": "Scurrg H-6 Bomber"
     },
     "pilots": {
       "xwing": {
@@ -1115,6 +1116,26 @@
         "jakkugunrunner": {
           "name": "Jakku Gunrunner"
         }
+      },
+      "scurrgh6bomber": {
+        "captainnym": {
+          "name": "Captain Nym",
+          "description": "You may ignore friendly bombs. When a friendly ship is defending, if the attacker measures range through a friendly bomb token, the defender may add one <i-evade> result."
+        },
+        "captainnym-rebel": {
+          "name": "Captain Nym",
+          "description": "Once per round, you may prevent a friendly bomb from detonating."
+        },
+        "solsixxa": {
+          "name": "Sol Sixxa",
+          "description": "When dropping a bomb, you may use the [<i-turnleft> 1] or [<i-turnright> 1] template instead of the  [<i-straight> 1] template."
+        },
+        "lokrevenant": {
+          "name": "Lok Revenant"
+        },
+        "karthakkpirate": {
+          "name": "Karthakk Pirate"
+        }
       }
     },
     "upgrades": {
@@ -1420,6 +1441,10 @@
         "xx23sthreadtracers": {
           "name": "XX-23 S-Thread Tracers",
           "description": ""
+        },
+        "cruisemissiles": {
+          "name": "Cruise Missiles",
+          "description": ""
         }
       },
       "cannon": {
@@ -1472,6 +1497,10 @@
         "drosalturret": {
           "name": "Drosal Turret",
           "description": ""
+        },
+        "syncedturret": {
+          "name": "Synced Turret",
+          "description": ""
         }
       },
       "bomb": {
@@ -1501,6 +1530,10 @@
         },
         "thermaldetonators": {
           "name": "Thermal Detonators",
+          "description": ""
+        },
+        "bombletgenerator": {
+          "name": "Bomblet Generator",
           "description": ""
         }
       },
@@ -1832,6 +1865,10 @@
         "breachspecialist": {
           "name": "Breach Specialist",
           "description": ""
+        },
+        "cadbane": {
+          "name": "Cad Bane",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -1861,6 +1898,10 @@
         },
         "overclockedr4": {
           "name": "Overclocked R4",
+          "description": ""
+        },
+        "r4e1": {
+          "name": "R4-E1",
           "description": ""
         }
       },
@@ -1899,6 +1940,10 @@
         },
         "collisiondetector": {
           "name": "Collision Detector",
+          "description": ""
+        },
+        "minefieldmapper": {
+          "name": "Minefield Mapper",
           "description": ""
         }
       },
@@ -2097,6 +2142,10 @@
         },
         "adaptiveailerons": {
           "name": "Adaptive Ailerons",
+          "description": ""
+        },
+        "havoc": {
+          "name": "Havoc",
           "description": ""
         }
       },
