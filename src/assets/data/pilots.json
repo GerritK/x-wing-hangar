@@ -3138,6 +3138,70 @@
 
 
   {
+    "id": "lieutenantkestal",
+    "shipId": "tieaggressor",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 22,
+    "slots": [
+      "elite",
+      "turret",
+      "missile",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "doubleedge",
+    "shipId": "tieaggressor",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 19,
+    "slots": [
+      "elite",
+      "turret",
+      "missile",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "onyxsquadronescort",
+    "shipId": "tieaggressor",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 19,
+    "slots": [
+      "turret",
+      "missile",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sienarspecialist",
+    "shipId": "tieaggressor",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 17,
+    "slots": [
+      "turret",
+      "missile",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "princexizor",
     "shipId": "starviper",
     "faction": "scum",

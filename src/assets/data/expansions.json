@@ -1412,5 +1412,24 @@
       "r4e1",
       "havoc"
     ]
+  },
+  {
+    "id": "tieaggressor",
+    "ships": [
+      "tieaggressor"
+    ],
+    "pilots": [
+      "lieutenantkestal",
+      "doubleedge",
+      "onyxsquadronescort",
+      "sienarspecialist"
+    ],
+    "upgrades": [
+      "intensity",
+      "unguidedrockets",
+      "twinlaserturret",
+      "syncedturret",
+      "lightweightframe"
+    ]
   }
 ]

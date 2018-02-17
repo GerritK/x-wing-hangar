@@ -86,6 +86,7 @@
       "tiesffighter": "TIE/sf Fighter",
       "upsilonclassshuttle": "Upsilon-class Shuttle",
       "tiestriker": "TIE Striker",
+      "tieaggressor": "TIE Aggressor",
 
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
@@ -922,6 +923,22 @@
           "name": "Imperial Trainee"
         }
       },
+      "tieaggressor": {
+        "lieutenantkestal": {
+          "name": "Lieutenant Kestal",
+          "description": "When attacking, you may spend 1 focus token to cancel all of the defender's blank and <i-focus> results."
+        },
+        "doubleedge": {
+          "name": "\"Double Edge\"",
+          "description": "Once per round, after you perform a secondary weapon attack that does not hit, you may perform an attack with a different weapon."
+        },
+        "onyxsquadronescort": {
+          "name": "Onyx Squadron Escort"
+        },
+        "sienarspecialist": {
+          "name": "Sienar Specialist"
+        }
+      },
 
       "starviper": {
         "princexizor": {
@@ -1295,6 +1312,10 @@
         "selflessness": {
           "name": "Selflessness",
           "description": ""
+        },
+        "intensity": {
+          "name": "Intensity",
+          "description": ""
         }
       },
       "astromech": {
@@ -1444,6 +1465,10 @@
         },
         "cruisemissiles": {
           "name": "Cruise Missiles",
+          "description": ""
+        },
+        "unguidedrockets": {
+          "name": "Unguided Rockets",
           "description": ""
         }
       },

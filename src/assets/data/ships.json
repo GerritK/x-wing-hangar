@@ -961,6 +961,31 @@
       [0, 1, 2, 1, 0, 0, 0, 0]
     ]
   },
+  {
+    "id": "tieaggressor",
+    "size": "small",
+    "factions": [
+      "imperial"
+    ],
+    "stats": {
+      "attack": 2,
+      "agility": 2,
+      "hull": 4,
+      "shield": 1
+    },
+    "actions": [
+      "focus",
+      "targetlock",
+      "barrelroll"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 2, 1, 0, 0],
+      [1, 2, 2, 2, 1, 0],
+      [1, 1, 2, 1, 1, 0],
+      [0, 0, 1, 0, 0, 3]
+    ]
+  },
 
 
   {

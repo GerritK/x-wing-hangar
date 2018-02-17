@@ -452,6 +452,19 @@
       {"fnc": "shipSize", "value": "small"}
     ]
   },
+  {
+    "id": "intensity",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "small"}
+    ]
+  },
 
 
   {
@@ -1015,6 +1028,22 @@
     "stats": {
       "attack": 1,
       "range": "2-3"
+    }
+  },
+  {
+    "id": "unguidedrockets",
+    "types": [
+      "missile",
+      "missile"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-3"
     }
   },
 
