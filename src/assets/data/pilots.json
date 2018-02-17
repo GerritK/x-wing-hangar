@@ -3956,6 +3956,7 @@
   },
   {
     "id": "captainnym-rebel",
+    "canonicalId": "captainnym",
     "shipId": "scurrgh6bomber",
     "faction": "rebel",
     "isUnique": true,
