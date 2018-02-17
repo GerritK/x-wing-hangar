@@ -462,6 +462,31 @@
       [0, 0, 1, 0, 0, 0]
     ]
   },
+  {
+    "id": "auzituckgunship",
+    "size": "small",
+    "factions": [
+      "rebel"
+    ],
+    "stats": {
+      "attack": 3,
+      "agility": 1,
+      "hull": 6,
+      "shield": 3
+    },
+    "actions": [
+      "focus",
+      "reinforce"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 2, 2, 2, 0, 0],
+      [1, 1, 2, 1, 1, 0],
+      [1, 1, 2, 1, 1, 0],
+      [0, 0, 1, 0, 0, 0],
+      [0, 0, 3, 0, 0, 0]
+    ]
+  },
 
 
   {

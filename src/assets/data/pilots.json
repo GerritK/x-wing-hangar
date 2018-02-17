@@ -1513,6 +1513,67 @@
 
 
   {
+    "id": "wullffwarro",
+    "shipId": "auzituckgunship",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 30,
+    "slots": [
+      "elite",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "lowhhrick",
+    "shipId": "auzituckgunship",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "wookieeliberator",
+    "shipId": "auzituckgunship",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 26,
+    "slots": [
+      "elite",
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "kashyyykdefender",
+    "shipId": "auzituckgunship",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 24,
+    "slots": [
+      "crew",
+      "crew",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "ahsokatano",
     "shipId": "tiefighter",
     "faction": "rebel",

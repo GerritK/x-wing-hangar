@@ -66,6 +66,8 @@
       "attackshuttle": "Attack Shuttle",
       "arc170": "ARC-170",
       "uwing": "U-Wing",
+      "auzituckgunship": "Auzituck Gunship",
+
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -84,6 +86,7 @@
       "tiesffighter": "TIE/sf Fighter",
       "upsilonclassshuttle": "Upsilon-class Shuttle",
       "tiestriker": "TIE Striker",
+
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
@@ -484,6 +487,23 @@
           "name": "Blue Squadron Pathfinder"
         }
       },
+      "auzituckgunship": {
+        "wullffwarro": {
+          "name": "Wullffwarro",
+          "description": "When attacking, if you have no shields and at least 1 Damage card assigned to you, roll 1 additional attack die."
+        },
+        "lowhhrick": {
+          "name": "Lowhhrick",
+          "description": "When another friendly ship at Range 1 is defending, you may spend 1 reinforce token. If you do, the defender adds 1 <i-evade> result."
+        },
+        "wookieeliberator": {
+          "name": "Wookiee Liberator"
+        },
+        "kashyyykdefender": {
+          "name": "Kashyyyk Defender"
+        }
+      },
+
       "tiefighter": {
         "maulermithel": {
           "name": "\"Mauler Mithel\"",
@@ -901,6 +921,7 @@
           "name": "Imperial Trainee"
         }
       },
+
       "starviper": {
         "princexizor": {
           "name": "Prince Xizor",
@@ -1248,6 +1269,10 @@
         },
         "swarmleader": {
           "name": "Swarm Leader",
+          "description": ""
+        },
+        "selflessness": {
+          "name": "Selflessness",
           "description": ""
         }
       },
@@ -1798,6 +1823,14 @@
         },
         "inspiringrecruit": {
           "name": "Inspiring Recruit",
+          "description": ""
+        },
+        "wookieecommandos": {
+          "name": "Wookiee Commandos",
+          "description": ""
+        },
+        "breachspecialist": {
+          "name": "Breach Specialist",
           "description": ""
         }
       },

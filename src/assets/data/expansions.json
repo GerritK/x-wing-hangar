@@ -1367,5 +1367,25 @@
       "adaptiveailerons",
       "lightweightframe"
     ]
+  },
+  {
+    "id": "auzituckgunship",
+    "ships": [
+      "auzituckgunship"
+    ],
+    "pilots": [
+      "wullffwarro",
+      "lowhhrick",
+      "wookieeliberator",
+      "kashyyykdefender"
+    ],
+    "upgrades": [
+      "intimidation",
+      "selflessness",
+      "wookieecommandos",
+      "tactician",
+      "breachspecialist",
+      "hullupgrade"
+    ]
   }
 ]

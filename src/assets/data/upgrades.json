@@ -438,6 +438,20 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "selflessness",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"},
+      {"fnc": "shipSize", "value": "small"}
+    ]
+  },
 
 
   {
@@ -2264,6 +2278,31 @@
   },
   {
     "id": "inspiringrecruit",
+    "types": [
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "wookieecommandos",
+    "types": [
+      "crew",
+      "crew"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "faction", "value": "rebel"}
+    ]
+  },
+  {
+    "id": "breachspecialist",
     "types": [
       "crew"
     ],
