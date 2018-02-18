@@ -15,13 +15,22 @@
     "actions": {
       "focus": "Focus",
       "evade": "Evade",
-      "targetlock": "Target Lock",
       "barrelroll": "Barrel Roll",
-      "boost": "Boost"
+      "boost": "Boost",
+      "targetlock": "Target Lock",
+      "recover": "Recover",
+      "reinforce": "Reinforce",
+      "coordinate": "Coordinate",
+      "jam": "Jam",
+      "cloak": "Cloak",
+      "slam": "Slam",
+      "rotatearc": "Rotate Arc",
+      "reload": "Reload"
     },
     "stats": {
       "skill": "Pilot Skill",
       "attack": "Attack",
+      "energy": "Energy",
       "agility": "Agility",
       "hull": "Hull",
       "shield": "Shield"
