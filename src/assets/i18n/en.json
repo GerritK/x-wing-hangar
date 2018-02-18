@@ -2711,6 +2711,40 @@
           "description": ""
         }
       }
+    },
+    "conditions": {
+      "fanaticaldevotion": {
+        "name": "Fanatical Devotion",
+        "description": "When defending, you cannot spend focus tokens.<br>When attacking, if you spend a focus token to change all <i-focus> results to <i-hit> results, set aside the first <i-focus> result that you change. The set-aside <i-hit> result cannot be canceled by defense dice, but the defender may cancel <i-crit> results before it.<br>During the End phase, remove this card."
+      },
+      "illshowyouthedarkside": {
+        "name": "I'll Show You the Dark Side",
+        "description": "When this card is assigned, if it is not already in play, the player who assigned it searches the Damage deck for 1 Damage card with the <strong><i>Pilot</i></strong> trait and may place it faceup on this card. Then shuffle the damage deck.<br>When you suffer critical damage during an attack, you are instead dealt the chosen faceup Damage card.<br>When there is no Damage card on this card, remove it."
+      },
+      "adebttopay": {
+        "name": "A Debt To Pay",
+        "description": "When attacking a ship that has the \"A Score to Settle\" Upgrade card, you may change 1 <i-focus> result to a <i-crit> result."
+      },
+      "suppressivefire": {
+        "name": "Suppressive Fire",
+        "description": "When targeting a ship other than \"Captain Rex\", roll 1 fewer attack die. Remove if \"Captain Rex\" is attacked, is destroyed, or does not perform an attack."
+      },
+      "mimicked": {
+        "name": "Mimicked",
+        "description": "\"Thweek\" is treated as having your pilot ability.<br>\"Thweek\" cannot apply a Condition card by using your pilot ability.<br>\"Thweek\" does not lose your pilot ability if you are destroyed."
+      },
+      "shadowed": {
+        "name": "Shadowed",
+        "description": "\"Thweek\" is treated as having the pilot skill value you had after setup phase.<br>The pilot skill value of \"Thweek\" does not change if your pilot skill value changes or you are destroyed."
+      },
+      "harpooned": {
+        "name": "\"Harpooned!\"",
+        "description": "When you are hit by an attack if there is at least 1 uncanceled <i-crit> result, each other ship at Range 1 suffers 1 damage. Then discard this card and receive 1 facedown Damage card.<br>When you are destroyed, each ship at Range 1 suffers 1 damage.<br><strong>Action:</strong> Discard this card. Then roll 1 attack die. On a <i-hit> or <i-crit> result, suffer 1 damage."
+      },
+      "rattled": {
+        "name": "Rattled",
+        "description": "When you suffer damage or critical damage from a bomb, you suffer one additional critical damage. Then remove this card.<br><strong>Action:</strong> Roll one attack die. On a <i-focus> or <i-hit> result, remove this card."
+      }
     }
   }
 }

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "fanaticaldevotion",
+    "isUnique": true,
+    "upgrades": [
+      "generalhux"
+    ],
+    "pilots": []
+  },
+  {
+    "id": "illshowyouthedarkside",
+    "isUnique": true,
+    "upgrades": [
+      "kyloren"
+    ],
+    "pilots": [
+      "kyloren"
+    ]
+  },
+  {
+    "id": "adebttopay",
+    "isUnique": true,
+    "upgrades": [
+      "ascoretosettle"
+    ],
+    "pilots": []
+  },
+  {
+    "id": "suppressivefire",
+    "isUnique": true,
+    "upgrades": [],
+    "pilots": [
+      "captainrex"
+    ]
+  },
+  {
+    "id": "mimicked",
+    "isUnique": true,
+    "upgrades": [],
+    "pilots": [
+      "thweek"
+    ]
+  },
+  {
+    "id": "shadowed",
+    "isUnique": true,
+    "upgrades": [],
+    "pilots": [
+      "thweek"
+    ]
+  },
+  {
+    "id": "harpooned",
+    "isUnique": false,
+    "upgrades": [
+      "harpoonmissiles"
+    ],
+    "pilots": []
+  },
+  {
+    "id": "rattled",
+    "isUnique": true,
+    "upgrades": [],
+    "pilots": [
+      "crimsonleader"
+    ]
+  }
+]

@@ -32,6 +32,7 @@ import {ShipNameComponent} from './components/ship-name/ship-name.component';
 import {UpgradeSelectorComponent} from './components/upgrade-selector/upgrade-selector.component';
 import {UpgradeProvider} from './providers/upgrade.provider';
 import {ExpansionProvider} from './providers/expansion.provider';
+import {ConditionProvider} from './providers/condition.provider';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -40,6 +41,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 export function InitDataFactory(shipProv: ShipProvider,
                                 pilotProv: PilotProvider,
                                 upgradeProv: UpgradeProvider,
+                                conditionProv: ConditionProvider,
                                 expansionProv: ExpansionProvider) {
   console.log('start loading data...');
 
@@ -48,6 +50,7 @@ export function InitDataFactory(shipProv: ShipProvider,
       return shipProv.load()
         .flatMap(() => pilotProv.load())
         .flatMap(() => upgradeProv.load())
+        .flatMap(() => conditionProv.load())
         .flatMap(() => expansionProv.load())
         .subscribe(() => {
           console.log('successfully loaded data');
@@ -112,13 +115,14 @@ export function InitDataFactory(shipProv: ShipProvider,
     {
       provide: APP_INITIALIZER,
       useFactory: InitDataFactory,
-      deps: [ShipProvider, PilotProvider, UpgradeProvider, ExpansionProvider],
+      deps: [ShipProvider, PilotProvider, UpgradeProvider, ConditionProvider, ExpansionProvider],
       multi: true
     },
 
     ShipProvider,
     PilotProvider,
     UpgradeProvider,
+    ConditionProvider,
     ExpansionProvider
   ],
   bootstrap: [AppComponent]
