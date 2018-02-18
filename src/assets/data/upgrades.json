@@ -478,6 +478,17 @@
       {"fnc": "shipSize", "value": "small"}
     ]
   },
+  {
+    "id": "saturationsalvo",
+    "types": [
+      "elite"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -1172,6 +1183,34 @@
     "stats": {
       "attack": 4,
       "range": "1"
+    }
+  },
+  {
+    "id": "linkedbattery",
+    "types": [
+      "cannon"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "small"}
+    ]
+  },
+  {
+    "id": "jammingbeam",
+    "types": [
+      "cannon"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "1-2"
     }
   },
 
@@ -3406,6 +3445,38 @@
     "modifiers": [],
     "restrictions": [
       {"fnc": "shipId", "value": "tiesilencer"}
+    ]
+  },
+  {
+    "id": "xg1assaultconfiguration",
+    "types": [
+      "title"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "cannon"},
+      {"fnc": "gainUpgrade", "value": "cannon"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "alphaclassstarwing"}
+    ]
+  },
+  {
+    "id": "os1arsenalloadout",
+    "types": [
+      "title"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "torpedo"},
+      {"fnc": "gainUpgrade", "value": "missile"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "alphaclassstarwing"}
     ]
   },
 

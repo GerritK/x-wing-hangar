@@ -89,6 +89,7 @@
       "tiestriker": "TIE Striker",
       "tieaggressor": "TIE Aggressor",
       "tiesilencer": "TIE Silencer",
+      "alphaclassstarwing": "Alpha-class Star Wing",
 
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
@@ -975,6 +976,22 @@
           "name": "Sienar-Jaemus Analyst"
         }
       },
+      "alphaclassstarwing": {
+        "majorvynder": {
+          "name": "Major Vynder",
+          "description": "When defending, if you have a weapons disabled token roll one additional defense die."
+        },
+        "lieutenantkarsabi": {
+          "name": "Lieutenant Karsabi",
+          "description": "When you receive a weapons disabled token, if you are not stressed, you may receive 1 stress token to remove it."
+        },
+        "rhosquadronveteran": {
+          "name": "Rho Squadron Veteran"
+        },
+        "nusquadronpilot": {
+          "name": "Nu Squadron Pilot"
+        }
+      },
 
       "starviper": {
         "princexizor": {
@@ -1356,6 +1373,10 @@
         "debrisgambit": {
           "name": "Debris Gambit",
           "description": ""
+        },
+        "saturationsalvo": {
+          "name": "Saturation Salvo",
+          "description": ""
         }
       },
       "astromech": {
@@ -1539,6 +1560,14 @@
         },
         "arccaster": {
           "name": "Arc Caster",
+          "description": ""
+        },
+        "linkedbattery": {
+          "name": "Linked Battery",
+          "description": ""
+        },
+        "jammingbeam": {
+          "name": "Jamming Beam",
           "description": ""
         }
       },
@@ -2227,6 +2256,14 @@
         },
         "firstordervanguard": {
           "name": "First Order Vanguard",
+          "description": ""
+        },
+        "xg1assaultconfiguration": {
+          "name": "Xg-1 Assault Configuration",
+          "description": ""
+        },
+        "os1arsenalloadout": {
+          "name": "OS-1 Arsenal Loadout",
           "description": ""
         }
       },

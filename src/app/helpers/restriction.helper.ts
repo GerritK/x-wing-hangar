@@ -3,6 +3,10 @@ import {Upgrade} from '../models/upgrade.model';
 import {Squadron} from '../models/squadron.model';
 import {ShipStatsHelper} from './ship-stats.helper';
 import {ShipStats} from '../models/ship-stats.model';
+import {ShipSize} from '../enums/ship-size.enum';
+import {Faction} from '../enums/faction.enum';
+import {UpgradeType} from '../enums/upgrade-type.enum';
+import {Action} from '../enums/action.enum';
 
 export class RestrictionHelper {
   public static isUseable(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade) {
@@ -34,19 +38,19 @@ export class RestrictionHelper {
   }
 
   public static shipSize(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
-    return ship.ship.size === restrictionData.value;
+    return ship.ship.size === ShipSize.parse(restrictionData.value);
   }
 
   public static faction(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
-    return ship.pilot.faction === restrictionData.value;
+    return ship.pilot.faction === Faction.parse(restrictionData.value);
   }
 
   public static hasSlot(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
-    return ship.pilot.slots.findIndex((slot) => slot === restrictionData.value) !== -1;
+    return ship.pilot.slots.findIndex((slot) => slot === UpgradeType.parse(restrictionData.value)) !== -1;
   }
 
   public static hasAction(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
-    return ship.ship.actions.findIndex((action) => action === restrictionData.value) !== -1;
+    return ship.ship.actions.findIndex((action) => action === Action.parse(restrictionData.value)) !== -1;
   }
 
   public static limit(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {

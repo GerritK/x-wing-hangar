@@ -1484,5 +1484,26 @@
       "autothrusters",
       "firstordervanguard"
     ]
+  },
+  {
+    "id": "alphaclassstarwing",
+    "ships": [
+      "alphaclassstarwing"
+    ],
+    "pilots": [
+      "majorvynder",
+      "lieutenantkarsabi",
+      "rhosquadronveteran",
+      "nusquadronpilot"
+    ],
+    "upgrades": [
+      "saturationsalvo",
+      "linkedbattery",
+      "jammingbeam",
+      "cruisemissiles",
+      "xg1assaultconfiguration",
+      "os1arsenalloadout",
+      "advancedslam"
+    ]
   }
 ]

@@ -3330,6 +3330,67 @@
 
 
   {
+    "id": "majorvynder",
+    "shipId": "alphaclassstarwing",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 26,
+    "slots": [
+      "elite",
+      "torpedo",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "lieutenantkarsabi",
+    "shipId": "alphaclassstarwing",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 24,
+    "slots": [
+      "elite",
+      "torpedo",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "rhosquadronveteran",
+    "shipId": "alphaclassstarwing",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 21,
+    "slots": [
+      "elite",
+      "torpedo",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "nusquadronpilot",
+    "shipId": "alphaclassstarwing",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 2,
+    "cost": 18,
+    "slots": [
+      "torpedo",
+      "missile",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "princexizor",
     "shipId": "starviper",
     "faction": "scum",

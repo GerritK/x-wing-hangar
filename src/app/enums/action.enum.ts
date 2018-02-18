@@ -10,7 +10,8 @@ export enum Action {
   JAM = 'jam',
   CLOAK = 'cloak',
   SLAM = 'slam',
-  ROTATEARC = 'rotatearc'
+  ROTATEARC = 'rotatearc',
+  RELOAD = 'reload'
 }
 
 export namespace Action {

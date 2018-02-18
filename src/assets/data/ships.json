@@ -1038,6 +1038,32 @@
       [0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
     ]
   },
+  {
+    "id": "alphaclassstarwing",
+    "size": "small",
+    "factions": [
+      "imperial"
+    ],
+    "stats": {
+      "attack": 2,
+      "agility": 2,
+      "hull": 4,
+      "shield": 3
+    },
+    "actions": [
+      "focus",
+      "targetlock",
+      "slam",
+      "reload"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [0, 1, 1, 1, 0, 0],
+      [1, 2, 2, 2, 1, 0],
+      [1, 1, 1, 1, 1, 0],
+      [0, 0, 3, 0, 0, 0]
+    ]
+  },
 
 
   {
