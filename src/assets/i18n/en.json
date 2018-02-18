@@ -2608,10 +2608,6 @@
           "name": "Ionization Reactor",
           "description": ""
         },
-        "ioncannonbattery": {
-          "name": "Ion Cannon Battery",
-          "description": ""
-        },
         "broadcastarray": {
           "name": "Broadcast Array",
           "description": ""
@@ -2636,19 +2632,23 @@
       "hardpoint": {
         "quadlasercannons": {
           "name": "Quad Laser Cannons",
-          "description": ""
+          "description": "<strong>Attack (Energy):</strong> Spend 1 energy from this card to perform this attack. If this attack does not hit, you may immediately spend 1 energy from this card to perform this attack again."
         },
         "singleturbolasers": {
           "name": "Single Turbolasers",
-          "description": ""
+          "description": "<strong>Attack (Energy):</strong> Spend 2 energy from this card to perform this attack. The defender doubles his agility value against this attack. You may change 1 of your <i-focus> results to a <i-hit> result."
+        },
+        "ioncannonbattery": {
+          "name": "Ion Cannon Battery",
+          "description": "<strong>Attack (Energy):</strong> Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel <strong>all</strong> dice results."
         },
         "duallaserturret": {
           "name": "Dual Laser Turret",
-          "description": ""
+          "description": "<i>Gozanti-Class Cruiser Only.</i><br><strong>Attack (Energy):</strong> Spend 1 energy from this card to perform this attack against 1 ship (even a ship outside of your firing arc)."
         },
         "heavylaserturret": {
           "name": "Heavy Laser Turret",
-          "description": ""
+          "description": "<i>C-ROC Cruiser Only.</i><br><strong>Attack (Energy):</strong> Spend 2 energy from this card to perform this attack against 1 ship (even a ship outside of your firing arc)."
         }
       },
       "team": {
