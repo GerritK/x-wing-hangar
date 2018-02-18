@@ -1639,6 +1639,66 @@
   },
 
 
+  {
+    "id": "fennrau-sheathipede",
+    "shipId": "sheathipedeclassshuttle",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 20,
+    "slots": [
+      "elite",
+      "crew",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "ezrabridger-sheathipede",
+    "shipId": "sheathipedeclassshuttle",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 5,
+    "cost": 27,
+    "slots": [
+      "elite",
+      "crew",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "zeborrelios-sheathipede",
+    "shipId": "sheathipedeclassshuttle",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 3,
+    "cost": 16,
+    "slots": [
+      "crew",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "ap5",
+    "shipId": "sheathipedeclassshuttle",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 1,
+    "cost": 15,
+    "slots": [
+      "crew",
+      "astromech",
+      "modification",
+      "title"
+    ]
+  },
+
+
 
   {
     "id": "ahsokatano",

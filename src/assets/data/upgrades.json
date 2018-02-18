@@ -678,6 +678,28 @@
       "astromech"
     ],
     "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "chopper-swx72",
+    "types": [
+      "astromech"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "flightassistastromech",
+    "types": [
+      "astromech"
+    ],
+    "cost": 1,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],
@@ -2500,6 +2522,36 @@
       {"fnc": "faction", "value": "scum"}
     ]
   },
+  {
+    "id": "maul",
+    "types": [
+      "crew"
+    ],
+    "cost": 3,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {
+        "fnc": "or",
+        "value": [
+          {"fnc": "faction", "value": "scum"},
+          {"fnc": "squadHasUnique", "value": "ezrabridger"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "courierdroid",
+    "types": [
+      "crew"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": true,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -3516,6 +3568,32 @@
     "modifiers": [],
     "restrictions": [
       {"fnc": "shipId", "value": "m12lkimogilafighter"}
+    ]
+  },
+  {
+    "id": "ghost-swx72",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "vcx100"}
+    ]
+  },
+  {
+    "id": "phantomii",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "sheathipedeclassshuttle"}
     ]
   },
 

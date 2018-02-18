@@ -68,6 +68,7 @@
       "uwing": "U-Wing",
       "auzituckgunship": "Auzituck Gunship",
       "bsf17bomber": "B/SF-17 Bomber",
+      "sheathipedeclassshuttle": "Sheathipede-class Shuttle",
 
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
@@ -525,6 +526,24 @@
         "crimsonsquadronpilot": {
           "name": "Crimson Squadron Pilot",
           "description": ""
+        }
+      },
+      "sheathipedeclassshuttle": {
+        "fennrau-sheathipede": {
+          "name": "Fenn Rau",
+          "description": "When an enemy ship inside your firing arc at Range 1-3 becomes the active ship during the Combat Phase, if you are not stressed you may receive one stress token. If you do, that ship cannot spend tokens to modify its dice when attacking this round."
+        },
+        "ezrabridger-sheathipede": {
+          "name": "Ezra Bridger",
+          "description": "When defending, if you are stressed, you may change up to 2 of your <i-focus> results to <i-evade> results."
+        },
+        "zeborrelios-sheathipede": {
+          "name": "\"Zeb\" Orrelios",
+          "description": "When defending, you may cancel <i-crit> results before <i-hit> results."
+        },
+        "ap5": {
+          "name": "AP-5",
+          "description": "When you perform the coordinate action, after you choose a friendly ship and before it performs a free action, you may receive 2 stress tokens to remove 1 stress token from it."
         }
       },
 
@@ -1464,6 +1483,14 @@
         "m9g8": {
           "name": "M9-G8",
           "description": ""
+        },
+        "chopper-swx72": {
+          "name": "\"Chopper\"",
+          "description": ""
+        },
+        "flightassistastromech": {
+          "name": "Flight-Assist Astromech",
+          "description": ""
         }
       },
       "torpedo": {
@@ -1988,6 +2015,14 @@
         "cadbane": {
           "name": "Cad Bane",
           "description": ""
+        },
+        "maul": {
+          "name": "Maul",
+          "description": ""
+        },
+        "courierdroid": {
+          "name": "Courier Droid",
+          "description": ""
         }
       },
       "salvagedastromech": {
@@ -2293,6 +2328,14 @@
         },
         "enforcer": {
           "name": "Enforcer",
+          "description": ""
+        },
+        "ghost-swx72": {
+          "name": "Ghost",
+          "description": ""
+        },
+        "phantomii": {
+          "name": "Phantom II",
           "description": ""
         }
       },

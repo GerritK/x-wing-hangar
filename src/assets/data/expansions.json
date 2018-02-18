@@ -1529,5 +1529,25 @@
       "contrabandcybernetics",
       "contrabandcybernetics"
     ]
+  },
+  {
+    "id": "phantomii",
+    "ships": [
+      "sheathipedeclassshuttle"
+    ],
+    "pilots": [
+      "fennrau-sheathipede",
+      "ezrabridger-sheathipede",
+      "zeborrelios-sheathipede",
+      "ap5"
+    ],
+    "upgrades": [
+      "maul",
+      "courierdroid",
+      "chopper-swx72",
+      "flightassistastromech",
+      "ghost-swx72",
+      "phantomii"
+    ]
   }
 ]

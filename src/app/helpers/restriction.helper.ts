@@ -87,6 +87,10 @@ export class RestrictionHelper {
     return this.compare(stats.shield, restrictionData.value, restrictionData.operator);
   }
 
+  public static squadHasUnique(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
+    return squadron.isUniqueUsed(restrictionData.value);
+  }
+
   public static isTIE(squadron: Squadron, ship: SquadronShip, upgrade: Upgrade, restrictionData: any) {
     return ship.ship.id.startsWith('tie');
   }
