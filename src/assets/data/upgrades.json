@@ -1344,6 +1344,19 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "ordnancesilos",
+    "types": [
+      "bomb"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "bsf17bomber"}
+    ]
+  },
 
 
   {
@@ -2525,6 +2538,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "trajectorysimulator",
+    "types": [
+      "system"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -2601,6 +2625,17 @@
       "tech"
     ],
     "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "advancedoptics",
+    "types": [
+      "tech"
+    ],
+    "cost": 2,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],
@@ -3321,6 +3356,19 @@
       {"fnc": "shipId", "value": "scurrgh6bomber"}
     ]
   },
+  {
+    "id": "crossfireformation",
+    "types": [
+      "title"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "bsf17bomber"}
+    ]
+  },
 
 
   {
@@ -3755,6 +3803,19 @@
     "restrictions": [
       {"fnc": "isTIE"},
       {"fnc": "agility", "operator": "<", "value": 3}
+    ]
+  },
+  {
+    "id": "deflectiveplating",
+    "types": [
+      "modification"
+    ],
+    "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "bsf17bomber"}
     ]
   },
 

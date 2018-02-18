@@ -1574,6 +1574,73 @@
 
 
   {
+    "id": "crimsonleader",
+    "shipId": "bsf17bomber",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 29,
+    "slots": [
+      "system",
+      "bomb",
+      "bomb",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "cobaltleader",
+    "shipId": "bsf17bomber",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 28,
+    "slots": [
+      "system",
+      "bomb",
+      "bomb",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "crimsonspecialist",
+    "shipId": "bsf17bomber",
+    "faction": "rebel",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 27,
+    "slots": [
+      "system",
+      "bomb",
+      "bomb",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "crimsonsquadronpilot",
+    "shipId": "bsf17bomber",
+    "faction": "rebel",
+    "isUnique": false,
+    "skill": 1,
+    "cost": 25,
+    "slots": [
+      "system",
+      "bomb",
+      "bomb",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+
+
+
+  {
     "id": "ahsokatano",
     "shipId": "tiefighter",
     "faction": "rebel",

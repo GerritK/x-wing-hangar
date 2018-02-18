@@ -1431,5 +1431,32 @@
       "syncedturret",
       "lightweightframe"
     ]
+  },
+  {
+    "id": "resistancebomber",
+    "ships": [
+      "bsf17bomber"
+    ],
+    "pilots": [
+      "crimsonleader",
+      "cobaltleader",
+      "crimsonspecialist",
+      "crimsonsquadronpilot"
+    ],
+    "upgrades": [
+      "connernet",
+      "connernet",
+      "ordnancesilos",
+      "seismiccharges",
+      "thermaldetonators",
+      "trajectorysimulator",
+      "trajectorysimulator",
+      "trajectorysimulator",
+      "targetingsynchronizer",
+      "advancedoptics",
+      "advancedoptics",
+      "crossfireformation",
+      "deflectiveplating"
+    ]
   }
 ]

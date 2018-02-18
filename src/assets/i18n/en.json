@@ -67,6 +67,7 @@
       "arc170": "ARC-170",
       "uwing": "U-Wing",
       "auzituckgunship": "Auzituck Gunship",
+      "bsf17bomber": "B/SF-17 Bomber",
 
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
@@ -503,6 +504,24 @@
         },
         "kashyyykdefender": {
           "name": "Kashyyyk Defender"
+        }
+      },
+      "bsf17bomber": {
+        "crimsonleader": {
+          "name": "\"Crimson Leader\"",
+          "description": "When attacking, if the defender is inside your firing arc, you may spend one <i-hit> or <i-crit> result to assign the \"Rattled\" condition to the defender."
+        },
+        "cobaltleader": {
+          "name": "\"Cobalt Leader\"",
+          "description": "When attacking, if the defender is at range 1 of a bomb token, the defender rolls 1 fewer defense die (to a minimum of 0)."
+        },
+        "crimsonspecialist": {
+          "name": "\"Crimson Specialist\"",
+          "description": "When placing a bomb token you dropped after revealing your maneuver dial, you may place the bomb token anywhere in the play area touching your ship."
+        },
+        "crimsonsquadronpilot": {
+          "name": "Crimson Squadron Pilot",
+          "description": ""
         }
       },
 
@@ -1560,6 +1579,10 @@
         "bombletgenerator": {
           "name": "Bomblet Generator",
           "description": ""
+        },
+        "ordnancesilos": {
+          "name": "Ordnance Silos",
+          "description": ""
         }
       },
       "crew": {
@@ -1970,6 +1993,10 @@
         "minefieldmapper": {
           "name": "Minefield Mapper",
           "description": ""
+        },
+        "trajectorysimulator": {
+          "name": "Trajectory Simulator",
+          "description": ""
         }
       },
       "title": {
@@ -2172,6 +2199,10 @@
         "havoc": {
           "name": "Havoc",
           "description": ""
+        },
+        "crossfireformation": {
+          "name": "Crossfire Formation",
+          "description": ""
         }
       },
       "modification": {
@@ -2301,6 +2332,10 @@
         },
         "lightweightframe": {
           "name": "Lightweight Frame",
+          "description": ""
+        },
+        "deflectiveplating": {
+          "name": "Deflective Plating",
           "description": ""
         }
       },
@@ -2483,6 +2518,10 @@
         },
         "hyperwavecommscanner": {
           "name": "Hyperwave Comm Scanner",
+          "description": ""
+        },
+        "advancedoptics": {
+          "name": "Advanced Optics",
           "description": ""
         }
       }

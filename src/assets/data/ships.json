@@ -472,7 +472,8 @@
       "attack": 3,
       "agility": 1,
       "hull": 6,
-      "shield": 3
+      "shield": 3,
+      "firingarc": "180"
     },
     "actions": [
       "focus",
@@ -485,6 +486,30 @@
       [1, 1, 2, 1, 1, 0],
       [0, 0, 1, 0, 0, 0],
       [0, 0, 3, 0, 0, 0]
+    ]
+  },
+  {
+    "id": "bsf17bomber",
+    "size": "large",
+    "factions": [
+      "rebel"
+    ],
+    "stats": {
+      "attack": 2,
+      "agility": 1,
+      "hull": 9,
+      "shield": 3,
+      "firingArc": "turret"
+    },
+    "actions": [
+      "focus",
+      "targetlock"
+    ],
+    "maneuvers": [
+      [0, 0, 3, 0, 0, 0],
+      [3, 2, 2, 2, 3, 0],
+      [1, 1, 2, 1, 1, 0],
+      [0, 1, 1, 1, 0, 0]
     ]
   },
 
