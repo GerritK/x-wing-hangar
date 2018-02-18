@@ -2676,39 +2676,39 @@
       "tech": {
         "weaponsguidance": {
           "name": "Weapons Guidance",
-          "description": ""
+          "description": "When attacking, you may spend a focus token to change 1 of your blank results to a <i-hit> result."
         },
         "commrelay": {
           "name": "Comm Relay",
-          "description": ""
+          "description": "You cannot have more than 1 evade token.<br>During the End phase, do not remove an unused evade token from your ship."
         },
         "sensorcluster": {
           "name": "Sensor Cluster",
-          "description": ""
+          "description": "When defending, you may spend a focus token to change 1 of your blank results to an <i-evade> result."
         },
         "patternanalyzer": {
           "name": "Pattern Analyzer",
-          "description": ""
+          "description": "When executing a maneuver, you may resolve the \"Check Pilot Stress\" step after the \"Perform Action\" step (instead of before that step)."
         },
         "primedthrusters": {
           "name": "Primed Thrusters",
-          "description": ""
+          "description": "<i>Small Ship Only.</i><br>Stress Tokens do not prevent you from performing boost or barrel roll actions unless you have 3 or more stress tokens."
         },
         "targetingsynchronizer": {
           "name": "Targeting Synchronizer",
-          "description": ""
+          "description": "When a friendly ship at Range 1-2 is attacking a ship you have locked, the friendly ship treats the <strong>\"Attack (Target Lock):\"</strong> header as <strong>\"Attack:\"</strong>. If a game effect instructs that ship to spend a target lock, it may spend your target lock instead."
         },
         "hyperwavecommscanner": {
           "name": "Hyperwave Comm Scanner",
-          "description": ""
+          "description": "At the start of the \"Place Forces\" step, you may choose to treat your pilot skill value as \"0,\" \"6,\" or \"12,\" until the end of the step.<br>During setup, after another friendly ship is placed at Range 1-2, you may assign 1 focus or evade token to it."
         },
         "advancedoptics": {
           "name": "Advanced Optics",
-          "description": ""
+          "description": "You cannot have more than 1 focus token.<br>During the End phase, do not remove an unused focus token from your ship."
         },
         "threattracker": {
           "name": "Threat Tracker",
-          "description": ""
+          "description": "<i>Small Ship Only.</i><br>When an enemy ship inside your firing arc at Range 1-2 becomes the active ship during the Combat phase, you may spend your target lock on that ship to perform a free boost or barrel roll action if that action is on your action bar."
         }
       }
     },
