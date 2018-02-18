@@ -465,6 +465,19 @@
       {"fnc": "shipSize", "value": "small"}
     ]
   },
+  {
+    "id": "debrisgambit",
+    "types": [
+      "elite"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "small"}
+    ]
+  },
 
 
   {
@@ -2641,6 +2654,19 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "threattracker",
+    "types": [
+      "tech"
+    ],
+    "cost": 3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipSize", "value": "small"}
+    ]
+  },
 
 
   {
@@ -3367,6 +3393,19 @@
     "modifiers": [],
     "restrictions": [
       {"fnc": "shipId", "value": "bsf17bomber"}
+    ]
+  },
+  {
+    "id": "firstordervanguard",
+    "types": [
+      "title"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "tiesilencer"}
     ]
   },
 

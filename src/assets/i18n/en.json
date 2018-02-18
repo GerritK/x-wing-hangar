@@ -88,6 +88,7 @@
       "upsilonclassshuttle": "Upsilon-class Shuttle",
       "tiestriker": "TIE Striker",
       "tieaggressor": "TIE Aggressor",
+      "tiesilencer": "TIE Silencer",
 
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
@@ -958,6 +959,22 @@
           "name": "Sienar Specialist"
         }
       },
+      "tiesilencer": {
+        "kyloren-silencer": {
+          "name": "Kylo Ren",
+          "description": "The first time you are hit by an attack each round, assign the \"I'll Show You the Dark Side\" Condition card to the attacker."
+        },
+        "testpilotblackout": {
+          "name": "Test Pilot \"Blackout\"",
+          "description": "When attacking, if the attack is obstructed, the defender rolls 2 fewer defense dice (to a minimum of 0)."
+        },
+        "firstordertestpilot": {
+          "name": "First Order Test Pilot"
+        },
+        "sienarjaemusanalyst": {
+          "name": "Sienar-Jaemus Analyst"
+        }
+      },
 
       "starviper": {
         "princexizor": {
@@ -1334,6 +1351,10 @@
         },
         "intensity": {
           "name": "Intensity",
+          "description": ""
+        },
+        "debrisgambit": {
+          "name": "Debris Gambit",
           "description": ""
         }
       },
@@ -2203,6 +2224,10 @@
         "crossfireformation": {
           "name": "Crossfire Formation",
           "description": ""
+        },
+        "firstordervanguard": {
+          "name": "First Order Vanguard",
+          "description": ""
         }
       },
       "modification": {
@@ -2522,6 +2547,10 @@
         },
         "advancedoptics": {
           "name": "Advanced Optics",
+          "description": ""
+        },
+        "threattracker": {
+          "name": "Threat Tracker",
           "description": ""
         }
       }

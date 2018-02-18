@@ -3269,6 +3269,67 @@
 
 
   {
+    "id": "kyloren-silencer",
+    "shipId": "tiesilencer",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 9,
+    "cost": 35,
+    "slots": [
+      "elite",
+      "system",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "testpilotblackout",
+    "shipId": "tiesilencer",
+    "faction": "imperial",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 31,
+    "slots": [
+      "elite",
+      "system",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "firstordertestpilot",
+    "shipId": "tiesilencer",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 6,
+    "cost": 29,
+    "slots": [
+      "elite",
+      "system",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "sienarjaemusanalyst",
+    "shipId": "tiesilencer",
+    "faction": "imperial",
+    "isUnique": false,
+    "skill": 4,
+    "cost": 26,
+    "slots": [
+      "system",
+      "tech",
+      "modification",
+      "title"
+    ]
+  },
+
+
+  {
     "id": "princexizor",
     "shipId": "starviper",
     "faction": "scum",

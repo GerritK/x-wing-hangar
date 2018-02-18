@@ -1458,5 +1458,31 @@
       "crossfireformation",
       "deflectiveplating"
     ]
+  },
+  {
+    "id": "tiesilencer",
+    "ships": [
+      "tiesilencer"
+    ],
+    "pilots": [
+      "kyloren-silencer",
+      "testpilotblackout",
+      "firstordertestpilot",
+      "sienarjaemusanalyst"
+    ],
+    "upgrades": [
+      "debrisgambit",
+      "debrisgambit",
+      "sensorjammer",
+      "primedthrusters",
+      "primedthrusters",
+      "advancedoptics",
+      "advancedoptics",
+      "threattracker",
+      "threattracker",
+      "autothrusters",
+      "autothrusters",
+      "firstordervanguard"
+    ]
   }
 ]
