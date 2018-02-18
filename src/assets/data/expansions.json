@@ -1549,5 +1549,37 @@
       "ghost-swx72",
       "phantomii"
     ]
+  },
+  {
+    "id": "gunsforhire",
+    "ships": [
+      "kihraxzfighter",
+      "starviper"
+    ],
+    "pilots": [
+      "viktorhel",
+      "captainjostero",
+      "blacksunace",
+      "cartelmarauder",
+
+      "dalanoberos-gfh",
+      "thweek",
+      "blacksunassassin",
+      "blacksunassassin"
+    ],
+    "upgrades": [
+      "harpoonmissiles",
+      "harpoonmissiles",
+      "iondischargers",
+      "iondischargers",
+      "starvipermkii",
+      "starvipermkii",
+      "vaksai",
+      "vaksai",
+      "pulsedrayshield",
+      "pulsedrayshield",
+      "stealthdevice",
+      "vectoredthrusters"
+    ]
   }
 ]

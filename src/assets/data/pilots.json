@@ -3479,6 +3479,47 @@
     ]
   },
   {
+    "id": "dalanoberos-gfh",
+    "shipId": "starviper",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 6,
+    "cost": 30,
+    "slots": [
+      "elite",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "thweek",
+    "shipId": "starviper",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 28,
+    "slots": [
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "blacksunassassin",
+    "shipId": "starviper",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 28,
+    "slots": [
+      "elite",
+      "torpedo",
+      "modification",
+      "title"
+    ]
+  },
+  {
     "id": "blacksunvigo",
     "shipId": "starviper",
     "faction": "scum",
@@ -3781,6 +3822,36 @@
     "skill": 6,
     "cost": 25,
     "slots": [
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "viktorhel",
+    "shipId": "kihraxzfighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 25,
+    "slots": [
+      "elite",
+      "missile",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "captainjostero",
+    "shipId": "kihraxzfighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 4,
+    "cost": 24,
+    "slots": [
+      "elite",
       "missile",
       "illicit",
       "modification",

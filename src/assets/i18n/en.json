@@ -1022,6 +1022,17 @@
           "name": "Guri",
           "description": "At the start of the Combat phase, if you are at Range 1 of an enemy ship, you may assign 1 focus token to your ship."
         },
+        "dalanoberos-gfh": {
+          "name": "Dalan Oberos",
+          "description": "If you are not stressed, when you reveal a turn, bank, or Segnor's Loop maneuver, you may instead treat it as a red Tallon Roll maneuver of the same direction [left or right] using the template of the original revealed maneuver."
+        },
+        "thweek": {
+          "name": "Thweek",
+          "description": "During setup, before the \"Place Forces\" step, you may choose 1 enemy ship and assign the \"Shadowed\" or \"Mimicked\" Condition card to it."
+        },
+        "blacksunassassin": {
+          "name": "Black Sun Assassin"
+        },
         "blacksunvigo": {
           "name": "Black Sun Vigo"
         },
@@ -1104,6 +1115,14 @@
         "grazthehunter": {
           "name": "Graz The Hunter",
           "description": "When defending, if the attacker is inside your firing arc, roll 1 additional defense die."
+        },
+        "viktorhel": {
+          "name": "Viktor Hel",
+          "description": "After defending, if you did not roll exactly 2 defense dice, the attacker receives 1 stress token."
+        },
+        "captainjostero": {
+          "name": "Captain Jostero",
+          "description": "Once per round, after an enemy ship that is not defending against an attack suffers damage or critical damage, you may perform an attack against that ship."
         },
         "blacksunace": {
           "name": "Black Sun Ace"
@@ -1578,6 +1597,10 @@
         },
         "scramblermissiles": {
           "name": "Scrambler Missiles",
+          "description": ""
+        },
+        "harpoonmissiles": {
+          "name": "Harpoon Missiles",
           "description": ""
         }
       },
@@ -2337,6 +2360,14 @@
         "phantomii": {
           "name": "Phantom II",
           "description": ""
+        },
+        "starvipermkii": {
+          "name": "StarViper Mk. II",
+          "description": ""
+        },
+        "vaksai": {
+          "name": "Vaksai",
+          "description": ""
         }
       },
       "modification": {
@@ -2520,6 +2551,10 @@
         },
         "contrabandcybernetics": {
           "name": "Contraband Cybernetics",
+          "description": ""
+        },
+        "iondischargers": {
+          "name": "Ion Dischargers",
           "description": ""
         }
       },

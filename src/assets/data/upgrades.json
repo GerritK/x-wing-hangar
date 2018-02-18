@@ -1118,6 +1118,21 @@
       "range": "2-3"
     }
   },
+  {
+    "id": "harpoonmissiles",
+    "types": [
+      "missile"
+    ],
+    "cost": 4,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 4,
+      "range": "2-3"
+    }
+  },
 
 
   {
@@ -3596,6 +3611,38 @@
       {"fnc": "shipId", "value": "sheathipedeclassshuttle"}
     ]
   },
+  {
+    "id": "starvipermkii",
+    "types": [
+      "title"
+    ],
+    "cost": -3,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "gainUpgrade", "value": "title"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "starviper"}
+    ]
+  },
+  {
+    "id": "vaksai",
+    "types": [
+      "title"
+    ],
+    "cost": 0,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [
+      {"fnc": "changeUpgradeCost", "value": -1, "minimum": 0},
+      {"fnc": "gainUpgrade", "value": "modification"},
+      {"fnc": "gainUpgrade", "value": "modification"}
+    ],
+    "restrictions": [
+      {"fnc": "shipId", "value": "kihraxzfighter"}
+    ]
+  },
 
 
   {
@@ -4448,6 +4495,17 @@
       "illicit"
     ],
     "cost": 1,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "iondischargers",
+    "types": [
+      "illicit"
+    ],
+    "cost": 2,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],
