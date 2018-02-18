@@ -473,7 +473,7 @@
       "agility": 1,
       "hull": 6,
       "shield": 3,
-      "firingarc": "180"
+      "firingarc": "degree180"
     },
     "actions": [
       "focus",
@@ -1374,6 +1374,33 @@
       [3, 1, 2, 1, 3, 0, 0, 0, 3, 3],
       [0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
       [0, 0, 3, 0, 0, 0, 0, 0, 0, 0]
+    ]
+  },
+  {
+    "id": "m12lkimogilafighter",
+    "size": "small",
+    "factions": [
+      "scum"
+    ],
+    "stats": {
+      "attack": 3,
+      "agility": 1,
+      "hull": 6,
+      "shield": 2,
+      "firingArc": "bullseye"
+    },
+    "actions": [
+      "focus",
+      "targetlock",
+      "barrelroll",
+      "reload"
+    ],
+    "maneuvers": [
+      [0, 0, 0, 0, 0, 0],
+      [3, 1, 2, 1, 3, 0],
+      [3, 2, 2, 2, 3, 0],
+      [1, 1, 2, 1, 1, 0],
+      [0, 0, 0, 0, 0, 3]
     ]
   }
 ]

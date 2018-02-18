@@ -775,6 +775,17 @@
     "modifiers": [],
     "restrictions": []
   },
+  {
+    "id": "r5tk",
+    "types": [
+      "salvagedastromech"
+    ],
+    "cost": 0,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
 
 
   {
@@ -1068,6 +1079,21 @@
     "stats": {
       "attack": 3,
       "range": "1-3"
+    }
+  },
+  {
+    "id": "scramblermissiles",
+    "types": [
+      "missile"
+    ],
+    "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [],
+    "stats": {
+      "attack": 3,
+      "range": "2-3"
     }
   },
 
@@ -3479,6 +3505,19 @@
       {"fnc": "shipId", "value": "alphaclassstarwing"}
     ]
   },
+  {
+    "id": "enforcer",
+    "types": [
+      "title"
+    ],
+    "cost": 1,
+    "isUnique": true,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": [
+      {"fnc": "shipId", "value": "m12lkimogilafighter"}
+    ]
+  },
 
 
   {
@@ -4320,6 +4359,17 @@
       "illicit"
     ],
     "cost": 2,
+    "isUnique": false,
+    "isLimited": false,
+    "modifiers": [],
+    "restrictions": []
+  },
+  {
+    "id": "contrabandcybernetics",
+    "types": [
+      "illicit"
+    ],
+    "cost": 1,
     "isUnique": false,
     "isLimited": false,
     "modifiers": [],

@@ -1505,5 +1505,29 @@
       "os1arsenalloadout",
       "advancedslam"
     ]
+  },
+  {
+    "id": "m12lkimogilafighter",
+    "ships": [
+      "m12lkimogilafighter"
+    ],
+    "pilots": [
+      "toranikulda",
+      "dalanoberos",
+      "cartelexecutioner",
+      "cartelbrute"
+    ],
+    "upgrades": [
+      "saturationsalvo",
+      "saturationsalvo",
+      "plasmatorpedoes",
+      "scramblermissiles",
+      "scramblermissiles",
+      "r5tk",
+      "enforcer",
+      "deadmansswitch",
+      "contrabandcybernetics",
+      "contrabandcybernetics"
+    ]
   }
 ]

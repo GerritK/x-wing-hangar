@@ -4218,5 +4218,74 @@
       "modification",
       "title"
     ]
+  },
+
+
+  {
+    "id": "toranikulda",
+    "shipId": "m12lkimogilafighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 8,
+    "cost": 27,
+    "slots": [
+      "elite",
+      "torpedo",
+      "missile",
+      "salvagedastromech",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "dalanoberos",
+    "shipId": "m12lkimogilafighter",
+    "faction": "scum",
+    "isUnique": true,
+    "skill": 7,
+    "cost": 25,
+    "slots": [
+      "elite",
+      "torpedo",
+      "missile",
+      "salvagedastromech",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "cartelexecutioner",
+    "shipId": "m12lkimogilafighter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 5,
+    "cost": 24,
+    "slots": [
+      "elite",
+      "torpedo",
+      "missile",
+      "salvagedastromech",
+      "illicit",
+      "modification",
+      "title"
+    ]
+  },
+  {
+    "id": "cartelbrute",
+    "shipId": "m12lkimogilafighter",
+    "faction": "scum",
+    "isUnique": false,
+    "skill": 3,
+    "cost": 22,
+    "slots": [
+      "torpedo",
+      "missile",
+      "salvagedastromech",
+      "illicit",
+      "modification",
+      "title"
+    ]
   }
 ]

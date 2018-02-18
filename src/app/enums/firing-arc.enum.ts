@@ -2,7 +2,8 @@ export enum FiringArc {
   DEFAULT = '',
   TURRET = 'turret',
   FRONTBACK = 'frontback',
-  DEGREE180 = '180'
+  DEGREE180 = '180',
+  BULLSEYE = 'bullseye'
 }
 
 export namespace FiringArc {
