@@ -1641,6 +1641,7 @@
 
   {
     "id": "fennrau-sheathipede",
+    "canonicalId": "fennrau",
     "shipId": "sheathipedeclassshuttle",
     "faction": "rebel",
     "isUnique": true,
@@ -1656,6 +1657,7 @@
   },
   {
     "id": "ezrabridger-sheathipede",
+    "canonicalId": "ezrabridger",
     "shipId": "sheathipedeclassshuttle",
     "faction": "rebel",
     "isUnique": true,
@@ -1671,6 +1673,7 @@
   },
   {
     "id": "zeborrelios-sheathipede",
+    "canonicalId": "zeborrelios",
     "shipId": "sheathipedeclassshuttle",
     "faction": "rebel",
     "isUnique": true,
@@ -3330,6 +3333,7 @@
 
   {
     "id": "kyloren-silencer",
+    "canonicalId": "kyloren",
     "shipId": "tiesilencer",
     "faction": "imperial",
     "isUnique": true,
@@ -3480,6 +3484,7 @@
   },
   {
     "id": "dalanoberos-gfh",
+    "canonicalId": "dalanoberos",
     "shipId": "starviper",
     "faction": "scum",
     "isUnique": true,
