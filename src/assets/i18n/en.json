@@ -78,7 +78,6 @@
       "auzituckgunship": "Auzituck Gunship",
       "bsf17bomber": "B/SF-17 Bomber",
       "sheathipedeclassshuttle": "Sheathipede-class Shuttle",
-
       "tiefighter": "TIE Fighter",
       "tieadvanced": "TIE Advanced",
       "firespray31": "Firespray-31",
@@ -100,7 +99,6 @@
       "tieaggressor": "TIE Aggressor",
       "tiesilencer": "TIE Silencer",
       "alphaclassstarwing": "Alpha-class Star Wing",
-
       "starviper": "StarViper",
       "m3ainterceptor": "M3-A Interceptor",
       "aggressor": "Aggressor",
@@ -555,7 +553,6 @@
           "description": "When you perform the coordinate action, after you choose a friendly ship and before it performs a free action, you may receive 2 stress tokens to remove 1 stress token from it."
         }
       },
-
       "tiefighter": {
         "maulermithel": {
           "name": "\"Mauler Mithel\"",
@@ -961,7 +958,7 @@
         },
         "countdown": {
           "name": "\"Countdown\"",
-          "description": "When defending, if you are not stressed during the \"Compare Results\" step, you may suffer 1 damage to cancel <strong>all</strong> dice results. if you do, receive 1 stress token."
+          "description": "When defending, if you are not stressed during the \"Compare Results\" step, you may suffer 1 damage to cancel <b>all</b> dice results. if you do, receive 1 stress token."
         },
         "blacksquadronscout": {
           "name": "Black Squadron Scout"
@@ -1021,7 +1018,6 @@
           "name": "Nu Squadron Pilot"
         }
       },
-
       "starviper": {
         "princexizor": {
           "name": "Prince Xizor",
@@ -1229,7 +1225,7 @@
         },
         "unkarplutt": {
           "name": "Unkar Plutt",
-          "description": "At the end of the Activation phase, you <strong>must</strong> assign a tractor beam token to each ship you are touching."
+          "description": "At the end of the Activation phase, you <b>must</b> assign a tractor beam token to each ship you are touching."
         },
         "jakkugunrunner": {
           "name": "Jakku Gunrunner"
@@ -1446,79 +1442,79 @@
       "astromech": {
         "r2d2": {
           "name": "R2-D2",
-          "description": ""
+          "description": "After executing a green maneuver, you may recover 1 shield (up to your shield value)."
         },
         "r2f2": {
           "name": "R2-F2",
-          "description": ""
+          "description": "<strong>Action:</strong> Increase your agility value by 1 until the end of this game round."
         },
         "r2astromech": {
           "name": "R2 Astromech",
-          "description": ""
+          "description": "You may treat all 1- and 2-speed maneuvers as green maneuvers."
         },
         "r5d8": {
           "name": "R5-D8",
-          "description": ""
+          "description": "<strong>Action:</strong>  Roll 1 defense die.<br>On an <i-evade> or <i-focus> result, discard 1 of your facedown Damage cards."
         },
         "r5astromech": {
           "name": "R5 Astromech",
-          "description": ""
+          "description": "During the End phase, you may choose 1 of your faceup Damage cards with the <b><i>Ship</i></b> trait and flip it facedown."
         },
         "r5k6": {
           "name": "R5-K6",
-          "description": ""
+          "description": "After spending your target lock, roll 1 defense die.<br>On an <i-evade> result, immediately acquire a target lock on that same ship. You cannot spend this target lock during this attack."
         },
         "r2d6": {
           "name": "R2-D6",
-          "description": ""
+          "description": "Your upgrade bar gains the <i-elite> upgrade icon.<br>You cannot equip this upgrade if you already have an <i-elite> upgrade icon or if your pilot skill value is \"2\" or lower."
         },
         "r3a2": {
           "name": "R3-A2",
-          "description": ""
+          "description": "When you declare the target of your attack, if the defender is inside your firing arc, you may receive 1 stress token to cause the defender to receive 1 stress token."
         },
         "r4d6": {
           "name": "R4-D6",
-          "description": ""
+          "description": "When you are hit by an attack and there are at least 3 uncancelled <i-hit> results, you may choose and cancel those results until there are 2 remaining. For each result cancelled in this way, receive 1 stress token."
         },
         "r5p9": {
           "name": "R5-P9",
-          "description": ""
+          "description": "At the end of the Combat phase, you may spend 1 of your focus tokens to recover 1 shield (up to your shield value)."
         },
         "r7astromech": {
           "name": "R7 Astromech",
-          "description": ""
+          "description": "Once per round when defending, if you have a target lock on the attacker, you may spend the target lock to choose any or all attack dice. The attacker must reroll the chosen dice."
         },
         "r7t1": {
           "name": "R7-T1",
-          "description": ""
+          "description": "<strong>Action:</strong> Choose an enemy ship at Range 1-2. If you are inside that ship's firing arc, you may acquire a target lock on that ship. Then, you may perform a free boost action."
         },
         "bb8": {
           "name": "BB-8",
-          "description": ""
+          "description": "When you reveal a green maneuver, you may perform a free barrel roll action."
         },
         "r5x3": {
           "name": "R5-X3",
-          "description": ""
+          "description": "Before you reveal your maneuver, you may discard this card to ignore obstacles until the end of the round."
         },
         "targetingastromech": {
           "name": "Targeting Astromech",
-          "description": ""
+          "description": "After you execute a red maneuver, you may acquire a target lock."
         },
         "r3astromech": {
           "name": "R3 Astromech",
-          "description": ""
+          "description": "Once per round, when attacking with a primary weapon, you may cancel 1 of your <i-focus> results during the \"Modify Attack Dice\" step to assign 1 evade token to your ship."
         },
         "m9g8": {
           "name": "M9-G8",
-          "description": ""
+          "description": "When a ship you have locked is attacking, you may choose 1 attack die. The attacker must reroll that die.<br>You can acquire target locks on other friendly ships."
         },
         "chopper-swx72": {
           "name": "\"Chopper\"",
-          "description": ""
+          "description": "<strong>Action:</strong> Discard 1 other equipped Upgrade card to recover 1 shield."
         },
         "flightassistastromech": {
           "name": "Flight-Assist Astromech",
-          "description": ""
+          "description": "You cannot attack ships outside your firing arc.<br>After you execute a maneuver, if you did not overlap a ship or obstacle and there are no enemy ships inside your firing arc at range 1-3, you may perform a free boost or barrel roll action."
         }
       },
       "torpedo": {
@@ -1616,39 +1612,39 @@
       "cannon": {
         "heavylasercannon": {
           "name": "Heavy Laser Cannon",
-          "description": ""
+          "description": "<strong>Attack:</strong> Attack 1 ship.<br>Immediately after rolling your attack dice, you must change all of your <i-crit> results to <i-hit> results."
         },
         "ioncannon": {
           "name": "Ion Cannon",
-          "description": ""
+          "description": "<strong>Attack:</strong> Attack 1 ship.<br>If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel <i>all</i> dice results."
         },
         "autoblaster": {
           "name": "Autoblaster",
-          "description": ""
+          "description": "<strong>Attack:</strong> Attack 1 ship.<br>Your <i-hit> results cannot be canceled by defense dice.<br>The defender may cancel <i-crit> results before <i-hit> results."
         },
         "manglercannon": {
           "name": "\"Mangler\" Cannon",
-          "description": ""
+          "description": "<strong>Attack:</strong> Attack 1 ship.<br>When attacking, you may change 1 of your <i-hit> results to a <i-crit> result."
         },
         "flechettecannon": {
           "name": "Flechette Cannon",
-          "description": ""
+          "description": "<strong>Attack:</strong> Attack 1 ship.<br>If this attack hits, the defender suffers 1 damage and, if the defender is not stressed, it also receives 1 stress token. Then cancel <b>all</b> dice results."
         },
         "tractorbeam": {
           "name": "Tractor Beam",
-          "description": ""
+          "description": "<strong>Attack:</strong> Attack 1 ship.<br>If this attack hits, the defender receives 1 tractor beam token. Then cancel <b>all</b> dice results."
         },
         "arccaster": {
           "name": "Arc Caster",
-          "description": ""
+          "description": "<em>Rebel and Scum Only.</em>\n<br><br>\n<b>Side A</b><br><strong>Attack:</strong> Attack 1 ship.<br>If this attack hits, you must choose 1 other ship at Range 1 of the defender to suffer 1 damage<br>Then flip this card.\n<br><br>\n<b>Side B</b><br>At the start of the Combat phase, you may receive a weapons disabled token to flip this card."
         },
         "linkedbattery": {
           "name": "Linked Battery",
-          "description": ""
+          "description": "<em>Small Ship Only. Limited.</em><br>When attacking with a primary weapon or a <i-cannon> secondary weapon, you may reroll 1 attack die."
         },
         "jammingbeam": {
           "name": "Jamming Beam",
-          "description": ""
+          "description": "<strong>Attack:</strong> Attack 1 ship. If this attack hits, assign the defender 1 Jam Token. Then cancel <b>all</b> dice results."
         }
       },
       "turret": {
@@ -1680,39 +1676,39 @@
       "bomb": {
         "proximitymines": {
           "name": "Proximity Mines",
-          "description": ""
+          "description": "<strong>Action:</strong> Discard this card to <b>drop</b> 1 proximity mine token. When a ship's base or maneuver template overlaps this token, this token <b>detonates</b>."
         },
         "seismiccharges": {
           "name": "Seismic Charges",
-          "description": ""
+          "description": "When you reveal your maneuver dial, you may discard this card to <b>drop</b> 1 seismic charge token.<br>This token <b>detonates</b> at the end of the Activation phase."
         },
         "protonbombs": {
           "name": "Proton Bombs",
-          "description": ""
+          "description": "When you reveal your maneuver dial, you may discard this card to <b>drop</b> 1 proton bomb token.<br>This token <b>detonates</b> at the end of the Activation phase."
         },
         "connernet": {
           "name": "Conner Net",
-          "description": ""
+          "description": "<strong>Action:</strong> Discard this card to <b>drop</b> 1 Conner net token.<br>When a ship's base or maneuver template overlaps this token, this token <b>detonates</b>."
         },
         "ionbombs": {
           "name": "Ion Bombs",
-          "description": ""
+          "description": "When you reveal your maneuver dial, you may discard this card to <b>drop</b> 1 ion bomb token.<br>This card <b>detonates</b> at the end of the Activation phase."
         },
         "clustermines": {
           "name": "Cluster Mines",
-          "description": ""
+          "description": "<strong>Action:</strong> Discard this card to <b>drop</b> 1 cluster mine token set.<br>When a ship's base or maneuver template overlaps a cluster mine token, that token <b>detonates</b>."
         },
         "thermaldetonators": {
           "name": "Thermal Detonators",
-          "description": ""
+          "description": "When you reveal your maneuver dial, you may discard this card to <b>drop</b> 1 thermal detonator token.<br>This token <b>detonates</b> at the end of the Activation phase."
         },
         "bombletgenerator": {
           "name": "Bomblet Generator",
-          "description": ""
+          "description": "When you reveal your maneuver, you may <b>drop</b> 1 bomblet token.<br>This token <b>detonates</b> at the end of the Activation phase."
         },
         "ordnancesilos": {
           "name": "Ordnance Silos",
-          "description": ""
+          "description": "<em>B/SF-17 Bbomber Only</em><br>When you equip this card, place 3 ordnance tokens on each other equipped <i-bomb> Upgrade card. When you are instructed to discard an Upgrade card, you may discard 1 ordnance token on that card instead."
         }
       },
       "crew": {
@@ -2640,25 +2636,25 @@
         },
         "ioncannonbattery": {
           "name": "Ion Cannon Battery",
-          "description": "<strong>Attack (Energy):</strong> Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel <strong>all</strong> dice results."
+          "description": "<strong>Attack (Energy):</strong> Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel <b>all</b> dice results."
         },
         "duallaserturret": {
           "name": "Dual Laser Turret",
-          "description": "<i>Gozanti-Class Cruiser Only.</i><br><strong>Attack (Energy):</strong> Spend 1 energy from this card to perform this attack against 1 ship (even a ship outside of your firing arc)."
+          "description": "<em>Gozanti-Class Cruiser Only.</em><br><strong>Attack (Energy):</strong> Spend 1 energy from this card to perform this attack against 1 ship (even a ship outside of your firing arc)."
         },
         "heavylaserturret": {
           "name": "Heavy Laser Turret",
-          "description": "<i>C-ROC Cruiser Only.</i><br><strong>Attack (Energy):</strong> Spend 2 energy from this card to perform this attack against 1 ship (even a ship outside of your firing arc)."
+          "description": "<em>C-ROC Cruiser Only.</em><br><strong>Attack (Energy):</strong> Spend 2 energy from this card to perform this attack against 1 ship (even a ship outside of your firing arc)."
         }
       },
       "team": {
         "engineeringteam": {
           "name": "Engineering Team",
-          "description": "<i>Limited.</i><br>During the Activation phase, when you reveal a <i-straight> maneuver, gain 1 additional energy during the \"Gain Energy\" step."
+          "description": "<em>Limited.</em><br>During the Activation phase, when you reveal a <i-straight> maneuver, gain 1 additional energy during the \"Gain Energy\" step."
         },
         "gunneryteam": {
           "name": "Gunnery Team",
-          "description": "<i>Limited.</i><br>Once per round, when attacking with a secondary weapon, you may spend 1 energy to change 1 of your blank results to a <i-hit> result."
+          "description": "<em>Limited.</em><br>Once per round, when attacking with a secondary weapon, you may spend 1 energy to change 1 of your blank results to a <i-hit> result."
         },
         "sensorteam": {
           "name": "Sensor Team",
@@ -2666,7 +2662,7 @@
         },
         "ordnanceexperts": {
           "name": "Ordnance Experts",
-          "description": "<i>Limited.</i><br>Once per round, when a friendly ship at Range 1-3 performs an attack with a <i-torpedo> or <i-missile> secondary weapon, it may change 1 of its blank results to a <i-hit> result."
+          "description": "<em>Limited.</em><br>Once per round, when a friendly ship at Range 1-3 performs an attack with a <i-torpedo> or <i-missile> secondary weapon, it may change 1 of its blank results to a <i-hit> result."
         },
         "igrmthugdroids": {
           "name": "IG-RM Thug Droids",
@@ -2692,7 +2688,7 @@
         },
         "primedthrusters": {
           "name": "Primed Thrusters",
-          "description": "<i>Small Ship Only.</i><br>Stress Tokens do not prevent you from performing boost or barrel roll actions unless you have 3 or more stress tokens."
+          "description": "<em>Small Ship Only.</em><br>Stress Tokens do not prevent you from performing boost or barrel roll actions unless you have 3 or more stress tokens."
         },
         "targetingsynchronizer": {
           "name": "Targeting Synchronizer",
@@ -2708,7 +2704,7 @@
         },
         "threattracker": {
           "name": "Threat Tracker",
-          "description": "<i>Small Ship Only.</i><br>When an enemy ship inside your firing arc at Range 1-2 becomes the active ship during the Combat phase, you may spend your target lock on that ship to perform a free boost or barrel roll action if that action is on your action bar."
+          "description": "<em>Small Ship Only.</em><br>When an enemy ship inside your firing arc at Range 1-2 becomes the active ship during the Combat phase, you may spend your target lock on that ship to perform a free boost or barrel roll action if that action is on your action bar."
         }
       }
     },
@@ -2719,7 +2715,7 @@
       },
       "illshowyouthedarkside": {
         "name": "I'll Show You the Dark Side",
-        "description": "When this card is assigned, if it is not already in play, the player who assigned it searches the Damage deck for 1 Damage card with the <strong><i>Pilot</i></strong> trait and may place it faceup on this card. Then shuffle the damage deck.<br>When you suffer critical damage during an attack, you are instead dealt the chosen faceup Damage card.<br>When there is no Damage card on this card, remove it."
+        "description": "When this card is assigned, if it is not already in play, the player who assigned it searches the Damage deck for 1 Damage card with the <b><i>Pilot</i></b> trait and may place it faceup on this card. Then shuffle the damage deck.<br>When you suffer critical damage during an attack, you are instead dealt the chosen faceup Damage card.<br>When there is no Damage card on this card, remove it."
       },
       "adebttopay": {
         "name": "A Debt To Pay",

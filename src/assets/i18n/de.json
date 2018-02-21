@@ -1,0 +1,2746 @@
+{
+  "ui": {
+    "general": {
+      "unnamed": "Unbenannt",
+      "squadron": "Staffel",
+      "ship": "Schiff",
+      "pilot": "Pilot",
+      "none": "Keine"
+    },
+    "factions": {
+      "rebel": "Rebellenallianz",
+      "imperial": "Galaktisches Imperium",
+      "scum": "Schurken & Abschaum"
+    },
+    "actions": {
+      "focus": "Fokussierung",
+      "evade": "Ausweichen",
+      "barrelroll": "Fassrolle",
+      "boost": "Schub",
+      "targetlock": "Zielerfassung",
+      "recover": "Aufladen",
+      "reinforce": "Verstärken",
+      "coordinate": "Koordinieren",
+      "jam": "Störsignal",
+      "cloak": "Tarnen",
+      "slam": "SLAM",
+      "rotatearc": "Feuerwinkel drehen",
+      "reload": "Nachladen"
+    },
+    "stats": {
+      "skill": "Pilotenwert",
+      "attack": "Angriff",
+      "energy": "Energie",
+      "agility": "Wendigkeit",
+      "hull": "Hülle",
+      "shield": "Schilde"
+    },
+    "upgrades": {
+      "elite": "Elite",
+      "astromech": "Astromech",
+      "torpedo": "Torpedo",
+      "missile": "Rakete",
+      "cannon": "Kanone",
+      "turret": "Geschütz",
+      "bomb": "Bombe",
+      "crew": "Mannschaft",
+      "salvagedastromech": "Geborgener Astromech",
+      "system": "System",
+      "title": "Titel",
+      "modification": "Modifikation",
+      "illicit": "Schmuggelwaren",
+      "cargo": "Fracht",
+      "hardpoint": "Waffenaufhängung",
+      "team": "Team",
+      "tech": "Technik"
+    }
+  },
+  "data": {
+    "ships": {
+      "xwing": "",
+      "ywing": "",
+      "yt1300": "",
+      "awing": "",
+      "hwk290": "",
+      "bwing": "",
+      "gr75mediumtransporter": "",
+      "z95headhunter": "",
+      "ewing": "",
+      "cr90corvettefore": "",
+      "cr90corvetteaft": "",
+      "yt2400": "",
+      "kwing": "",
+      "t70xwing": "",
+      "vcx100": "",
+      "attackshuttle": "",
+      "arc170": "",
+      "uwing": "",
+      "auzituckgunship": "",
+      "bsf17bomber": "",
+      "sheathipedeclassshuttle": "",
+      "tiefighter": "",
+      "tieadvanced": "",
+      "firespray31": "",
+      "tieinterceptor": "",
+      "lambdaclassshuttle": "",
+      "tiebomber": "",
+      "tiedefender": "",
+      "tiephantom": "",
+      "vt49decimator": "",
+      "raiderclasscorvettefore": "",
+      "raiderclasscorvetteaft": "",
+      "tiepunisher": "",
+      "gozanticlasscruiser": "",
+      "tiefofighter": "",
+      "tieadvprototype": "",
+      "tiesffighter": "",
+      "upsilonclassshuttle": "",
+      "tiestriker": "",
+      "tieaggressor": "",
+      "tiesilencer": "",
+      "alphaclassstarwing": "",
+      "starviper": "",
+      "m3ainterceptor": "",
+      "aggressor": "",
+      "yv666": "",
+      "kihraxzfighter": "",
+      "g1astarfighter": "",
+      "jumpmaster5000": "",
+      "protectoratestarfighter": "",
+      "lancerclasspursuitcraft": "",
+      "croccruiser": "",
+      "quadjumper": "",
+      "scurrgh6bomber": "",
+      "m12lkimogilafighter": ""
+    },
+    "pilots": {
+      "xwing": {
+        "lukeskywalker": {
+          "name": "",
+          "description": ""
+        },
+        "biggsdarklighter": {
+          "name": "",
+          "description": ""
+        },
+        "redsquadronpilot": {
+          "name": ""
+        },
+        "rookiepilot": {
+          "name": ""
+        },
+        "wedgeantilles": {
+          "name": "",
+          "description": ""
+        },
+        "garvendreis": {
+          "name": "",
+          "description": ""
+        },
+        "hobbieklivian": {
+          "name": "",
+          "description": ""
+        },
+        "jekporkins": {
+          "name": "",
+          "description": ""
+        },
+        "tarnmison": {
+          "name": "",
+          "description": ""
+        },
+        "wesjanson": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "ywing": {
+        "hortonsalm": {
+          "name": "",
+          "description": ""
+        },
+        "dutchvander": {
+          "name": "",
+          "description": ""
+        },
+        "kavil": {
+          "name": "",
+          "description": ""
+        },
+        "drearenthal": {
+          "name": "",
+          "description": ""
+        },
+        "graysquadronpilot": {
+          "name": ""
+        },
+        "goldsquadronpilot": {
+          "name": ""
+        },
+        "hiredgun": {
+          "name": ""
+        },
+        "syndicatethug": {
+          "name": ""
+        }
+      },
+      "yt1300": {
+        "hansolo": {
+          "name": "",
+          "description": ""
+        },
+        "landocalrissian": {
+          "name": "",
+          "description": ""
+        },
+        "chewbacca": {
+          "name": "",
+          "description": ""
+        },
+        "hansolo-swx57": {
+          "name": "",
+          "description": ""
+        },
+        "rey": {
+          "name": "",
+          "description": ""
+        },
+        "chewbacca-swx57": {
+          "name": "",
+          "description": ""
+        },
+        "resistancesympathizer": {
+          "name": ""
+        },
+        "outerrimsmuggler": {
+          "name": ""
+        }
+      },
+      "awing": {
+        "tychocelchu": {
+          "name": "",
+          "description": ""
+        },
+        "arvelcrynyd": {
+          "name": "",
+          "description": ""
+        },
+        "jakefarrell": {
+          "name": "",
+          "description": ""
+        },
+        "gemmersojan": {
+          "name": "",
+          "description": ""
+        },
+        "greensquadronpilot": {
+          "name": ""
+        },
+        "prototypepilot": {
+          "name": ""
+        }
+      },
+      "hwk290": {
+        "janors": {
+          "name": "",
+          "description": ""
+        },
+        "kylekatarn": {
+          "name": "",
+          "description": ""
+        },
+        "roarkgarnet": {
+          "name": "",
+          "description": ""
+        },
+        "dacebonearm": {
+          "name": "",
+          "description": ""
+        },
+        "palobgodalhi": {
+          "name": "",
+          "description": ""
+        },
+        "torkilmux": {
+          "name": "",
+          "description": ""
+        },
+        "rebeloperative": {
+          "name": ""
+        },
+        "spicerunner": {
+          "name": ""
+        }
+      },
+      "bwing": {
+        "tennumb": {
+          "name": "",
+          "description": ""
+        },
+        "ibtisam": {
+          "name": "",
+          "description": ""
+        },
+        "keyanfarlander": {
+          "name": "",
+          "description": ""
+        },
+        "neradantels": {
+          "name": "",
+          "description": ""
+        },
+        "daggersquadronpilot": {
+          "name": ""
+        },
+        "bluesquadronpilot": {
+          "name": ""
+        }
+      },
+      "gr75mediumtransporter": {
+        "gr75mediumtransporter": {
+          "name": ""
+        }
+      },
+      "z95headhunter": {
+        "airencracken": {
+          "name": "",
+          "description": ""
+        },
+        "lieutenantblount": {
+          "name": "",
+          "description": ""
+        },
+        "ndrusuhlak": {
+          "name": "",
+          "description": ""
+        },
+        "kaatoleeachos": {
+          "name": "",
+          "description": ""
+        },
+        "talasquadronpilot": {
+          "name": ""
+        },
+        "banditsquadronpilot": {
+          "name": ""
+        },
+        "blacksunsoldier": {
+          "name": ""
+        },
+        "binayrepirate": {
+          "name": ""
+        }
+      },
+      "ewing": {
+        "corranhorn": {
+          "name": "",
+          "description": ""
+        },
+        "etahnabaht": {
+          "name": "",
+          "description": ""
+        },
+        "blackmoonsquadronpilot": {
+          "name": ""
+        },
+        "knavesquadronpilot": {
+          "name": ""
+        }
+      },
+      "cr90corvettefore": {
+        "cr90corvettefore": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "cr90corvetteaft": {
+        "cr90corvetteaft": {
+          "name": ""
+        }
+      },
+      "yt2400": {
+        "dashrendar": {
+          "name": "",
+          "description": ""
+        },
+        "leebo": {
+          "name": "",
+          "description": ""
+        },
+        "eadenvrill": {
+          "name": "",
+          "description": ""
+        },
+        "wildspacefringer": {
+          "name": ""
+        }
+      },
+      "kwing": {
+        "mirandadoni": {
+          "name": "",
+          "description": ""
+        },
+        "esegetuketu": {
+          "name": "",
+          "description": ""
+        },
+        "guardiansquadronpilot": {
+          "name": ""
+        },
+        "wardensquadronpilot": {
+          "name": ""
+        }
+      },
+      "t70xwing": {
+        "poedameron": {
+          "name": "",
+          "description": ""
+        },
+        "blueace": {
+          "name": "",
+          "description": ""
+        },
+        "elloasty": {
+          "name": "",
+          "description": ""
+        },
+        "redace": {
+          "name": "",
+          "description": ""
+        },
+        "poedameron-swx57": {
+          "name": "",
+          "description": ""
+        },
+        "niennunb": {
+          "name": "",
+          "description": ""
+        },
+        "snapwexley": {
+          "name": "",
+          "description": ""
+        },
+        "jesspava": {
+          "name": "",
+          "description": ""
+        },
+        "redsquadronveteran": {
+          "name": ""
+        },
+        "bluesquadronnovice": {
+          "name": ""
+        }
+      },
+      "vcx100": {
+        "herasyndulla": {
+          "name": "",
+          "description": ""
+        },
+        "kananjarrus": {
+          "name": "",
+          "description": ""
+        },
+        "chopper": {
+          "name": "",
+          "description": ""
+        },
+        "lothalrebel": {
+          "name": ""
+        }
+      },
+      "attackshuttle": {
+        "herasyndulla-as": {
+          "name": "",
+          "description": ""
+        },
+        "sabinewren": {
+          "name": "",
+          "description": ""
+        },
+        "ezrabridger": {
+          "name": "",
+          "description": ""
+        },
+        "zeborrelios": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "arc170": {
+        "norrawexley": {
+          "name": "",
+          "description": ""
+        },
+        "sharabey": {
+          "name": "",
+          "description": ""
+        },
+        "thanekyrell": {
+          "name": "",
+          "description": ""
+        },
+        "braylenstramm": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "uwing": {
+        "cassianandor": {
+          "name": "",
+          "description": ""
+        },
+        "bodhirook": {
+          "name": "",
+          "description": ""
+        },
+        "hefftobber": {
+          "name": "",
+          "description": ""
+        },
+        "bluesquadronpathfinder": {
+          "name": ""
+        }
+      },
+      "auzituckgunship": {
+        "wullffwarro": {
+          "name": "",
+          "description": ""
+        },
+        "lowhhrick": {
+          "name": "",
+          "description": ""
+        },
+        "wookieeliberator": {
+          "name": ""
+        },
+        "kashyyykdefender": {
+          "name": ""
+        }
+      },
+      "bsf17bomber": {
+        "crimsonleader": {
+          "name": "",
+          "description": ""
+        },
+        "cobaltleader": {
+          "name": "",
+          "description": ""
+        },
+        "crimsonspecialist": {
+          "name": "",
+          "description": ""
+        },
+        "crimsonsquadronpilot": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "sheathipedeclassshuttle": {
+        "fennrau-sheathipede": {
+          "name": "",
+          "description": ""
+        },
+        "ezrabridger-sheathipede": {
+          "name": "",
+          "description": ""
+        },
+        "zeborrelios-sheathipede": {
+          "name": "",
+          "description": ""
+        },
+        "ap5": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "tiefighter": {
+        "maulermithel": {
+          "name": "",
+          "description": ""
+        },
+        "darkcurse": {
+          "name": "",
+          "description": ""
+        },
+        "nightbeast": {
+          "name": "",
+          "description": ""
+        },
+        "scourge": {
+          "name": "",
+          "description": ""
+        },
+        "youngster": {
+          "name": "",
+          "description": ""
+        },
+        "wampa": {
+          "name": "",
+          "description": ""
+        },
+        "chaser": {
+          "name": "",
+          "description": ""
+        },
+        "blacksquadronpilot": {
+          "name": ""
+        },
+        "obsidiansquadronpilot": {
+          "name": ""
+        },
+        "academypilot": {
+          "name": ""
+        },
+        "howlrunner": {
+          "name": "",
+          "description": ""
+        },
+        "backstabber": {
+          "name": "",
+          "description": ""
+        },
+        "wingedgundark": {
+          "name": "",
+          "description": ""
+        },
+        "ahsokatano": {
+          "name": "",
+          "description": ""
+        },
+        "sabinewren-tie": {
+          "name": "",
+          "description": ""
+        },
+        "captainrex": {
+          "name": "",
+          "description": ""
+        },
+        "zeborrelios-tie": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "tieadvanced": {
+        "darthvader": {
+          "name": "",
+          "description": ""
+        },
+        "maarekstele": {
+          "name": "",
+          "description": ""
+        },
+        "zertikstrom": {
+          "name": "",
+          "description": ""
+        },
+        "junoeclipse": {
+          "name": "",
+          "description": ""
+        },
+        "commanderalozen": {
+          "name": "",
+          "description": ""
+        },
+        "lieutenantcolzet": {
+          "name": "",
+          "description": ""
+        },
+        "stormsquadronpilot": {
+          "name": ""
+        },
+        "tempestsquadronpilot": {
+          "name": ""
+        }
+      },
+      "firespray31": {
+        "bobafett": {
+          "name": "",
+          "description": ""
+        },
+        "bobafett-scum": {
+          "name": "",
+          "description": ""
+        },
+        "kathscarlet": {
+          "name": "",
+          "description": ""
+        },
+        "kathscarlet-scum": {
+          "name": "",
+          "description": ""
+        },
+        "krassistrelix": {
+          "name": "",
+          "description": ""
+        },
+        "emonazzameen": {
+          "name": "",
+          "description": ""
+        },
+        "bountyhunter": {
+          "name": ""
+        },
+        "mandalorianmercenary": {
+          "name": ""
+        }
+      },
+      "tieinterceptor": {
+        "soontirfel": {
+          "name": "",
+          "description": ""
+        },
+        "turrphennir": {
+          "name": "",
+          "description": ""
+        },
+        "felswrath": {
+          "name": "",
+          "description": ""
+        },
+        "sabersquadronpilot": {
+          "name": ""
+        },
+        "avengersquadronpilot": {
+          "name": ""
+        },
+        "alphasquadronpilot": {
+          "name": ""
+        },
+        "carnorjax": {
+          "name": "",
+          "description": ""
+        },
+        "tetrancowall": {
+          "name": "",
+          "description": ""
+        },
+        "kirkanos": {
+          "name": "",
+          "description": ""
+        },
+        "lieutenantlorrir": {
+          "name": "",
+          "description": ""
+        },
+        "royalguardpilot": {
+          "name": ""
+        }
+      },
+      "lambdaclassshuttle": {
+        "captainkagi": {
+          "name": "",
+          "description": ""
+        },
+        "coloneljendon": {
+          "name": "",
+          "description": ""
+        },
+        "captainyorr": {
+          "name": "",
+          "description": ""
+        },
+        "omicrongrouppilot": {
+          "name": ""
+        }
+      },
+      "tiebomber": {
+        "majorrhymer": {
+          "name": "",
+          "description": ""
+        },
+        "captainjonus": {
+          "name": "",
+          "description": ""
+        },
+        "tomaxbren": {
+          "name": "",
+          "description": ""
+        },
+        "deathfire": {
+          "name": "",
+          "description": ""
+        },
+        "gammasquadronveteran": {
+          "name": ""
+        },
+        "gammasquadronpilot": {
+          "name": ""
+        },
+        "scimitarsquadronpilot": {
+          "name": ""
+        }
+      },
+      "tiedefender": {
+        "rexlerbrath": {
+          "name": "",
+          "description": ""
+        },
+        "colonelvessery": {
+          "name": "",
+          "description": ""
+        },
+        "maarekstele-iv": {
+          "name": "",
+          "description": ""
+        },
+        "countessryad": {
+          "name": "",
+          "description": ""
+        },
+        "glaivesquadronpilot": {
+          "name": ""
+        },
+        "onyxsquadronpilot": {
+          "name": ""
+        },
+        "deltasquadronpilot": {
+          "name": ""
+        }
+      },
+      "tiephantom": {
+        "whisper": {
+          "name": "",
+          "description": ""
+        },
+        "echo": {
+          "name": "",
+          "description": ""
+        },
+        "shadowsquadronpilot": {
+          "name": ""
+        },
+        "sigmasquadronpilot": {
+          "name": ""
+        }
+      },
+      "vt49decimator": {
+        "rearadmiralchiraneau": {
+          "name": "",
+          "description": ""
+        },
+        "commanderkenkirk": {
+          "name": "",
+          "description": ""
+        },
+        "captainoicunn": {
+          "name": "",
+          "description": ""
+        },
+        "patrolleader": {
+          "name": ""
+        }
+      },
+      "raiderclasscorvettefore": {
+        "raiderclasscorvettefore": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "raiderclasscorvetteaft": {
+        "raiderclasscorvetteaft": {
+          "name": ""
+        }
+      },
+      "tiepunisher": {
+        "redline": {
+          "name": "",
+          "description": ""
+        },
+        "deathrain": {
+          "name": "",
+          "description": ""
+        },
+        "blackeightsqpilot": {
+          "name": ""
+        },
+        "cutlasssquadronpilot": {
+          "name": ""
+        }
+      },
+      "gozanticlasscruiser": {
+        "gozanticlasscruiser": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "tiefofighter": {
+        "omegaace": {
+          "name": "",
+          "description": ""
+        },
+        "epsilonleader": {
+          "name": "",
+          "description": ""
+        },
+        "zetaace": {
+          "name": "",
+          "description": ""
+        },
+        "omegaleader": {
+          "name": "",
+          "description": ""
+        },
+        "zetaleader": {
+          "name": "",
+          "description": ""
+        },
+        "epsilonace": {
+          "name": "",
+          "description": ""
+        },
+        "omegasquadronpilot": {
+          "name": ""
+        },
+        "zetasquadronpilot": {
+          "name": ""
+        },
+        "epsilonsquadronpilot": {
+          "name": ""
+        }
+      },
+      "tieadvprototype": {
+        "theinquisitor": {
+          "name": "",
+          "description": ""
+        },
+        "valenrudor": {
+          "name": "",
+          "description": ""
+        },
+        "baronoftheempire": {
+          "name": ""
+        },
+        "sienartestpilot": {
+          "name": ""
+        }
+      },
+      "tiesffighter": {
+        "quickdraw": {
+          "name": "",
+          "description": ""
+        },
+        "backdraft": {
+          "name": "",
+          "description": ""
+        },
+        "omegaspecialist": {
+          "name": ""
+        },
+        "zetaspecialist": {
+          "name": ""
+        }
+      },
+      "upsilonclassshuttle": {
+        "kyloren": {
+          "name": "",
+          "description": ""
+        },
+        "majorstridan": {
+          "name": "",
+          "description": ""
+        },
+        "lieutenantdormitz": {
+          "name": "",
+          "description": ""
+        },
+        "starkillerbasepilot": {
+          "name": ""
+        }
+      },
+      "tiestriker": {
+        "duchess": {
+          "name": "",
+          "description": ""
+        },
+        "puresabacc": {
+          "name": "",
+          "description": ""
+        },
+        "countdown": {
+          "name": "",
+          "description": ""
+        },
+        "blacksquadronscout": {
+          "name": ""
+        },
+        "scarifdefender": {
+          "name": ""
+        },
+        "imperialtrainee": {
+          "name": ""
+        }
+      },
+      "tieaggressor": {
+        "lieutenantkestal": {
+          "name": "",
+          "description": ""
+        },
+        "doubleedge": {
+          "name": "",
+          "description": ""
+        },
+        "onyxsquadronescort": {
+          "name": ""
+        },
+        "sienarspecialist": {
+          "name": ""
+        }
+      },
+      "tiesilencer": {
+        "kyloren-silencer": {
+          "name": "",
+          "description": ""
+        },
+        "testpilotblackout": {
+          "name": "",
+          "description": ""
+        },
+        "firstordertestpilot": {
+          "name": ""
+        },
+        "sienarjaemusanalyst": {
+          "name": ""
+        }
+      },
+      "alphaclassstarwing": {
+        "majorvynder": {
+          "name": "",
+          "description": ""
+        },
+        "lieutenantkarsabi": {
+          "name": "",
+          "description": ""
+        },
+        "rhosquadronveteran": {
+          "name": ""
+        },
+        "nusquadronpilot": {
+          "name": ""
+        }
+      },
+      "starviper": {
+        "princexizor": {
+          "name": "",
+          "description": ""
+        },
+        "guri": {
+          "name": "",
+          "description": ""
+        },
+        "dalanoberos-gfh": {
+          "name": "",
+          "description": ""
+        },
+        "thweek": {
+          "name": "",
+          "description": ""
+        },
+        "blacksunassassin": {
+          "name": ""
+        },
+        "blacksunvigo": {
+          "name": ""
+        },
+        "blacksunenforcer": {
+          "name": ""
+        }
+      },
+      "m3ainterceptor": {
+        "serissu": {
+          "name": "",
+          "description": ""
+        },
+        "laetinashera": {
+          "name": "",
+          "description": ""
+        },
+        "genesisred": {
+          "name": "",
+          "description": ""
+        },
+        "quinnjast": {
+          "name": "",
+          "description": ""
+        },
+        "inaldra": {
+          "name": "",
+          "description": ""
+        },
+        "sunnybounder": {
+          "name": "",
+          "description": ""
+        },
+        "tansariipointveteran": {
+          "name": ""
+        },
+        "cartelspacer": {
+          "name": ""
+        }
+      },
+      "aggressor": {
+        "ig88a": {
+          "name": "",
+          "description": ""
+        },
+        "ig88b": {
+          "name": "",
+          "description": ""
+        },
+        "ig88c": {
+          "name": "",
+          "description": ""
+        },
+        "ig88d": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "yv666": {
+        "bossk": {
+          "name": "",
+          "description": ""
+        },
+        "lattsrazzi": {
+          "name": "",
+          "description": ""
+        },
+        "moraloeval": {
+          "name": "",
+          "description": ""
+        },
+        "trandoshanslaver": {
+          "name": ""
+        }
+      },
+      "kihraxzfighter": {
+        "talonbanecobra": {
+          "name": "",
+          "description": ""
+        },
+        "grazthehunter": {
+          "name": "",
+          "description": ""
+        },
+        "viktorhel": {
+          "name": "",
+          "description": ""
+        },
+        "captainjostero": {
+          "name": "",
+          "description": ""
+        },
+        "blacksunace": {
+          "name": ""
+        },
+        "cartelmarauder": {
+          "name": ""
+        }
+      },
+      "g1astarfighter": {
+        "zuckuss": {
+          "name": "",
+          "description": ""
+        },
+        "4lom": {
+          "name": "",
+          "description": ""
+        },
+        "gandfindsman": {
+          "name": ""
+        },
+        "ruthlessfreelancer": {
+          "name": ""
+        }
+      },
+      "jumpmaster5000": {
+        "dengar": {
+          "name": "",
+          "description": ""
+        },
+        "teltrevura": {
+          "name": "",
+          "description": ""
+        },
+        "manaroo": {
+          "name": "",
+          "description": ""
+        },
+        "contractedscout": {
+          "name": ""
+        }
+      },
+      "protectoratestarfighter": {
+        "fennrau": {
+          "name": "",
+          "description": ""
+        },
+        "oldteroch": {
+          "name": "",
+          "description": ""
+        },
+        "kadsolus": {
+          "name": "",
+          "description": ""
+        },
+        "concorddawnace": {
+          "name": ""
+        },
+        "concorddawnveteran": {
+          "name": ""
+        },
+        "zealousrecruit": {
+          "name": ""
+        }
+      },
+      "lancerclasspursuitcraft": {
+        "ketsuonyo": {
+          "name": "",
+          "description": ""
+        },
+        "asajjventress": {
+          "name": "",
+          "description": ""
+        },
+        "sabinewren-lcpc": {
+          "name": "",
+          "description": ""
+        },
+        "shadowporthunter": {
+          "name": ""
+        }
+      },
+      "croccruiser": {
+        "croccruiser": {
+          "name": ""
+        }
+      },
+      "quadjumper": {
+        "constablezuvio": {
+          "name": "",
+          "description": ""
+        },
+        "sarcoplank": {
+          "name": "",
+          "description": ""
+        },
+        "unkarplutt": {
+          "name": "",
+          "description": ""
+        },
+        "jakkugunrunner": {
+          "name": ""
+        }
+      },
+      "scurrgh6bomber": {
+        "captainnym": {
+          "name": "",
+          "description": ""
+        },
+        "captainnym-rebel": {
+          "name": "",
+          "description": ""
+        },
+        "solsixxa": {
+          "name": "",
+          "description": ""
+        },
+        "lokrevenant": {
+          "name": ""
+        },
+        "karthakkpirate": {
+          "name": ""
+        }
+      },
+      "m12lkimogilafighter": {
+        "toranikulda": {
+          "name": "",
+          "description": ""
+        },
+        "dalanoberos": {
+          "name": "",
+          "description": ""
+        },
+        "cartelexecutioner": {
+          "name": ""
+        },
+        "cartelbrute": {
+          "name": ""
+        }
+      }
+    },
+    "upgrades": {
+      "elite": {
+        "marksmanship": {
+          "name": "",
+          "description": ""
+        },
+        "determination": {
+          "name": "",
+          "description": ""
+        },
+        "squadleader": {
+          "name": "",
+          "description": ""
+        },
+        "experthandling": {
+          "name": "",
+          "description": ""
+        },
+        "swarmtactics": {
+          "name": "",
+          "description": ""
+        },
+        "drawtheirfire": {
+          "name": "",
+          "description": ""
+        },
+        "elusiveness": {
+          "name": "",
+          "description": ""
+        },
+        "veteraninstincts": {
+          "name": "",
+          "description": ""
+        },
+        "expose": {
+          "name": "",
+          "description": ""
+        },
+        "pushthelimit": {
+          "name": "",
+          "description": ""
+        },
+        "deadeye": {
+          "name": "",
+          "description": ""
+        },
+        "daredevil": {
+          "name": "",
+          "description": ""
+        },
+        "adrenalinerush": {
+          "name": "",
+          "description": ""
+        },
+        "decoy": {
+          "name": "",
+          "description": ""
+        },
+        "wingman": {
+          "name": "",
+          "description": ""
+        },
+        "outmaneuver": {
+          "name": "",
+          "description": ""
+        },
+        "predator": {
+          "name": "",
+          "description": ""
+        },
+        "lonewolf": {
+          "name": "",
+          "description": ""
+        },
+        "stayontarget": {
+          "name": "",
+          "description": ""
+        },
+        "intimidation": {
+          "name": "",
+          "description": ""
+        },
+        "ruthlessness": {
+          "name": "",
+          "description": ""
+        },
+        "opportunist": {
+          "name": "",
+          "description": ""
+        },
+        "bodyguard": {
+          "name": "",
+          "description": ""
+        },
+        "calculation": {
+          "name": "",
+          "description": ""
+        },
+        "crackshot": {
+          "name": "",
+          "description": ""
+        },
+        "lightningreflexes": {
+          "name": "",
+          "description": ""
+        },
+        "wired": {
+          "name": "",
+          "description": ""
+        },
+        "coolhand": {
+          "name": "",
+          "description": ""
+        },
+        "juke": {
+          "name": "",
+          "description": ""
+        },
+        "adaptability": {
+          "name": "",
+          "description": ""
+        },
+        "rage": {
+          "name": "",
+          "description": ""
+        },
+        "attannimindlink": {
+          "name": "",
+          "description": ""
+        },
+        "fearlessness": {
+          "name": "",
+          "description": ""
+        },
+        "snapshot": {
+          "name": "",
+          "description": ""
+        },
+        "trickshot": {
+          "name": "",
+          "description": ""
+        },
+        "ascoretosettle": {
+          "name": "",
+          "description": ""
+        },
+        "expertise": {
+          "name": "",
+          "description": ""
+        },
+        "swarmleader": {
+          "name": "",
+          "description": ""
+        },
+        "selflessness": {
+          "name": "",
+          "description": ""
+        },
+        "intensity": {
+          "name": "",
+          "description": ""
+        },
+        "debrisgambit": {
+          "name": "",
+          "description": ""
+        },
+        "saturationsalvo": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "astromech": {
+        "r2d2": {
+          "name": "",
+          "description": ""
+        },
+        "r2f2": {
+          "name": "",
+          "description": ""
+        },
+        "r2astromech": {
+          "name": "",
+          "description": ""
+        },
+        "r5d8": {
+          "name": "",
+          "description": ""
+        },
+        "r5astromech": {
+          "name": "",
+          "description": ""
+        },
+        "r5k6": {
+          "name": "",
+          "description": ""
+        },
+        "r2d6": {
+          "name": "",
+          "description": ""
+        },
+        "r3a2": {
+          "name": "",
+          "description": ""
+        },
+        "r4d6": {
+          "name": "",
+          "description": ""
+        },
+        "r5p9": {
+          "name": "",
+          "description": ""
+        },
+        "r7astromech": {
+          "name": "",
+          "description": ""
+        },
+        "r7t1": {
+          "name": "",
+          "description": ""
+        },
+        "bb8": {
+          "name": "",
+          "description": ""
+        },
+        "r5x3": {
+          "name": "",
+          "description": ""
+        },
+        "targetingastromech": {
+          "name": "",
+          "description": ""
+        },
+        "r3astromech": {
+          "name": "",
+          "description": ""
+        },
+        "m9g8": {
+          "name": "",
+          "description": ""
+        },
+        "chopper-swx72": {
+          "name": "",
+          "description": ""
+        },
+        "flightassistastromech": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "torpedo": {
+        "protontorpedoes": {
+          "name": "",
+          "description": ""
+        },
+        "advancedprotontorpedoes": {
+          "name": "",
+          "description": ""
+        },
+        "flechettetorpedoes": {
+          "name": "",
+          "description": ""
+        },
+        "iontorpedoes": {
+          "name": "",
+          "description": ""
+        },
+        "bombloadout": {
+          "name": "",
+          "description": ""
+        },
+        "extramunitions": {
+          "name": "",
+          "description": ""
+        },
+        "plasmatorpedoes": {
+          "name": "",
+          "description": ""
+        },
+        "advprotontorpedoes": {
+          "name": "",
+          "description": ""
+        },
+        "seismictorpedo": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "missile": {
+        "clustermissiles": {
+          "name": "",
+          "description": ""
+        },
+        "concussionmissiles": {
+          "name": "",
+          "description": ""
+        },
+        "assaultmissiles": {
+          "name": "",
+          "description": ""
+        },
+        "homingmissiles": {
+          "name": "",
+          "description": ""
+        },
+        "ionpulsemissiles": {
+          "name": "",
+          "description": ""
+        },
+        "protonrockets": {
+          "name": "",
+          "description": ""
+        },
+        "chardaanrefit": {
+          "name": "",
+          "description": ""
+        },
+        "advhomingmissiles": {
+          "name": "",
+          "description": ""
+        },
+        "xx23sthreadtracers": {
+          "name": "",
+          "description": ""
+        },
+        "cruisemissiles": {
+          "name": "",
+          "description": ""
+        },
+        "unguidedrockets": {
+          "name": "",
+          "description": ""
+        },
+        "scramblermissiles": {
+          "name": "",
+          "description": ""
+        },
+        "harpoonmissiles": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "cannon": {
+        "heavylasercannon": {
+          "name": "",
+          "description": ""
+        },
+        "ioncannon": {
+          "name": "",
+          "description": ""
+        },
+        "autoblaster": {
+          "name": "",
+          "description": ""
+        },
+        "manglercannon": {
+          "name": "",
+          "description": ""
+        },
+        "flechettecannon": {
+          "name": "",
+          "description": ""
+        },
+        "tractorbeam": {
+          "name": "",
+          "description": ""
+        },
+        "arccaster": {
+          "name": "",
+          "description": ""
+        },
+        "linkedbattery": {
+          "name": "",
+          "description": ""
+        },
+        "jammingbeam": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "turret": {
+        "ioncannonturret": {
+          "name": "",
+          "description": ""
+        },
+        "blasterturret": {
+          "name": "",
+          "description": ""
+        },
+        "autoblasterturret": {
+          "name": "",
+          "description": ""
+        },
+        "twinlaserturret": {
+          "name": "",
+          "description": ""
+        },
+        "drosalturret": {
+          "name": "",
+          "description": ""
+        },
+        "syncedturret": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "bomb": {
+        "proximitymines": {
+          "name": "",
+          "description": ""
+        },
+        "seismiccharges": {
+          "name": "",
+          "description": ""
+        },
+        "protonbombs": {
+          "name": "",
+          "description": ""
+        },
+        "connernet": {
+          "name": "",
+          "description": ""
+        },
+        "ionbombs": {
+          "name": "",
+          "description": ""
+        },
+        "clustermines": {
+          "name": "",
+          "description": ""
+        },
+        "thermaldetonators": {
+          "name": "",
+          "description": ""
+        },
+        "bombletgenerator": {
+          "name": "",
+          "description": ""
+        },
+        "ordnancesilos": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "crew": {
+        "chewbacca": {
+          "name": "",
+          "description": ""
+        },
+        "lukeskywalker": {
+          "name": "",
+          "description": ""
+        },
+        "niennunb": {
+          "name": "",
+          "description": ""
+        },
+        "weaponsengineer": {
+          "name": "",
+          "description": ""
+        },
+        "gunner": {
+          "name": "",
+          "description": ""
+        },
+        "mercenarycopilot": {
+          "name": "",
+          "description": ""
+        },
+        "intelligenceagent": {
+          "name": "",
+          "description": ""
+        },
+        "reconspecialist": {
+          "name": "",
+          "description": ""
+        },
+        "saboteur": {
+          "name": "",
+          "description": ""
+        },
+        "darthvader": {
+          "name": "",
+          "description": ""
+        },
+        "flightinstructor": {
+          "name": "",
+          "description": ""
+        },
+        "navigator": {
+          "name": "",
+          "description": ""
+        },
+        "rebelcaptive": {
+          "name": "",
+          "description": ""
+        },
+        "carlistrieekan": {
+          "name": "",
+          "description": ""
+        },
+        "jandodonna": {
+          "name": "",
+          "description": ""
+        },
+        "torynfarr": {
+          "name": "",
+          "description": ""
+        },
+        "wed15repairdroid": {
+          "name": "",
+          "description": ""
+        },
+        "c3po": {
+          "name": "",
+          "description": ""
+        },
+        "hansolo": {
+          "name": "",
+          "description": ""
+        },
+        "leiaorgana": {
+          "name": "",
+          "description": ""
+        },
+        "r2d2-swx22": {
+          "name": "",
+          "description": ""
+        },
+        "raymusantilles": {
+          "name": "",
+          "description": ""
+        },
+        "targetingcoordinator": {
+          "name": "",
+          "description": ""
+        },
+        "tactician": {
+          "name": "",
+          "description": ""
+        },
+        "leebo": {
+          "name": "",
+          "description": ""
+        },
+        "dashrendar": {
+          "name": "",
+          "description": ""
+        },
+        "landocalrissian": {
+          "name": "",
+          "description": ""
+        },
+        "fleetofficer": {
+          "name": "",
+          "description": ""
+        },
+        "marajade": {
+          "name": "",
+          "description": ""
+        },
+        "moffjerjerrod": {
+          "name": "",
+          "description": ""
+        },
+        "ysanneisard": {
+          "name": "",
+          "description": ""
+        },
+        "greedo": {
+          "name": "",
+          "description": ""
+        },
+        "k4securitydroid": {
+          "name": "",
+          "description": ""
+        },
+        "outlawtech": {
+          "name": "",
+          "description": ""
+        },
+        "janors": {
+          "name": "",
+          "description": ""
+        },
+        "kylekatarn": {
+          "name": "",
+          "description": ""
+        },
+        "admiralozzel": {
+          "name": "",
+          "description": ""
+        },
+        "captainneeda": {
+          "name": "",
+          "description": ""
+        },
+        "emperorpalpatine": {
+          "name": "",
+          "description": ""
+        },
+        "grandmofftarkin": {
+          "name": "",
+          "description": ""
+        },
+        "shieldtechnician": {
+          "name": "",
+          "description": ""
+        },
+        "bossk": {
+          "name": "",
+          "description": ""
+        },
+        "bombardier": {
+          "name": "",
+          "description": ""
+        },
+        "agentkallus": {
+          "name": "",
+          "description": ""
+        },
+        "rearadmiralchiraneau": {
+          "name": "",
+          "description": ""
+        },
+        "constructiondroid": {
+          "name": "",
+          "description": ""
+        },
+        "chopper": {
+          "name": "",
+          "description": ""
+        },
+        "zeborrelios": {
+          "name": "",
+          "description": ""
+        },
+        "ezrabridger": {
+          "name": "",
+          "description": ""
+        },
+        "herasyndulla": {
+          "name": "",
+          "description": ""
+        },
+        "kananjarrus": {
+          "name": "",
+          "description": ""
+        },
+        "sabinewren": {
+          "name": "",
+          "description": ""
+        },
+        "4lom": {
+          "name": "",
+          "description": ""
+        },
+        "zuckuss": {
+          "name": "",
+          "description": ""
+        },
+        "gonk": {
+          "name": "",
+          "description": ""
+        },
+        "bobafett": {
+          "name": "",
+          "description": ""
+        },
+        "dengar": {
+          "name": "",
+          "description": ""
+        },
+        "systemsofficer": {
+          "name": "",
+          "description": ""
+        },
+        "tailgunner": {
+          "name": "",
+          "description": ""
+        },
+        "lattsrazzi": {
+          "name": "",
+          "description": ""
+        },
+        "ketsuonyo": {
+          "name": "",
+          "description": ""
+        },
+        "ig88d": {
+          "name": "",
+          "description": ""
+        },
+        "finn": {
+          "name": "",
+          "description": ""
+        },
+        "rey": {
+          "name": "",
+          "description": ""
+        },
+        "hotshotcopilot": {
+          "name": "",
+          "description": ""
+        },
+        "azmorigan": {
+          "name": "",
+          "description": ""
+        },
+        "cikatrovizago": {
+          "name": "",
+          "description": ""
+        },
+        "jabbathehutt": {
+          "name": "",
+          "description": ""
+        },
+        "captainrex": {
+          "name": "",
+          "description": ""
+        },
+        "kyloren": {
+          "name": "",
+          "description": ""
+        },
+        "generalhux": {
+          "name": "",
+          "description": ""
+        },
+        "operationsspecialist": {
+          "name": "",
+          "description": ""
+        },
+        "unkarplutt": {
+          "name": "",
+          "description": ""
+        },
+        "boshek": {
+          "name": "",
+          "description": ""
+        },
+        "jynerso": {
+          "name": "",
+          "description": ""
+        },
+        "cassianandor": {
+          "name": "",
+          "description": ""
+        },
+        "bazemalbus": {
+          "name": "",
+          "description": ""
+        },
+        "bistan": {
+          "name": "",
+          "description": ""
+        },
+        "bodhirook": {
+          "name": "",
+          "description": ""
+        },
+        "inspiringrecruit": {
+          "name": "",
+          "description": ""
+        },
+        "wookieecommandos": {
+          "name": "",
+          "description": ""
+        },
+        "breachspecialist": {
+          "name": "",
+          "description": ""
+        },
+        "cadbane": {
+          "name": "",
+          "description": ""
+        },
+        "maul": {
+          "name": "",
+          "description": ""
+        },
+        "courierdroid": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "salvagedastromech": {
+        "genius": {
+          "name": "",
+          "description": ""
+        },
+        "r4agromech": {
+          "name": "",
+          "description": ""
+        },
+        "r4b11": {
+          "name": "",
+          "description": ""
+        },
+        "salvagedastromech": {
+          "name": "",
+          "description": ""
+        },
+        "unhingedastromech": {
+          "name": "",
+          "description": ""
+        },
+        "r5p8": {
+          "name": "",
+          "description": ""
+        },
+        "overclockedr4": {
+          "name": "",
+          "description": ""
+        },
+        "r4e1": {
+          "name": "",
+          "description": ""
+        },
+        "r5tk": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "system": {
+        "advancedsensors": {
+          "name": "",
+          "description": ""
+        },
+        "sensorjammer": {
+          "name": "",
+          "description": ""
+        },
+        "firecontrolsystem": {
+          "name": "",
+          "description": ""
+        },
+        "accuracycorrector": {
+          "name": "",
+          "description": ""
+        },
+        "enhancedscopes": {
+          "name": "",
+          "description": ""
+        },
+        "advancedtargetingcomputer": {
+          "name": "",
+          "description": ""
+        },
+        "reinforceddeflectors": {
+          "name": "",
+          "description": ""
+        },
+        "electronicbaffle": {
+          "name": "",
+          "description": ""
+        },
+        "collisiondetector": {
+          "name": "",
+          "description": ""
+        },
+        "minefieldmapper": {
+          "name": "",
+          "description": ""
+        },
+        "trajectorysimulator": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "title": {
+        "millenniumfalcon": {
+          "name": "",
+          "description": ""
+        },
+        "slavei": {
+          "name": "",
+          "description": ""
+        },
+        "moldycrow": {
+          "name": "",
+          "description": ""
+        },
+        "st321": {
+          "name": "",
+          "description": ""
+        },
+        "brighthope": {
+          "name": "",
+          "description": ""
+        },
+        "dutyfree": {
+          "name": "",
+          "description": ""
+        },
+        "quantumstorm": {
+          "name": "",
+          "description": ""
+        },
+        "dodonnaspride": {
+          "name": "",
+          "description": ""
+        },
+        "jainaslight": {
+          "name": "",
+          "description": ""
+        },
+        "tantiveiv": {
+          "name": "",
+          "description": ""
+        },
+        "outrider": {
+          "name": "",
+          "description": ""
+        },
+        "dauntless": {
+          "name": "",
+          "description": ""
+        },
+        "royalguardtie": {
+          "name": "",
+          "description": ""
+        },
+        "virago": {
+          "name": "",
+          "description": ""
+        },
+        "heavyscykinterceptor": {
+          "name": "",
+          "description": ""
+        },
+        "ig2000": {
+          "name": "",
+          "description": ""
+        },
+        "btla4ywing": {
+          "name": "",
+          "description": ""
+        },
+        "andrasta": {
+          "name": "",
+          "description": ""
+        },
+        "awingtestpilot": {
+          "name": "",
+          "description": ""
+        },
+        "assailer": {
+          "name": "",
+          "description": ""
+        },
+        "impetuous": {
+          "name": "",
+          "description": ""
+        },
+        "instigator": {
+          "name": "",
+          "description": ""
+        },
+        "tiex1": {
+          "name": "",
+          "description": ""
+        },
+        "houndstooth": {
+          "name": "",
+          "description": ""
+        },
+        "requiem": {
+          "name": "",
+          "description": ""
+        },
+        "suppressor": {
+          "name": "",
+          "description": ""
+        },
+        "vector": {
+          "name": "",
+          "description": ""
+        },
+        "ghost": {
+          "name": "",
+          "description": ""
+        },
+        "phantom": {
+          "name": "",
+          "description": ""
+        },
+        "tiev1": {
+          "name": "",
+          "description": ""
+        },
+        "misthunter": {
+          "name": "",
+          "description": ""
+        },
+        "punishingone": {
+          "name": "",
+          "description": ""
+        },
+        "tiex7": {
+          "name": "",
+          "description": ""
+        },
+        "tied": {
+          "name": "",
+          "description": ""
+        },
+        "tieshuttle": {
+          "name": "",
+          "description": ""
+        },
+        "allianceoverhaul": {
+          "name": "",
+          "description": ""
+        },
+        "specialopstraining": {
+          "name": "",
+          "description": ""
+        },
+        "concorddawnprotector": {
+          "name": "",
+          "description": ""
+        },
+        "shadowcaster": {
+          "name": "",
+          "description": ""
+        },
+        "blackone": {
+          "name": "",
+          "description": ""
+        },
+        "millenniumfalcon-swx57": {
+          "name": "",
+          "description": ""
+        },
+        "merchantone": {
+          "name": "",
+          "description": ""
+        },
+        "brokenhorn": {
+          "name": "",
+          "description": ""
+        },
+        "insatiableworrt": {
+          "name": "",
+          "description": ""
+        },
+        "lightscykinterceptor": {
+          "name": "",
+          "description": ""
+        },
+        "sabinesmasterpiece": {
+          "name": "",
+          "description": ""
+        },
+        "kylorensshuttle": {
+          "name": "",
+          "description": ""
+        },
+        "pivotwing": {
+          "name": "",
+          "description": ""
+        },
+        "adaptiveailerons": {
+          "name": "",
+          "description": ""
+        },
+        "havoc": {
+          "name": "",
+          "description": ""
+        },
+        "crossfireformation": {
+          "name": "",
+          "description": ""
+        },
+        "firstordervanguard": {
+          "name": "",
+          "description": ""
+        },
+        "xg1assaultconfiguration": {
+          "name": "",
+          "description": ""
+        },
+        "os1arsenalloadout": {
+          "name": "",
+          "description": ""
+        },
+        "enforcer": {
+          "name": "",
+          "description": ""
+        },
+        "ghost-swx72": {
+          "name": "",
+          "description": ""
+        },
+        "phantomii": {
+          "name": "",
+          "description": ""
+        },
+        "starvipermkii": {
+          "name": "",
+          "description": ""
+        },
+        "vaksai": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "modification": {
+        "engineupgrade": {
+          "name": "",
+          "description": ""
+        },
+        "shieldupgrade": {
+          "name": "",
+          "description": ""
+        },
+        "hullupgrade": {
+          "name": "",
+          "description": ""
+        },
+        "targetingcomputer": {
+          "name": "",
+          "description": ""
+        },
+        "stealthdevice": {
+          "name": "",
+          "description": ""
+        },
+        "antipursuitlaser": {
+          "name": "",
+          "description": ""
+        },
+        "combatretrofit": {
+          "name": "",
+          "description": ""
+        },
+        "munitionsfailsafe": {
+          "name": "",
+          "description": ""
+        },
+        "advancedcloakingdevice": {
+          "name": "",
+          "description": ""
+        },
+        "stygiumparticleaccelerator": {
+          "name": "",
+          "description": ""
+        },
+        "countermeasures": {
+          "name": "",
+          "description": ""
+        },
+        "experimentalinterface": {
+          "name": "",
+          "description": ""
+        },
+        "tacticaljammer": {
+          "name": "",
+          "description": ""
+        },
+        "autothrusters": {
+          "name": "",
+          "description": ""
+        },
+        "bwinge2": {
+          "name": "",
+          "description": ""
+        },
+        "ionprojector": {
+          "name": "",
+          "description": ""
+        },
+        "maneuveringfins": {
+          "name": "",
+          "description": ""
+        },
+        "advancedslam": {
+          "name": "",
+          "description": ""
+        },
+        "twinionenginemkii": {
+          "name": "",
+          "description": ""
+        },
+        "automatedprotocols": {
+          "name": "",
+          "description": ""
+        },
+        "optimizedgenerators": {
+          "name": "",
+          "description": ""
+        },
+        "ordnancetubes": {
+          "name": "",
+          "description": ""
+        },
+        "integratedastromech": {
+          "name": "",
+          "description": ""
+        },
+        "guidancechips": {
+          "name": "",
+          "description": ""
+        },
+        "longrangescanners": {
+          "name": "",
+          "description": ""
+        },
+        "vectoredthrusters": {
+          "name": "",
+          "description": ""
+        },
+        "gyroscopictargeting": {
+          "name": "",
+          "description": ""
+        },
+        "smugglingcompartment": {
+          "name": "",
+          "description": ""
+        },
+        "pulsedrayshield": {
+          "name": "",
+          "description": ""
+        },
+        "capturedtie": {
+          "name": "",
+          "description": ""
+        },
+        "spacetugtractorarray": {
+          "name": "",
+          "description": ""
+        },
+        "lightweightframe": {
+          "name": "",
+          "description": ""
+        },
+        "deflectiveplating": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "illicit": {
+        "inertialdampeners": {
+          "name": "",
+          "description": ""
+        },
+        "hotshotblaster": {
+          "name": "",
+          "description": ""
+        },
+        "deadmansswitch": {
+          "name": "",
+          "description": ""
+        },
+        "feedbackarray": {
+          "name": "",
+          "description": ""
+        },
+        "glitterstim": {
+          "name": "",
+          "description": ""
+        },
+        "cloakingdevice": {
+          "name": "",
+          "description": ""
+        },
+        "riggedcargochute": {
+          "name": "",
+          "description": ""
+        },
+        "blackmarketslicertools": {
+          "name": "",
+          "description": ""
+        },
+        "burnoutslam": {
+          "name": "",
+          "description": ""
+        },
+        "empdevice": {
+          "name": "",
+          "description": ""
+        },
+        "scavengercrane": {
+          "name": "",
+          "description": ""
+        },
+        "contrabandcybernetics": {
+          "name": "",
+          "description": ""
+        },
+        "iondischargers": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "cargo": {
+        "backupshieldgenerator": {
+          "name": "",
+          "description": ""
+        },
+        "commsbooster": {
+          "name": "",
+          "description": ""
+        },
+        "ememitter": {
+          "name": "",
+          "description": ""
+        },
+        "enginebooster": {
+          "name": "",
+          "description": ""
+        },
+        "expandedcargohold": {
+          "name": "",
+          "description": ""
+        },
+        "frequencyjammer": {
+          "name": "",
+          "description": ""
+        },
+        "shieldprojector": {
+          "name": "",
+          "description": ""
+        },
+        "slicertools": {
+          "name": "",
+          "description": ""
+        },
+        "tibannagassupplies": {
+          "name": "",
+          "description": ""
+        },
+        "ionizationreactor": {
+          "name": "",
+          "description": ""
+        },
+        "broadcastarray": {
+          "name": "",
+          "description": ""
+        },
+        "dockingclamps": {
+          "name": "",
+          "description": ""
+        },
+        "clusterbombs": {
+          "name": "",
+          "description": ""
+        },
+        "superchargedpowercells": {
+          "name": "",
+          "description": ""
+        },
+        "Quick-Release Cargo Locks": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "hardpoint": {
+        "quadlasercannons": {
+          "name": "",
+          "description": ""
+        },
+        "singleturbolasers": {
+          "name": "",
+          "description": ""
+        },
+        "ioncannonbattery": {
+          "name": "",
+          "description": ""
+        },
+        "duallaserturret": {
+          "name": "",
+          "description": ""
+        },
+        "heavylaserturret": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "team": {
+        "engineeringteam": {
+          "name": "",
+          "description": ""
+        },
+        "gunneryteam": {
+          "name": "",
+          "description": ""
+        },
+        "sensorteam": {
+          "name": "",
+          "description": ""
+        },
+        "ordnanceexperts": {
+          "name": "",
+          "description": ""
+        },
+        "igrmthugdroids": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "tech": {
+        "weaponsguidance": {
+          "name": "",
+          "description": ""
+        },
+        "commrelay": {
+          "name": "",
+          "description": ""
+        },
+        "sensorcluster": {
+          "name": "",
+          "description": ""
+        },
+        "patternanalyzer": {
+          "name": "",
+          "description": ""
+        },
+        "primedthrusters": {
+          "name": "",
+          "description": ""
+        },
+        "targetingsynchronizer": {
+          "name": "",
+          "description": ""
+        },
+        "hyperwavecommscanner": {
+          "name": "",
+          "description": ""
+        },
+        "advancedoptics": {
+          "name": "",
+          "description": ""
+        },
+        "threattracker": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "conditions": {
+      "fanaticaldevotion": {
+        "name": "",
+        "description": ""
+      },
+      "illshowyouthedarkside": {
+        "name": "",
+        "description": ""
+      },
+      "adebttopay": {
+        "name": "",
+        "description": ""
+      },
+      "suppressivefire": {
+        "name": "",
+        "description": ""
+      },
+      "mimicked": {
+        "name": "",
+        "description": ""
+      },
+      "shadowed": {
+        "name": "",
+        "description": ""
+      },
+      "harpooned": {
+        "name": "",
+        "description": ""
+      },
+      "rattled": {
+        "name": "",
+        "description": ""
+      }
+    }
+  }
+}
