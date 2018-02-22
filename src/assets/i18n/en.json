@@ -2566,63 +2566,63 @@
       "cargo": {
         "backupshieldgenerator": {
           "name": "Backup Shield Generator",
-          "description": ""
+          "description": "<em>Limited.</em><br>At the end of each round, you may spend 1 energy to recover 1 shield (up to your shield value)."
         },
         "commsbooster": {
           "name": "Comms Booster",
-          "description": ""
+          "description": "<strong>Energy:</strong> Spend 1 energy to remove all stress tokens from a friendly ship at Range 1-3. Then assign 1 focus token to that ship."
         },
         "ememitter": {
           "name": "EM Emitter",
-          "description": ""
+          "description": "<em>Limited.</em><br>When you obstruct an attack, the defender rolls 3 additional defense dice (instead of 1)."
         },
         "enginebooster": {
           "name": "Engine Booster",
-          "description": ""
+          "description": "<em>Limited.</em><br>Immediately before you reveal your maneuver dial, you may spend 1 energy to execute a white [<i-straight> 1] maneuver. You cannot use this ability if you would overlap another ship."
         },
         "expandedcargohold": {
           "name": "Expanded Cargo Hold",
-          "description": ""
+          "description": "<em>GR-75 Only.</strong><br>Once per round, when you would be dealt a faceup Damage card, you may draw that card from either the fore or aft Damage deck."
         },
         "frequencyjammer": {
           "name": "Frequency Jammer",
-          "description": ""
+          "description": "<em>Limited.</em><br>When you perform a jam action, choose 1 enemy ship that does not have a stress token and is at Range 1 of the jammed ship. The chosen ship receives 1 stress token."
         },
         "shieldprojector": {
           "name": "Shield Projector",
-          "description": ""
+          "description": "When an enemy ship is declaring either a small or large ship as the target of its attack, you may spend 3 energy to force that ship to target you if possible."
         },
         "slicertools": {
           "name": "Slicer Tools",
-          "description": ""
+          "description": "<strong>Action:</strong> Choose 1 or more enemy ships at Range 1-3 that have a stress token. For each ship chosen, you may spend 1 energy to cause that ship to suffer 1 damage."
         },
         "tibannagassupplies": {
           "name": "Tibanna Gas Supplies",
-          "description": ""
+          "description": "<em>Limited.</em><br><strong>Energy:</strong> You may discard this card to gain 3 energy."
         },
         "ionizationreactor": {
           "name": "Ionization Reactor",
-          "description": ""
+          "description": "<em>Limited.</em><br><strong>Energy:</strong> Spend 5 energy from this card and discard this card to cause each other ship at Range 1 to suffer 1 damage and receive 1 ion token."
         },
         "broadcastarray": {
           "name": "Broadcast Array",
-          "description": ""
+          "description": "<em>Gozanti-Class Cruiser Only.</em><br>Your action bar gains the <i-jam> action icon."
         },
         "dockingclamps": {
           "name": "Docking Clamps",
-          "description": ""
+          "description": "<em>Gozanti-Class Cruiser Only. Limited.</em><br>You may dock up to 4 TIE fighters, TIE Interceptors, TIE bombers, or TIE Advanced to this ship. All of these ships must have the same ship type."
         },
         "clusterbombs": {
           "name": "Cluster Bombs",
-          "description": ""
+          "description": "After defending, you may discard this card. If you do, each other ship at Range 1 of the defending section rolls 2 attack dice, suffering all damage (<i-hit>) and critical damage (<i-crit>) rolled."
         },
         "superchargedpowercells": {
           "name": "Supercharged Power Cells",
-          "description": ""
+          "description": "<em>Limited.</em><br>When attacking, you may discard this card to roll 2 additional attack dice."
         },
-        "Quick-Release Cargo Locks": {
+        "quickreleasecargolocks": {
           "name": "Quick-Release Cargo Locks",
-          "description": ""
+          "description": "<em>C-ROC Cruiser and GR-75 Only. Limited.</em><br>At the end of the Activation phase, you may discard this card to <b>place</b> 1 container token."
         }
       },
       "hardpoint": {
