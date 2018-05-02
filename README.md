@@ -1,5 +1,8 @@
 # XWingHangar
 
+Project canceled because of X-Wing V2.0 Announcement.
+https://www.fantasyflightgames.com/en/news/2018/5/1/x-wing-second-edition/
+
 ## Maneuver Data
 
 **first array** index is the **speed** of the maneuver (e.g. `maneuvers[2]` equals to speed 2).
